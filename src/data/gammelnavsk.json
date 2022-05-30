@@ -1,0 +1,508 @@
+{
+    "gammelnavsk_ordliste": [
+        {
+            "id": "6147050",
+            "ord": "angående",
+            "gammelnavsk": "Dersom du har behov for å snakke med noen angående din økonomiske situasjon, kan du ringe 55 55 33 39.",
+            "klart_språk": "Dersom du har behov for å snakke med noen om den økonomiske situasjonen din, kan du ringe 55 55 33 39."
+        },
+        {
+            "id": "5136198",
+            "ord": "anstalten",
+            "gammelnavsk": "Du mister retten til AAP hvis du sitter i varetekt eller gjennomfører straff i en institusjon under Kriminalomsorgen. Du får likevel arbeidsavklaringspenger hvis du arbeider for en arbeidsgiver utenfor anstalten i medhold av straffe- gjennomføringsloven 3, paragraf 20. Frigang.",
+            "klart_språk": "Du mister retten til arbeidsavklaringspenger hvis du sitter i varetekt eller gjennomfører straff i en institusjon under Kriminalomsorgen. Du får likevel arbeidsavklaringspenger hvis du arbeider for en arbeidsgiver utenfor denne institusjonen."
+        },
+        {
+            "id": "8525791",
+            "ord": "avgjørende",
+            "gammelnavsk": "Du kan slippe forlenget ventetid hvis det er mer enn 6 måneder siden den siste dagen du ble dekket av lønn, sluttpakke eller etterlønn. Det er ikke tidspunktet for utbetalingen som er avgjørende, men hvilken periode utbetalingen skal dekke.",
+            "klart_språk": "Hvis det er mer enn 6 måneder siden den siste dagen som du fikk lønn, slutt- pakke eller etterlønn, kan du slippe forlenget ventetid. Det er ikke tidspunktet for utbetalingen som er viktig, men hvilken periode utbetalingen skal gjelde for."
+        },
+        {
+            "id": "2414594",
+            "ord": "avklare",
+            "gammelnavsk": "Du må selv ta kontakt med aktuell tjenestepensjonsordning for å avklare rettighetene dine.",
+            "klart_språk": "Du må selv ta kontakt med aktuell tjenestepensjonsordning for å finne ut hvilke rettigheter du har."
+        },
+        {
+            "id": "9827941",
+            "ord": "avtjent verneplikt",
+            "gammelnavsk": "Har du nylig avtjent verneplikt, kan du ha rett til dagpenger uavhengig av tidligere inntekt.",
+            "klart_språk": "Hvis du nylig har fullført verneplikt/militærtjeneste, kan du ha rett til dag- penger uavhengig av tidligere inntekt."
+        },
+        {
+            "id": "1097351",
+            "ord": "avvikling av driften",
+            "gammelnavsk": "Dette fordi permitteringen kan framstå som en avvikling av driften mer enn en midlertidig driftsstans.",
+            "klart_språk": "Hvis du gjør dette, kan det virke som du legger ned bedriften, og ikke at det er en kortvarig stans av virksomheten."
+        },
+        {
+            "id": "8324409",
+            "ord": "avvikle",
+            "gammelnavsk": "Avvikler du driften, kan du ha rett til dagpenger når oppsigelsestiden din er over.",
+            "klart_språk": "Du kan ha rett til dagpenger hvis du legger ned bedriften og oppsigelsestiden er over"
+        },
+        {
+            "id": "4147657",
+            "ord": "ta med i beregningen",
+            "gammelnavsk": "Merk at årsinntekt over seks ganger gjennomsnittet av folketrygdens grunn- beløp (6G), ikke tas med i beregningen av AAP.",
+            "klart_språk": "Hvis du tjener mer enn seks ganger gjennomsnittet av folketrygdens grunn- beløp (6G)* på ett år, blir ikke dette inkludert når vi regner ut arbeids- avklaringspenger."
+        },
+        {
+            "id": "3758154",
+            "ord": "dekke",
+            "gammelnavsk": "Utgifter i forbindelse med deltakelse i kvalifiseringsprogrammet kan dekkes etter avtale med programveileder. Eksempel på dette kan være utgifter til busskort, trening, undervisningsmateriell, arbeidsklær og liknende.",
+            "klart_språk": "Vi kan betale utgifter du har som deltaker i kvalifiseringsprogrammet. Dette må du avtale med veilederen din på forhånd."
+        },
+        {
+            "id": "1798875",
+            "ord": "ettersende",
+            "gammelnavsk": "Hvis informasjon og dokumentasjon mangler, vil vi be deg om å ettersende dette.",
+            "klart_språk": "Hvis vi mangler informasjon og dokumentasjon fra deg, vil vi be deg om å sende oss dette."
+        },
+        {
+            "id": "7306900",
+            "ord": "etterskuddsvis",
+            "gammelnavsk": "Stønaden utbetales etterskuddsvis og er skattepliktig, jf. § 39. Ved ugyldig fravær reduseres stønaden tilsvarende, jf. §§ 36 og 35.",
+            "klart_språk": "Du får første utbetaling (dato). Du må betale skatt av pengene. Hvis du har ugyldig fravær, kan utbetalingen bli mindre."
+        },
+        {
+            "id": "9001845",
+            "ord": "fase ut",
+            "gammelnavsk": "Mottar du allerede ventelønn fra NAV, kan du søke om forlengelse. Ordningen med ventelønn ble faset ut fra og med 1.3.2016.",
+            "klart_språk": "Du kan søke om forlengelse hvis du allerede får ventelønn fra NAV. Ordningen med ventelønn ble stoppet fra og med 1.3.2016"
+        },
+        {
+            "id": "7538145",
+            "ord": "forbigående",
+            "gammelnavsk": "Hvis du får en forbigående sykdom etter at du har mottatt AAP eller syke- penger, og du har brukt opp sykepengerettighetene dine, kan du ha krav på AAP hvis en av disse gjelder deg:",
+            "klart_språk": "Hvis du er syk i en kort periode etter at du har fått arbeidsavklaringspenger eller sykepenger, og du har brukt opp rettighetene til sykepenger, kan du ha rett til å få arbeidsavklaringspenger hvis en av disse gjelder deg:"
+        },
+        {
+            "id": "5692212",
+            "ord": "forskudd",
+            "gammelnavsk": "Fra 26. mai kl. 15.00 kan du ikke lengre søke om forskudd på dagpenger.",
+            "klart_språk": "Fra 26. mai kl. 15.00 kan du ikke lenger søke om å få forskudd på dagpenger. Forskudd betyr betaling på forhånd."
+        },
+        {
+            "id": "4839579",
+            "ord": "forskyve",
+            "gammelnavsk": "Den forlenga ventetiden forskyves når du er syk eller har ferie. Ventetiden forskyves også når du jobber mer enn 60 prosent av vanlig arbeidstid i løpet av en meldekortperiode.",
+            "klart_språk": "Forlenget ventetid flyttes fremover når du er syk eller har ferie. Ventetiden flyttes også når du jobber mer enn 60 prosent av vanlig arbeidstid i løpet av perioden du sender meldekortet."
+        },
+        {
+            "id": "9844719",
+            "ord": "fortielse",
+            "gammelnavsk": "Uriktige opplysninger og fortielse av opplysninger, jf. lov om sosiale tjenester i arbeids- og velferdsetaten § 23, kan medføre politianmeldelse.",
+            "klart_språk": "Dersom du gir uriktige opplysninger og holder tilbake eller skjuler opp- lysninger, kan vi anmelde deg til politiet."
+        },
+        {
+            "id": "2073426",
+            "ord": "forutsetninger",
+            "gammelnavsk": "Innholdet i programmet skal tilpasses den enkeltes behov og forutsetninger. Programmet skal være helårig og på fulltid.",
+            "klart_språk": "Innholdet i programmet skal tilpasses den enkeltes behov og hva man må gjøre."
+        },
+        {
+            "id": "4987701",
+            "ord": "hensiktsmessig",
+            "gammelnavsk": "Programmet skal angi et hensiktsmessig starttidspunkt basert på en individuell vurdering.",
+            "klart_språk": "Programmet skal starte på et tidspunkt som er bestemt etter en individuell vurdering."
+        },
+        {
+            "id": "2838624",
+            "ord": "forutsetter",
+            "gammelnavsk": "Programmet forutsetter at du innenfor vedtaksperioden deltar i avtalte tiltak.",
+            "klart_språk": "Vi krever at du deltar på avtalte aktiviteter i den perioden vedtaket gjelder."
+        },
+        {
+            "id": "4575121",
+            "ord": "forvaring",
+            "gammelnavsk": "Du sitter i varetekt, soner straff eller er under forvaring. Som hovedregel har du ikke rett til AAP i slike tilfeller.",
+            "klart_språk": "Du sitter i fengsel, varetekt, soner straff eller er under forvaring (nettlenke til forklaring av varetekt og forvaring). Som hovedregel har du ikke rett til arbeidsavklaringspenger i slike tilfeller."
+        },
+        {
+            "id": "8814378",
+            "ord": "fratreden",
+            "gammelnavsk": "Får du utbetalinger fra nåværende eller tidligere arbeidsgiver i forbindelse med overgang til AAP, ved oppsigelse, fratreden, eller reduksjon av arbeidstid, vil arbeidsavklaringspengene bli redusert med samme beløp.",
+            "klart_språk": "Hvis du får arbeidsavklaringspenger og samtidig får penger fra en arbeidsgiver når du har blitt oppsagt, sluttet i jobben og redusert din arbeidstid, så vil arbeidsavklaringspengene bli redusert med samme beløp."
+        },
+        {
+            "id": "1219181",
+            "ord": "fremkomme",
+            "gammelnavsk": "Det fremkommer ikke opplysninger i saken som tilsier at du befinner deg i en slik situasjon at kravet om lov om sosiale tjenester i NAV § 19 ”særlige tilfeller” er oppfylt.",
+            "klart_språk": "Det er ikke opplysninger i saken som viser at du er i en slik situasjon at kravet om lov om sosiale tjenester i NAV § 19 “særlige tilfeller” er oppfylt."
+        },
+        {
+            "id": "7426678",
+            "ord": "befinne seg",
+            "gammelnavsk": "Det fremkommer ikke opplysninger i saken som tilsier at du befinner deg i en slik situasjon at kravet om lov om sosiale tjenester i NAV § 19 ”særlige tilfeller” er oppfylt.",
+            "klart_språk": "Det er ikke opplysninger i saken som viser at du er i en slik situasjon at kravet om lov om sosiale tjenester i NAV § 19 “særlige tilfeller” er oppfylt."
+        },
+        {
+            "id": "3807396",
+            "ord": "gjøre oppmerksom på",
+            "gammelnavsk": "Du må søke bostøtte på nytt for ditt nye leieforhold. Vi gjør oppmerksom på at du må gi beskjed til NAV dersom din bostøtte endres.",
+            "klart_språk": "Dette må du gjøre: Søke bostøtte på nytt og gi beskjed til NAV hvis din bostøtte endres."
+        },
+        {
+            "id": "9822032",
+            "ord": "gå frem av",
+            "gammelnavsk": "Du tjener på å jobbe, men husk å informere din veileder og skrive timene i meldekortet når du får lønn fra arbeidsgiveren din. Da endrer vi utbetalingen din. Dette går frem av lov om sosiale tjenester i NAV og § 37.",
+            "klart_språk": "Du tjener på å jobbe, men husk å informere din veileder og skrive hvor mange timer du har jobbet i meldekortet. Da endrer vi utbetalingen din."
+        },
+        {
+            "id": "2675982",
+            "ord": "i medhold av",
+            "gammelnavsk": "I medhold av Lov om sosiale tjenester i arbeids- og velferdsforvaltningen § 29 innvilges kvalifiseringsprogram.",
+            "klart_språk": "Vi innvilger kvalifiseringsprogram etter Lov om sosiale tjenester i arbeids- og velferdsforvaltningen § 29."
+        },
+        {
+            "id": "5878893",
+            "ord": "i samråd med",
+            "gammelnavsk": "Hvis du har søkt om uføretrygd i samråd med oss, kan du få AAP i inntil 8 måneder mens vi behandler uføresøknaden din.",
+            "klart_språk": "Hvis du søker om uføretrygd etter avtale med oss, kan du få arbeids- avklaringspenger i inntil 8 måneder mens vi behandler søknaden din."
+        },
+        {
+            "id": "6440731",
+            "ord": "i stand til",
+            "gammelnavsk": "Når du har gjennomført tiltak eller behandling, og du har blitt i stand til å skaffe deg jobb, kan du få AAP i inntil 6 måneder mens du søker jobb.",
+            "klart_språk": "Du kan få arbeidsavklaringspenger i inntil 6 måneder mens du søker jobb, når du er ferdig med tiltak eller behandling og du er klar for å jobbe igjen."
+        },
+        {
+            "id": "6926638",
+            "ord": "i tråd med",
+            "gammelnavsk": "Etter dialog med oss, kan aktivitetsplanen din endres i tråd med situasjonen din. Hvis veilederen din foreslår en aktivitet som du skal gjennomføre, må du svare i dialogtjenesten.",
+            "klart_språk": "Etter dialog med oss, kan aktivitetsplanen din endres etter hvilken situasjon du er i. Hvis veilederen din anbefaler en aktivitet som du skal gjennomføre, må du svare i dialogtjenesten."
+        },
+        {
+            "id": "2667515",
+            "ord": "innsyn",
+            "gammelnavsk": "Du kan avtale med veilederen din for å få innsyn i saken din etter forvaltnings loven § 8 og 19",
+            "klart_språk": "Du kan avtale med veilederen din for å se dokumentene i saken din."
+        },
+        {
+            "id": "5548033",
+            "ord": "iverksetting",
+            "gammelnavsk": "Kommunen skal tilrettelegge og iverksette kvalifiseringsprogram for person som omfattes av bestemmelsene i § 29 og 30 fra det tidspunkt kvalifiserings- programmet angir, men senest innen seks måneder etter at søknad om deltakelse har kommet inn.",
+            "klart_språk": "Kvalifiseringsprogrammet skal være individuelt tilpasset og skal starte senest seks måneder etter at du har søkt."
+        },
+        {
+            "id": "1410927",
+            "ord": "klageadgang",
+            "gammelnavsk": "Klageadgang. Dette vedtaket kan påklages til statsforvalteren, jf. Lov om sosiale tjenester i arbeids- og velferdsforvaltningen § 47. Klagefristen er tre uker etter at deltakeren har mottatt melding om vedtaket.",
+            "klart_språk": "Du kan klage på dette vedtaket til statsforvalteren. Fristen for å klage er tre uker etter at du har fått melding om dette vedtaket. Dette står det mer om i loven om sosiale tjenester i arbeids- og velferds- forvaltningen § 47."
+        },
+        {
+            "id": "1645469",
+            "ord": "kost og losji",
+            "gammelnavsk": "Hvis du oppholder deg i en institusjon med fri kost og losji, vil AAP normalt bli redusert med 50 prosent når du har vært i institusjonen mer enn tre måneder.",
+            "klart_språk": "Hvis du bor i en institusjon som gir gratis mat og overnatting, vil arbeidsavklaringspengene bli redusert med 50 prosent når du har vært i institusjonen mer enn tre måneder. "
+        },
+        {
+            "id": "9296420",
+            "ord": "ikke et krav",
+            "gammelnavsk": "Det er ikke et krav at du har mottatt sykepenger før du søker om AAP.",
+            "klart_språk": "Du trenger ikke å ha fått sykepenger før du søker om arbeidsavklaringspenger."
+        },
+        {
+            "id": "7219829",
+            "ord": "krav på",
+            "gammelnavsk": "Kommunen kan vedta trekk i fremtidig ytelse dersom du har fått utbetalt høyere stønad enn du har krav på.",
+            "klart_språk": "Du har rett til økonomisk hjelp, men hvis du har fått utbetalt høyere stønad enn du har rett til, må du betale det tilbake."
+        },
+        {
+            "id": "5712892",
+            "ord": "langvarig utredning",
+            "gammelnavsk": "Perioden med AAP kan forlenges utover 3 år hvis du på grunn av sykdom eller skade ikke kunne kombinere behandling og tiltak, eller først kunne begynne i tiltak eller behandling etter langvarig utredning.",
+            "klart_språk": "Du kan få arbeidsavklaringspenger i mer enn 3 år hvis du ikke kunne kombinere behandling av skade eller sykdom og tiltak for å komme i jobb eller kvalifisere deg for jobb, eller må bli ferdig med undersøkelser som kan ta lang tid før du kunne begynne med behandling av skade eller sykdom og tiltak for å komme i jobb eller kvalifisere deg for jobb "
+        },
+        {
+            "id": "2066133",
+            "ord": "løpende orientert",
+            "gammelnavsk": "Du har plikt til å holde NAV løpende orientert om situasjonen din.",
+            "klart_språk": "Du har plikt til å gi oss beskjed hvis situasjonen din endrer seg."
+        },
+        {
+            "id": "1500268",
+            "ord": "motta",
+            "gammelnavsk": "Hvis begge foreldre mottar AAP, vil begge kunne få barnetillegg.",
+            "klart_språk": "Hvis begge foreldre får arbeidsavklaringspenger, kan begge få barnetillegg."
+        },
+        {
+            "id": "3761421",
+            "ord": "nedsatt arbeids- og inntektsevne",
+            "gammelnavsk": "Kvalifiseringsprogram gjelder for personer i yrkesaktiv alder med vesentlig ned- satt arbeids- og inntektsevne og ingen eller begrensede ytelser til livsppphold etter folketrygdloven eller arbeidsmarkedsloven.",
+            "klart_språk": "Kvalifiseringsprogram gjelder for personer i yrkesaktiv alder som har en redusert evne til å jobbe og skaffe seg inntekt. Programmet gjelder også for personer som ikke har rett på stønader som kan forsørge dem."
+        },
+        {
+            "id": "8355442",
+            "ord": "nydimmitert",
+            "gammelnavsk": "Som nydimittert vernepliktig kan du få 4 911 kroner per uke uavhengig av tidligere inntekt. Har du tjent over 319 197 kroner, kan du ha rett til mer. NAV beregner automatisk hva som lønner seg for deg.",
+            "klart_språk": "Når du er ferdig med militærtjenesten/verneplikten, kan du få 4 911 kroner per uke uavhengig av tidligere inntekt. Hvis du har tjent over 319 197 kroner, kan du ha rett til mer penger. NAV regner automatisk ut hva som gir deg mest penger."
+        },
+        {
+            "id": "3966055",
+            "ord": "verneplikt",
+            "gammelnavsk": "Som nydimittert vernepliktig kan du få 4 911 kroner per uke uavhengig av tidligere inntekt. Har du tjent over 319 197 kroner, kan du ha rett til mer. NAV beregner automatisk hva som lønner seg for deg.",
+            "klart_språk": "Når du er ferdig med militærtjenesten/verneplikten, kan du få 4 911 kroner per uke uavhengig av tidligere inntekt. Hvis du har tjent over 319 197 kroner, kan du ha rett til mer penger. NAV regner automatisk ut hva som gir deg mest penger."
+        },
+        {
+            "id": "5790753",
+            "ord": "oppgjøret",
+            "gammelnavsk": "Behandlingen må være fullført, og spesifisert faktura mottatt innen 6 måneder fra vedtaksdato. Tannlegen er underrettet om vedtaket, og oppgjøret blir sendt direkte til tannlegen.",
+            "klart_språk": "Behandlingen må være fullført, og vi må få en detaljert faktura innen 6 måneder fra datoen vedtaket ble gjort. Tannlegen er informert om vedtaket. Betalingen blir sendt direkte til tannlegen."
+        },
+        {
+            "id": "5139188",
+            "ord": "underette",
+            "gammelnavsk": "Behandlingen må være fullført, og spesifisert faktura mottatt innen 6 måneder fra vedtaksdato. Tannlegen er underrettet om vedtaket, og oppgjøret blir sendt direkte til tannlegen.",
+            "klart_språk": "Behandlingen må være fullført, og vi må få en detaljert faktura innen 6 måneder fra datoen vedtaket ble gjort. Tannlegen er informert om vedtaket. Betalingen blir sendt direkte til tannlegen."
+        },
+        {
+            "id": "6321739",
+            "ord": "opphøre",
+            "gammelnavsk": "Du har mottatt AAP før, og innen 6 måneder etter arbeidsavklaringspengene opphørte blir kortvarig arbeidsufør på grunn av en ny sykdom.",
+            "klart_språk": "Du har fått arbeidsavklaringspenger før og blir kortvarig arbeidsufør på grunn av ny sykdom før det har gått 6 måneder etter at arbeidsavklaringspengene tok slutt."
+        },
+        {
+            "id": "7312205",
+            "ord": "oppjustere",
+            "gammelnavsk": "Hvis du er yngre enn 25 år, er minstesatsen 2/3 av 2G. Fra og med den dagen du fyller 25 år blir ytelsen oppjustert til 2G.",
+            "klart_språk": "Hvis du er yngre enn 25 år, får du 2/3 av 2G. Fra og med den dagen du fyller 25 år øker dette beløpet til 2G."
+        },
+        {
+            "id": "2435770",
+            "ord": "opptrappingsperioder",
+            "gammelnavsk": "Dette gjelder også ved opptrappingsperioder som er kortere enn 12 måneder. Opptrappingsperioden må være en del av aktivitetsplanen din.",
+            "klart_språk": "Når du begynner å jobbe mer: Dette gjelder når du begynner å jobbe mer i perioder som er kortere enn 12 måneder. Denne perioden må være en del av aktivitetsplanen din."
+        },
+        {
+            "id": "5499536",
+            "ord": "på grunnlag av",
+            "gammelnavsk": "AAP blir fastsatt på grunnlag av den pensjonsgivende inntekten du hadde før arbeidsevnen din ble nedsatt med minst 50 prosent.",
+            "klart_språk": "Hvor mye du får i arbeidsavklaringspenger blir bestemt ved å se på den pensjonsgivende inntekten som du hadde før du ble syk og ikke kunne jobbe mer enn 50 prosent "
+        },
+        {
+            "id": "1819998",
+            "ord": "på lik linje med",
+            "gammelnavsk": "Perioder med AAP gir rett til opptjening av foreldrepenger på lik linje med perioder i arbeid. For å kunne fortsette på AAP etter en fødselspermisjon er det viktig at du søker om AAP på nytt før det har gått 52 uker etter du sist mottok foreldrepenger.",
+            "klart_språk": "Perioder med arbeidsavklaringspenger gir rett til å få foreldrepenger på samme måte som perioder i arbeid. For å kunne fortsette på arbeidsavklaringspenger etter en fødselspermisjon må du søke om arbeidsavklaringspenger på nytt før det har gått ett år etter du sist fikk foreldrepenger. "
+        },
+        {
+            "id": "7619566",
+            "ord": "sedvane",
+            "gammelnavsk": "Du er villig til å ta alle typer arbeid som er lønnet etter tariff eller sedvane. Du må være villig til å gå ned i lønn.",
+            "klart_språk": "Du er villig til å ta alle typer arbeid som er lønnet etter tariff eller etter hva som er vanlig i bransjen/ på arbeidsplassen. Du må være villig til å gå ned i lønn."
+        },
+        {
+            "id": "2481391",
+            "ord": "skjønnsmessig",
+            "gammelnavsk": "Statsforvalteren kan omgjøre dette vedtak dersom det er lovstridig eller om det bygger på en skjønnsmessig vurdering som er åpenbart urimelig. Klagefristen er 3 uker. Klagen sendes til NAV Stedby. NAV Stedby vil kunne gi nødvendig råd og veiledning.",
+            "klart_språk": "Statsforvalteren kan endre dette vedtaket hvis det ikke følger loven, eller om vurderingen er klart urimelig. Hvis du ønsker å klage, må du gjøre det innen 3 uker. Klagen sendes til NAV Stedby. Hvis du trenger hjelp med klagen, kan du ta kontakt med NAV Stedby."
+        },
+        {
+            "id": "8461193",
+            "ord": "lovstridig",
+            "gammelnavsk": "Statsforvalteren kan omgjøre dette vedtak dersom det er lovstridig eller om det bygger på en skjønnsmessig vurdering som er åpenbart urimelig. Klagefristen er 3 uker. Klagen sendes til NAV Stedby. NAV Stedby vil kunne gi nødvendig råd og veiledning.",
+            "klart_språk": "Statsforvalteren kan endre dette vedtaket hvis det ikke følger loven, eller om vurderingen er klart urimelig. Hvis du ønsker å klage, må du gjøre det innen 3 uker. Klagen sendes til NAV Stedby. Hvis du trenger hjelp med klagen, kan du ta kontakt med NAV Stedby."
+        },
+        {
+            "id": "2416239",
+            "ord": "skyldes",
+            "gammelnavsk": "For å få AAP må arbeidsevnen din som hovedregel være nedsatt med minst 50 prosent på grunn av sykdom eller skade. Arbeidsevnen må være nedsatt til alle typer arbeid som du er kvalifisert for. Skyldes den nedsatte arbeidsevnen en godkjent yrkesskade eller yrkessykdom, er det tilstrekkelig at arbeidsevnen din er nedsatt med minst 30 prosent.",
+            "klart_språk": "Du kan ha rett til arbeidsavklaringspenger hvis du ikke kan jobbe mer enn 50 prosent på grunn av sykdom eller skade. Dette gjelder for alle typer arbeid som du er kvalifisert for. Hvis du har fått en godkjent yrkesskade eller yrkessykdom, er det nok at du ikke klarer å jobbe mer enn 70 prosent."
+        },
+        {
+            "id": "3119510",
+            "ord": "som følge av",
+            "gammelnavsk": "Med yrkesskade mener vi at du har fått en skade som følge av en arbeidsulykke.",
+            "klart_språk": "Med yrkesskade mener vi at du har fått en skade på grunn av en arbeidsulykke."
+        },
+        {
+            "id": "6471277",
+            "ord": "stille krav",
+            "gammelnavsk": "Det stilles krav om at mottakere av sosialhjelp skal være i arbeidsrettet aktivitet med mindre tungtveiende grunner taler imot det.",
+            "klart_språk": "For å få sosialhjelp må man være i arbeidsrettet aktivitet. Vi kan gjøre unntak fra denne regelen hvis det er gode grunner til det."
+        },
+        {
+            "id": "6662102",
+            "ord": "mottaker",
+            "gammelnavsk": "Det stilles krav om at mottakere av sosialhjelp skal være i arbeidsrettet aktivitet med mindre tungtveiende grunner taler imot det.",
+            "klart_språk": "For å få sosialhjelp må man være i arbeidsrettet aktivitet. Vi kan gjøre unntak fra denne regelen hvis det er gode grunner til det."
+        },
+        {
+            "id": "6432381",
+            "ord": "med mindre",
+            "gammelnavsk": "Det stilles krav om at mottakere av sosialhjelp skal være i arbeidsrettet aktivitet med mindre tungtveiende grunner taler imot det.",
+            "klart_språk": "For å få sosialhjelp må man være i arbeidsrettet aktivitet. Vi kan gjøre unntak fra denne regelen hvis det er gode grunner til det."
+        },
+        {
+            "id": "4082822",
+            "ord": "tale imot",
+            "gammelnavsk": "Det stilles krav om at mottakere av sosialhjelp skal være i arbeidsrettet aktivitet med mindre tungtveiende grunner taler imot det.",
+            "klart_språk": "For å få sosialhjelp må man være i arbeidsrettet aktivitet. Vi kan gjøre unntak fra denne regelen hvis det er gode grunner til det."
+        },
+        {
+            "id": "3717831",
+            "ord": "subsidiær ytelse",
+            "gammelnavsk": "Sosialhjelp skal være en subsidiær ytelse, og alle andre reelle muligheter skal være forsøkt før økonomisk sosialhjelp.",
+            "klart_språk": "Alle andre muligheter til å få inntekt skal være forsøkt før du kan få økonomisk sosialhjelp."
+        },
+        {
+            "id": "2237868",
+            "ord": "særskilt",
+            "gammelnavsk": "Programmet kan gis for en periode på inntil ett år og kan etter en ny vurdering forlenges med inntil ett år. Programmet kan etter en særskilt vurdering forlenges utover to år. Godkjent permisjon kommer i tillegg.",
+            "klart_språk": "Programmet kan gis for en periode på inntil ett år. En ny vurdering kan forlenge programmet med inntil ett år, og en individuell vurdering kan forlenge programmet utover to år. Hvis du får godkjent permisjon, kommer denne tiden i tillegg."
+        },
+        {
+            "id": "6957715",
+            "ord": "ta sikte på",
+            "gammelnavsk": "De som ikke kan sørge for sitt livsopphold gjennom arbeid eller ved å gjøre gjeldende økonomiske rettigheter, har krav på økonomisk stønad. Stønaden bør ta sikte på å gjøre vedkommende selvhjulpen.",
+            "klart_språk": "Du har rett på økonomisk stønad hvis du ikke har arbeidsinntekt eller andre stønader fra NAV til å betale dine levekostnader. Målet med stønaden er at du skal klare deg selv økonomisk."
+        },
+        {
+            "id": "7203567",
+            "ord": "tannbehandlingsoverslag",
+            "gammelnavsk": "NAV Stedby har innvilget din søknad om dekning til tannbehandling i henhold til godkjent tannbehandlingsoverslag, som vist ovenfor med hjemmel i lov om sosiale tjenester i arbeids- og velferdsforvaltningen paragraf 18.",
+            "klart_språk": "NAV Stedby har godkjent søknaden din om å få hjelp til å betale tann- behandling. Vi har tatt utgangspunkt i den godkjente beregningen av hvor mye tannbehandlingen koster, og NAV betaler tannbehandlingen din."
+        },
+        {
+            "id": "2039558",
+            "ord": "hjemmel",
+            "gammelnavsk": "NAV Stedby har innvilget din søknad om dekning til tannbehandling i henhold til godkjent tannbehandlingsoverslag, som vist ovenfor med hjemmel i lov om sosiale tjenester i arbeids- og velferdsforvaltningen paragraf 18.",
+            "klart_språk": "NAV Stedby har godkjent søknaden din om å få hjelp til å betale tann- behandling. Vi har tatt utgangspunkt i den godkjente beregningen av hvor mye tannbehandlingen koster, og NAV betaler tannbehandlingen din."
+        },
+        {
+            "id": "3207769",
+            "ord": "tilegne seg",
+            "gammelnavsk": "Målet er at du sammen med NAV skal avklare mulighetene dine for å beholde eller komme i arbeid. Du bidrar til å nå det målet ved å for eksempel prøve ut ulike behandlinger, ulike jobbsituasjoner eller tilegne deg ny kompetanse.",
+            "klart_språk": "Målet er at du, sammen med NAV, skal finne ut hvilke muligheter du har for å beholde eller komme i arbeid. For å komme til dette målet, kan du for eksempel: prøve ulike behandlinger, prøve ulike jobbsituasjoner og aktiviteter, og skaffe deg ny kompetanse "
+        },
+        {
+            "id": "7932593",
+            "ord": "tilrettelegge",
+            "gammelnavsk": "Vi kan kun gjøre unntak fra aktivitetsplikten dersom du av medisinske grunner ikke kan prøve deg i arbeid eller arbeidsgiveren din ikke kan tilrettelegge for deg.",
+            "klart_språk": "Vi kan gjøre unntak fra aktivitetsplikten hvis du ikke kan jobbe av medisinske grunner og arbeidsgiveren din ikke kan tilpasse arbeidsoppgavene for deg."
+        },
+        {
+            "id": "3710907",
+            "ord": "legge til rette",
+            "gammelnavsk": "Vi kan kun gjøre unntak fra aktivitetsplikten dersom du av medisinske grunner ikke kan prøve deg i arbeid eller arbeidsgiveren din ikke kan tilrettelegge for deg.",
+            "klart_språk": "Vi kan gjøre unntak fra aktivitetsplikten hvis du ikke kan jobbe av medisinske grunner og arbeidsgiveren din ikke kan tilpasse arbeidsoppgavene for deg."
+        },
+        {
+            "id": "5391068",
+            "ord": "tilrettelegging",
+            "gammelnavsk": "Arbeidsrettede tiltak kan for eksempel være tilrettelegging, opplæring, arbeidstrening eller jobbklubb. Les om flere arbeidsrettede tiltak.",
+            "klart_språk": "Arbeidsrettede tiltak kan for eksempel være tilpasset jobb, opplæring, arbeidstrening eller jobbklubb."
+        },
+        {
+            "id": "2089818",
+            "ord": "tilretteleggingsmuligheter",
+            "gammelnavsk": "Oppfølging fra NAV kan for eksempel være råd og veiledning fra NAV Hjelpemiddelsentral eller NAV Arbeidsrådgivning, dialog med arbeidsgiveren din om tilretteleggingsmuligheter og muligheter for å bli værende i jobben din.",
+            "klart_språk": "Dette kan for eksempel være råd og veiledning fra NAV Hjelpemiddelsentral eller NAV Arbeidsrådgivning, dialog med arbeidsgiveren din om muligheter for å tilpasse jobben slik at du kan bli værende i den."
+        },
+        {
+            "id": "4967713",
+            "ord": "tilsi",
+            "gammelnavsk": "Søknaden din avslås. Vi er ikke kjent med opplysninger som tilsier at vi burde vurdert saken på annen måte.",
+            "klart_språk": "Søknaden din avslås. Vi vet ikke om opplysninger som viser at vi burde vurdert saken på annen måte."
+        },
+        {
+            "id": "9205692",
+            "ord": "tilstrekkelig",
+            "gammelnavsk": "Du har egen inntekt og har vanligvis tilstrekkelig økonomi til å klare deg selv. Tannbehandlingen er for dyr til at du kan klare å betale hele behandlingen. Vi dekker derfor deler av utgiften.",
+            "klart_språk": "Du har egen inntekt og har vanligvis nok penger til å klare deg selv. Tann- behandlingen er så dyr at du ikke kan klare å betale hele behandlingen. Derfor betaler vi deler av utgiften."
+        },
+        {
+            "id": "5971858",
+            "ord": "tiltakskonsulent",
+            "gammelnavsk": "Planen kan endres etter avtale mellom deltaker og tiltakskonsulent. Deltakelse i programmet forutsetter fulltidsdeltakelse i programmet slik dette er avtalt. Vesentlig fravær kan medføre stans av deltakelse i programmet.",
+            "klart_språk": "Planen kan endres etter avtale mellom deltaker og NAV. Du må være med i programmet på fulltid. Høyt fravær kan føre til at du ikke lenger får delta i programmet."
+        },
+        {
+            "id": "2269112",
+            "ord": "forutsette",
+            "gammelnavsk": "Planen kan endres etter avtale mellom deltaker og tiltakskonsulent. Deltakelse i programmet forutsetter fulltidsdeltakelse i programmet slik dette er avtalt. Vesentlig fravær kan medføre stans av deltakelse i programmet.",
+            "klart_språk": "Planen kan endres etter avtale mellom deltaker og NAV. Du må være med i programmet på fulltid. Høyt fravær kan føre til at du ikke lenger får delta i programmet."
+        },
+        {
+            "id": "4784376",
+            "ord": "vesentlig",
+            "gammelnavsk": "Planen kan endres etter avtale mellom deltaker og tiltakskonsulent. Deltakelse i programmet forutsetter fulltidsdeltakelse i programmet slik dette er avtalt. Vesentlig fravær kan medføre stans av deltakelse i programmet.",
+            "klart_språk": "Planen kan endres etter avtale mellom deltaker og NAV. Du må være med i programmet på fulltid. Høyt fravær kan føre til at du ikke lenger får delta i programmet."
+        },
+        {
+            "id": "8135391",
+            "ord": "medføre",
+            "gammelnavsk": "Planen kan endres etter avtale mellom deltaker og tiltakskonsulent. Deltakelse i programmet forutsetter fulltidsdeltakelse i programmet slik dette er avtalt. Vesentlig fravær kan medføre stans av deltakelse i programmet.",
+            "klart_språk": "Planen kan endres etter avtale mellom deltaker og NAV. Du må være med i programmet på fulltid. Høyt fravær kan føre til at du ikke lenger får delta i programmet."
+        },
+        {
+            "id": "2654780",
+            "ord": "tvil om",
+            "gammelnavsk": "Er du i tvil om du har sendt meldekortet innen fristen, kan du sjekke om du fortsatt er registrert som arbeidssøker på Ditt NAV. Er du ikke registrert som arbeidssøker, må du gjøre det på nytt. Du kan også se tidligere innsendte meldekort på Ditt NAV.",
+            "klart_språk": "Hvis du er usikker på om du har sendt meldekort innen fristen, sjekk om du fortsatt er registrert som arbeidssøker på «Ditt NAV». Hvis du ikke er registrert som arbeidssøker så må du registrere deg på nytt. Du kan også se tidligere innsendte meldekort på Ditt NAV. "
+        },
+        {
+            "id": "5062288",
+            "ord": "uforholdsmessig",
+            "gammelnavsk": "De må ikke være uforholdsmessig byrdefulle for stønadsmottakeren eller begrense hans eller hennes handle- og valgfrihet på en urimelig måte.",
+            "klart_språk": "De må ikke være altfor vanskelige for personen eller begrense hans eller hennes handle- og valgfrihet på en urimelig måte."
+        },
+        {
+            "id": "2705674",
+            "ord": "byrdefull",
+            "gammelnavsk": "De må ikke være uforholdsmessig byrdefulle for stønadsmottakeren eller begrense hans eller hennes handle- og valgfrihet på en urimelig måte.",
+            "klart_språk": "De må ikke være altfor vanskelige for personen eller begrense hans eller hennes handle- og valgfrihet på en urimelig måte."
+        },
+        {
+            "id": "2751254",
+            "ord": "unnlate",
+            "gammelnavsk": "Du plikter å informere om endringer i inntekter/formue og sivilstatus. Du plikter også å informere om andre endringer som kan ha betydning for vedtaket. Dersom du unnlater å informere NAV om endringer som har betydning for vedtaket, kan urettmessig sosialhjelp bli krevd tilbake.",
+            "klart_språk": "Du må informere oss hvis du har endringer i inntekt/formue og sivilstatus, og om andre endringer som kan ha betydning for vedtaket Hvis du ikke informerer NAV om endringer som har betydning for vedtaket, kan NAV kreve at du betaler tilbake sosialhjelp."
+        },
+        {
+            "id": "5483047",
+            "ord": "utover",
+            "gammelnavsk": "Reisetilskuddet skal dekke nødvendige ekstrautgifter utover de vanlige utgiftene du har til reise til og fra arbeids- eller undervisningsstedet ditt.",
+            "klart_språk": "Reisestønad skal dekke nødvendige ekstrautgifter som ikke er de vanlige utgiftene som du har til reise til og fra arbeids- eller undervisningsstedet ditt."
+        },
+        {
+            "id": "6949967",
+            "ord": "utprøving av arbeidsevne",
+            "gammelnavsk": "Kjernen i tiltaket skal være en helhetlig kartlegging av deltakers nåsituasjon knyttet til deltakers evne til deltakelse i arbeidslivet. Utprøving av arbeids- evne skal som hovedregel inngå som del av kartleggingen. Kartleggingen skal ta utgangspunkt i NAV sin bestilling og bygge på annen relevant dokumentasjon knyttet til deltaker.",
+            "klart_språk": "Det viktigste med tiltaket er å finne ut hvor mye du kan jobbe. Kartleggingen skal bygge på informasjon fra NAV og annen relevant dokumentasjon."
+        },
+        {
+            "id": "7440452",
+            "ord": "veiledende satser",
+            "gammelnavsk": "Vi har vurdert inntektene og utgiftene dine etter Stedby kommunes veiledende satser til levekostnader. Dette er satser som skal sikre en forsvarlig og nøktern standard. Etter vår beregning har du inntekter nok til å dekke utgiften i sin helhet. Hvis du ikke kan dekke hele beløpet på én gang, kan du be om en ned- betalingsavtale med tannlegen din.",
+            "klart_språk": "Vi har vurdert inntektene og utgiftene dine etter Stedby kommunes bestemmelse for levekostnader. Disse pengene skal sikre at du kan leve etter en enkel standard. Vi har beregnet at du har inntekter nok til å betale hele regningen selv. Hvis du ikke kan betale hele beløpet, kan du be tannlegen din om en avtale for å betale over en lengre periode."
+        },
+        {
+            "id": "2764960",
+            "ord": "vesentlig",
+            "gammelnavsk": "Det er en forutsetning at du deltar på avtalte tiltak i vedtaksperioden. Planen kan endres etter avtale mellom deg og din veileder på NAV. Programmet er fulltid, og vesentlig fravær kan medføre stans av deltakelsen i kvalifiserings- programmet.",
+            "klart_språk": "Det er et krav at du skal delta på avtalte aktiviteter. Planen kan endres etter avtale mellom deg og din veileder på NAV. Programmet er på fulltid, og har du høyt fravær, kan du bli stoppet i å delta i kvalifiseringsprogrammet."
+        },
+        {
+            "id": "9131780",
+            "ord": "vilkår",
+            "gammelnavsk": "Hvis du fyller vilkårene for både sykepenger og AAP, har du rett til å velge den høyeste ytelsen.",
+            "klart_språk": "Hvis du har rett til både sykepenger og arbeidsavklaringspenger, kan du velge den som gir deg høyest utbetaling."
+        },
+        {
+            "id": "9704724",
+            "ord": "ytelse",
+            "gammelnavsk": "Du skal gjøre gjeldende andre økonomiske rettigheter, slik som å søke andre ytelser fra NAV, Husbankens bostøtte og realisere formue.",
+            "klart_språk": "Dersom du kan forsørge deg på annen måte, skal du det. Eksempler på dette kan være å søke andre stønader fra NAV, bostøtte fra Husbanken eller realisere formue. Det kan bety at du må selge noe du eier."
+        },
+        {
+            "id": "8833820",
+            "ord": "de øvrige vilkårene",
+            "gammelnavsk": "Hvis du har søkt om AAP, og vi mener du har nedsatt arbeidsevne med minst 50 prosent på grunn av sykdom eller skade, og de øvrige vilkårene er oppfylt, får du vedtak om at AAP er innvilget.",
+            "klart_språk": "Du får arbeidsavklaringspenger hvis vi har kommet frem til at du ikke kan jobbe mer enn 50 prosent på grunn av sykdom eller skade, og de andre kravene er oppfylt."
+        }
+    ]
+}
