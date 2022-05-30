@@ -1,7 +1,7 @@
-NAV Språksjekk
+[NAV Språksjekk](https://navikt.github.io/spraksjekk/)
 ================
 
-NAV Språksjekk hjelper deg med å kvalitetsjekke innhold.
+[NAV Språksjekk](https://navikt.github.io/spraksjekk/) hjelper deg med å kvalitetsjekke innhold.
 
 ---
 
