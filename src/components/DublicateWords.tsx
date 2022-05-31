@@ -4,6 +4,7 @@ function DublicateWords(props: { content: any; }) {
     let value = props.content;
     value = value.replaceAll("Kontakt", "");
     value = value.replaceAll(/\d+(?: \d+)/g, "");
+    value = value .toLowerCase();
 
     // Find dublicate words
     let dublicateWordsList: string | number | boolean | JSX.Element[] | null | undefined = [];
