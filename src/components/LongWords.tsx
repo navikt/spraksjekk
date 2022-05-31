@@ -47,10 +47,10 @@ function LongWords(props: { content: any; }) {
             // +1 for every long word in document
             longWordsHere = 1;
         }
-        if (words[i].length > wordLength) {
+/*        if (words[i].length > wordLength) {
             // +1 for every long word in document
             longWordCounter++;
-        }
+        }*/
     }
 
     // Create a list of long words
@@ -60,6 +60,7 @@ function LongWords(props: { content: any; }) {
         })
         .filter((item: string | any[]) => item.length > (wordLength - 1));
 
+    longWordCounter = longWords.length;
     let totalFreqWords = 0;
     let value = "";
 
@@ -89,7 +90,7 @@ function LongWords(props: { content: any; }) {
             {longWordsHere == 1 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {listLongWords.length == 1 ? (<>1 langt</>) : (<>{longWordCounter} lange</>)} ord
+                        {listLongWords.length == 1 ? (<>1 unikt langt</>) : (<>{longWordCounter} unike lange</>)} ord
                     </Accordion.Header>
                     <Accordion.Content>
                         Ord med <TextField label="antall bokstever" className="lengthField"
