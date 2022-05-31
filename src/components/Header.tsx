@@ -6,7 +6,7 @@ function Header() {
         <ContentContainer className="headerContainer">
           <Heading size="xsmall" level="1">
             <Link id="headingLink" href=".">
-              NAV Språksjekk
+               NAV Språksjekk
             </Link>
           </Heading>
         </ContentContainer>
