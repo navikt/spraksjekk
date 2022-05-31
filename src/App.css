@@ -5,7 +5,7 @@
 
 .ProseMirror {
     border: 1px solid gray;
-    min-height: 250px;
+    min-height: 240px;
     transition: height .1s ease-out;
     padding-right: 10px;
     padding-left: 10px;
