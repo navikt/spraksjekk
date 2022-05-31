@@ -8,8 +8,8 @@ function LongWords(props: { content: any; }) {
     let longWordCounter = 0;
     let pageSize = 10;
 
+    // Decl/**/ari/**/ng all variables
     let rawcontent = props.content;
-    // Declaring all variables
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     rawcontent = rawcontent.split("\n")
         .map((l: string) => l.length > 0 && ![".", ":", "!", "?", " "].includes(l.slice(-1))
@@ -89,7 +89,7 @@ function LongWords(props: { content: any; }) {
             {longWordsHere == 1 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {longWordCounter} {listLongWords.length == 1 ? (<>langt</>) : (<>lange</>)} ord
+                        {listLongWords.length == 1 ? (<>1 langt</>) : (<>{longWordCounter} lange</>)} ord
                     </Accordion.Header>
                     <Accordion.Content>
                         Ord med <TextField label="antall bokstever" className="lengthField"
@@ -127,17 +127,17 @@ function LongWords(props: { content: any; }) {
                             </Table.Body>
                         </Table>
                         {longWordCounter > 10 &&
-                        <div className="pagination-container">
-                            <Pagination
-                                className="spacing-30 pagination"
-                                page={page}
-                                onPageChange={setPage}
-                                count={pagesCount}
-                                size="small"
-                                siblingCount={0}
-                                boundaryCount={1}
-                            />
-                        </div>
+                            <div className="pagination-container">
+                                <Pagination
+                                    className="spacing-30 pagination"
+                                    page={page}
+                                    onPageChange={setPage}
+                                    count={pagesCount}
+                                    size="small"
+                                    siblingCount={0}
+                                    boundaryCount={1}
+                                />
+                            </div>
                         }
                     </Accordion.Content>
                 </Accordion.Item>
