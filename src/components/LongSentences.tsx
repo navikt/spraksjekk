@@ -40,7 +40,7 @@ function LongSentences(props: { content: any; }) {
                     <Accordion.Header>
                         {longSentencesCounter} {longSentencesCounter == 1 ? (<>lang setning</>) : (<>lange setninger</>)}
                     </Accordion.Header>
-                    <Accordion.Content>
+                    <Accordion.Content className="removeAccordionPaddingBottom">
                         Setninger med over 20 ord:
                         <ul className="list-disc pt-5 list-inside">
                             {listLongSentences}
