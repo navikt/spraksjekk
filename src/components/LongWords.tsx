@@ -47,10 +47,10 @@ function LongWords(props: { content: any; }) {
             // +1 for every long word in document
             longWordsHere = 1;
         }
-/*        if (words[i].length > wordLength) {
-            // +1 for every long word in document
-            longWordCounter++;
-        }*/
+        /*        if (words[i].length > wordLength) {
+                    // +1 for every long word in document
+                    longWordCounter++;
+                }*/
     }
 
     // Create a list of long words

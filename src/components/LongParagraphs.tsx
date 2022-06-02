@@ -37,10 +37,10 @@ function LongParagraphs(props: { content: any; }) {
             {longParagraphsCounter != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {longParagraphsCounter} {longParagraphsCounter == 1 ? (<>lang paragraf</>) : (<>lange paragrafer</>)}
+                        {longParagraphsCounter} {longParagraphsCounter == 1 ? (<>langt avsnitt</>) : (<>lange avsnitt</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        Paragrafer med over 3 setninger:
+                        Avsnitt med over 3 setninger:
                         <ul className="list-disc pt-5 list-inside">
                             {listLongParagraphs}
                         </ul>

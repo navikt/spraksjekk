@@ -77,7 +77,7 @@ function OrdTelling(props: { content: any; }) {
         <ul className="wordcountlist list-disc list-inside">
           <li>Ord: {totalwords}</li>
           <li>Setninger: {totalsentences}</li>
-          <li>Paragrafer: {totalparagraphs}</li>
+          <li>Avsnitt: {totalparagraphs}</li>
           <li>Tegn: {totalchars} {totalchars != totalcharsnospace && (<>({totalcharsnospace} uten mellomrom)</>)}</li>
           {lix >= 0 && lix < 100 && (
             <li>Liks {lix}: <LixMelding lix={lix} /></li>

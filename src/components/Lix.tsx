@@ -1,7 +1,7 @@
-import { LixMelding } from "./index.js";
-import { Accordion, Link } from "@navikt/ds-react";
-import { ExternalLink } from "@navikt/ds-icons";
-import { useState } from 'react'
+import {LixMelding} from "./index.js";
+import {Accordion, BodyShort, Link} from "@navikt/ds-react";
+import {ExternalLink} from "@navikt/ds-icons";
+import {useState} from 'react'
 
 function Lix(props: { content: any }) {
     const [wordLength] = useState(6)
@@ -23,9 +23,11 @@ function Lix(props: { content: any }) {
         for (let i = 0; i < value.length; i++) {
             if (!punct.includes(value[i])) {
                 continue;
-            };
+            }
+            ;
             count++;
-        };
+        }
+        ;
         return count;
     };
     dotCounter = countPunctuation(value);
@@ -51,13 +53,23 @@ function Lix(props: { content: any }) {
             {lix >= 34 && lix < 100 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        Liks {lix}: <LixMelding lix={lix} />
+                        Liks {lix}: <LixMelding lix={lix}/>
                     </Accordion.Header>
-                    <Accordion.Content className="gammelnavskAccordionContent">
-                        Liks-verdi: {lix}<br/><br />
-                        Teksten er <LixMelding lix={lix} /> ifølge <Link target="_blank" href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
-                            lesbarhetsindeksen Liks<ExternalLink />
+                    <Accordion.Content className="gammelnavskAccordionContent removeAccordionPaddingBottom">
+                        <BodyShort className="pb-2">
+                            Liks {lix}: Teksten er <LixMelding lix={lix}/> ifølge <Link target="_blank"
+                                                                                        href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
+                            lesbarhetsindeksen Liks<ExternalLink/>
                         </Link>.
+                        </BodyShort>
+                        <BodyShort className="mt-6">
+                            <b>Skriveråd</b>:
+                            <ul className="pb-5 list-disc list-inside">
+                                <li>Skriv korte og enkle setninger</li>
+                                <li>Velg korte og enkle ord</li>
+                                <li>Skriv det viktigste først</li>
+                            </ul>
+                        </BodyShort>
                     </Accordion.Content>
                 </Accordion.Item>
             )}
