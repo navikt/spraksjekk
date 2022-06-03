@@ -54,6 +54,11 @@
     margin-bottom: 1.5rem;
 }
 
+.ListRemoveStyling {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
 .wordcountlist {
     margin-top: 10px;
 }

@@ -10,4 +10,5 @@ export { default as GammelnavskCheck } from "./GammelnavskCheck.tsx";
 export { default as WordFrequency } from "./WordFrequency.tsx";
 export { default as Checklist } from "./Checklist.tsx";
 export { default as MenuBar } from "./MenuBar.tsx";
-export { default as ShakeHands } from "./ShakeHands.tsx";
+export { default as ShakeHands } from "./icons/ShakeHands.tsx";
+export { default as PrivacyIcon } from "./icons/PrivacyIcon.tsx";
