@@ -69,7 +69,7 @@ export default () => {
                             Resultater
                         </Heading>
                         {value.length == 0 ? (
-                                <Alert variant="info">Du må legge til tekst for å få språksjekkresultatene.</Alert>) :
+                                <Alert variant="info">Du må legge til tekst for å få resultatene.</Alert>) :
                             (
                                 <>
                                     <Accordion className="pb-6">
