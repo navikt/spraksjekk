@@ -11,8 +11,9 @@ import {
     GammelnavskCheck,
     ShakeHands,
     PrivacyIcon,
+    ScrollToTop,
 } from "./components"
-import {ContentContainer, Heading, BodyShort, Alert, Grid, Cell, Accordion, Label} from "@navikt/ds-react";
+import {ContentContainer, Heading, BodyShort, Alert, Grid, Cell, Accordion, Label, Button} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
@@ -72,7 +73,7 @@ export default () => {
                                 <Alert variant="info">Du må legge til tekst for å få resultatene.</Alert>) :
                             (
                                 <>
-                                    <Accordion className="pb-6">
+                                    <Accordion className="pb-5rem">
                                         <LongParagraphs content={value}/>
                                         <LongSentences content={value}/>
                                         <LongWords content={value}/>
@@ -86,6 +87,7 @@ export default () => {
                     </Cell>
                 </Grid>
             </ContentContainer>
+            <ScrollToTop/>
         </div>
     )
 }

@@ -12,3 +12,4 @@ export { default as Checklist } from "./Checklist.tsx";
 export { default as MenuBar } from "./MenuBar.tsx";
 export { default as ShakeHands } from "./icons/ShakeHands.tsx";
 export { default as PrivacyIcon } from "./icons/PrivacyIcon.tsx";
+export { default as ScrollToTop } from "./ScrollToTop.tsx";
