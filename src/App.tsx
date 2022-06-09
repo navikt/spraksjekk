@@ -80,8 +80,8 @@ export default () => {
                                         <LongWords content={value}/>
                                         <DublicateWords content={value}/>
                                         <GammelnavskCheck content={value}/>
-                                        <Lix content={value}/>
                                         <Begrepskatalog content={value}/>
+                                        <Lix content={value}/>
                                         <OrdTelling content={value}/>
                                     </Accordion>
                                 </>
