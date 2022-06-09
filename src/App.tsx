@@ -13,8 +13,9 @@ import {
     PrivacyIcon,
     ScrollToTop,
     Begrepskatalog,
+    Tilbakemeldinger,
 } from "./components"
-import {ContentContainer, Heading, BodyShort, Alert, Grid, Cell, Accordion, Label} from "@navikt/ds-react";
+import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
@@ -74,7 +75,7 @@ export default () => {
                                 <Alert variant="info">Du må legge til tekst for å få resultatene.</Alert>) :
                             (
                                 <>
-                                    <Accordion className="pb-5rem">
+                                    <Accordion>
                                         <LongParagraphs content={value}/>
                                         <LongSentences content={value}/>
                                         <LongWords content={value}/>
@@ -86,6 +87,7 @@ export default () => {
                                     </Accordion>
                                 </>
                             )}
+                        <Tilbakemeldinger />
                     </Cell>
                 </Grid>
             </ContentContainer>

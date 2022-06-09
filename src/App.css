@@ -43,6 +43,10 @@
     padding-bottom: 0px;
 }
 
+.float-right {
+    float: right;
+}
+
 .pb-2 {
     padding-bottom: 0.5rem;
 }
@@ -84,6 +88,7 @@
 .ListRemoveStyling {
     list-style-type: none;
     padding-left: 0px;
+    margin-bottom: 0px;
 }
 
 .wordcountlist {
