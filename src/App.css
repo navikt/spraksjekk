@@ -76,6 +76,11 @@
     margin-bottom: 5rem;
 }
 
+
+.firstLetter:first-letter {
+    text-transform: capitalize;
+}
+
 .ListRemoveStyling {
     list-style-type: none;
     padding-left: 0px;

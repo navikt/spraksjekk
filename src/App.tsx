@@ -12,6 +12,7 @@ import {
     ShakeHands,
     PrivacyIcon,
     ScrollToTop,
+    Begrepskatalog,
 } from "./components"
 import {ContentContainer, Heading, BodyShort, Alert, Grid, Cell, Accordion, Label} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
@@ -58,12 +59,12 @@ export default () => {
                         </Heading>
                         <Label onClick={() => focusTiptap()} className="pb-2">Skriv eller lim inn tekst</Label>
                         <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
-                        <BodyShort className="pb-2">
+                        <div className="pb-2">
                             <ul className="ListRemoveStyling">
                                 <li><ShakeHands/> NAV lagrer ikke teksten.</li>
                                 <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
                             </ul>
-                        </BodyShort>
+                        </div>
                     </Cell>
                     <Cell xs={12} sm={5} lg={4}>
                         <Heading spacing level="2" size="large">
@@ -80,6 +81,7 @@ export default () => {
                                         <DublicateWords content={value}/>
                                         <GammelnavskCheck content={value}/>
                                         <Lix content={value}/>
+                                        <Begrepskatalog content={value}/>
                                         <OrdTelling content={value}/>
                                     </Accordion>
                                 </>
