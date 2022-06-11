@@ -46,7 +46,7 @@ function GammelnavskCheck(props: { content: any; }) {
                                                 <p>Vær varsom eller oppmerksom når du bruker dette ordet.</p>
                                             </>
                                         }*/}
-                                        <Heading spacing className="pt-6" level="4" size="xsmall">
+                                        <Heading spacing level="4" size="xsmall">
                                             Kilde
                                         </Heading>
                                         {<Link target="_blank"
