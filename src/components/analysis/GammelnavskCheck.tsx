@@ -1,15 +1,15 @@
-import {Accordion, Heading, Link} from "@navikt/ds-react";
-import {ExternalLink} from "@navikt/ds-icons";
-import {Nrkordliste} from "../data";
+import { Accordion, Heading, Link } from "@navikt/ds-react";
+import { ExternalLink } from "@navikt/ds-icons";
+import { Gammelnavsk } from "../../data";
 
 function GammelnavskCheck(props: { content: any; }) {
     const value = props.content;
-    let gammelnavsk = Nrkordliste;
+    let gammelnavsk = Gammelnavsk;
     let gammelnavskResultater;
 
     const keyword = value;
     if (keyword !== "") {
-        const results = gammelnavsk.nrkordliste.filter((gammelnavsk) => {
+        const results = gammelnavsk.gammelnavsk_ordliste.filter((gammelnavsk) => {
             return keyword.toLowerCase().match(gammelnavsk.ord.toLowerCase())
         });
         gammelnavskResultater = results;
@@ -25,10 +25,12 @@ function GammelnavskCheck(props: { content: any; }) {
             {gammelnavskVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 mulig støtende
-                            ord</>) : (<>{gammelnavskResultater.length} mulig støtende ord</>)}
+                        {gammelnavskResultater.length == 1 ? (<>1 forekomst av Gammelnavsk</>) : (<>{gammelnavskResultater.length} forekomster av Gammelnavsk</>)}
                     </Accordion.Header>
                     <Accordion.Content>
+                        <Link target="_blank" href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
+                            Gammelnavske ord og utrykk<ExternalLink />
+                        </Link>:
                         <Accordion className="gammelnavskAccordion mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key={gammelnavsk.id}>
@@ -36,21 +38,14 @@ function GammelnavskCheck(props: { content: any; }) {
                                         <span className="firstLetter">{gammelnavsk.ord}</span>
                                     </Accordion.Header>
                                     <Accordion.Content className="gammelnavskAccordionContent">
-                                     {/*   <Heading spacing level="4" size="xsmall">
-                                            Anbefaling
+                                        <Heading spacing level="4" size="xsmall">
+                                            Gammelnavsk
                                         </Heading>
-                                        {gammelnavsk.bruk = "1" ? (<>Ordet skal/bør ikke brukes.</>) : (<>Vær varsom eller oppmerksom når du bruker dette ordet, sett det gjerne i en sammenheng</>)}
-                                        */}<Heading spacing level="4" size="xsmall">
-                                            Forklaring
-                                        </Heading>
-                                        {gammelnavsk.bokmål}
+                                        {gammelnavsk.gammelnavsk}
                                         <Heading spacing className="pt-6" level="4" size="xsmall">
-                                            Kilde
+                                            Klart språk
                                         </Heading>
-                                        {<Link target="_blank"
-                                               href={gammelnavsk.lenke}>
-                                            {gammelnavsk.kilde}<ExternalLink/>
-                                        </Link>}
+                                        {gammelnavsk.klart_språk}
                                     </Accordion.Content>
                                 </Accordion.Item>
                             ))}

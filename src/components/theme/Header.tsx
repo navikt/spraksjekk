@@ -5,7 +5,7 @@ function Header() {
         <div id="header">
         <ContentContainer className="headerContainer">
           <Heading size="xsmall" level="1">
-            <Link id="headingLink" href=".">
+            <Link id="headingLink" href="../index.js">
                NAV Språksjekk
             </Link>
           </Heading>

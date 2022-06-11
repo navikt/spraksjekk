@@ -1,4 +1,4 @@
-import {LixMelding} from "./index.js";
+import {LixMelding} from "../index.js";
 import {Accordion, BodyShort, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 import {useState} from 'react'

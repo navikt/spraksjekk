@@ -1,4 +1,4 @@
-import { LixMelding, WordFrequency, Lix } from "./index.js";
+import { LixMelding, WordFrequency, Lix } from "../index.js";
 import {Accordion, Link} from "@navikt/ds-react";
 import { useState } from 'react'
 import {ExternalLink} from "@navikt/ds-icons";

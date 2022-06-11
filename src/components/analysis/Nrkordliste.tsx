@@ -1,15 +1,15 @@
-import { Accordion, Heading, Link } from "@navikt/ds-react";
-import { ExternalLink } from "@navikt/ds-icons";
-import { Gammelnavsk } from "../data";
+import {Accordion, Heading, Link} from "@navikt/ds-react";
+import {ExternalLink} from "@navikt/ds-icons";
+import {Nrkordliste} from "../../data";
 
 function GammelnavskCheck(props: { content: any; }) {
     const value = props.content;
-    let gammelnavsk = Gammelnavsk;
+    let gammelnavsk = Nrkordliste;
     let gammelnavskResultater;
 
     const keyword = value;
     if (keyword !== "") {
-        const results = gammelnavsk.gammelnavsk_ordliste.filter((gammelnavsk) => {
+        const results = gammelnavsk.nrkordliste.filter((gammelnavsk) => {
             return keyword.toLowerCase().match(gammelnavsk.ord.toLowerCase())
         });
         gammelnavskResultater = results;
@@ -25,12 +25,11 @@ function GammelnavskCheck(props: { content: any; }) {
             {gammelnavskVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 forekomst av Gammelnavsk</>) : (<>{gammelnavskResultater.length} forekomster av Gammelnavsk</>)}
+                        {gammelnavskResultater.length == 1 ? (<>1 mulig støtende
+                            ord</>) : (<>{gammelnavskResultater.length} mulig støtende ord</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        <Link target="_blank" href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
-                            Gammelnavske ord og utrykk<ExternalLink />
-                        </Link>:
+                        Ord som kan være støtende, eller som bør brukes med varsomhet:
                         <Accordion className="gammelnavskAccordion mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key={gammelnavsk.id}>
@@ -39,13 +38,21 @@ function GammelnavskCheck(props: { content: any; }) {
                                     </Accordion.Header>
                                     <Accordion.Content className="gammelnavskAccordionContent">
                                         <Heading spacing level="4" size="xsmall">
-                                            Gammelnavsk
+                                            Forklaring
                                         </Heading>
-                                        {gammelnavsk.gammelnavsk}
+                                        <p>{gammelnavsk.bokmål}</p>
+{/*                                        {gammelnavsk.bruk = "2" &&
+                                            <>
+                                                <p>Vær varsom eller oppmerksom når du bruker dette ordet.</p>
+                                            </>
+                                        }*/}
                                         <Heading spacing className="pt-6" level="4" size="xsmall">
-                                            Klart språk
+                                            Kilde
                                         </Heading>
-                                        {gammelnavsk.klart_språk}
+                                        {<Link target="_blank"
+                                               href={gammelnavsk.lenke}>
+                                            {gammelnavsk.kilde}<ExternalLink/>
+                                        </Link>}
                                     </Accordion.Content>
                                 </Accordion.Item>
                             ))}
