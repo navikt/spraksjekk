@@ -13,6 +13,7 @@ export { default as DublicateWords } from "./DublicateWords.tsx";
 export { default as GammelnavskCheck } from "./GammelnavskCheck.tsx";
 export { default as WordFrequency } from "./WordFrequency.tsx";
 export { default as Begrepskatalog } from "./Begrepskatalog.tsx";
+export { default as Nrkordliste } from "./Nrkordliste.tsx";
 export { default as Lix } from "./Lix.tsx";
 export { default as LixMelding } from "./LixMelding.tsx";
 

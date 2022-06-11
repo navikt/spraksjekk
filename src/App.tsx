@@ -14,6 +14,7 @@ import {
     ScrollToTop,
     Begrepskatalog,
     Tilbakemeldinger,
+    Nrkordliste,
 } from "./components"
 import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
@@ -81,6 +82,7 @@ export default () => {
                                         <LongWords content={value}/>
                                         <DublicateWords content={value}/>
                                         <GammelnavskCheck content={value}/>
+                                        <Nrkordliste content={value}/>
                                         <Begrepskatalog content={value}/>
                                         <Lix content={value}/>
                                         <OrdTelling content={value}/>

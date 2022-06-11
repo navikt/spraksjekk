@@ -1,0 +1,142 @@
+{
+  "flerkulturell": [
+    {
+      "id": "1",
+      "ord": "mulatt",
+      "bruk": "1",
+      "bokmål": "Ordet oppfattes ofte nedsettende og ekskluderende og bør unngås."
+    },
+    {
+      "id": "2",
+      "ord": "muslimsk utseende",
+      "bruk": "1",
+      "bokmål": "Muslimer i Norge kommer fra mange forskjellige land og ser svært forskjellige ut. Vær mer presis."
+    },
+    {
+      "id": "3",
+      "ord": "neger",
+      "bruk": "1",
+      "bokmål": "Ordet oppfattes ofte nedsettende og ekskluderende og bør unngås."
+    },
+    {
+      "id": "4",
+      "ord": "omreisende",
+      "bruk": "1",
+      "bokmål": "Bør unngås i norsk sammenheng, men i enkelte situasjoner der vi omtaler f.eks. britiske romer (sigøynere) som ønsker å bli kalt reisende, kan begrepet likevel brukes."
+    },
+    {
+      "id": "5",
+      "ord": "omstreifer",
+      "bruk": "1",
+      "bokmål": "Bør unngås i norsk sammenheng, men i enkelte situasjoner der vi omtaler f.eks. britiske romer (sigøynere) som ønsker å bli kalt reisende, kan begrepet likevel brukes."
+    },
+    {
+      "id": "6",
+      "ord": "politisk asyl",
+      "bruk": "1",
+      "bokmål": "Bruk bare «asyl». Juridisk sett er det ingenting som heter politisk asyl. Behovet for vern er det sentrale, ikke grunnlaget for at man risikerer forfølgelse."
+    },
+    {
+      "id": "7",
+      "ord": "romfolk",
+      "bruk": "1",
+      "bokmål": "«Romfolk» er en kunstig konstruksjon, som kan bli oppfattet negativt. Begrepet har oppstått fordi mange har vært usikre på hvordan ordet «rom» skal bøyes. Det er ikke snakk om en helhetlig gruppe, men ulike folkegrupper. Bruk heller flertallsformen av ordet «rom» (en rom - romen - romer - romene)."
+    },
+    {
+      "id": "8",
+      "ord": "utenlandsk bakgrunn",
+      "bruk": "1",
+      "bokmål": "Helt upresist. Vær så konkret som mulig."
+    },
+    {
+      "id": "9",
+      "ord": "utenlandsk opprinnelse",
+      "bruk": "1",
+      "bokmål": "Helt upresist. Vær så konkret som mulig."
+    },
+    {
+      "id": "10",
+      "ord": "utenlandsk utseende",
+      "bruk": "1",
+      "bokmål": "Helt upresist. Vær så konkret som mulig."
+    },
+    {
+      "id": "11",
+      "ord": "våre nye landsmenn",
+      "bruk": "1",
+      "bokmål": "Brukes stort sett ironisk og anbefales ikke."
+    },
+    {
+      "id": "12",
+      "ord": "andregenerasjons innvandrer",
+      "bruk": "1",
+      "bokmål": "Den primære identiteten til noen som er født og oppvokst i Norge er gjerne norsk, og det blir derfor feil å kalle vedkommende en andregenerasjons innvandrer."
+    },
+    {
+      "id": "13",
+      "ord": "tredjegenerasjons innvandrer",
+      "bruk": "1",
+      "bokmål": "Den primære identiteten til noen som er født og oppvokst i Norge er gjerne norsk, og det blir derfor feil å kalle vedkommende en andregenerasjons innvandrer."
+    },
+    {
+      "id": "14",
+      "ord": "eksotisk",
+      "bruk": "1",
+      "bokmål": "Mange forbinder noe positivt med begrepet, men det er subjektivt og upresist. Vær mer konkret."
+    },
+    {
+      "id": "15",
+      "ord": "etnisk opprinnelse",
+      "bruk": "1",
+      "bokmål": "Er et meningsløst begrep. Vi har alle etnisk opprinnelse."
+    },
+    {
+      "id": "16",
+      "ord": "fargerik",
+      "bruk": "1",
+      "bokmål": "Er meningsløse begreper når de brukes om mennesker eller en forsamling av individer."
+    },
+    {
+      "id": "17",
+      "ord": "fremmedkulturell",
+      "bruk": "1",
+      "bokmål": "Disse begrepene er i utgangspunktet negative fordi de brukes til å skape distanse eller å ekskludere. Bruken av «fremmedspråklig» om barn med et annet morsmål enn norsk, skal erstattes av «flerspråklig». I stedet for «asiatiske fremmedarbeidere», bør man bruke «asiatiske arbeidere». Men: «Fremmedspråk» brukes fortsatt om valg av undervisning i språk som tysk, spansk, fransk."
+    },
+    {
+      "id": "18",
+      "ord": "fremmedspråklig",
+      "bruk": "1",
+      "bokmål": "Disse begrepene er i utgangspunktet negative fordi de brukes til å skape distanse eller å ekskludere. Bruken av «fremmedspråklig» om barn med et annet morsmål enn norsk, skal erstattes av «flerspråklig». I stedet for «asiatiske fremmedarbeidere», bør man bruke «asiatiske arbeidere». Men: «Fremmedspråk» brukes fortsatt om valg av undervisning i språk som tysk, spansk, fransk."
+    },
+    {
+      "id": "19",
+      "ord": "fremmedarbeider",
+      "bruk": "1",
+      "bokmål": "Disse begrepene er i utgangspunktet negative fordi de brukes til å skape distanse eller å ekskludere. Bruken av «fremmedspråklig» om barn med et annet morsmål enn norsk, skal erstattes av «flerspråklig». I stedet for «asiatiske fremmedarbeidere», bør man bruke «asiatiske arbeidere». Men: «Fremmedspråk» brukes fortsatt om valg av undervisning i språk som tysk, spansk, fransk."
+    },
+    {
+      "id": "20",
+      "ord": "innvandringsmiljø",
+      "bruk": "1",
+      "bokmål": "Lite presist, bruk andre begreper. Husk at også svenske kvinner bosatt i Norge er «innvandrerkvinner»."
+    },
+    {
+      "id": "21",
+      "ord": "innvandringsbefolkning",
+      "bruk": "1",
+      "bokmål": "Lite presist, bruk andre begreper. Husk at også svenske kvinner bosatt i Norge er «innvandrerkvinner»."
+    },
+    {
+      "id": "22",
+      "ord": "innvandringskvinner",
+      "bruk": "1",
+      "bokmål": "Lite presist, bruk andre begreper. Husk at også svenske kvinner bosatt i Norge er «innvandrerkvinner»."
+    },
+    {
+      "id": "23",
+      "ord": "kvoteflykning",
+      "bruk": "1",
+      "bokmål": "Er en overføringsflyktning (se egen definisjon). Begrepet «kvoteflyktning» er utdatert."
+    }
+  ]
+}
