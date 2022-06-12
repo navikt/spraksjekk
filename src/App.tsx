@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {useEditor, EditorContent} from '@tiptap/react'
+import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
 import {
     Header,
     Lix,
@@ -16,7 +16,7 @@ import {
     Tilbakemeldinger,
     Nrkordliste,
 } from "./components"
-import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label} from "@navikt/ds-react";
+import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Button} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
@@ -25,6 +25,8 @@ import './App.css'
 
 export default () => {
     const [value, setValue] = useState("")
+    let higlighetdwords = window.getSelection().toString().toLowerCase();
+    let higlighetdwordscount = window.getSelection().toString().toLowerCase().split(/\s+/);
 
     function focusTiptap() {
         if (editor) {
@@ -52,6 +54,12 @@ export default () => {
     })
     return (
         <div>
+            {editor && <BubbleMenu className="bubble-menu" tippyOptions={{duration: 100}} editor={editor}>
+                <Button role="link" variant="secondary" onClick={(e) => {
+                    e.preventDefault();
+                    window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
+                }}>Søk i Ordbøkene.no</Button>
+            </BubbleMenu>}
             <Header/>
             <ContentContainer className="my-6">
                 <Grid>
@@ -89,7 +97,7 @@ export default () => {
                                     </Accordion>
                                 </>
                             )}
-                        <Tilbakemeldinger />
+                        <Tilbakemeldinger/>
                     </Cell>
                 </Grid>
             </ContentContainer>
