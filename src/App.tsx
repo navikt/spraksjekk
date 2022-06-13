@@ -55,10 +55,12 @@ export default () => {
     return (
         <div>
             {editor && <BubbleMenu className="bubble-menu" tippyOptions={{duration: 100}} editor={editor}>
+                {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g)  && (
                 <Button role="link" variant="secondary" onClick={(e) => {
                     e.preventDefault();
                     window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
                 }}>Søk i Ordbøkene.no</Button>
+                    )}
             </BubbleMenu>}
             <Header/>
             <ContentContainer className="my-6">
