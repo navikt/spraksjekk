@@ -50,7 +50,7 @@ function Lix(props: { content: any }) {
 
     return (
         <>
-            {lix >= 34 && lix < 100 && (
+            {lix >= 34 && lix < 100 && dotCounter > 1 && (
                 <Accordion.Item>
                     <Accordion.Header>
                         Liks {lix}: <LixMelding lix={lix}/>
