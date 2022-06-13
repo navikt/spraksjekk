@@ -16,7 +16,7 @@ import {
     Tilbakemeldinger,
     Nrkordliste,
 } from "./components"
-import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Button} from "@navikt/ds-react";
+import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
@@ -25,6 +25,7 @@ import './App.css'
 
 export default () => {
     const [value, setValue] = useState("")
+    const [mobilvisning, setMobilvisning] = useState(false)
     let higlighetdwords = window.getSelection().toString().toLowerCase();
     let higlighetdwordscount = window.getSelection().toString().toLowerCase().split(/\s+/);
 
@@ -55,21 +56,27 @@ export default () => {
     return (
         <div>
             {editor && <BubbleMenu className="bubble-menu" tippyOptions={{duration: 100}} editor={editor}>
-                {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g)  && (
-                <Button role="link" variant="secondary" onClick={(e) => {
-                    e.preventDefault();
-                    window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
-                }}>Søk i Ordbøkene.no</Button>
-                    )}
+                {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g) && (
+                    <Button role="link" variant="secondary" onClick={(e) => {
+                        e.preventDefault();
+                        window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
+                    }}>Søk i Ordbøkene.no</Button>
+                )}
             </BubbleMenu>}
             <Header/>
             <ContentContainer className="my-6">
                 <Grid>
-                    <Cell xs={12} sm={7} lg={8}>
+                    {mobilvisning == true ? (<Cell xs={12} sm={7} lg={4}>
                         <Heading spacing level="2" size="large">
                             Språksjekk
                         </Heading>
-                        <Label onClick={() => focusTiptap()} className="pb-2">Skriv eller lim inn tekst</Label>
+                        <div className="mobilvisning-container">
+                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn tekst</Label>
+                            <Switch onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
+                                    className="mobilvisning-button" size="medium" position="left">
+                                Mobilvisning
+                            </Switch>
+                        </div>
                         <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
                         <div className="pb-2">
                             <ul className="ListRemoveStyling">
@@ -77,7 +84,26 @@ export default () => {
                                 <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
                             </ul>
                         </div>
-                    </Cell>
+                    </Cell>) : (<Cell xs={12} sm={7} lg={8}>
+                        <Heading spacing level="2" size="large">
+                            Språksjekk
+                        </Heading>
+                        <div className="mobilvisning-container">
+                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn tekst</Label>
+                            <Switch onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
+                                    className="mobilvisning-button" size="medium" position="left">
+                                Mobilvisning
+                            </Switch>
+                        </div>
+                        <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
+                        <div className="pb-2">
+                            <ul className="ListRemoveStyling">
+                                <li><ShakeHands/> NAV lagrer ikke teksten.</li>
+                                <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
+                            </ul>
+                        </div>
+                    </Cell>)}
+
                     <Cell xs={12} sm={5} lg={4}>
                         <Heading spacing level="2" size="large">
                             Resultater
