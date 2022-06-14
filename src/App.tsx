@@ -72,7 +72,7 @@ export default () => {
                         </Heading>
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn tekst</Label>
-                            <Switch onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
+                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
                                     className="mobilvisning-button" size="medium" position="left">
                                 Mobilvisning
                             </Switch>
@@ -90,7 +90,7 @@ export default () => {
                         </Heading>
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn tekst</Label>
-                            <Switch onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
+                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
                                     className="mobilvisning-button" size="medium" position="left">
                                 Mobilvisning
                             </Switch>
