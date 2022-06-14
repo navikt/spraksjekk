@@ -48,13 +48,12 @@ function Begrepsordbok(props: { content: any; }) {
             {gammelnavskVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 godkjent
-                            begrep</>) : (<>{gammelnavskResultater.length} godkjente begreper</>)}
+                        {gammelnavskResultater.length == 1 ? (<>1 begrep i Begrepskatalogen</>) : (<>{gammelnavskResultater.length} begreper i Begrepskatalogen</>)}
                     </Accordion.Header>
                     <Accordion.Content>
                         <Link target="_blank"
                               href="https://data.nav.no/?Tema=%5B%22Begreper%22%5D&sortKey=%22issued%22&sortOrder=%22desc%22">
-                            Godkjente begreper<ExternalLink/>
+                            Begrepskatalogen<ExternalLink/>
                         </Link>:
                         <Accordion className="gammelnavskAccordion mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
