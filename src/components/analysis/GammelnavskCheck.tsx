@@ -25,7 +25,7 @@ function GammelnavskCheck(props: { content: any; }) {
             {gammelnavskVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 forekomst av Gammelnavsk</>) : (<>{gammelnavskResultater.length} forekomster av Gammelnavsk</>)}
+                        {gammelnavskResultater.length == 1 ? (<>1 Gammelnavsk ord</>) : (<>{gammelnavskResultater.length} Gammelnavske ord</>)}
                     </Accordion.Header>
                     <Accordion.Content>
                         <Link target="_blank" href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
