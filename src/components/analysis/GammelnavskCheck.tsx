@@ -1,6 +1,6 @@
-import { Accordion, Heading, Link } from "@navikt/ds-react";
-import { ExternalLink } from "@navikt/ds-icons";
-import { Gammelnavsk } from "../../data";
+import {Accordion, Heading, Link} from "@navikt/ds-react";
+import {ExternalLink} from "@navikt/ds-icons";
+import {Gammelnavsk} from "../../data";
 
 function GammelnavskCheck(props: { content: any; }) {
     const value = props.content;
@@ -25,12 +25,14 @@ function GammelnavskCheck(props: { content: any; }) {
             {gammelnavskVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 Gammelnavsk ord</>) : (<>{gammelnavskResultater.length} Gammelnavske ord</>)}
+                        {gammelnavskResultater.length == 1 ? (<>1 ord som bør
+                            unngås</>) : (<>{gammelnavskResultater.length} ord som bør unngås</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        <Link target="_blank" href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
+                        Ord og utrykk som bør unngås:
+                        {/*                        <Link target="_blank" href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
                             Gammelnavske ord og utrykk<ExternalLink />
-                        </Link>:
+                        </Link>:*/}
                         <Accordion className="gammelnavskAccordion mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key={gammelnavsk.id}>
@@ -46,6 +48,14 @@ function GammelnavskCheck(props: { content: any; }) {
                                             Klart språk
                                         </Heading>
                                         {gammelnavsk.klart_språk}
+                                        <Heading spacing className="pt-6"  level="4" size="xsmall">
+                                            Kilde
+                                        </Heading>
+                                        <Link target="_blank"
+                                              href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
+                                            Gammelnavsk ordliste<ExternalLink/>
+                                        </Link>
+
                                     </Accordion.Content>
                                 </Accordion.Item>
                             ))}
