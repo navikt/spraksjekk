@@ -52,7 +52,7 @@ function Begrepsordbok(props: { content: any; }) {
                             Begrepskatalogen</>) : (<>{gammelnavskResultater.length} ord i Begrepskatalogen</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        <Link target="_blank"
+                        Det er nødvendig å forstå et begrep for å kunne forklare det i klarspråk. Her finner du definisjoner fra <Link target="_blank"
                               href="https://data.nav.no/?Tema=%5B%22Begreper%22%5D&sortKey=%22issued%22&sortOrder=%22desc%22">
                             Begrepskatalogen<ExternalLink/>
                         </Link>:
