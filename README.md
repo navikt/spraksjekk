@@ -13,6 +13,9 @@ Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på Git
 
 Interne henvendelser kan sendes via Slack i kanalen #researchops.
 
+# Legg til NAV Språksjekk i egen løsning
+Se [NAV Språksjekk Interrnt](https://github.com/navikt/spraksjekk-internt)
+
 # Språksjekk funksjoner
 
 - Lange ord
