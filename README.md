@@ -14,7 +14,7 @@ Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på Git
 Interne henvendelser kan sendes via Slack i kanalen #researchops.
 
 # Legg til NAV Språkhjelp i egen løsning
-Se [NAV Språkhjelo Internt](https://github.com/navikt/spraksjekk-internt) koderepoet.
+Se [NAV Språkhjelp Internt](https://github.com/navikt/spraksjekk-internt) koderepoet.
 
 # Språkhjelp funksjoner
 
