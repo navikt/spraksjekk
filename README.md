@@ -1,7 +1,7 @@
-[NAV Språksjekk](https://navikt.github.io/spraksjekk/)
+[NAV Språkhjelp](https://navikt.github.io/spraksjekk/)
 ================
 
-[NAV Språksjekk](https://navikt.github.io/spraksjekk/) hjelper deg med å kvalitetsjekke innhold.
+[NAV Språkhjelp](https://navikt.github.io/spraksjekk/) hjelper deg med å kvalitetsjekke innhold.
 
 ---
 
@@ -13,10 +13,10 @@ Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på Git
 
 Interne henvendelser kan sendes via Slack i kanalen #researchops.
 
-# Legg til NAV Språksjekk i egen løsning
-Se [NAV Språksjekk Internt](https://github.com/navikt/spraksjekk-internt) koderepoet.
+# Legg til NAV Språkhjelp i egen løsning
+Se [NAV Språkhjelo Internt](https://github.com/navikt/spraksjekk-internt) koderepoet.
 
-# Språksjekk funksjoner
+# Språkhjelp funksjoner
 
 - Lange ord
 - Lange setninger
