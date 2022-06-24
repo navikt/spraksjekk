@@ -25,11 +25,10 @@ function GammelnavskCheck(props: { content: any; }) {
             {gammelnavskVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 ord som bør
-                            unngås</>) : (<>{gammelnavskResultater.length} ord som bør unngås</>)}
+                        {gammelnavskResultater.length == 1 ? (<>1 ord som kan byttes ut</>) : (<>{gammelnavskResultater.length} ord som kan byttes ut</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        Ord og utrykk som bør unngås:
+                        Ord og utrykk som kan byttes ut:
                         {/*                        <Link target="_blank" href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
                             Gammelnavske ord og utrykk<ExternalLink />
                         </Link>:*/}
