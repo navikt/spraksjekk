@@ -68,7 +68,7 @@ export default () => {
                 <Grid>
                     {mobilvisning == true ? (<Cell xs={12} sm={7} lg={4}>
                         <Heading spacing level="2" size="large">
-                            Språksjekk
+                            Språkhjelp
                         </Heading>
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn tekst</Label>
