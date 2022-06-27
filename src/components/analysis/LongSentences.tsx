@@ -13,7 +13,7 @@ function LongSentences(props: { content: any; }) {
         .join("\n");
     let content = rawcontent;
     
-    const sentences = content.replace(/([.?!:*\/r\/n])\s*(?=[A-Z*])/g, "$1|").split("|");
+    const sentences = content.replace(/([.?!"“:*\/r\/n])\s*(?=[A-Z*])/g, "$1|").split("|");
     let longSentencesCounter = 0;
     let myLongSentences = [];
     
