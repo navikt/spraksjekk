@@ -12,6 +12,7 @@ function LongWords(props: { content: any; }) {
     let rawcontent = props.content;
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     rawcontent = rawcontent.replaceAll("/", " / ");
+    rawcontent = rawcontent.replaceAll(/(.*)\.+[A-Za-z]{2,6}/g, "");
     rawcontent = rawcontent.replaceAll(/http(.*)/g, "");
     rawcontent = rawcontent.split("\n")
         .map((l: string) => l.length > 0 && ![".", ":", "!", "?", " "].includes(l.slice(-1))
