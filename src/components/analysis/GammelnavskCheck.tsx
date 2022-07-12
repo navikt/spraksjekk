@@ -54,7 +54,7 @@ function GammelnavskCheck(props: { content: any; }) {
                                 <Heading spacing level="4" size="xsmall">
                                     Kansellisten
                                 </Heading>
-                                <Accordion className="gammelnavskAccordion mt-4">
+                                <Accordion className="gammelnavskAccordion mt-4 mb-6">
                                     {kansellistenResultater.map((gammelnavsk, i) => (
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
