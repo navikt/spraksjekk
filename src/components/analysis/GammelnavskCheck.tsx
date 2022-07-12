@@ -34,7 +34,6 @@ function GammelnavskCheck(props: { content: any; }) {
         kansellistenVisResultater = 1;
     }
 
-
     return (
         <>
             {gammelnavskVisResultater + kansellistenVisResultater != 0 && (
@@ -46,9 +45,6 @@ function GammelnavskCheck(props: { content: any; }) {
                     </Accordion.Header>
                     <Accordion.Content>
                         <div className="pb-6">Ord og utrykk som kan byttes ut:</div>
-                        {/*                        <Link target="_blank" href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
-                            Gammelnavske ord og utrykk<ExternalLink />
-                        </Link>:*/}
                         {kansellistenResultater.length >= 1 &&
                             <>
                                 <Heading spacing level="4" size="xsmall">

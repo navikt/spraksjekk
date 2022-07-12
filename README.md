@@ -20,11 +20,15 @@ Se [NAV Språkhjelp Internt](https://github.com/navikt/sprakhjelp-internt) koder
 
 - Lange ord
 - Lange setninger
-- Lange paragrafer
+- Lange avsnitt
 - Gjentakelse av like ord etterhverandre (eg. hei hei)
 - Ordtelling
+- LIX (liks)
+
+## Ordlister
+- Gammelnavsk ordliste
+- NAVs Begrepskatalog
+- Kansellisten
+- NRKs flerkulturelle ordliste
+- NRKs ordliste for funksjonsmangfold
 - Frekvensordliste
-- NRK ordlister (json)
-- Gammelnavsk ordsliste (json)
-- Begrepskatalogen (http request)
-- LIX
