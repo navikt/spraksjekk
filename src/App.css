@@ -86,6 +86,10 @@
     float: right;
 }
 
+.bg-white {
+    background: #fff !important;
+}
+
 .pb-2 {
     padding-bottom: 0.5rem;
 }

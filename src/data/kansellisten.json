@@ -1,0 +1,754 @@
+{
+  "kansellisten": [
+    {
+      "kanselliord": "anbringe",
+      "alternativ_1": "sette, legge, plassere, feste",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "anbringelse",
+      "alternativ_1": "plassering",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "anføre",
+      "alternativ_1": "oppgi, føre opp",
+      "alternativ_2": "vise til, bemerke, nevne, påpeke; hevde, argumentere med"
+    },
+    {
+      "kanselliord": "anførsel",
+      "alternativ_1": "merknad, opplysning, påstand; innvending, ankepunkt",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "angjeldende",
+      "alternativ_1": "vedkommende, den det gjelder, de(n) aktuelle, denne, dette",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "angående",
+      "alternativ_1": "om",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "anses som",
+      "alternativ_1": "regnes som",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "anvendelse",
+      "alternativ_1": "bruk",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "avgi",
+      "alternativ_1": "Ofte: gi (fra seg)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "avhende",
+      "alternativ_1": "avstå fra, skille seg av med ved salg; selge; overføre, overdra",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "avhending",
+      "alternativ_1": "salg (det at noe skifter eier, oftest ved kjøp og salg)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "befatning",
+      "alternativ_1": "Ofte: tilknytning, medansvar",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "befordre",
+      "alternativ_1": "frakte, transportere",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "befordring",
+      "alternativ_1": "frakt, transport",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "beføye",
+      "alternativ_1": "råde over, ha råderett over, ha fullmakt til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "beføyelse",
+      "alternativ_1": "grunn, berettigelse",
+      "alternativ_2": "(del av) rettighet, rett til å rå over (greie med, gjennomføre. Ofte: fullmakt, mandat, anledning. I noen sammenhenger: kompensasjon"
+    },
+    {
+      "kanselliord": "begjære",
+      "alternativ_1": "anmode om, be om; kreve, gjøre krav på",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "begjæring",
+      "alternativ_1": "anmodning; krav",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "begunstige",
+      "alternativ_1": "tilgodese, gi fordeler",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "begunstigelse",
+      "alternativ_1": "fordel, særrett, velvilje",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "bekjentgjøre",
+      "alternativ_1": "kunngjøre, gjøre kjent",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "beliggende",
+      "alternativ_1": "som ligger, som holder til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "besiktige",
+      "alternativ_1": "ta i øyesyn for å kontrollere, undersøke",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "besiktigelse",
+      "alternativ_1": "ettersyn, undersøkelse, kontroll",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "besitte",
+      "alternativ_1": "ha (til rådighet), sitte inne med. I visse tilfeller: ha på seg eller hos seg.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "komme i besittelse av",
+      "alternativ_1": "blir eier av",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "være i besittelse av",
+      "alternativ_1": "ha, eie",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "ta i besittelse",
+      "alternativ_1": "ta, overta",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "for besittelse av",
+      "alternativ_1": "Eksempel: Han ble arrestert fordi han hadde narkotika på seg / hos seg.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "beskaffenhet",
+      "alternativ_1": "slag, art, type, karakter",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "beskikke",
+      "alternativ_1": "utnevne, oppnevne",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "beskikkelse",
+      "alternativ_1": "utnevning, oppnevning",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "besørge",
+      "alternativ_1": "sørge for å utføre noe, ordne med, ta hånd om, påta seg",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "bevirke",
+      "alternativ_1": "føre til, forårsake; få i stand, få til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "bortta",
+      "alternativ_1": "fjerne (urettmessig), ta med seg (uten lov)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "erlegge",
+      "alternativ_1": "betale",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "erleggelse",
+      "alternativ_1": "betaling",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "erverv",
+      "alternativ_1": "inntektsgivende arbeid; yrke",
+      "alternativ_2": "anskaffelse, det å skaffe seg. Ofte: kjøpe. "
+    },
+    {
+      "kanselliord": "erverve",
+      "alternativ_1": "skaffe (seg), anskaffe, tilegne (seg), få. Ofte: kjøpe. I noen sammenhenger: tjene.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "etterleve",
+      "alternativ_1": "følge, rette seg etter, lyde",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "finne å ",
+      "alternativ_1": "Ofte: kunne, ville, finne grunnlag for",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "forefinnes",
+      "alternativ_1": "finnes, være",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "foregi",
+      "alternativ_1": "opplyse noe usannferdig (som grunn, unnskyldning), påstå, hevde (uten grunn), gi seg ut for (å være), bruke som påskudd, påstå",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "forehavende",
+      "alternativ_1": "gjøremål, handling, formål, oppgave, plan",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "foreholde noen noe",
+      "alternativ_1": "gjøre noen kjent med noe, påpeke (noe betenkelig, uheldig), fortelle noen noe, gjøre oppmerksom på (gjerne med et snev av irettesettelse eller advarsel)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "foreleggelse",
+      "alternativ_1": "Ofte: varsel, orientering",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "foreligge",
+      "alternativ_1": "Ofte: finnes, være, eksistere",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "foreliggende",
+      "alternativ_1": "Ofte: den aktuelle, dette, denne, disse, som finnes",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "forestå",
+      "alternativ_1": "stå for; lede; sørge for",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "forevise",
+      "alternativ_1": "vise (frem)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "forføye over",
+      "alternativ_1": "råde over, disponere over; forvalte, bruke",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "forføyning",
+      "alternativ_1": "råderett, rådighet",
+      "alternativ_2": "bestemmelse; tiltak; vedtak"
+    },
+    {
+      "kanselliord": "formentlig",
+      "alternativ_1": "antatt, påstått",
+      "alternativ_2": "antakelig, trolig"
+    },
+    {
+      "kanselliord": "forsendelse",
+      "alternativ_1": "sending",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "forsorg",
+      "alternativ_1": "hjelp; i visse sammenhenger: det å sørge for; bekostning. Merk: Det er bedre å skrive om.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "for så vidt gjelder",
+      "alternativ_1": "når det gjelder, for",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "for så vidt som",
+      "alternativ_1": "i og med (at), fordi, siden",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "fravike",
+      "alternativ_1": "I visse sammenhenger: avstå fra, gi avkall på, forlate, flytte fra",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "fravikelse",
+      "alternativ_1": "I visse sammenhenger: avståelse, det å forlate. Ofte: utkastelse, flytting.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "fremgå",
+      "alternativ_1": "Ofte: være, stå (om noe i tekst), omtales",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "fremholde",
+      "alternativ_1": "påpeke, fremheve, gjøre oppmerksom på",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "fremkomme",
+      "alternativ_1": "komme frem, oppstå; i visse sammenhenger: være (med). Merk: Noen ganger kan dette verbet sløyfes, jf. to av eksemplene nedenfor.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "fullbyrde",
+      "alternativ_1": "fullføre, sette i verk",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "fullbyrdelse",
+      "alternativ_1": "fullføring, iverksetting",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "ha som følge",
+      "alternativ_1": "føre til, føre med seg",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "ha til følge",
+      "alternativ_1": "føre til, føre med seg",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "som en følge av at",
+      "alternativ_1": "i og med at, fordi, siden, på grunn av",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "som følge av at",
+      "alternativ_1": "i og med at, fordi, siden, på grunn av",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "gitt",
+      "alternativ_1": "på grunn av, i og med, fordi",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "gjøre gjeldende",
+      "alternativ_1": "vise til, bruke som argument, hevde, påstå",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "gjorde gjeldende at",
+      "alternativ_1": "viste til / brukte som argument at ...",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "gjenstand",
+      "alternativ_1": "Ofte: ting, sak",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "godtgjøre",
+      "alternativ_1": "betale, dekke, erstatte, refundere, tilbakebetale",
+      "alternativ_2": "dokumentere, bevise"
+    },
+    {
+      "kanselliord": "henhøre",
+      "alternativ_1": "høre inn under, høre (med) til; ha forbindelse med",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "henhørende",
+      "alternativ_1": "som hører til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "henregne",
+      "alternativ_1": "regne for å høre med til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hense",
+      "alternativ_1": "i betraktning av, med tanke på, på bakgrunn av",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hensett til",
+      "alternativ_1": "i betraktning av, med tanke på, på bakgrunn av",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "se hen til",
+      "alternativ_1": "i betraktning av, med tanke på, på bakgrunn av",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "henseende",
+      "alternativ_1": "måte, mening, sammenheng",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hensette",
+      "alternativ_1": "sette (fra seg), plassere; parkere (om kjøretøy)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "henstand",
+      "alternativ_1": "utsettelse",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "henstille til",
+      "alternativ_1": "be om, anmode om, oppfordre til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "henstilling",
+      "alternativ_1": "anmodning, oppfordring, påminnelse",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "henstå",
+      "alternativ_1": "vente, bli foreløpig utsatt",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "stå hen",
+      "alternativ_1": "vente, bli foreløpig utsatt",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hensynta",
+      "alternativ_1": "ta hensyn til; ta i betraktning",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hensyntagen",
+      "alternativ_1": "med tanke på",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "herunder",
+      "alternativ_1": "under dette, i den forbindelse",
+      "alternativ_2": "blant annet, medregnet, inklusive"
+    },
+    {
+      "kanselliord": "herværende",
+      "alternativ_1": "lokal, her på stedet, som er her, denne/dette",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hitsette",
+      "alternativ_1": "gjengi, oppgi, sitere",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hjemmehørende",
+      "alternativ_1": "som hører hjemme i/på, som ligger i/på, som bor i/på, som kommer fra ",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hva gjelder",
+      "alternativ_1": "når det gjelder",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "hvoretter",
+      "alternativ_1": "og deretter",
+      "alternativ_2": "ifølge, etter"
+    },
+    {
+      "kanselliord": "imøtese",
+      "alternativ_1": "se frem til at noe (ventet) vil skje",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "inneværende",
+      "alternativ_1": "dette, denne",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "likeledes",
+      "alternativ_1": "også, likeså",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "likevel slik at",
+      "alternativ_1": "Merk: Dette kan ofte erstattes med men. En mulighet er å dele setningen i to og eventuelt innlede neste setning med men eller NN skal likevel (ikke) ...",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "likevel ikke slik at",
+      "alternativ_1": "Merk: Dette kan ofte erstattes med men. En mulighet er å dele setningen i to og eventuelt innlede neste setning med men eller NN skal likevel (ikke) ...",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "meddele",
+      "alternativ_1": "gi",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "medføre",
+      "alternativ_1": "innebære; være; føre med seg, føre til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "i medhold av",
+      "alternativ_1": "i samsvar med, med hjemmel i, etter",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "med videre",
+      "alternativ_1": "og så videre",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "medvirke",
+      "alternativ_1": "delta, hjelpe til med, bidra til, støtte, gjøre sitt",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "nærværende",
+      "alternativ_1": "denne, dette",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "omfattes av",
+      "alternativ_1": "faller inn under. Merk: I stedet for «X omfattes av Y» kan du skrive «Y gjelder for X».",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "omfattet av",
+      "alternativ_1": "faller inn under. Merk: I stedet for «X omfattes av Y» kan du skrive «Y gjelder for X».",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "oppebære",
+      "alternativ_1": "få, ha, motta, innkassere",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "opphold",
+      "alternativ_1": "avbrudd, pause, forsinkelse i visse sammenhenger: stans",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "opphør",
+      "alternativ_1": "stans, slutt, avbrudd; i visse sammenhenger: nedleggelse",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "opphøre",
+      "alternativ_1": "ta slutt, slutte, bli nedlagt",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "oppsette",
+      "alternativ_1": "I visse sammenhenger: utsette; vente med (å gjøre noe)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "oppstille",
+      "alternativ_1": "I visse sammenhenger: sette, stille, etablere",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "ovenfornevnte",
+      "alternativ_1": "nevnte, som nevnes / er nevnt ovenfor",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "ovennevnte",
+      "alternativ_1": "nevnte, som nevnes / er nevnt ovenfor",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "påberope seg",
+      "alternativ_1": "vise til, unnskylde seg med, argumentere med",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "påkrevd",
+      "alternativ_1": "nødvendig, om å gjøre",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "påkrevet",
+      "alternativ_1": "nødvendig, om å gjøre",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "påregne",
+      "alternativ_1": "regne med, vente seg",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "riket",
+      "alternativ_1": "Oftest: landet, Norge",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "samtlige",
+      "alternativ_1": "alle",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "så fremt",
+      "alternativ_1": "hvis, om, dersom",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "således",
+      "alternativ_1": "slik; dermed",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tarv",
+      "alternativ_1": "behov, trang, interesse",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tilflyte",
+      "alternativ_1": "komme til, bli til del",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tilkjenne",
+      "alternativ_1": "Oftest: tildele (ved dom)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tilkomme",
+      "alternativ_1": "I visse sammenhenger: tilfalle (med rett), få, ha rett til, ha krav på; være (ens) sak/oppgave, være opp til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tillegge",
+      "alternativ_1": "gi, tildele, pålegge (oftest om ansvar, oppgaver og plikter)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tilligge",
+      "alternativ_1": "være ens plikt/oppgave; høre inn under",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tillike",
+      "alternativ_1": "også, i tillegg, dessuten",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tilstille",
+      "alternativ_1": "(over)sende, sende til",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "tilstå",
+      "alternativ_1": "I visse sammenhenger: gi, bevilge",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "ubesørget",
+      "alternativ_1": "ikke utført, ikke ordnet",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "uleilighet",
+      "alternativ_1": "problem, ulempe, besvær",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "undergi",
+      "alternativ_1": "innordne under; i visse sammenhenger: gjøre til gjenstand for, la gjennomgå. Merk: Ofte er dette verbet uten eget innhold: undergi behandling = behandle. Det er bedre å skrive om og bruke konkrete verb.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "undergå",
+      "alternativ_1": "gjennomgå, oppleve ",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "underrette",
+      "alternativ_1": "gi beskjed/informasjon om, informere",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "underretning",
+      "alternativ_1": "beskjed, informasjon, melding",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "undertegnede",
+      "alternativ_1": "jeg",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "unnlate",
+      "alternativ_1": "la være. Merk: Ofte er det bedre å erstatte unnlate å / unnlatt å + infinitiv med ikke + fortidsformen av det aktuelle verbet, jf. eksempelet nedenfor.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "unnlatelse",
+      "alternativ_1": "Merk: Ofte er det bedre å skrive om. Eksempel: Hvis du ikke...",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "utgjøre",
+      "alternativ_1": "Ofte: være",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "utøve",
+      "alternativ_1": "drive med; praktisere. Ofte: bruke",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "utøvelse",
+      "alternativ_1": "gjennomføring, iverksetting. Ofte: bruk.",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "vedrøre",
+      "alternativ_1": "angå, gjelde, ha sammenheng med",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "vedrørende",
+      "alternativ_1": "om, i forbindelse med, som gjelder, som henger sammen med",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "vesentlig",
+      "alternativ_1": "hovedsakelig, stort sett, for det meste, fortrinnvis",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "vitterlig",
+      "alternativ_1": "kjent, åpenlys(t)",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "yte",
+      "alternativ_1": "gi, bidra med. Ofte: betale",
+      "alternativ_2": "@"
+    },
+    {
+      "kanselliord": "ytterligere",
+      "alternativ_1": "enda (en/mer/flere), nærmere, flere",
+      "alternativ_2": "@"
+    }
+  ]
+}
