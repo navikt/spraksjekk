@@ -14,6 +14,7 @@ export { default as DublicateWords } from "./analysis/DublicateWords.tsx";
 export { default as GammelnavskCheck } from "./analysis/GammelnavskCheck.tsx";
 export { default as WordFrequency } from "./analysis/WordFrequency.tsx";
 export { default as Begrepskatalog } from "./analysis/Begrepskatalog.tsx";
+export { default as Avløserord } from "./analysis/avløserord.tsx";
 export { default as Nrkordliste } from "./analysis/Nrkordliste.tsx";
 export { default as Lix } from "./analysis/Lix.tsx";
 export { default as LixMelding } from "./analysis/LixMelding.tsx";

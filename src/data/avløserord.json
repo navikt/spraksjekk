@@ -1,0 +1,2224 @@
+{
+  "avløserord": [
+    {
+      "importord": "@",
+      "avløserord": "krøllalfa"
+    },
+    {
+      "importord": "abort",
+      "avløserord": "(IKT) programbrot/programbrudd, programavbrot/programavbrudd"
+    },
+    {
+      "importord": "access",
+      "avløserord": "tilgang"
+    },
+    {
+      "importord": "access code",
+      "avløserord": "tilgangskode"
+    },
+    {
+      "importord": "access point",
+      "avløserord": "tilgangspunkt"
+    },
+    {
+      "importord": "account manager",
+      "avløserord": "kundeleiar/kundeleder, kundeansvarleg/kundeansvarlig, kundekontakt, jf. key account manager"
+    },
+    {
+      "importord": "accountability",
+      "avløserord": "ansvarsutkreving, ansvarleggjering/ansvarliggjøring"
+    },
+    {
+      "importord": "actionfilm",
+      "avløserord": "spenningsfilm, valdsfilm/voldsfilm"
+    },
+    {
+      "importord": "adde",
+      "avløserord": "(IKT) leggje til, leggje inn / legge til, legge inn"
+    },
+    {
+      "importord": "advocacy campaign",
+      "avløserord": "påverknadskampanje/påvirkningskampanje"
+    },
+    {
+      "importord": "aftershave",
+      "avløserord": "etterbarberingsvatn/etterbarberingsvann"
+    },
+    {
+      "importord": "agenda",
+      "avløserord": "sakliste, dagsorden; (tids)planleggjar/(tids)planlegger, sjuande sans / sjuende sans"
+    },
+    {
+      "importord": "aircondition(ing)",
+      "avløserord": "klimaanlegg, luftkondisjonering"
+    },
+    {
+      "importord": "allround-",
+      "avløserord": "altmogleg-/altmulig-, allsidig, allmenn-, universal-"
+    },
+    {
+      "importord": "allrounder",
+      "avløserord": "allsidig person, altmoglegperson/altmuligperson, mangkunnig person, faktotum, «potet»"
+    },
+    {
+      "importord": "amplifier",
+      "avløserord": "forsterkar/forsterker"
+    },
+    {
+      "importord": "approach",
+      "avløserord": "tilnærming(småte), framgangsmåte, (innfalls)vinkel"
+    },
+    {
+      "importord": "art director (AD)",
+      "avløserord": "kunstnarleg leiar/kunstnerisk leder (teater m.m.); grafisk formgjevar/formgiver (rekl.); reklamesjef (arb.liv)"
+    },
+    {
+      "importord": "artist in residence",
+      "avløserord": "gjestekunstnar/gjestekunstner"
+    },
+    {
+      "importord": "assist",
+      "avløserord": "målgjevande pasning / målgivende pasning (fotball)"
+    },
+    {
+      "importord": "att: (av eng. «attention»)",
+      "avløserord": "ved, v/ (ev. skriv ein berre namnet på ny linje)"
+    },
+    {
+      "importord": "attach",
+      "avløserord": "leggje/legge ved, sende med"
+    },
+    {
+      "importord": "attachment",
+      "avløserord": "vedlegg"
+    },
+    {
+      "importord": "audition",
+      "avløserord": "prøvespel/prøvespill, rolleprøve, opptaksprøve"
+    },
+    {
+      "importord": "auditory icon",
+      "avløserord": "lydikon, lydlogo, auditivt ikon, jf. earcon"
+    },
+    {
+      "importord": "babyboom",
+      "avløserord": "babybølgje/babybølge, fødselsbølgje/fødselsbølge, jf. boom"
+    },
+    {
+      "importord": "backbone",
+      "avløserord": "stamnett (IKT)"
+    },
+    {
+      "importord": "backing",
+      "avløserord": "støtte, hjelp, oppfølging (allment); komp, akkompagnement, støtte (mus.); jf. oppbacking, backup"
+    },
+    {
+      "importord": "backlash",
+      "avløserord": "tilbakeslag, motreaksjon"
+    },
+    {
+      "importord": "backlist",
+      "avløserord": "portefølje"
+    },
+    {
+      "importord": "backlog",
+      "avløserord": "restanse, etterslep"
+    },
+    {
+      "importord": "back-office",
+      "avløserord": "kontortenar(program)/kontortjener(program) (IKT); kontorstøtte (adm.); jf. front-office"
+    },
+    {
+      "importord": "backpacker",
+      "avløserord": "ryggsekkturist"
+    },
+    {
+      "importord": "backslash",
+      "avløserord": "omvend skråstrek / omvendt skråstrek"
+    },
+    {
+      "importord": "backstage",
+      "avløserord": "bak scenen, bakscenes"
+    },
+    {
+      "importord": "backtracking",
+      "avløserord": "tilbakesporing (IKT)"
+    },
+    {
+      "importord": "backup",
+      "avløserord": "reservekopi, tryggingskopi/sikkerhetskopi (IKT); støtte, hjelp, oppfølging (allment); jf. backing"
+    },
+    {
+      "importord": "bake-off",
+      "avløserord": "ferdigheva/ferdighevet, halvsteikt/halvstekt (bakverk som er klargjord for heving og steiking); ferdigsteikt/ferdigstekt; bakekonkurranse (tv-program)"
+    },
+    {
+      "importord": "balanced scorecard (BSC)",
+      "avløserord": "balansert målstyring (BMS)"
+    },
+    {
+      "importord": "barbecue",
+      "avløserord": "(hage)grill; grillmat; grillfest"
+    },
+    {
+      "importord": "base camp",
+      "avløserord": "baseleir"
+    },
+    {
+      "importord": "beacon",
+      "avløserord": "mobilfyr"
+    },
+    {
+      "importord": "beacon technology",
+      "avløserord": "mobilfyrteknologi, nettvardeteknologi"
+    },
+    {
+      "importord": "bear market",
+      "avløserord": "bjørnemarknad/bjørnemarked "
+    },
+    {
+      "importord": "benchmark",
+      "avløserord": "referansenivå, -norm, -verdi, styringsmål, (allment/nær.liv); fastmerke (landmåling)"
+    },
+    {
+      "importord": "benchmark test",
+      "avløserord": "yteprøve (IKT)"
+    },
+    {
+      "importord": "benchmarking",
+      "avløserord": "referansemåling, referansenormering, styringsnormering"
+    },
+    {
+      "importord": "best practice",
+      "avløserord": "mønsterpraksis, bestepraksis, beste praksis"
+    },
+    {
+      "importord": "bias",
+      "avløserord": "slagside"
+    },
+    {
+      "importord": "binge watching",
+      "avløserord": "seriemaraton, seriefråtsing, tv-fråtsing"
+    },
+    {
+      "importord": "blackout",
+      "avløserord": "jernteppe, minnesvinn (allment); mellombels medvitstap / midlertidig bevissthetstap (med.); stort straumbrot / stort strømbrudd (tekn.)"
+    },
+    {
+      "importord": "blame game",
+      "avløserord": "skuldspel/skyldspill, syndebukkspel/syndebukkspill"
+    },
+    {
+      "importord": "board(s) (reklame)",
+      "avløserord": "(reklame)tavle, reklame(skilt)"
+    },
+    {
+      "importord": "bodybuilder",
+      "avløserord": "kroppsbyggjar/kroppsbygger"
+    },
+    {
+      "importord": "bodybuilding",
+      "avløserord": "kroppsbygging"
+    },
+    {
+      "importord": "bodyguard",
+      "avløserord": "livvakt"
+    },
+    {
+      "importord": "booke (inn)",
+      "avløserord": "bestille, tinge; reservere; skrive seg inn"
+    },
+    {
+      "importord": "booking",
+      "avløserord": "bestilling, tinging; reservasjon"
+    },
+    {
+      "importord": "bookmark",
+      "avløserord": "bokmerke, favoritt"
+    },
+    {
+      "importord": "boom",
+      "avløserord": "høgkonjunktur/høykonjunktur (økon.), brå oppgang, brå oppsving (allment); i ordsammensetninger gjerne -bølgje/-bølge, jf. babyboom"
+    },
+    {
+      "importord": "booster",
+      "avløserord": "forsterkar/forsterker, effektforsterkar/effektforsterker, sluttforsterkar/sluttforsterker"
+    },
+    {
+      "importord": "boote",
+      "avløserord": "starte (datamaskin), kaldstarte, jf. restart"
+    },
+    {
+      "importord": "brain drain",
+      "avløserord": "hjerneflukt"
+    },
+    {
+      "importord": "brainstorming",
+      "avløserord": "idédugnad, idémyldring"
+    },
+    {
+      "importord": "branding",
+      "avløserord": "merkevarebygging (nær.liv); brennemerking (tatoveringsteknikk)"
+    },
+    {
+      "importord": "breakdown",
+      "avløserord": "samanbrot/sammenbrudd, havari, driftsfeil, oppdeling, spesifikasjon"
+    },
+    {
+      "importord": "breaking news",
+      "avløserord": "siste nytt, nyhendevarsel/nyhetsvarsel, akkurat no / akkurat nå, no:/nå, siste"
+    },
+    {
+      "importord": "browse",
+      "avløserord": "bla, bla igjennom, lese"
+    },
+    {
+      "importord": "browse path",
+      "avløserord": "katalogstig/katalogsti, filstig/filsti (IKT), jf. search path"
+    },
+    {
+      "importord": "browser / web browser",
+      "avløserord": "nettlesar/nettleser"
+    },
+    {
+      "importord": "bucket list",
+      "avløserord": "kisteliste"
+    },
+    {
+      "importord": "bug",
+      "avløserord": "programfeil, jf. debug"
+    },
+    {
+      "importord": "bull market",
+      "avløserord": "oksemarknad/oksemarked "
+    },
+    {
+      "importord": "business-to-government (B2G)/ business-to-administration (B2A)",
+      "avløserord": "handel med offentleg sektor / handel med offentlig sektor"
+    },
+    {
+      "importord": "business-to-business (B2B)",
+      "avløserord": "handel mellom næringsdrivande / handel mellom næringsdrivende, handel mellom bedrifter"
+    },
+    {
+      "importord": "business-to-consumer (B2C)",
+      "avløserord": "detaljhandel"
+    },
+    {
+      "importord": "business-to-government (B2G)",
+      "avløserord": "sal til det offentlege / salg til det offentlige (= business-to-administration (B2A))"
+    },
+    {
+      "importord": "business case",
+      "avløserord": "prosjektgrunngjeving/prosjektbegrunnelse, verksemdsscenario/virksomhetsscenario, forretningsgrunnlag, konseptgrunnlag"
+    },
+    {
+      "importord": "button",
+      "avløserord": "(jakke)merke (allment); knapp (IKT)"
+    },
+    {
+      "importord": "by-line (byline)",
+      "avløserord": "signatur"
+    },
+    {
+      "importord": "byline picture",
+      "avløserord": "signaturbilete/signaturbilde"
+    },
+    {
+      "importord": "cageball",
+      "avløserord": "burball, burfotball"
+    },
+    {
+      "importord": "call center (call centre)",
+      "avløserord": "kundesenter, kundetelefon, jf. help desk"
+    },
+    {
+      "importord": "calling",
+      "avløserord": "dørtelefon (på hus)"
+    },
+    {
+      "importord": "canyon",
+      "avløserord": "gjel, kløft, juv"
+    },
+    {
+      "importord": "canyoning",
+      "avløserord": "juving, juvvandring"
+    },
+    {
+      "importord": "cap",
+      "avløserord": "skyggelue, kaps"
+    },
+    {
+      "importord": "carjacking",
+      "avløserord": "bilkapring"
+    },
+    {
+      "importord": "carport",
+      "avløserord": "open garasje / åpen garasje, bilbås"
+    },
+    {
+      "importord": "case",
+      "avløserord": "(jf. case study:) kasus, tilfelle, sak, emne, eksempeltilfelle (-person osv.), døme(tilfelle), typeeksempel, typedøme; undersøkelsesobjekt, granskingsemne"
+    },
+    {
+      "importord": "case study",
+      "avløserord": "kasusstudie, tilfellestudie, eksempelstudie, dømestudie"
+    },
+    {
+      "importord": "cash management",
+      "avløserord": "likviditetsstyring"
+    },
+    {
+      "importord": "catering",
+      "avløserord": "matlevering; selskapsmat"
+    },
+    {
+      "importord": "catwalk",
+      "avløserord": "motemolo"
+    },
+    {
+      "importord": "chat",
+      "avløserord": "nettprat"
+    },
+    {
+      "importord": "chatbot",
+      "avløserord": "samtalerobot, praterobot"
+    },
+    {
+      "importord": "chatte",
+      "avløserord": "prate på nettet, nettprate, (humor.:) tjatte, tjatre"
+    },
+    {
+      "importord": "child grooming",
+      "avløserord": "barnelokking"
+    },
+    {
+      "importord": "chip",
+      "avløserord": "(data)brikke, integrert krins / integrert krets, jf. integrated circuit, microchip"
+    },
+    {
+      "importord": "chips",
+      "avløserord": "potetgull, potetlauv/potetløv; (mer allment:) flak, spon"
+    },
+    {
+      "importord": "chunk",
+      "avløserord": "klump, bit"
+    },
+    {
+      "importord": "citizen science",
+      "avløserord": "folkeforsking, grasrotforsking"
+    },
+    {
+      "importord": "clickbait",
+      "avløserord": "klikkagn, klikkfang"
+    },
+    {
+      "importord": "clou (frå fransk)",
+      "avløserord": "høgdepunkt/høydepunkt, glansnummer"
+    },
+    {
+      "importord": "cloud computing",
+      "avløserord": "nettsky (IKT)"
+    },
+    {
+      "importord": "clue",
+      "avløserord": "nøkkel, kjerne, poeng"
+    },
+    {
+      "importord": "clutch",
+      "avløserord": "koplingspedal, kløtsj"
+    },
+    {
+      "importord": "coach",
+      "avløserord": "trenar/trener, rettleiar/veileder, leiar/leder, rådgjevar/rådgiver"
+    },
+    {
+      "importord": "coache",
+      "avløserord": "trene, rettleie/veilede"
+    },
+    {
+      "importord": "co-branded",
+      "avløserord": "samprodukt"
+    },
+    {
+      "importord": "co-branding",
+      "avløserord": "merkevaresamarbeid, merkesamarbeid"
+    },
+    {
+      "importord": "cole slaw",
+      "avløserord": "kålsalat"
+    },
+    {
+      "importord": "comeback",
+      "avløserord": "tilbakekomst"
+    },
+    {
+      "importord": "common sense",
+      "avløserord": "sunn fornuft, folkevett/folkevit"
+    },
+    {
+      "importord": "community",
+      "avløserord": "lokalsamfunn, nettgruppe, nettsamfunn"
+    },
+    {
+      "importord": "community-ansvarleg",
+      "avløserord": "nettvert, redaktør, nettstammeansvarleg/-ansvarlig, nettgruppe-, nettsamfunn- (på Internett)"
+    },
+    {
+      "importord": "competitive edge",
+      "avløserord": "konkurransefordel, konkurranseforsprang"
+    },
+    {
+      "importord": "compliance",
+      "avløserord": "etterleving, regeletterleving/regeletterlevelse, regeloppfylling/regeloppfyllelse, samsvar"
+    },
+    {
+      "importord": "compliance auditing",
+      "avløserord": "etterlevingsrevisjon/etterlevelsesrevisjon, samsvarsrevisjon"
+    },
+    {
+      "importord": "connector",
+      "avløserord": "port, utgang, kontakt, koplingspunkt (maskinvare); portnar/portner, bindeledd (programvare)"
+    },
+    {
+      "importord": "content management",
+      "avløserord": "innhaldsstyring/innholdsstyring"
+    },
+    {
+      "importord": "content marketing",
+      "avløserord": "innhaldsmarknadsføring/innholdsmarkedsføring"
+    },
+    {
+      "importord": "controller",
+      "avløserord": "rekneskapsleiar/regnskapsleder, økonomioppfølgjar/økonomioppfølger, kontrollar/kontroller"
+    },
+    {
+      "importord": "cookie",
+      "avløserord": "informasjonskapsel, infokapsel, kjeks (IKT)"
+    },
+    {
+      "importord": "copyright",
+      "avløserord": "opphavsrett"
+    },
+    {
+      "importord": "corner",
+      "avløserord": "hjørnespark, hjørnekast (idr.)"
+    },
+    {
+      "importord": "corporate governance",
+      "avløserord": "eigarstyring og selskapsleiing / eierstyring og selskapsledelse"
+    },
+    {
+      "importord": "corporate social responsibility (CSR)",
+      "avløserord": "samfunnsansvaret til bedrifta / bedriftens samfunnsansvar"
+    },
+    {
+      "importord": "cottage cheese",
+      "avløserord": "hytteost"
+    },
+    {
+      "importord": "cover charge",
+      "avløserord": "inngangspengar/inngangspenger, kuvertavgift, entré"
+    },
+    {
+      "importord": "crabsticks",
+      "avløserord": "krabbepinnar/krabbepinner"
+    },
+    {
+      "importord": "cracker",
+      "avløserord": "datapirat"
+    },
+    {
+      "importord": "crew",
+      "avløserord": "stab, arbeidslag, gruppe, besetning, mannskap"
+    },
+    {
+      "importord": "cross media publishing",
+      "avløserord": "tverrpublisering, tverrmedial publisering"
+    },
+    {
+      "importord": "crowd funding",
+      "avløserord": "kronerulling (på nett), pengeinnsamling, folkefinansiering"
+    },
+    {
+      "importord": "crowdsourcing",
+      "avløserord": "(nett)dugnad"
+    },
+    {
+      "importord": "cruise control",
+      "avløserord": "fartshaldar/fartsholder"
+    },
+    {
+      "importord": "cyber-",
+      "avløserord": "kyber- (brukt om datamaskiner og Internett-universet)"
+    },
+    {
+      "importord": "cyberstalking",
+      "avløserord": "nettforfølging/nettforfølgelse, nett-elting, nettsjikane, netterror"
+    },
+    {
+      "importord": "data mart",
+      "avløserord": "datatorg, datamarknad/datamarked"
+    },
+    {
+      "importord": "data warehouse",
+      "avløserord": "datavarehus"
+    },
+    {
+      "importord": "deadline",
+      "avløserord": "leveringsfrist, tidsfrist, frist"
+    },
+    {
+      "importord": "debug",
+      "avløserord": "avluse; feilsøkje/feilsøke; rette programfeil, fjerne programlus; jf. bug"
+    },
+    {
+      "importord": "dedicated",
+      "avløserord": "engasjert, ihuga, heilhjarta/helhjertet (allment); dedisert (litt.); dedikert, (særskilt) tilordna/tilordnet og tilpassa/tilpasset (IKT), laga/laget for"
+    },
+    {
+      "importord": "default",
+      "avløserord": "standard(verdi), standardinnstilling (grunn-, forhånds-, normal-, leverandør-, produsent-)"
+    },
+    {
+      "importord": "degrowth",
+      "avløserord": "nedvekst"
+    },
+    {
+      "importord": "design",
+      "avløserord": "\r\n(med vekt på estetikk og funksjon, som i moderne design:) formgjeving/formgivning, (estetisk/kunstnarleg/kunstnerisk) utforming; (i tekniske fag også:) konstruksjon\r\n"
+    },
+    {
+      "importord": "designer",
+      "avløserord": "formgjevar/formgiver"
+    },
+    {
+      "importord": "desktop publishing (DTP)",
+      "avløserord": "skrivebordssetjing/skrivebordssetting"
+    },
+    {
+      "importord": "direct mail",
+      "avløserord": "direktereklame"
+    },
+    {
+      "importord": "disc-at-once",
+      "avløserord": "heilbrenning/helbrenning, einøktsbrenning/enøktsbrenning, jf. session-at-once"
+    },
+    {
+      "importord": "disc-jockey (DJ)",
+      "avløserord": "plateprater, platesnurrer, platekusk, plateryttar/platerytter, diskjockey"
+    },
+    {
+      "importord": "disclaimer",
+      "avløserord": "ansvarsfråskriving, atterhald / ansvarsfraskrivelse, forbehold"
+    },
+    {
+      "importord": "display",
+      "avløserord": "skjerm, teiknrute/tegnrute, (tekst)vindauge/(tekst)vindu (t.d. på telefonen)"
+    },
+    {
+      "importord": "disruptive technology",
+      "avløserord": "brytningsteknologi"
+    },
+    {
+      "importord": "docu-soap",
+      "avløserord": "dokumentarsåpe, dokusåpe"
+    },
+    {
+      "importord": "dot (uttalt «dått» etter eng.)",
+      "avløserord": "punktum (i Internett- og e-postadresser)"
+    },
+    {
+      "importord": "dotcom-selskap",
+      "avløserord": "nettselskap"
+    },
+    {
+      "importord": "double backslash",
+      "avløserord": "dobbel omvend skråstrek / dobbelt omvendt skråstrek, jf. backslash"
+    },
+    {
+      "importord": "double slash",
+      "avløserord": "dobbel skråstrek / dobbelt skråstrek, jf. slash"
+    },
+    {
+      "importord": "doughnut",
+      "avløserord": "(amerikansk) smultring"
+    },
+    {
+      "importord": "downlight",
+      "avløserord": "(innfelt) nedlys"
+    },
+    {
+      "importord": "drawback",
+      "avløserord": "ulempe, bakdel, mangel"
+    },
+    {
+      "importord": "driver",
+      "avløserord": "drivar/driver (norsk uttale), styreprogram"
+    },
+    {
+      "importord": "dummy",
+      "avløserord": "modell, prototyp, falsk, uekte, skinn-"
+    },
+    {
+      "importord": "e(-)",
+      "avløserord": "e- (= elektronisk) (IKT)"
+    },
+    {
+      "importord": "earcon",
+      "avløserord": "lydikon, lydlogo, jf. auditory icon"
+    },
+    {
+      "importord": "e-book reader, e-book device",
+      "avløserord": "lesebrett"
+    },
+    {
+      "importord": "e-business",
+      "avløserord": "e-forretningar/e-forretninger, e-forretningsdrift; e-forretning (om det enkelte firmaet)"
+    },
+    {
+      "importord": "e-commerce",
+      "avløserord": "e-handel, netthandel"
+    },
+    {
+      "importord": "economies of agglomeration",
+      "avløserord": "samlokaliseringsfordelar/samlokaliseringsfordeler"
+    },
+    {
+      "importord": "editor",
+      "avløserord": "redigeringsprogram (IKT)"
+    },
+    {
+      "importord": "e-mail",
+      "avløserord": "jf. mail"
+    },
+    {
+      "importord": "embed",
+      "avløserord": "bygge inn / byggje inn, setje/sette, felle"
+    },
+    {
+      "importord": "employer branding",
+      "avløserord": "arbeidsgjevarprofilering/arbeidsgiverprofilering"
+    },
+    {
+      "importord": "empower",
+      "avløserord": "myndiggjere/myndiggjøre, styrke, gje/gi styrke, setje i stand / sette i stand"
+    },
+    {
+      "importord": "empowerment",
+      "avløserord": "myndiggjering/myndiggjøring, styrking (f.eks. pasientstyrking)"
+    },
+    {
+      "importord": "enter(tast)",
+      "avløserord": "linjeskift(tast), retur(tast)"
+    },
+    {
+      "importord": "entertainer",
+      "avløserord": "underhaldar/underholder, underhaldningsartist/underholdningsartist, enterteinar/enterteiner"
+    },
+    {
+      "importord": "equalizer",
+      "avløserord": "tonekontroll; utjamnar/utjevner, utjamningsfilter/utjevningsfilter, jf. graphic equalizer"
+    },
+    {
+      "importord": "e-reader",
+      "avløserord": "lesebrett"
+    },
+    {
+      "importord": "establishment, the",
+      "avløserord": "det beståande / det bestående (samfunnet), etablissementet"
+    },
+    {
+      "importord": "e-tailer",
+      "avløserord": "e-taljist, nettkjøpmann"
+    },
+    {
+      "importord": "eyeliner",
+      "avløserord": "kajal, augeblyant/øyeblyant, jf. lipliner"
+    },
+    {
+      "importord": "facility management",
+      "avløserord": "næringsforvaltning, eigedomsforvaltning/eiendomsforvaltning, bygningsforvaltning"
+    },
+    {
+      "importord": "faction",
+      "avløserord": "faksjon (fakta + fiksjon)"
+    },
+    {
+      "importord": "factoring",
+      "avløserord": "faktoring, fakturakreditt"
+    },
+    {
+      "importord": "fair",
+      "avløserord": "rimeleg/rimelig, rettferdig, real, ærleg/ærlig"
+    },
+    {
+      "importord": "fair play",
+      "avløserord": "ærleg spel /ærlig spill, rettferdig behandling"
+    },
+    {
+      "importord": "fan",
+      "avløserord": "tilhengjar/tilhenger, beundrar/beundrer"
+    },
+    {
+      "importord": "fanklubb",
+      "avløserord": "beundrarklubb/beundrerklubb, venelag"
+    },
+    {
+      "importord": "fast food",
+      "avløserord": "kjappmat, hurtigmat, snøggmat, gatekjøkkenmat, jf. junk food"
+    },
+    {
+      "importord": "fatbike",
+      "avløserord": "tjukksykkel"
+    },
+    {
+      "importord": "feature",
+      "avløserord": "preg-, bakgrunns-, dokumentar-, interesse-, tema- (i ymse samansetjingar, t.d. med -artikkel , -journalistikk)"
+    },
+    {
+      "importord": "feed",
+      "avløserord": "straum/strøm (i sosiale medium/sosiale medier)"
+    },
+    {
+      "importord": "feedback",
+      "avløserord": "tilbakemelding, respons, reaksjon, tilbakekopling, svar"
+    },
+    {
+      "importord": "fight",
+      "avløserord": "(hard eller intens) kamp, hardt oppgjer / hardt oppgjør, fait"
+    },
+    {
+      "importord": "fighte",
+      "avløserord": "slåss/slåst, kjempe, konkurrere, faite"
+    },
+    {
+      "importord": "fighter",
+      "avløserord": "kjempar/kjemper, faitar/faiter"
+    },
+    {
+      "importord": "fighting spirit",
+      "avløserord": "kampånd, kampglød, gå-på-humør"
+    },
+    {
+      "importord": "file server",
+      "avløserord": "filtenar/filtjener"
+    },
+    {
+      "importord": "finish",
+      "avløserord": "sluttspurt; finpuss; finisj"
+    },
+    {
+      "importord": "fintech",
+      "avløserord": "finansteknologi"
+    },
+    {
+      "importord": "flight",
+      "avløserord": "(fly)avgang, (fly)rute, flyging/flygning, flytur"
+    },
+    {
+      "importord": "flight recorder",
+      "avløserord": "ferd(s)skrivar/ferd(s)skriver"
+    },
+    {
+      "importord": "flip-over",
+      "avløserord": "arktavle, papirtavle, stativblokk, flippover"
+    },
+    {
+      "importord": "flop",
+      "avløserord": "fiasko, flopp"
+    },
+    {
+      "importord": "flow",
+      "avløserord": "strøm; (psyk.:) flyt"
+    },
+    {
+      "importord": "flow chart",
+      "avløserord": "flytskjema, flytdiagram"
+    },
+    {
+      "importord": "food processor",
+      "avløserord": "kjøkkenmaskin, matmølle, matprosessor, matkvern"
+    },
+    {
+      "importord": "food truck",
+      "avløserord": "matvogn, matbil"
+    },
+    {
+      "importord": "footer",
+      "avløserord": "botntekst/bunntekst, jf. header (IKT)"
+    },
+    {
+      "importord": "franchise",
+      "avløserord": "forhandlarrett/forhandlerrett, agentur"
+    },
+    {
+      "importord": "franchising",
+      "avløserord": "forhandlarrettssamarbeid/forhandlerrettssamarbeid, forhandlaravtale/forhandleravtale"
+    },
+    {
+      "importord": "freelance",
+      "avløserord": "frilans (adj.); frilansar/frilanser (subst.)"
+    },
+    {
+      "importord": "frisbee",
+      "avløserord": "disk, skjenebrett, sendeplate"
+    },
+    {
+      "importord": "front-office",
+      "avløserord": "kontorklient(program), jf. backoffice"
+    },
+    {
+      "importord": "frozen shoulder",
+      "avløserord": "frosen skulder / frossen skulder (med.)"
+    },
+    {
+      "importord": "fun fact",
+      "avløserord": "morofakta"
+    },
+    {
+      "importord": "fund raising",
+      "avløserord": "pengeinnsamling, innsamlingsaksjon"
+    },
+    {
+      "importord": "fuzzy logic",
+      "avløserord": "ullen logikk, flytande / flytende logikk, lodden logikk, linn logikk"
+    },
+    {
+      "importord": "gadget",
+      "avløserord": "dings"
+    },
+    {
+      "importord": "gate",
+      "avløserord": "utgang (på flyplass)"
+    },
+    {
+      "importord": "geek",
+      "avløserord": "fagidiot; særling; dust"
+    },
+    {
+      "importord": "General Data Protection Regulation (GDPR)",
+      "avløserord": "personvernforordningen (PVF)"
+    },
+    {
+      "importord": "ghost writer",
+      "avløserord": "skyggeforfatter / skuggeforfattar"
+    },
+    {
+      "importord": "Global Positioning System (GPS)",
+      "avløserord": "globalt posisjonsystem (GPS)"
+    },
+    {
+      "importord": "golden goal",
+      "avløserord": "førstemålssiger/førstemålsseier, «første målet vinn» / «første målet vinner»"
+    },
+    {
+      "importord": "goodwill",
+      "avløserord": "velvilje, godvilje"
+    },
+    {
+      "importord": "governance",
+      "avløserord": "styring (og ettersyn); delaktighetsstyring; styresett"
+    },
+    {
+      "importord": "graphic equalizer",
+      "avløserord": "grafisk tonekontroll, jf. equalizer"
+    },
+    {
+      "importord": "gründer",
+      "avløserord": "grunnleggjar/grunnlegger (nøytralt); jobbar/jobber (negativt); jobbskapar/jobbskaper (positivt)"
+    },
+    {
+      "importord": "guide",
+      "avløserord": "omvisar/omviser, turleder/turleiar, reiseleiar/reiseleder, gaid"
+    },
+    {
+      "importord": "guts",
+      "avløserord": "(ha) mot, pågangsmot, vågemot, karakter(styrke), tæl, nerk; (være/vere) modig, djerv, uredd, ikke/ikkje skvetten"
+    },
+    {
+      "importord": "hacker",
+      "avløserord": "datasnok"
+    },
+    {
+      "importord": "handout",
+      "avløserord": "støtteark"
+    },
+    {
+      "importord": "handsfree",
+      "avløserord": "handfri/håndfri (mobiltelefon)"
+    },
+    {
+      "importord": "hanggliding",
+      "avløserord": "hengeflyging, hengegliding"
+    },
+    {
+      "importord": "hangover",
+      "avløserord": "fyllesjuke, tømmermenn, bakrus"
+    },
+    {
+      "importord": "hard disk",
+      "avløserord": "platelager, harddisk"
+    },
+    {
+      "importord": "hardware",
+      "avløserord": "maskinvare"
+    },
+    {
+      "importord": "hashtag",
+      "avløserord": "emneknagg"
+    },
+    {
+      "importord": "heade",
+      "avløserord": "nikke, skalle, stange, hedde"
+    },
+    {
+      "importord": "header",
+      "avløserord": "topptekst, jf. footer (IKT)"
+    },
+    {
+      "importord": "heading",
+      "avløserord": "(fotball) hovudstøyt/hodestøt"
+    },
+    {
+      "importord": "headhunte",
+      "avløserord": "handplukke/håndplukke, drive hovudjakt / drive hodejakt"
+    },
+    {
+      "importord": "headhunting",
+      "avløserord": "handplukking/håndplukking, hovudjakt/hodejakt, utveljing/utvelging"
+    },
+    {
+      "importord": "heading",
+      "avløserord": "overskrift, tittel (media); nikking, hedding (idr.)"
+    },
+    {
+      "importord": "heavy rock",
+      "avløserord": "tungrock"
+    },
+    {
+      "importord": "help desk",
+      "avløserord": "hjelpesentral, hjelpeteneste/hjelpetjeneste, kundehjelp, svarteneste/svartjeneste, jf. call center og support"
+    },
+    {
+      "importord": "hibernation mode",
+      "avløserord": "dvalemodus (IKT)"
+    },
+    {
+      "importord": "highlight",
+      "avløserord": "høgdepunkt/høydepunkt"
+    },
+    {
+      "importord": "hi-tech",
+      "avløserord": "høgteknologisk/høyteknologisk"
+    },
+    {
+      "importord": "holding company",
+      "avløserord": "eigarselskap/eierselskap, holdingselskap"
+    },
+    {
+      "importord": "horrorfilm",
+      "avløserord": "grøssar/grøsser, skrekkfilm"
+    },
+    {
+      "importord": "host (med eng. uttale)",
+      "avløserord": "(web)hotell, vert, vertsteneste/vertstjeneste (IKT)"
+    },
+    {
+      "importord": "hoste (med eng. uttale)",
+      "avløserord": "drifte, leige ut / leie ut [plass til] programvare og bruk av programvare på datamaskiner over Internett, jf. web hotel"
+    },
+    {
+      "importord": "hosted (med eng. uttale)",
+      "avløserord": "utleigd/utleid"
+    },
+    {
+      "importord": "hosting (med eng. uttale)",
+      "avløserord": "netthotell, utleige/utleie"
+    },
+    {
+      "importord": "hostmaster",
+      "avløserord": "namnemeister/navnemester, namneforvaltar/navneforvalter (for særskilde Internett-tenester)"
+    },
+    {
+      "importord": "hotlist",
+      "avløserord": "favorittliste, yndlingsbokmerke/yndlingsbokmerker (IKT)"
+    },
+    {
+      "importord": "house",
+      "avløserord": "huse (andres operative maskinvare i eigne lokale mot betaling), jf. hoste"
+    },
+    {
+      "importord": "housed",
+      "avløserord": "husa/huset"
+    },
+    {
+      "importord": "housing",
+      "avløserord": "husing"
+    },
+    {
+      "importord": "human resource (HR)",
+      "avløserord": "personalressurs"
+    },
+    {
+      "importord": "human resource management (HRM)",
+      "avløserord": "leiing av personalressursar  / ledelse av personalressurser, leiing av menneskelege ressursar (LMR) / Ledelse av menneskelige ressurser (LMR)"
+    },
+    {
+      "importord": "human resource manager",
+      "avløserord": "personalsjef"
+    },
+    {
+      "importord": "image",
+      "avløserord": "uttrykk, (personleg/personlig) stil, profil, omdømme, ry"
+    },
+    {
+      "importord": "impact",
+      "avløserord": "samfunnsbidrag"
+    },
+    {
+      "importord": "implementere",
+      "avløserord": "setje i verk/iverksette, setje ut i livet / sette ut i livet, gjennomføre"
+    },
+    {
+      "importord": "India pale ale",
+      "avløserord": "indiaøl"
+    },
+    {
+      "importord": "influencer",
+      "avløserord": "påverkar/påvirker"
+    },
+    {
+      "importord": "infotainment",
+      "avløserord": "nyheitsunderhaldning/nyhetsunderholdning, tabloid-"
+    },
+    {
+      "importord": "in-house",
+      "avløserord": "intern-, firma- (i samansetjingar), sjølv/selv, på huset"
+    },
+    {
+      "importord": "inline skates",
+      "avløserord": "(«linjeskøyter», dvs. rulleskøyter med hjulene på rekke:) rulleskøyter"
+    },
+    {
+      "importord": "inside trading",
+      "avløserord": "innsidehandel"
+    },
+    {
+      "importord": "insider",
+      "avløserord": "innsidar/innsider"
+    },
+    {
+      "importord": "instant coffee",
+      "avløserord": "pulverkaffi/pulverkaffe"
+    },
+    {
+      "importord": "instant message",
+      "avløserord": "direktemelding, hurtigmelding, snøggmelding"
+    },
+    {
+      "importord": "instant messaging (IM)",
+      "avløserord": "direktemeldingst(j)eneste, snøggmeldingsteneste/hurtigmeldingstjeneste"
+    },
+    {
+      "importord": "integrated circuit",
+      "avløserord": "integrert krins / integrert krets, (data)brikke, jf. chip"
+    },
+    {
+      "importord": "interface",
+      "avløserord": "grensesnitt"
+    },
+    {
+      "importord": "Internet service provider (ISP)",
+      "avløserord": "internettilbydar/internettilbyder"
+    },
+    {
+      "importord": "jetlag",
+      "avløserord": "jet(t)sjuke/jet(t)syke, døgnville/døgnvillhet"
+    },
+    {
+      "importord": "jingle",
+      "avløserord": "lydvignett, lydlogo"
+    },
+    {
+      "importord": "joint venture",
+      "avløserord": "samføretak/samforetak, fellesføretak/fellesforetak, samarbeidsprosjekt"
+    },
+    {
+      "importord": "joystick",
+      "avløserord": "styrespak, kontrollspak"
+    },
+    {
+      "importord": "junk food",
+      "avløserord": "søppelmat, usunn mat, gatekjøkkenmat, jf. fast food"
+    },
+    {
+      "importord": "just-in-time-prinsippet",
+      "avløserord": "i-rett(e)-tid-prinsippet, der-og-da-prinsippet"
+    },
+    {
+      "importord": "keeper",
+      "avløserord": "målvakt"
+    },
+    {
+      "importord": "key account manager",
+      "avløserord": "hovudkundeansvarleg/hovedkundeansvarlig, nøkkelkundeleiar/nøkkelkundeleder, nøkkelkundekonsulent"
+    },
+    {
+      "importord": "keyboard",
+      "avløserord": "tangentbrett (mus.); tastatur (IKT)"
+    },
+    {
+      "importord": "kick-off",
+      "avløserord": "avspark (idr.); oppstart, start (allment)"
+    },
+    {
+      "importord": "killer application («killer app»)",
+      "avløserord": "tetprogram, vinnarprogram/vinnerprogram (IKT)"
+    },
+    {
+      "importord": "knowhow",
+      "avløserord": "fagkunnskap, faginnsikt, ekspertise"
+    },
+    {
+      "importord": "knowledge management",
+      "avløserord": "kunnskapsleiing/kunnskapsledelse, kompetanseleiing/kompetanseledelse"
+    },
+    {
+      "importord": "laptop",
+      "avløserord": "berbar (datamaskin, pc) / bærbar (datamaskin, pc) (IKT)"
+    },
+    {
+      "importord": "layout",
+      "avløserord": "grafisk utforming, oppsett, bladbunad, jf. design"
+    },
+    {
+      "importord": "leading zero",
+      "avløserord": "leiande null / ledende null, førestilt null / foranstilt null"
+    },
+    {
+      "importord": "leasing",
+      "avløserord": "leigefinansiering/leiefinansiering"
+    },
+    {
+      "importord": "leisure wear",
+      "avløserord": "fritidsklede/fritidsklær"
+    },
+    {
+      "importord": "lighter",
+      "avløserord": "(sigarett-)tennar/(sigarett-)tenner"
+    },
+    {
+      "importord": "link",
+      "avløserord": "lenkje/lenke, peikar/peker, kopling (IKT)"
+    },
+    {
+      "importord": "lipgloss",
+      "avløserord": "leppeglans"
+    },
+    {
+      "importord": "lipliner",
+      "avløserord": "leppeblyant, leppekajal, jf. eyeliner"
+    },
+    {
+      "importord": "literacy",
+      "avløserord": "skriftkultur, skriftkunne/skriftkyndighet, tekstkompetanse, litterasitet"
+    },
+    {
+      "importord": "literature review",
+      "avløserord": "litteraturgjennomgang"
+    },
+    {
+      "importord": "live",
+      "avløserord": "direktesend/direktesendt, direkte"
+    },
+    {
+      "importord": "loin",
+      "avløserord": "(om fisk:) rygg (f.eks. torskerygg), ryggstykke, ryggfilet (uten halestykket)"
+    },
+    {
+      "importord": "mail",
+      "avløserord": "e-post, e-brev, e-melding, jf. e-mail"
+    },
+    {
+      "importord": "maile",
+      "avløserord": "sende e-post, e-poste"
+    },
+    {
+      "importord": "mailing list",
+      "avløserord": "e-postliste"
+    },
+    {
+      "importord": "mainstream-",
+      "avløserord": "hovudstraums-/hovedstrøms-, midtstims-, midtstraums-/midtstrøms-"
+    },
+    {
+      "importord": "makerspace",
+      "avløserord": "folkeverkstad/folkeverksted"
+    },
+    {
+      "importord": "makeup",
+      "avløserord": "sminke"
+    },
+    {
+      "importord": "management",
+      "avløserord": "leiing/ledelse (bedrifts-), styring"
+    },
+    {
+      "importord": "management consultant",
+      "avløserord": "bedriftsrådgjevar/bedriftsrådgiver, strategirådgjevar/strategirådgiver"
+    },
+    {
+      "importord": "manager",
+      "avløserord": "leiar/leder, sjef, forretningsførar/forretningsfører, impresario, arrangør"
+    },
+    {
+      "importord": "manual",
+      "avløserord": "handbok/håndbok, bruksrettleiing/bruksanvisning"
+    },
+    {
+      "importord": "marketing",
+      "avløserord": "marknadsføring/markedsføring"
+    },
+    {
+      "importord": "mashup",
+      "avløserord": "nettfletting (IKT)"
+    },
+    {
+      "importord": "match",
+      "avløserord": "kamp (idr.); jambyrdig motstandar / jevnbyrdig motstander, make; (full) klaff"
+    },
+    {
+      "importord": "matche",
+      "avløserord": "passe saman med / passe sammen med, stå til; komme opp mot, måle seg med"
+    },
+    {
+      "importord": "m-commerce (mobile commerce)",
+      "avløserord": "m-handel, mobilhandel"
+    },
+    {
+      "importord": "memory card",
+      "avløserord": "minnekort"
+    },
+    {
+      "importord": "memory stick",
+      "avløserord": "minnepinne"
+    },
+    {
+      "importord": "metallic",
+      "avløserord": "(med) metallglans"
+    },
+    {
+      "importord": "microchip",
+      "avløserord": "(data)brikke, mikrobrikke, integrert krins / integrert krets, jf. chip, integrated circuit"
+    },
+    {
+      "importord": "mindfulness",
+      "avløserord": "oppmerksomt nærvær / merksamt nærvær, ans"
+    },
+    {
+      "importord": "mnemonic",
+      "avløserord": "hugsesymbol/huskesymbol, hugseregel/huskeregel"
+    },
+    {
+      "importord": "mnemonics",
+      "avløserord": "hugsekunst/huskekunst, hugseteknikk/husketeknikk"
+    },
+    {
+      "importord": "moderator",
+      "avløserord": "debattleder, ordstyrer"
+    },
+    {
+      "importord": "mountain bike",
+      "avløserord": "terrengsykkel, jf. offroad-sykkel"
+    },
+    {
+      "importord": "mountain biking",
+      "avløserord": "terrengsykling, jf. offroad-sykkel"
+    },
+    {
+      "importord": "multiple choice (question)",
+      "avløserord": "fleirvalsoppgåve/flervalgsoppgave"
+    },
+    {
+      "importord": "multitasking",
+      "avløserord": "fleiroppgåvekjøring/fleroppgavekjøring (IKT)"
+    },
+    {
+      "importord": "multi touch-screen",
+      "avløserord": "fleirtrykksskjerm/flertrykksskjerm (IKT)"
+    },
+    {
+      "importord": "musical",
+      "avløserord": "musikkspel/musikkspill, musikal"
+    },
+    {
+      "importord": "must",
+      "avløserord": "nødvendigheit/nødvendighet"
+    },
+    {
+      "importord": "mute",
+      "avløserord": "dempar/demper"
+    },
+    {
+      "importord": "network governance",
+      "avløserord": "nettverksstyring"
+    },
+    {
+      "importord": "news on demand",
+      "avløserord": "nyheiter etter (ved) behov, på bestilling / nyheter etter (ved) behov, på bestilling, jf. on demand"
+    },
+    {
+      "importord": "newsfeed",
+      "avløserord": "nyheitsvarsling/nyhetsvarsling, -mating, -straum/strøm"
+    },
+    {
+      "importord": "newsgroup",
+      "avløserord": "temagruppe, nyheitsgruppe/nyhetsgruppe, diskusjonsgruppe (IKT)"
+    },
+    {
+      "importord": "no-platform",
+      "avløserord": "scenenekt"
+    },
+    {
+      "importord": "notebook",
+      "avløserord": "berbar (datamaskin) / bærbar (datamaskin) (IKT)"
+    },
+    {
+      "importord": "offline (off-line)",
+      "avløserord": "nedkopla/nedkoplet, fråkopla/frakoplet, jf. online"
+    },
+    {
+      "importord": "off-piste",
+      "avløserord": "laussnøkjøring/løssnøkjøring, frikjøring"
+    },
+    {
+      "importord": "offroad-sykkel",
+      "avløserord": "terrengsykkel, jf. mountain bike"
+    },
+    {
+      "importord": "on demand",
+      "avløserord": "etter behov, behovs-, -bestillings-, tingings-, på førespurnad / på forespørsel, jf. news, print, publishing og video on demand"
+    },
+    {
+      "importord": "on-hook dialing",
+      "avløserord": "rørlaus oppringing / rørløs oppringing"
+    },
+    {
+      "importord": "online (on-line)",
+      "avløserord": "oppkopla/oppkoplet, tilkopla/tilkoplet, på nettet (IKT); tilgjengeleg/tilgjengelig eller «med» (sjargong), jf. offline"
+    },
+    {
+      "importord": "open access",
+      "avløserord": "open/åpen tilgang"
+    },
+    {
+      "importord": "oppbacking",
+      "avløserord": "oppbakking, jf. backing"
+    },
+    {
+      "importord": "option",
+      "avløserord": "val/valg, alternativ, moglegheit/mulighet (allment); opsjon (økon./pol.); funksjonsval/funksjonsvalg (IKT)"
+    },
+    {
+      "importord": "outlet",
+      "avløserord": "fabrikkutsalg, merkevareutsalg"
+    },
+    {
+      "importord": "outsider",
+      "avløserord": "utsidar/utsider"
+    },
+    {
+      "importord": "out-of-office message",
+      "avløserord": "fråværsmelding/fraværsmelding"
+    },
+    {
+      "importord": "outsourcing",
+      "avløserord": "utkontraktering, tenesteutsetjing/tjenesteutsetting "
+    },
+    {
+      "importord": "overhead",
+      "avløserord": "skriftprosjektør, lysarkvisar/lysarkviser (tekn.); lysark, transparent (tekn.); administrasjonskostnader, felleskostnader (økon.)"
+    },
+    {
+      "importord": "overheadprojektor",
+      "avløserord": "skriftprosjektør, lysarkvisar/lysarkviser"
+    },
+    {
+      "importord": "pager",
+      "avløserord": "personsøkjar/personsøker"
+    },
+    {
+      "importord": "paper",
+      "avløserord": "forskingsartikkel/forskningsartikkel, vitskapleg innlegg/vitenskapelig innlegg"
+    },
+    {
+      "importord": "paramedic",
+      "avløserord": "paramedisinar/paramedisiner (person)"
+    },
+    {
+      "importord": "paring",
+      "avløserord": "(mobil) parkopling, paring"
+    },
+    {
+      "importord": "patch",
+      "avløserord": "reparasjonsfil, programfiks, feilfiks (IKT)"
+    },
+    {
+      "importord": "patchwork",
+      "avløserord": "lappeteknikk, jf. quilt"
+    },
+    {
+      "importord": "patient (care) pathway",
+      "avløserord": "pasientforløp/pasientløype"
+    },
+    {
+      "importord": "peer review",
+      "avløserord": "fagfellevurdering, kollegavurdering"
+    },
+    {
+      "importord": "peer-to-peer (P2P) network",
+      "avløserord": "likenett, jambyrdsnett/jevnbyrdsnett"
+    },
+    {
+      "importord": "peptalk",
+      "avløserord": "peppreik, pepprat, kveikpreik, piffprat"
+    },
+    {
+      "importord": "performance-kunst",
+      "avløserord": "framføringskunst"
+    },
+    {
+      "importord": "phishing",
+      "avløserord": "nettfisking"
+    },
+    {
+      "importord": "pink",
+      "avløserord": "rosa, lyseraud/lyserød"
+    },
+    {
+      "importord": "pitch",
+      "avløserord": "innsal/innsalg"
+    },
+    {
+      "importord": "plug-in",
+      "avløserord": "programtillegg"
+    },
+    {
+      "importord": "podcast",
+      "avløserord": "podkast, poddkast"
+    },
+    {
+      "importord": "pole position",
+      "avløserord": "beste startspor"
+    },
+    {
+      "importord": "policy",
+      "avløserord": "politikk, taktikk, retningslinjer"
+    },
+    {
+      "importord": "polish",
+      "avløserord": "poler(ings)middel, pussemiddel, polisj"
+    },
+    {
+      "importord": "pop-up menu",
+      "avløserord": "oppsprettsmeny, sprettoppmeny, hurtigmeny, snøggmeny"
+    },
+    {
+      "importord": "poster",
+      "avløserord": "plakat"
+    },
+    {
+      "importord": "preset",
+      "avløserord": "førehandssetje/forhåndssette, førehandsinnstille/forhåndsinnstille"
+    },
+    {
+      "importord": "prime time",
+      "avløserord": "beste sendetid"
+    },
+    {
+      "importord": "print on demand (POD)",
+      "avløserord": "trykk etter behov (TEB), bestillingstrykk, tingingstrykk, jf. publishing on demand"
+    },
+    {
+      "importord": "printe (ut)",
+      "avløserord": "skrive ut"
+    },
+    {
+      "importord": "printer",
+      "avløserord": "skrivar/skriver"
+    },
+    {
+      "importord": "process flow",
+      "avløserord": "prosessflyt"
+    },
+    {
+      "importord": "producer",
+      "avløserord": "produsent, produksjonsleiar/produksjonsleder, produksjonsansvarleg/produksjonsansvarlig"
+    },
+    {
+      "importord": "promotion",
+      "avløserord": "salsframstøyt/salgsframstøt; (fram)hjelp, fremming, promotering"
+    },
+    {
+      "importord": "proof of concept (POC)",
+      "avløserord": "konseptprov/konseptbevis"
+    },
+    {
+      "importord": "proxy server",
+      "avløserord": "mellom(ledds)tenar/mellom(ledds)tjener"
+    },
+    {
+      "importord": "public service (broadcasting)",
+      "avløserord": "allmennkringkasting"
+    },
+    {
+      "importord": "publishing on demand",
+      "avløserord": "medieuavhengig publisering, medienøytral publisering, jf. print on demand og on demand"
+    },
+    {
+      "importord": "pulled pork",
+      "avløserord": "plukksvin"
+    },
+    {
+      "importord": "push-up",
+      "avløserord": "armheving"
+    },
+    {
+      "importord": "quilt",
+      "avløserord": "(vattert) lappeteppe, jf. patchwork"
+    },
+    {
+      "importord": "quilte",
+      "avløserord": "sy (vattert) lappeteppe, jf. patchwork"
+    },
+    {
+      "importord": "rack",
+      "avløserord": "reol (mus., IKT, allment)"
+    },
+    {
+      "importord": "rail",
+      "avløserord": "takreling, takhaldar/takholder (tekn.); reling (allment)"
+    },
+    {
+      "importord": "ransomware",
+      "avløserord": "løysepengevirus/løsepengevirus, utpressingsvirus, gisselskadevare"
+    },
+    {
+      "importord": "raw food",
+      "avløserord": "råmat"
+    },
+    {
+      "importord": "reality-TV",
+      "avløserord": "røyndoms-TV/virkelighets-TV, dokusåpe"
+    },
+    {
+      "importord": "recovery",
+      "avløserord": "(helse) tilfrisking/tilfriskning"
+    },
+    {
+      "importord": "referee",
+      "avløserord": "fagkonsulent (i tidsskrift)"
+    },
+    {
+      "importord": "refill",
+      "avløserord": "påfyll"
+    },
+    {
+      "importord": "release",
+      "avløserord": "plateslepp/plateslipp"
+    },
+    {
+      "importord": "release notes",
+      "avløserord": "produktmerknader, versjonsmerknader (IKT)"
+    },
+    {
+      "importord": "release party",
+      "avløserord": "(plate)sleppfest/(plate)slippfest"
+    },
+    {
+      "importord": "research",
+      "avløserord": "(for)undersøking/(for)undersøkelse, kjeldearbeid/kildearbeid"
+    },
+    {
+      "importord": "reset",
+      "avløserord": "tilbakestille, nullstille"
+    },
+    {
+      "importord": "restart",
+      "avløserord": "omstart, varmstart, jf. boote (IKT)"
+    },
+    {
+      "importord": "retail version",
+      "avløserord": "forhandlarversjon/forhandlerversjon, salsversjon/salgsversjon (IKT)"
+    },
+    {
+      "importord": "retweet",
+      "avløserord": "gjentvitre/oppattvitre, retvitre"
+    },
+    {
+      "importord": "reverse engineering",
+      "avløserord": "omvend/omvendt utvikling, tilbakevikling, inversutvikling"
+    },
+    {
+      "importord": "road-movie",
+      "avløserord": "landevegsfilm/landeveisfilm"
+    },
+    {
+      "importord": "roaming",
+      "avløserord": "nettveksling, nett(om)streifing, nettgjesting"
+    },
+    {
+      "importord": "rockhopping",
+      "avløserord": "(i havpadling:) brot(t)leik, brot(t)padling"
+    },
+    {
+      "importord": "roller blades",
+      "avløserord": "(eg. inline skates «linjeskøyter») rulleskøyter"
+    },
+    {
+      "importord": "roll-on",
+      "avløserord": "(kule)deodorant, (uformelt:) rulledeo"
+    },
+    {
+      "importord": "roll-up",
+      "avløserord": "rullebanner, rulleplakat"
+    },
+    {
+      "importord": "RSS feed",
+      "avløserord": "nyheitsvarsling/nyhetsvarsling, -mating"
+    },
+    {
+      "importord": "sample",
+      "avløserord": "punktprøve (tekn.); lydsnutt, videosnutt (mus., media); utval/utvalg (samf.vit.)"
+    },
+    {
+      "importord": "sampling",
+      "avløserord": "punktprøving (tekn.); digitalisering (mus., media); direkte utdeling av vareprøver (nær.liv)"
+    },
+    {
+      "importord": "scanne",
+      "avløserord": "skanne, avlese"
+    },
+    {
+      "importord": "scanner",
+      "avløserord": "skannar/skanner, avlesar/avleser"
+    },
+    {
+      "importord": "scoop",
+      "avløserord": "varp, nyheitskupp/nyhetskupp, skup"
+    },
+    {
+      "importord": "scrapie",
+      "avløserord": "skrapesjuke/skrapesyke (hos sau)"
+    },
+    {
+      "importord": "screen dump",
+      "avløserord": "skjermdump, skjermbiletkopi/skjermbildekopi"
+    },
+    {
+      "importord": "screen shot",
+      "avløserord": "skjermdump, skjermbiletkopi/skjermbildekopi"
+    },
+    {
+      "importord": "screening",
+      "avløserord": "masseundersøking"
+    },
+    {
+      "importord": "scroll bar",
+      "avløserord": "rullefelt, rullesjakt (IKT)"
+    },
+    {
+      "importord": "search path",
+      "avløserord": "søkjebane/søkebane, søkjeveg/søkevei (i operativsystem), jf. browse path"
+    },
+    {
+      "importord": "segway",
+      "avløserord": "ståhjuling"
+    },
+    {
+      "importord": "selfie",
+      "avløserord": "sjølis, selvis / sjølvis, selvportrett, sjølportrett / sjølvportrett"
+    },
+    {
+      "importord": "server",
+      "avløserord": "tenar/tjener, jf. webserver"
+    },
+    {
+      "importord": "session-at-once",
+      "avløserord": "delbrenning, øktbrenning, fleirøktsbrenning/flerøktsbrenning, jf. disc-at-once"
+    },
+    {
+      "importord": "shoppe",
+      "avløserord": "handle, gå på handletur, gå i butikkar / gå i butikker"
+    },
+    {
+      "importord": "shoppingsenter",
+      "avløserord": "kjøpesenter, butikksenter"
+    },
+    {
+      "importord": "short message system (SMS)",
+      "avløserord": "kortmeldingsteneste/kortmeldingstjeneste (for SMS-meldingar, dss. tekstmeldingar)"
+    },
+    {
+      "importord": "sidebar",
+      "avløserord": "sidestolpe, infostolpe (IKT)"
+    },
+    {
+      "importord": "single touch-screen",
+      "avløserord": "enkelttrykksskjerm/eittrykksskjerm (IKT)"
+    },
+    {
+      "importord": "site (web -)",
+      "avløserord": "vevstad/vevsted, nettstad/nettsted"
+    },
+    {
+      "importord": "skateboard",
+      "avløserord": "rullebrett"
+    },
+    {
+      "importord": "skins",
+      "avløserord": "drakt, tema, ham (IKT), jf. themes"
+    },
+    {
+      "importord": "skippe",
+      "avløserord": "late vere / la være, hoppe over, sløyfe, kutte ut"
+    },
+    {
+      "importord": "slash (/)",
+      "avløserord": "skråstrek"
+    },
+    {
+      "importord": "slippery slope",
+      "avløserord": "(overført:) skråplan"
+    },
+    {
+      "importord": "slow motion",
+      "avløserord": "sakte film, langsam kino / langsom kino"
+    },
+    {
+      "importord": "smoothie",
+      "avløserord": "smudi"
+    },
+    {
+      "importord": "snowboard",
+      "avløserord": "snøbrett"
+    },
+    {
+      "importord": "software",
+      "avløserord": "programvare"
+    },
+    {
+      "importord": "sound",
+      "avløserord": "klangfarge, lydstil"
+    },
+    {
+      "importord": "soundtrack",
+      "avløserord": "lydspor"
+    },
+    {
+      "importord": "sous vide",
+      "avløserord": "vakuumlaga mat / vakuumlaget mat, vakuumtilverka mat / vakuumtilberedt mat, vakuumtrekt mat / vakuumtrukket mat, vakuumtilverking / vakuumtilberedelse"
+    },
+    {
+      "importord": "space management",
+      "avløserord": "varestyring"
+    },
+    {
+      "importord": "space manager",
+      "avløserord": "vareansvarleg/vareansvarlig"
+    },
+    {
+      "importord": "spam",
+      "avløserord": "søppelpost"
+    },
+    {
+      "importord": "speaking notes",
+      "avløserord": "handnotat/håndnotat, foredragsmanus, talemanus, talenotat/talenotater"
+    },
+    {
+      "importord": "spin-off",
+      "avløserord": "avspinn, sideverknad/sidevirkning, sideeffekt"
+    },
+    {
+      "importord": "spoiler alert",
+      "avløserord": "plottblottar/plottblotter, røpealarm, røpevarsel"
+    },
+    {
+      "importord": "spotlight",
+      "avløserord": "punktlys, punktlampe, spotlys, rampelys"
+    },
+    {
+      "importord": "stakeholder",
+      "avløserord": "interessent"
+    },
+    {
+      "importord": "stalker",
+      "avløserord": "forfølger/forfølgjar, (nyno. òg:) eltar"
+    },
+    {
+      "importord": "standby",
+      "avløserord": "klar, parat, i beredskap (allment); beredskaps- (-fartøy, -troppar o.a.) (mil.)"
+    },
+    {
+      "importord": "standbybillett",
+      "avløserord": "sjansebillett"
+    },
+    {
+      "importord": "standbymodus",
+      "avløserord": "ventemodus, kvilemodus/hvilemodus (tekn., IKT)"
+    },
+    {
+      "importord": "stand-in",
+      "avløserord": "reserve"
+    },
+    {
+      "importord": "stand-up-komikar/stand-up-komiker",
+      "avløserord": "spontankomikar/spontankomiker, ståoppkomikar/ståoppkomiker"
+    },
+    {
+      "importord": "stashe (seg opp)",
+      "avløserord": "stase (seg opp), pynte (seg)"
+    },
+    {
+      "importord": "storyboard",
+      "avløserord": "dreiebok"
+    },
+    {
+      "importord": "stout",
+      "avløserord": "stautøl"
+    },
+    {
+      "importord": "streaming",
+      "avløserord": "strøyming/strømming (direkteavspeling/direkteavspilling av video og lyd over Internett) (IKT)"
+    },
+    {
+      "importord": "street credibility",
+      "avløserord": "gatetruverd/gatetroverdighet"
+    },
+    {
+      "importord": "stretchlaken",
+      "avløserord": "strekklaken"
+    },
+    {
+      "importord": "sub-woofer",
+      "avløserord": "sub-bass(høgtalar)/sub-bass(høyttaler)"
+    },
+    {
+      "importord": "sudden death",
+      "avløserord": "førstemålsspel/førstemålsspill"
+    },
+    {
+      "importord": "sunk cost",
+      "avløserord": "tapt kostnad, irreversibel kostnad"
+    },
+    {
+      "importord": "supply-båt",
+      "avløserord": "forsyningsbåt"
+    },
+    {
+      "importord": "support",
+      "avløserord": "brukarstøtte/brukerstøtte (IKT); støtte (allment); jf. help desk"
+    },
+    {
+      "importord": "supporter",
+      "avløserord": "tilhengjar/tilhenger, støttemedlem"
+    },
+    {
+      "importord": "supporterklubb",
+      "avløserord": "støtteklubb, tilhengjarklubb/tilhengerklubb, jf. fanklubb"
+    },
+    {
+      "importord": "surround sound",
+      "avløserord": "kringlyd"
+    },
+    {
+      "importord": "swimming pool",
+      "avløserord": "symjebasseng/svømmebasseng"
+    },
+    {
+      "importord": "system(s) engineering",
+      "avløserord": "systemutvikling"
+    },
+    {
+      "importord": "tab",
+      "avløserord": "arkfane, fane, flik; etikett, merkelapp; tabb"
+    },
+    {
+      "importord": "tablet (PC)",
+      "avløserord": "nettbrett"
+    },
+    {
+      "importord": "take-away-food",
+      "avløserord": "hentemat, ta-med-mat"
+    },
+    {
+      "importord": "talkshow",
+      "avløserord": "prateprogram"
+    },
+    {
+      "importord": "tap screen",
+      "avløserord": "trykkskjerm"
+    },
+    {
+      "importord": "tape (s.)",
+      "avløserord": "limband/limbånd, lydband/lydbånd, videoband/videobånd, teip"
+    },
+    {
+      "importord": "tape (v.)",
+      "avløserord": "ta opp, teipe"
+    },
+    {
+      "importord": "target man",
+      "avløserord": "oppspelspunkt/oppspillspunkt (idr.)"
+    },
+    {
+      "importord": "team",
+      "avløserord": "(arbeids)lag, (samarbeids)gruppe"
+    },
+    {
+      "importord": "teambuilding",
+      "avløserord": "lagutvikling, lagbygging"
+    },
+    {
+      "importord": "teamwork",
+      "avløserord": "lagarbeid, samarbeid"
+    },
+    {
+      "importord": "teaser",
+      "avløserord": "smakebit"
+    },
+    {
+      "importord": "telemarketing",
+      "avløserord": "telefonsal/telefonsalg, marknadsføring/markedsføring (over telefon)"
+    },
+    {
+      "importord": "themes",
+      "avløserord": "tema, drakt, ham (IKT), jf. skins"
+    },
+    {
+      "importord": "think-tank",
+      "avløserord": "tenkjesmie/tenkesmie, tenkjetank/tenketank"
+    },
+    {
+      "importord": "throbber",
+      "avløserord": "puls-ikon (ikon i nettlesarar som er animert under søk el. nedlasting)"
+    },
+    {
+      "importord": "thumbnail",
+      "avløserord": "miniatyrbilete/miniatyrbilde, knøttbilete/knøttbilde (IKT)"
+    },
+    {
+      "importord": "time",
+      "avløserord": "berekne/beregne, planleggje/planlegge, taime"
+    },
+    {
+      "importord": "time manager",
+      "avløserord": "tidsplanleggjar/tidsplanlegger"
+    },
+    {
+      "importord": "time-outtime outtimeout",
+      "avløserord": "det å gå i tenkjeboksen / det å gå i tenkeboksen, pause (ped.), tidsavbrot / tidsavbrudd (IKT)"
+    },
+    {
+      "importord": "timeshare",
+      "avløserord": "tidspart, deltids(bruks)rett; parts-/andels- (t.d. -båt, -hytte)"
+    },
+    {
+      "importord": "timesharing",
+      "avløserord": "tidsdeling, deltidsbruk; deltids(l)eige/deltids(l)eie"
+    },
+    {
+      "importord": "toastmaster",
+      "avløserord": "visevert, kjøkemeister/kjøkemester"
+    },
+    {
+      "importord": "to-do-liste",
+      "avløserord": "gjereliste/gjøreliste, gjeremålsliste/gjøremålsliste"
+    },
+    {
+      "importord": "tooltip",
+      "avløserord": "verktøyhjelp (IKT)"
+    },
+    {
+      "importord": "touch screen",
+      "avløserord": "trykkskjerm"
+    },
+    {
+      "importord": "touchpad",
+      "avløserord": "styreplate, peikeplate/pekeplate (IKT)"
+    },
+    {
+      "importord": "trainee",
+      "avløserord": "opplæringstilsett/opplæringsansatt, opplæringskandidat, aspirant, praktikant"
+    },
+    {
+      "importord": "trick or treat",
+      "avløserord": "knask eller knep, godteri eller fanteri, snask eller snusk, grøss eller godteri"
+    },
+    {
+      "importord": "trigge",
+      "avløserord": "setje i gang / sette i gang, utløyse/utløse"
+    },
+    {
+      "importord": "trigger",
+      "avløserord": "utløysande faktor / utløsende faktor, inspirasjonskjelde/inspirasjonskilde"
+    },
+    {
+      "importord": "true crime",
+      "avløserord": "krim frå røyndomen / krim fra virkeligheten, røyndomskrim/virkelighetskrim, krimdokumentar, dokukrim"
+    },
+    {
+      "importord": "turnover",
+      "avløserord": "gjennomtrekk, utskifting, gjennomstrøyming/gjennomstrømming "
+    },
+    {
+      "importord": "tutorial",
+      "avløserord": "rettleiing/veiledning"
+    },
+    {
+      "importord": "tweet",
+      "avløserord": "(verb:) tvitre, kvitre"
+    },
+    {
+      "importord": "tweet",
+      "avløserord": "(substantiv:) tvitring, tvitt, twittermelding, kvitter, kvitring"
+    },
+    {
+      "importord": "twitter",
+      "avløserord": "se tweet"
+    },
+    {
+      "importord": "underscore",
+      "avløserord": "understrek, understreking"
+    },
+    {
+      "importord": "understatement",
+      "avløserord": "underdriving/underdrivelse"
+    },
+    {
+      "importord": "urbanist",
+      "avløserord": "byplanleggjar/byplanlegger"
+    },
+    {
+      "importord": "video on demand",
+      "avløserord": "video på førespurnad / video på forespørsel; videotorg, tingingsvideo/bestillingsvideo"
+    },
+    {
+      "importord": "voice actor",
+      "avløserord": "stemmelegger"
+    },
+    {
+      "importord": "voice mail",
+      "avløserord": "talepost"
+    },
+    {
+      "importord": "voice over",
+      "avløserord": "fortellerstemme, kommentatorstemme"
+    },
+    {
+      "importord": "voice response",
+      "avløserord": "talesvar, innvalssørvis/innvalgssørvis, talerespons"
+    },
+    {
+      "importord": "voucher",
+      "avløserord": "studiebillett, studiesertifikat (utd.); (hotell)kupong"
+    },
+    {
+      "importord": "walkover",
+      "avløserord": "autoopprykk; gratissiger/gratisseier"
+    },
+    {
+      "importord": "weasel",
+      "avløserord": "beltebil"
+    },
+    {
+      "importord": "web designer",
+      "avløserord": "vevutformar/vevutformer, nettskreddar/nettskredder, vevarkitekt, nettsidearkitekt"
+    },
+    {
+      "importord": "web hotel",
+      "avløserord": "vevhotell"
+    },
+    {
+      "importord": "web pad",
+      "avløserord": "nettbrett"
+    },
+    {
+      "importord": "webinar",
+      "avløserord": "nettseminar"
+    },
+    {
+      "importord": "webmaster",
+      "avløserord": "nettredaktør, nettadministrator, nettmeister/nettmester"
+    },
+    {
+      "importord": "webserver",
+      "avløserord": "nettenar/nettjener, vevtenar/vevtjener"
+    },
+    {
+      "importord": "webside",
+      "avløserord": "nettside"
+    },
+    {
+      "importord": "weekend",
+      "avløserord": "helg, vekeslutt/ukeslutt"
+    },
+    {
+      "importord": "whiplash",
+      "avløserord": "nakkesleng"
+    },
+    {
+      "importord": "whistleblower",
+      "avløserord": "varslar/varsler"
+    },
+    {
+      "importord": "whiteboard",
+      "avløserord": "tusjtavle"
+    },
+    {
+      "importord": "whiteboard-tusj",
+      "avløserord": "tavletusj"
+    },
+    {
+      "importord": "wicked problem",
+      "avløserord": "gjenstridig problem"
+    },
+    {
+      "importord": "widescreen",
+      "avløserord": "breiskjerm/bredskjerm"
+    },
+    {
+      "importord": "windsurfing",
+      "avløserord": "brettsegling/brettseiling"
+    },
+    {
+      "importord": "wizard",
+      "avløserord": "vegvisar/veiviser, los (i dataprogram)"
+    },
+    {
+      "importord": "workflow",
+      "avløserord": "arbeidsflyt, arbeidsgang"
+    },
+    {
+      "importord": "workshop",
+      "avløserord": "arbeidsseminar, arbeidsmøte, verkstad/verksted (f.eks. idéverkstad/idéverksted)"
+    },
+    {
+      "importord": "workspace",
+      "avløserord": "arbeidsområde, arbeidsflate (IKT)"
+    },
+    {
+      "importord": "World Wide Web",
+      "avløserord": "Verdsveven/Verdensveven"
+    },
+    {
+      "importord": "worst case scenario",
+      "avløserord": "i verste fall, verste fall-scenario, verste tilfelle-scenario"
+    },
+    {
+      "importord": "zero waste",
+      "avløserord": "null avfall, nullavfall, null svinn, nullsvinn"
+    }
+  ]
+}

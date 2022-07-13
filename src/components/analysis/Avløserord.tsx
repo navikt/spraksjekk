@@ -1,16 +1,16 @@
 import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
-import {Nrkordliste} from "../../data";
+import {Avløserord} from "../../data";
 
 function GammelnavskCheck(props: { content: any; }) {
     const value = props.content;
-    let gammelnavsk = Nrkordliste;
+    let gammelnavsk = Avløserord;
     let gammelnavskResultater;
 
     const keyword = value;
     if (keyword !== "") {
-        const results = gammelnavsk.nrkordliste.filter((gammelnavsk) => {
-            return keyword.toLowerCase().match("\\b" + gammelnavsk.ord.toLowerCase() + "\\b")
+        const results = gammelnavsk.avløserord.filter((gammelnavsk) => {
+            return keyword.toLowerCase().match("\\b" + gammelnavsk.importord.toLowerCase() + "\\b")
         });
         gammelnavskResultater = results;
     }
@@ -25,33 +25,28 @@ function GammelnavskCheck(props: { content: any; }) {
             {gammelnavskVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 mulig støtende
-                            ord</>) : (<>{gammelnavskResultater.length} mulige støtende ord</>)}
+                        {gammelnavskResultater.length == 1 ? (<>1 mulig
+                            avløserord</>) : (<>{gammelnavskResultater.length} mulige avløserord</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        Ord som kan være støtende, eller som bør brukes med varsomhet:
+                        Norske ord som kan brukes i stedet for de tilsvarende engelske:
                         <Accordion className="gammelnavskAccordion mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
-                                <Accordion.Item key={gammelnavsk.id}>
+                                <Accordion.Item key="">
                                     <Accordion.Header className="gammelnavskAccordion">
-                                        <span className="firstLetter">{gammelnavsk.ord}</span>
+                                        <span className="firstLetter">{gammelnavsk.importord}</span>
                                     </Accordion.Header>
                                     <Accordion.Content className="gammelnavskAccordionContent">
                                         <Heading spacing level="4" size="xsmall">
-                                            Forklaring
+                                            Avløserord
                                         </Heading>
-                                        <p>{gammelnavsk.bokmål}</p>
-{/*                                        {gammelnavsk.bruk = "2" &&
-                                            <>
-                                                <p>Vær varsom eller oppmerksom når du bruker dette ordet.</p>
-                                            </>
-                                        }*/}
+                                        <p>{gammelnavsk.avløserord}</p>
                                         <Heading spacing level="4" size="xsmall">
                                             Kilde
                                         </Heading>
                                         {<Link target="_blank"
-                                               href={gammelnavsk.lenke}>
-                                            {gammelnavsk.kilde}<ExternalLink/>
+                                               href="https://www.sprakradet.no/sprakhjelp/Skriverad/Avloeysarord/">
+                                            På godt norsk – avløserord<ExternalLink/>
                                         </Link>}
                                     </Accordion.Content>
                                 </Accordion.Item>

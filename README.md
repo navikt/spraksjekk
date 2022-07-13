@@ -28,7 +28,8 @@ Se [NAV Språkhjelp Internt](https://github.com/navikt/sprakhjelp-internt) koder
 ## Ordlister
 - Gammelnavsk ordliste
 - NAVs Begrepskatalog
-- Kansellisten
+- Kansellisten (Språkrådet)
+- Avløserord (Språkrådet)
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
 - Frekvensordliste

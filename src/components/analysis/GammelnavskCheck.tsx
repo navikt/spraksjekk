@@ -13,13 +13,13 @@ function GammelnavskCheck(props: { content: any; }) {
     const keyword = value;
     if (keyword !== "") {
         const results = gammelnavsk.gammelnavsk_ordliste.filter((gammelnavsk) => {
-            return keyword.toLowerCase().match(gammelnavsk.ord.toLowerCase())
+            return keyword.toLowerCase().match("\\b" + gammelnavsk.ord.toLowerCase() + "\\b")
         });
         gammelnavskResultater = results;
     }
     if (keyword !== "") {
         const results = kansellisten.kansellisten.filter((gammelnavsk) => {
-            return keyword.toLowerCase().match(gammelnavsk.kanselliord.toLowerCase())
+            return keyword.toLowerCase().match("\\b" + gammelnavsk.kanselliord.toLowerCase() + "\\b")
         });
         kansellistenResultater = results;
     }
@@ -61,7 +61,7 @@ function GammelnavskCheck(props: { content: any; }) {
                                                     <Heading spacing level="4" size="xsmall">
                                                         Forslag
                                                     </Heading>
-                                                    Skriv heller {gammelnavsk.alternativ_1}
+                                                    Skriv heller: {gammelnavsk.alternativ_1}
                                                     <Heading spacing className="pt-6" level="4" size="xsmall">
                                                         Kilde
                                                     </Heading>
@@ -104,7 +104,6 @@ function GammelnavskCheck(props: { content: any; }) {
                                                           href="https://github.com/navikt/ordlister/blob/main/gammelnavsk/gammelnavsk_ordliste_2utgave.pdf">
                                                         Gammelnavsk ordliste<ExternalLink/>
                                                     </Link>
-
                                                 </Accordion.Content>
                                             </Accordion.Item>
                                         </>

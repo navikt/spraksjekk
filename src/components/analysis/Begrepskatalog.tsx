@@ -33,7 +33,7 @@ function Begrepsordbok(props: { content: any; }) {
     const keyword = value;
     if (keyword !== "" && begreper) {
         const results = begreper.filter((begreper) => {
-            return keyword.toLowerCase().match(begreper._source.content.lowercase_term.toLowerCase())
+            return keyword.toLowerCase().match("\\b" + begreper._source.content.lowercase_term.toLowerCase() + "\\b")
         });
         gammelnavskResultater = results;
     }
