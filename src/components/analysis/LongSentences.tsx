@@ -14,11 +14,11 @@ function LongSentences(props: { content: any; }) {
         )
         .join("\n");
     let content = rawcontent;
-    
+
     const sentences = content.replace(/([.?!"“:*\/r\/n])\s*(?=[A-Z*])/g, "$1|").split("|");
     let longSentencesCounter = 0;
     let myLongSentences = [];
-    
+
     // Loop through the entire array of sentences
     for (let i in sentences) {
         const sentenceWords = sentences[i].split(/\s+/);
@@ -50,20 +50,21 @@ function LongSentences(props: { content: any; }) {
             {longSentenceHere != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {longSentencesCounter} {longSentencesCounter == 1 ? (<>lang setning</>) : (<>lange setninger</>)}
+                        {longSentencesCounter} {longSentencesCounter == 1 ? (<>lang setning</>) : (<>lange
+                        setninger</>)}
                     </Accordion.Header>
                     <Accordion.Content className="removeAccordionPaddingBottom">
                         {/*Setninger med over 20 ord:*/}
                         Setninger med over <TextField label="antall ord" className="lengthField"
-                                           hideLabel
+                                                      hideLabel
                         // @ts-ignorets-ignore
-                                           value={sentenceLength}
-                                           max="100"
-                                           min="1"
+                                                      value={sentenceLength}
+                                                      max="100"
+                                                      min="1"
                         // @ts-ignorets-ignore
-                                           onChange={(e) => setSentenceLength(e.target.value)}
-                                           type="number"
-                                           size="small"
+                                                      onChange={(e) => setSentenceLength(e.target.value)}
+                                                      type="number"
+                                                      size="small"
                     /> ord:
                         <ul className="list-disc pt-5 list-inside">
                             {listLongSentences}

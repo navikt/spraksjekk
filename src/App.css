@@ -78,6 +78,10 @@
     padding: 0px;
 }
 
+.overflow-scroll {
+    overflow-y: scroll !important;
+}
+
 .removeAccordionPaddingBottom {
     padding-bottom: 0px;
 }

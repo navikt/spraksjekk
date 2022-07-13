@@ -1,4 +1,4 @@
-import { Accordion, TextField } from "@navikt/ds-react";
+import {Accordion, TextField} from "@navikt/ds-react";
 import {useState} from "react";
 
 function LongParagraphs(props: { content: any; }) {
@@ -13,7 +13,7 @@ function LongParagraphs(props: { content: any; }) {
         )
         .join("\n");
     let content = rawcontent;
-    
+
     const paragraphs = content.split(/\n/);
     let longParagraphsCounter = 0;
     let myLongParagraphs = [];
@@ -49,20 +49,21 @@ function LongParagraphs(props: { content: any; }) {
             {longParagraphHere != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {longParagraphsCounter} {longParagraphsCounter == 1 ? (<>langt avsnitt</>) : (<>lange avsnitt</>)}
+                        {longParagraphsCounter} {longParagraphsCounter == 1 ? (<>langt avsnitt</>) : (<>lange
+                        avsnitt</>)}
                     </Accordion.Header>
                     <Accordion.Content>
                         {/*Avsnitt med over 3 setninger:*/}
                         Avsnitt med over <TextField label="antall ord" className="lengthField"
-                                                 hideLabel
+                                                    hideLabel
                         // @ts-ignorets-ignore
-                                                 value={paragraphLength}
-                                                 max="50"
-                                                 min="1"
+                                                    value={paragraphLength}
+                                                    max="50"
+                                                    min="1"
                         // @ts-ignorets-ignore
-                                                 onChange={(e) => setParagraphLength(e.target.value)}
-                                                 type="number"
-                                                 size="small"
+                                                    onChange={(e) => setParagraphLength(e.target.value)}
+                                                    type="number"
+                                                    size="small"
                     /> setninger:
                         <ul className="list-disc pt-5 list-inside">
                             {listLongParagraphs}

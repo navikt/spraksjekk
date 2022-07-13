@@ -1,5 +1,5 @@
-import { Accordion, Table, Pagination } from "@navikt/ds-react";
-import { useState, useEffect, useCallback } from 'react'
+import {Accordion, Table, Pagination} from "@navikt/ds-react";
+import {useState, useEffect, useCallback} from 'react'
 
 function WordFrequency(props: { content: any; }) {
     const value = props.content;
@@ -53,26 +53,28 @@ function WordFrequency(props: { content: any; }) {
                         Frekvensordliste
                     </Accordion.Header>
                     <Accordion.Content className="overflow-x-auto gammelnavskAccordionContent">
-                        <Table zebraStripes size="small">
-                            <Table.Header>
-                                <Table.Row>
-                                    <Table.HeaderCell scope="col">Ord</Table.HeaderCell>
-                                    <Table.HeaderCell scope="col">Frekvens</Table.HeaderCell>
-                                </Table.Row>
-                            </Table.Header>
-                            <Table.Body>
-                                {allFreq.map((wordFreq: [string, number]) => {
-                                    return (
-                                        <Table.Row key={wordFreq[0]}>
-                                            <Table.HeaderCell scope="row">
-                                                {wordFreq[0]}
-                                            </Table.HeaderCell>
-                                            <Table.DataCell>{wordFreq[1]}</Table.DataCell>
-                                        </Table.Row>
-                                    );
-                                })}
-                            </Table.Body>
-                        </Table>
+                        <div className="overflow-scroll">
+                            <Table zebraStripes size="small">
+                                <Table.Header>
+                                    <Table.Row>
+                                        <Table.HeaderCell scope="col">Ord</Table.HeaderCell>
+                                        <Table.HeaderCell scope="col">Frekvens</Table.HeaderCell>
+                                    </Table.Row>
+                                </Table.Header>
+                                <Table.Body>
+                                    {allFreq.map((wordFreq: [string, number]) => {
+                                        return (
+                                            <Table.Row key={wordFreq[0]}>
+                                                <Table.HeaderCell scope="row">
+                                                    {wordFreq[0]}
+                                                </Table.HeaderCell>
+                                                <Table.DataCell>{wordFreq[1]}</Table.DataCell>
+                                            </Table.Row>
+                                        );
+                                    })}
+                                </Table.Body>
+                            </Table>
+                        </div>
                         <div className="pagination-container">
                             <Pagination
                                 className="spacing-30 pagination"

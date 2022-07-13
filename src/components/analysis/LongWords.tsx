@@ -97,39 +97,41 @@ function LongWords(props: { content: any; }) {
                     </Accordion.Header>
                     <Accordion.Content>
                         Ord med over <TextField label="antall bokstever" className="lengthField"
-                                           hideLabel
+                                                hideLabel
                         // @ts-ignorets-ignore
-                                           value={wordLength}
-                                           max={longestWord}
-                                           min="1"
+                                                value={wordLength}
+                                                max={longestWord}
+                                                min="1"
                         // @ts-ignorets-ignore
-                                           onChange={(e) => setpagesCount(Math.ceil(longWordCounter / pageSize)) & setWordLength(e.target.value)}
-                                           type="number"
-                                           size="small"
+                                                onChange={(e) => setpagesCount(Math.ceil(longWordCounter / pageSize)) & setWordLength(e.target.value)}
+                                                type="number"
+                                                size="small"
                     /> bokstaver:
                         {/* <ul className="list-disc pt-5 list-inside">
                             {listLongWords}
                         </ul> */}
-                        <Table zebraStripes size="small" className="mt-6">
-                            <Table.Header>
-                                <Table.Row>
-                                    <Table.HeaderCell scope="col">Ord</Table.HeaderCell>
-                                    <Table.HeaderCell scope="col">Bokstaver</Table.HeaderCell>
-                                </Table.Row>
-                            </Table.Header>
-                            <Table.Body>
-                                {allFreq.map((wordFreq: [string, string]) => {
-                                    return (
-                                        <Table.Row key={wordFreq[0]}>
-                                            <Table.HeaderCell scope="row">
-                                                {wordFreq[1]}
-                                            </Table.HeaderCell>
-                                            <Table.DataCell>{wordFreq[1].length}</Table.DataCell>
-                                        </Table.Row>
-                                    );
-                                })}
-                            </Table.Body>
-                        </Table>
+                        <div className="overflow-scroll">
+                            <Table zebraStripes size="small" className="mt-6">
+                                <Table.Header>
+                                    <Table.Row>
+                                        <Table.HeaderCell scope="col">Ord</Table.HeaderCell>
+                                        <Table.HeaderCell scope="col">Bokstaver</Table.HeaderCell>
+                                    </Table.Row>
+                                </Table.Header>
+                                <Table.Body>
+                                    {allFreq.map((wordFreq: [string, string]) => {
+                                        return (
+                                            <Table.Row key={wordFreq[0]}>
+                                                <Table.HeaderCell scope="row">
+                                                    {wordFreq[1]}
+                                                </Table.HeaderCell>
+                                                <Table.DataCell>{wordFreq[1].length}</Table.DataCell>
+                                            </Table.Row>
+                                        );
+                                    })}
+                                </Table.Body>
+                            </Table>
+                        </div>
                         {longWordCounter > 10 &&
                             <div className="pagination-container">
                                 <Pagination
