@@ -4,7 +4,7 @@ import {useState, useCallback, useEffect} from 'react'
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(0);
-    const [wordLength, setWordLength] = useState(7)
+    const [wordLength, setWordLength] = useState(6)
     let longWordCounter = 0;
     let pageSize = 10;
 
@@ -96,7 +96,7 @@ function LongWords(props: { content: any; }) {
                         {listLongWords.length == 1 ? (<>1 unikt langt</>) : (<>{longWordCounter} unike lange</>)} ord
                     </Accordion.Header>
                     <Accordion.Content>
-                        Ord med <TextField label="antall bokstever" className="lengthField"
+                        Ord med over <TextField label="antall bokstever" className="lengthField"
                                            hideLabel
                         // @ts-ignorets-ignore
                                            value={wordLength}
@@ -106,7 +106,7 @@ function LongWords(props: { content: any; }) {
                                            onChange={(e) => setpagesCount(Math.ceil(longWordCounter / pageSize)) & setWordLength(e.target.value)}
                                            type="number"
                                            size="small"
-                    /> eller flere bokstaver:
+                    /> bokstaver:
                         {/* <ul className="list-disc pt-5 list-inside">
                             {listLongWords}
                         </ul> */}
