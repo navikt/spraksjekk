@@ -41,7 +41,7 @@ function LongParagraphs(props: { content: any; }) {
     // Create a list of long paragraphs
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
     const listLongParagraphs = longParagraphs.map((paragraph, index) =>
-        <li key={index} className="pb-5">{paragraph}</li>
+        <li key={index} className="pb-5">{paragraph} ({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length} setninger)</li>
     );
 
     return (
