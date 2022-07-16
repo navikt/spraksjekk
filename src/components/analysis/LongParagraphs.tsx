@@ -14,8 +14,9 @@ function LongParagraphs(props: { content: any; }) {
         .join("\n");
     let content = rawcontent;
 
+    console.log(content)
     const paragraphs = content.split(/\n/).sort(function (a, b) {
-        return b.length - a.length;
+        return b.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length - a.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length;
     });
     let longParagraphsCounter = 0;
     let myLongParagraphs = [];
