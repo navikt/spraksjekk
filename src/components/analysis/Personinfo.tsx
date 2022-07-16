@@ -45,7 +45,7 @@ function PersonInfo(props: { content: any; }) {
                             {listEmail}
                         </ul></>)}
                         {phoneCount >= 1 && (<>
-                        Telefon:
+                        Telefonnummer:
                         <ul className="list-disc pt-5 list-inside">
                             {listPhone}
                         </ul></>)}
