@@ -18,6 +18,7 @@ export { default as Avløserord } from "./analysis/avløserord.tsx";
 export { default as Nrkordliste } from "./analysis/Nrkordliste.tsx";
 export { default as Lix } from "./analysis/Lix.tsx";
 export { default as LixMelding } from "./analysis/LixMelding.tsx";
+export { default as PersonInfo } from "./analysis/PersonInfo.tsx";
 
 // Icons
 export { default as ShakeHands } from "./icons/ShakeHands.tsx";

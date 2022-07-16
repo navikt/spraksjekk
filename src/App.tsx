@@ -16,6 +16,7 @@ import {
     Tilbakemeldinger,
     Nrkordliste,
     Avløserord,
+    PersonInfo,
 } from "./components"
 import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
@@ -122,6 +123,7 @@ export default () => {
                                         <Nrkordliste content={value}/>
                                         <Avløserord content={value}/>
                                         <Begrepskatalog content={value}/>
+                                        <PersonInfo content={value}/>
                                         <Lix content={value}/>
                                         <OrdTelling content={value}/>
                                     </Accordion>
