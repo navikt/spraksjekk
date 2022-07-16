@@ -14,7 +14,6 @@ function LongParagraphs(props: { content: any; }) {
         .join("\n");
     let content = rawcontent;
 
-    console.log(content)
     const paragraphs = content.split(/\n/).sort(function (a, b) {
         return b.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length - a.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length;
     });
@@ -44,7 +43,8 @@ function LongParagraphs(props: { content: any; }) {
     // Create a list of long paragraphs
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
     const listLongParagraphs = longParagraphs.map((paragraph, index) =>
-        <li key={index} className="pb-5">{paragraph} ({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length} setninger)</li>
+        <li key={index}
+            className="pb-5">{paragraph} ({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length} setninger)</li>
     );
 
     return (
