@@ -22,6 +22,7 @@ import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, 
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
+import {Search} from "@navikt/ds-icons";
 import "@navikt/ds-css";
 import './App.css'
 
@@ -59,10 +60,16 @@ export default () => {
         <div>
             {editor && <BubbleMenu className="bubble-menu" tippyOptions={{duration: 100}} editor={editor}>
                 {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g) && (
-                    <Button role="link" variant="secondary" onClick={(e) => {
-                        e.preventDefault();
-                        window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
-                    }}>Søk i Ordbøkene.no</Button>
+                    <>
+                        <Button role="link" variant="secondary" onClick={(e) => {
+                            e.preventDefault();
+                            window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
+                        }}><Search/> Ordbøkene.no</Button>
+                        <Button role="link"  style={{marginLeft: '-2px'}} variant="secondary" onClick={(e) => {
+                            e.preventDefault();
+                            window.open('https://www.nb.no/ngram/?1_1_1_' + higlighetdwords + '_1_1_3_1800%2C2021_2_2_2_12_2', "_blank");
+                        }}><Search/> N-gram</Button>
+                    </>
                 )}
             </BubbleMenu>}
             <Header/>
@@ -73,8 +80,10 @@ export default () => {
                             Språkhjelp
                         </Heading>
                         <div className="mobilvisning-container">
-                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn tekst</Label>
-                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
+                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
+                                tekst</Label>
+                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)}
+                                    checked={mobilvisning}
                                     className="mobilvisning-button" size="medium" position="left">
                                 Mobilvisning
                             </Switch>
@@ -91,8 +100,10 @@ export default () => {
                             Språkhjelp
                         </Heading>
                         <div className="mobilvisning-container">
-                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn tekst</Label>
-                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)} checked={mobilvisning}
+                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
+                                tekst</Label>
+                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)}
+                                    checked={mobilvisning}
                                     className="mobilvisning-button" size="medium" position="left">
                                 Mobilvisning
                             </Switch>
