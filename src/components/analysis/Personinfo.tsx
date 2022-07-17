@@ -1,4 +1,4 @@
-import {Accordion} from "@navikt/ds-react";
+import {Accordion, Heading} from "@navikt/ds-react";
 
 function PersonInfo(props: { content: any; }) {
     let rawcontent = props.content;
@@ -9,6 +9,7 @@ function PersonInfo(props: { content: any; }) {
     function extractEmails(text) {
         return text.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi);
     }
+
     let email = extractEmails(rawcontent)
     let emailCount = 0
     let getemail = <></>
@@ -22,6 +23,7 @@ function PersonInfo(props: { content: any; }) {
     function extractPhone(text) {
         return text.match(/(\s*[0-9]+){8,11}/gi);
     }
+
     let phone = extractPhone(rawcontent)
     let phoneCount = 0
     let getphone = <></>
@@ -33,22 +35,30 @@ function PersonInfo(props: { content: any; }) {
 
     return (
         <>
-            {emailCount+phoneCount >= 1 && (
+            {emailCount + phoneCount >= 1 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {emailCount+phoneCount} {emailCount+phoneCount == 1 ? (<> mulig personopplysning</>) : (<>mulige
+                        {emailCount + phoneCount} {emailCount + phoneCount == 1 ? (<> mulig
+                        personopplysning</>) : (<>mulige
                         personopplysninger</>)}
                     </Accordion.Header>
                     <Accordion.Content className="removeAccordionPaddingBottom">
-                        {emailCount >= 1 && (<>E-postadresser:
-                        <ul className="list-disc pt-5 list-inside">
-                            {listEmail}
-                        </ul></>)}
+                        {emailCount >= 1 && (<>
+                            <Heading spacing level="3" size="xsmall">
+                                E-postadresser:
+                            </Heading>
+                            <ul className="list-disc pt-5 list-inside">
+                                {listEmail}
+                            </ul>
+                        </>)}
                         {phoneCount >= 1 && (<>
-                        Telefonnummer:
-                        <ul className="list-disc pt-5 list-inside">
-                            {listPhone}
-                        </ul></>)}
+                            <Heading spacing level="3" size="xsmall">
+                                Telefonnummer:
+                            </Heading>
+                            <ul className="list-disc pt-5 list-inside">
+                                {listPhone}
+                            </ul>
+                        </>)}
                     </Accordion.Content>
                 </Accordion.Item>
             )}

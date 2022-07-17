@@ -24,12 +24,11 @@ Se [NAV Språkhjelp Internt](https://github.com/navikt/sprakhjelp-internt) koder
 - Gjentakelse av like ord etterhverandre (eg. hei hei)
 - Ordtelling
 - LIX (liks)
-
-## Ordlister
 - Gammelnavsk ordliste
 - NAVs Begrepskatalog
 - Kansellisten (Språkrådet)
 - Avløserord (Språkrådet)
+- Datatermer (Språkrådet)
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
 - Frekvensordliste
