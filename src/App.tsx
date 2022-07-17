@@ -65,7 +65,7 @@ export default () => {
                             e.preventDefault();
                             window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
                         }}><Search/> Ordbøkene.no</Button>
-                        <Button role="link"  style={{marginLeft: '-2px'}} variant="secondary" onClick={(e) => {
+                        <Button role="link"  style={{marginLeft: '-1px'}} variant="secondary" onClick={(e) => {
                             e.preventDefault();
                             window.open('https://www.nb.no/ngram/?1_1_1_' + higlighetdwords + '_1_1_3_1800%2C2021_2_2_2_12_2', "_blank");
                         }}><Search/> N-gram</Button>
