@@ -67,7 +67,7 @@ export default () => {
                         }}><Search/> Ordbøkene.no</Button>
                         <Button role="link"  style={{marginLeft: '-1px'}} variant="secondary" onClick={(e) => {
                             e.preventDefault();
-                            window.open('https://www.nb.no/ngram/?1_1_1_' + higlighetdwords + '_1_1_0_1800%2C2021_2_2_2_12_2', "_blank");
+                            window.open('https://www.nb.no/ngram/?1_1_2_' + higlighetdwords + '_1_1_0_1800%2C2021_2_2_2_12_2', "_blank");
                         }}><Search/> N-gram</Button>
                     </>
                 )}
