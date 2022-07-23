@@ -10,9 +10,9 @@ function DublicateWords(props: { content: any; }) {
     let dublicateWordsList: string | number | boolean | JSX.Element[] | null | undefined = [];
     let dublicateWordsCount = 0;
     if (value.match(/\b(\w+)\s+\1\b/g)) {
-        dublicateWordsCount = value.match(/\b(\w+)\s+\1\b/g).length
+        dublicateWordsCount = value.match(/\b(\w{2,5})\s+\1\b/g).length
         // @ts-ignore
-        dublicateWordsList = value.match(/\b(\w+)\s+\1\b/g).map((duplicatedword, index) =>
+        dublicateWordsList = value.match(/\b(\w{2,5})\s+\1\b/g).map((duplicatedword, index) =>
             <li key={index} >{duplicatedword}</li>
         );
     }
