@@ -44,7 +44,7 @@ function LongSentences(props: { content: any; }) {
     // Create a list of long sentences
     const longSentences = myLongSentences.filter((item) => item.length > sentenceLength);
     const listLongSentences = longSentences.map((sentence, index) =>
-        <li key={index} className="pb-5">{sentence} ({sentence.split(/\s+/).length} ord)</li>
+        <li key={index} className="pb-5">{sentence} <b>({sentence.split(/\s+/).length}&nbsp;ord)</b></li>
     );
 
     return (

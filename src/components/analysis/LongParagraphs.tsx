@@ -44,7 +44,7 @@ function LongParagraphs(props: { content: any; }) {
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
     const listLongParagraphs = longParagraphs.map((paragraph, index) =>
         <li key={index}
-            className="pb-5">{paragraph} ({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length} setninger)</li>
+            className="pb-5">{paragraph} <b>({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b></li>
     );
 
     return (
