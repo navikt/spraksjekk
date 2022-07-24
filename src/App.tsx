@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
 import {
     Header,
@@ -27,7 +27,11 @@ import "@navikt/ds-css";
 import './App.css'
 
 export default () => {
-    const [value, setValue] = useState("")
+    const queryParams = new URLSearchParams(window.location.search);
+    let q = ""
+    if(queryParams.get('q')) {q = queryParams.get('q')}
+
+    const [value, setValue] = useState(q)
     const [mobilvisning, setMobilvisning] = useState(false)
     let higlighetdwords = window.getSelection().toString().toLowerCase();
     let higlighetdwordscount = window.getSelection().toString().toLowerCase().split(/\s+/);
@@ -45,7 +49,7 @@ export default () => {
                 openOnClick: false,
             })
         ],
-        content: ``,
+        content: value,
         autofocus: true,
         onUpdate: ({editor}) => {
             const html = editor.getHTML()
