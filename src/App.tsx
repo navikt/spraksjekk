@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
+import {useEditor, EditorContent, BubbleMenu, generateJSON} from '@tiptap/react'
 import {
     Header,
     Lix,
@@ -26,10 +26,20 @@ import {Search} from "@navikt/ds-icons";
 import "@navikt/ds-css";
 import './App.css'
 
+
 export default () => {
-    const queryParams = new URLSearchParams(window.location.search);
+    const queryParams = new URLSearchParams(location.search);
     let q = ""
-    if(queryParams.get('q')) {q = queryParams.get('q')}
+    if(queryParams.get('q')) {
+        q = queryParams.get('q').split("\n\n").map((el, i) => {
+            return `<p>${el}</p>` ;
+        }).join('')
+    }
+
+
+
+
+
 
     const [value, setValue] = useState(q)
     const [mobilvisning, setMobilvisning] = useState(false)
