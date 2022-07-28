@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
 
 function ScrollToTop() {
-    // The back-to-top button is hidden at the beginning
     const [showButton, setShowButton] = useState(false);
 
     useEffect(() => {
+        // The back-to-top button is hidden at the beginning
         window.addEventListener("scroll", () => {
             if (window.pageYOffset > 300) {
                 setShowButton(true);
@@ -13,12 +13,10 @@ function ScrollToTop() {
             }
         });
     }, []);
-
-    // This function will scroll the window to the top
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth' // for smoothly scrolling
+            behavior: 'smooth'
         });
     };
 

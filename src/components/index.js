@@ -2,7 +2,6 @@
 export { default as Header } from "./theme/Header.tsx";
 export { default as Feedback } from "./theme/Feedback.tsx";
 export { default as ScrollToTop } from "./theme/ScrollToTop.tsx";
-export { default as Checklist } from "./theme/Checklist.tsx";
 export { default as MenuBar } from "./theme/MenuBar.tsx";
 
 // Analysis
