@@ -3,7 +3,7 @@ import {ExternalLink} from "@navikt/ds-icons";
 import {Gammelnavsk} from "../../data";
 import {Kansellisten} from "../../data";
 
-function GammelnavskCheck(props: { content: any; }) {
+function GammelnavskDictionary(props: { content: any; }) {
     const value = props.content;
     let kansellisten = Kansellisten;
     let gammelnavsk = Gammelnavsk;
@@ -117,4 +117,4 @@ function GammelnavskCheck(props: { content: any; }) {
     );
 }
 
-export default GammelnavskCheck;
+export default GammelnavskDictionary;

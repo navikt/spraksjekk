@@ -1,6 +1,6 @@
 import {Accordion, Heading} from "@navikt/ds-react";
 
-function PersonInfo(props: { content: any; }) {
+function PersonalData(props: { content: any; }) {
     let rawcontent = props.content;
     let personinfoHere = 1;
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
@@ -66,4 +66,4 @@ function PersonInfo(props: { content: any; }) {
     );
 }
 
-export default PersonInfo;
+export default PersonalData;

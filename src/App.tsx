@@ -1,22 +1,22 @@
-import {useEffect, useState} from 'react';
-import {useEditor, EditorContent, BubbleMenu, generateJSON} from '@tiptap/react'
+import {useState} from 'react';
+import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
 import {
     Header,
     Lix,
-    OrdTelling,
+    WordCount,
     LongWords,
     LongSentences,
     LongParagraphs,
     DublicateWords,
-    GammelnavskCheck,
-    ShakeHands,
+    GammelnavskDictionary,
+    ShakeHandsIcon,
     PrivacyIcon,
     ScrollToTop,
     Begrepskatalog,
-    Tilbakemeldinger,
-    Nrkordliste,
+    Feedback,
+    NrkDictionaries,
     Avløserord,
-    PersonInfo,
+    PersonalData,
 } from "./components"
 import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
@@ -99,7 +99,7 @@ export default () => {
                         <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
                         <div className="pb-2">
                             <ul className="ListRemoveStyling">
-                                <li><ShakeHands/> NAV lagrer ikke teksten.</li>
+                                <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
                                 <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
                             </ul>
                         </div>
@@ -119,7 +119,7 @@ export default () => {
                         <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
                         <div className="pb-2">
                             <ul className="ListRemoveStyling">
-                                <li><ShakeHands/> NAV lagrer ikke teksten.</li>
+                                <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
                                 <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
                             </ul>
                         </div>
@@ -138,17 +138,17 @@ export default () => {
                                         <LongSentences content={value}/>
                                         <LongWords content={value}/>
                                         <DublicateWords content={value}/>
-                                        <GammelnavskCheck content={value}/>
-                                        <Nrkordliste content={value}/>
+                                        <GammelnavskDictionary content={value}/>
+                                        <NrkDictionaries content={value}/>
                                         <Avløserord content={value}/>
                                         <Begrepskatalog content={value}/>
-                                        <PersonInfo content={value}/>
+                                        <PersonalData content={value}/>
                                         <Lix content={value}/>
-                                        <OrdTelling content={value}/>
+                                        <WordCount content={value}/>
                                     </Accordion>
                                 </>
                             )}
-                        <Tilbakemeldinger/>
+                        <Feedback/>
                     </Cell>
                 </Grid>
             </ContentContainer>

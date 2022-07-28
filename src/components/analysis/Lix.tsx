@@ -1,4 +1,4 @@
-import {LixMelding} from "../index.js";
+import {LixResultMessage} from "../index.js";
 import {Accordion, BodyShort, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 import {useState} from 'react'
@@ -53,11 +53,11 @@ function Lix(props: { content: any }) {
             {lix >= 34 && lix < 100 && dotCounter > 1 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        Liks {lix}: <LixMelding lix={lix}/>
+                        Liks {lix}: <LixResultMessage lix={lix}/>
                     </Accordion.Header>
                     <Accordion.Content className="gammelnavskAccordionContent removeAccordionPaddingBottom">
                         <BodyShort className="pb-2">
-                            Liks {lix}: Teksten er <LixMelding lix={lix}/> ifølge <Link target="_blank"
+                            Liks {lix}: Teksten er <LixResultMessage lix={lix}/> ifølge <Link target="_blank"
                                                                                         href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
                             lesbarhetsindeksen Liks<ExternalLink/>
                         </Link>.

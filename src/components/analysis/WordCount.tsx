@@ -1,9 +1,9 @@
-import { LixMelding, WordFrequency, Lix } from "../index.js";
+import { LixResultMessage, WordFrequency, Lix } from "../index.js";
 import {Accordion, Link} from "@navikt/ds-react";
 import { useState } from 'react'
 import {ExternalLink} from "@navikt/ds-icons";
 
-function OrdTelling(props: { content: any; }) {
+function WordCount(props: { content: any; }) {
   const [wordLength] = useState(6)
   const content = props.content;
   const value = props.content;
@@ -83,7 +83,7 @@ function OrdTelling(props: { content: any; }) {
           {lix >= 0 && lix < 100 && (
             <li><Link target="_blank"
                                   href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
-              Liks {lix}: <LixMelding lix={lix} /><ExternalLink/>
+              Liks {lix}: <LixResultMessage lix={lix} /><ExternalLink/>
             </Link></li>
           )}
         </ul>
@@ -96,4 +96,4 @@ function OrdTelling(props: { content: any; }) {
   );
 }
 
-export default OrdTelling;
+export default WordCount;

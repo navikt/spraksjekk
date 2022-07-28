@@ -1,7 +1,7 @@
 import {Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 
-function Tilbakemeldinger() {
+function Feedback() {
     return (
         <Link target="_blank" className="mt-6 float-right pb-5rem"
               href="https://github.com/navikt/spraksjekk/blob/master/README.md">
@@ -10,4 +10,4 @@ function Tilbakemeldinger() {
     );
 }
 
-export default Tilbakemeldinger;
+export default Feedback;

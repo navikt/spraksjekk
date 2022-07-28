@@ -2,7 +2,7 @@ import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 import {Nrkordliste} from "../../data";
 
-function GammelnavskCheck(props: { content: any; }) {
+function NrkDictionaries(props: { content: any; }) {
     const value = props.content;
     let gammelnavsk = Nrkordliste;
     let gammelnavskResultater;
@@ -64,4 +64,4 @@ function GammelnavskCheck(props: { content: any; }) {
     );
 }
 
-export default GammelnavskCheck;
+export default NrkDictionaries;

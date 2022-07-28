@@ -1,4 +1,4 @@
-function ShakeHands() {
+function ShakeHandsIcon() {
     return (
         <>
             <svg width="1em" height="1em" className="inline align-baseline" viewBox="0 0 24 24"
@@ -11,4 +11,4 @@ function ShakeHands() {
         </>
     );
 }
-export default ShakeHands;
+export default ShakeHandsIcon;

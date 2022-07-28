@@ -1,4 +1,4 @@
-function LixMelding(props: { lix: number; }) {
+function LixResultMessage(props: { lix: number; }) {
     const lix = props.lix;
     let lixMelding = "";
 
@@ -24,4 +24,4 @@ function LixMelding(props: { lix: number; }) {
     );
 }
 
-export default LixMelding;
+export default LixResultMessage;
