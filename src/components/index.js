@@ -14,8 +14,6 @@ export { default as WordFrequency } from "./analysis/WordFrequency.tsx";
 export { default as Lix } from "./analysis/Lix.tsx";
 export { default as LixResultMessage } from "./analysis/LixResultMessage.tsx";
 export { default as PersonalData } from "./analysis/PersonalData.tsx";
-
-// Dictionaries
 export { default as GammelnavskDictionary } from "./analysis/GammelnavskDictionary.tsx";
 export { default as Begrepskatalog } from "./analysis/Begrepskatalog.tsx";
 export { default as Avløserord } from "./analysis/avløserord.tsx";
