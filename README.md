@@ -7,14 +7,11 @@
 
 # Henvendelser
 
-Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på GitHub
+Spørsmål knyttet til koden eller prosjektet eller [her på Github](https://github.com/navikt/spraksjekk/issues).
 
 ## For NAV-ansatte
 
-Interne henvendelser kan sendes via Slack i kanalen #researchops.
-
-# Legg til NAV Språkhjelp i egen løsning
-Se [NAV Språkhjelp Internt](https://github.com/navikt/sprakhjelp-internt) koderepoet.
+Interne henvendelser kan sendes via Slack i kanalen #researchops eller som issues her på Github.
 
 # Språkhjelp funksjoner
 
@@ -32,3 +29,9 @@ Se [NAV Språkhjelp Internt](https://github.com/navikt/sprakhjelp-internt) koder
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
 - Frekvensordliste
+
+# Test koden lokalt
+
+1. Last ned koden
+2. yarn install
+3. yarn dev
