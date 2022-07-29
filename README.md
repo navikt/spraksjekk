@@ -1,7 +1,7 @@
 [NAV Språkhjelp](https://navikt.github.io/spraksjekk/)
 ================
 
-[NAV Språkhjelp](https://navikt.github.io/spraksjekk/) hjelper deg med å kvalitetsjekke innhold.
+[NAV Språkhjelp](https://navikt.github.io/spraksjekk/) er et testverktøy som gir deg automatisk feedback om karakteristikkene av tekstene dine.
 
 ---
 
@@ -11,7 +11,7 @@ Spørsmål knyttet til koden eller prosjektet eller kan stilles [her på Github]
 
 ## For NAV-ansatte
 
-Interne henvendelser kan sendes via Slack i kanalen #researchops eller som issues her på Github.
+Interne henvendelser kan sendes via Slack i kanalen [#researchops](https://nav-it.slack.com/archives/C02UGFS2J4B) eller [her på Github](https://github.com/navikt/spraksjekk/issues).
 
 # Språkhjelp funksjoner
 
