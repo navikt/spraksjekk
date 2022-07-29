@@ -8,14 +8,14 @@ import {
     LongSentences,
     LongParagraphs,
     DublicateWords,
-    GammelnavskDictionary,
     ShakeHandsIcon,
     PrivacyIcon,
     ScrollToTop,
     Begrepskatalog,
     Feedback,
+    GammelnavskDictionary,
     NrkDictionaries,
-    Avløserord,
+    AvløserordDictionary,
     PersonalData,
 } from "./components"
 import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
@@ -140,7 +140,7 @@ export default () => {
                                         <DublicateWords content={value}/>
                                         <GammelnavskDictionary content={value}/>
                                         <NrkDictionaries content={value}/>
-                                        <Avløserord content={value}/>
+                                        <AvløserordDictionary content={value}/>
                                         <Begrepskatalog content={value}/>
                                         <PersonalData content={value}/>
                                         <Lix content={value}/>
