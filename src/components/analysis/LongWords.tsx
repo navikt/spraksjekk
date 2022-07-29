@@ -4,7 +4,7 @@ import {useState, useCallback, useEffect} from 'react'
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(0);
-    const [wordLength, setWordLength] = useState(6)
+    const [wordLength, setWordLength] = useState(7)
     let longWordCounter = 0;
     let pageSize = 10;
 
