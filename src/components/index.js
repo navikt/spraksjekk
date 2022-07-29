@@ -3,6 +3,8 @@ export { default as Header } from "./theme/Header.tsx";
 export { default as Feedback } from "./theme/Feedback.tsx";
 export { default as ScrollToTop } from "./theme/ScrollToTop.tsx";
 export { default as MenuBar } from "./theme/MenuBar.tsx";
+export { default as ShakeHandsIcon } from "./theme/icons/ShakeHandsIcon.tsx";
+export { default as PrivacyIcon } from "./theme/icons/PrivacyIcon.tsx";
 
 // Content Analysis
 export { default as WordCount } from "./analysis/WordCount.tsx";
@@ -20,7 +22,3 @@ export { default as GammelnavskDictionary } from "./dictionaries/GammelnavskDict
 export { default as Begrepskatalog } from "./dictionaries/Begrepskatalog.tsx";
 export { default as AvløserordDictionary } from "./dictionaries/AvløserordDictionary.tsx";
 export { default as NrkDictionaries } from "./dictionaries/NrkDictionaries.tsx";
-
-// Icons
-export { default as ShakeHandsIcon } from "./icons/ShakeHandsIcon.tsx";
-export { default as PrivacyIcon } from "./icons/PrivacyIcon.tsx";
