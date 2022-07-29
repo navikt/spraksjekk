@@ -11,6 +11,8 @@ function LongWords(props: { content: any; }) {
     // Decl/**/ari/**/ng all variables
     let rawcontent = props.content;
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
+    rawcontent = rawcontent.replaceAll(/\<\/(.?)\>/g, "");
+    rawcontent = rawcontent.replaceAll(/\<(.?)\>/g, "");
     rawcontent = rawcontent.replaceAll("/", " / ");
     rawcontent = rawcontent.replaceAll(/(.*)\.+[A-Za-z]{2,6}/g, "");
     rawcontent = rawcontent.replaceAll(/http(.*)/g, "");

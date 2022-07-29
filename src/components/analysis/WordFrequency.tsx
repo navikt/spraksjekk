@@ -2,7 +2,9 @@ import {Accordion, Table, Pagination} from "@navikt/ds-react";
 import {useState, useEffect, useCallback} from 'react'
 
 function WordFrequency(props: { content: any; }) {
-    const value = props.content;
+    let value = props.content;
+    value = value.replaceAll(/\<\/(.?)\>/g, "");
+    value = value.replaceAll(/\<(.?)\>/g, "");
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(0);
     const [freqMap, setFreqMap] = useState<Record<string, number>>({});
