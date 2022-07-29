@@ -7,7 +7,7 @@
 
 # Henvendelser
 
-Spørsmål knyttet til koden eller prosjektet eller [her på Github](https://github.com/navikt/spraksjekk/issues).
+Spørsmål knyttet til koden eller prosjektet eller kan stilles [her på Github](https://github.com/navikt/spraksjekk/issues).
 
 ## For NAV-ansatte
 

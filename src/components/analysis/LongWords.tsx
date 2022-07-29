@@ -4,7 +4,7 @@ import {useState, useCallback, useEffect} from 'react'
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(0);
-    const [wordLength, setWordLength] = useState(7)
+    const [wordLength, setWordLength] = useState(6)
     let longWordCounter = 0;
     let pageSize = 10;
 
@@ -61,7 +61,7 @@ function LongWords(props: { content: any; }) {
         .sort(function (a, b) {
             return b.length - a.length;
         })
-        .filter((item: string | any[]) => item.length > (wordLength - 1));
+        .filter((item: string | any[]) => item.length > (wordLength));
 
     longWordCounter = longWords.length;
     let totalFreqWords = 0;
