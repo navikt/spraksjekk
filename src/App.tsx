@@ -28,14 +28,16 @@ import './App.css'
 
 export default () => {
     const queryParams = new URLSearchParams(location.search);
-    let q = ""
+    let q1 = ""
+    let q2 = ""
     if (queryParams.get('q')) {
-        q = queryParams.get('q').split("\n\n" && "  ").map((el, i) => {
+        q1 = queryParams.get('q').replaceAll(" Kopier lenke ", "</p><p>");
+        q2 = q1.split("\n\n" && "  ").map((el, i) => {
             return `<p>${el}</p>`;
         }).join('')
     }
 
-    const [value, setValue] = useState(q)
+    const [value, setValue] = useState(q2)
     const [mobilvisning, setMobilvisning] = useState(false)
     let higlighetdwords = window.getSelection().toString().toLowerCase();
     let higlighetdwordscount = window.getSelection().toString().toLowerCase().split(/\s+/);
