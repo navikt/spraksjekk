@@ -30,7 +30,7 @@ export default () => {
     const queryParams = new URLSearchParams(location.search);
     let q = ""
     if (queryParams.get('q')) {
-        q = queryParams.get('q').split("\n\n").map((el, i) => {
+        q = queryParams.get('q').split("\n\n" && "  ").map((el, i) => {
             return `<p>${el}</p>`;
         }).join('')
     }
