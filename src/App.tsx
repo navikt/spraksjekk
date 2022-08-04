@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
 import {
     Header,
@@ -30,13 +30,22 @@ export default () => {
     const queryParams = new URLSearchParams(location.search);
     let q1 = ""
     let q2 = ""
+    let q3 = ""
+    const [query, setQuery] = useState("")
     if (queryParams.get('q')) {
         q1 = queryParams.get('q').replaceAll(" Kopier lenke ", "</p><p>");
         q2 = q1.split("\n\n" && "  ").map((el, i) => {
             return `<p>${el}</p>`;
         }).join('')
+        useEffect(() => {
+                q3 = q1.replaceAll("  ", "</p>");
+                let text = htmlToText(q3, {
+                    wordwrap: false
+                });
+                text = text.replaceAll(/\[[^\]]*\]/g, "");
+                setValue(text)
+        }, []);
     }
-
     const [value, setValue] = useState(q2)
     const [mobilvisning, setMobilvisning] = useState(false)
     let higlighetdwords = window.getSelection().toString().toLowerCase();
