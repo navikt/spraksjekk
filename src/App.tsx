@@ -141,7 +141,7 @@ export default () => {
                             Resultater
                         </Heading>
                         {value.length == 0 ? (
-                                <Alert variant="info">Du må legge til tekst for å få resultatene.</Alert>) :
+                                <Alert variant="info">Legg til tekst for å få opp resultater.</Alert>) :
                             (
                                 <>
                                     <Accordion>
