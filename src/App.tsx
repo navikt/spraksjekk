@@ -101,7 +101,7 @@ export default () => {
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
                                 tekst</Label>
-                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)}
+                            <Switch aria-hidden="false" onChange={() => setMobilvisning(!mobilvisning)}
                                     checked={mobilvisning}
                                     className="mobilvisning-button" size="medium" position="left">
                                 Mobilvisning
@@ -121,7 +121,7 @@ export default () => {
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
                                 tekst</Label>
-                            <Switch aria-hidden="true" onChange={() => setMobilvisning(!mobilvisning)}
+                            <Switch aria-hidden="false" onChange={() => setMobilvisning(!mobilvisning)}
                                     checked={mobilvisning}
                                     className="mobilvisning-button" size="medium" position="left">
                                 Mobilvisning
