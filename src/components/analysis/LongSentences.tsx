@@ -3,7 +3,7 @@ import {useState} from "react";
 
 function LongSentences(props: { content: any; }) {
     let rawcontent = props.content;
-    const [sentenceLength, setSentenceLength] = useState(20)
+    const [sentenceLength, setSentenceLength] = useState(21)
     // Declaring all letiables
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     // rawcontent = rawcontent.replaceAll(" *", "");
@@ -24,7 +24,7 @@ function LongSentences(props: { content: any; }) {
     // Loop through the entire array of sentences
     for (let i in sentences) {
         const sentenceWords = sentences[i].split(/\s+/);
-        if (sentenceWords.length > sentenceLength) {
+        if (sentenceWords.length >= sentenceLength) {
             // +1 for every long word in document
             myLongSentences.push(sentences[i]);
             longSentencesCounter++;
@@ -35,7 +35,7 @@ function LongSentences(props: { content: any; }) {
     let longSentenceHere = 0;
     for (let i in sentences) {
         const sentenceWords = sentences[i].split(/\s+/);
-        if (sentenceWords.length > 20) {
+        if (sentenceWords.length >= 21) {
             // +1 for every long word in document
             longSentenceHere = 1;
         }
@@ -57,7 +57,7 @@ function LongSentences(props: { content: any; }) {
                     </Accordion.Header>
                     <Accordion.Content className="removeAccordionPaddingBottom">
                         {/*Setninger med over 20 ord:*/}
-                        Setninger med over <TextField label="antall ord" className="lengthField"
+                        Setninger med <TextField label="antall ord" className="lengthField"
                                                       hideLabel
                         // @ts-ignorets-ignore
                                                       value={sentenceLength}
@@ -67,7 +67,7 @@ function LongSentences(props: { content: any; }) {
                                                       onChange={(e) => setSentenceLength(e.target.value)}
                                                       type="number"
                                                       size="small"
-                    /> ord:
+                    /> eller flere ord:
                         <ul className="list-disc pt-5 list-inside">
                             {listLongSentences}
                         </ul>

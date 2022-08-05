@@ -4,7 +4,7 @@ import {useState, useCallback, useEffect} from 'react'
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(0);
-    const [wordLength, setWordLength] = useState(6)
+    const [wordLength, setWordLength] = useState(7)
     let longWordCounter = 0;
     let pageSize = 10;
 
@@ -32,7 +32,7 @@ function LongWords(props: { content: any; }) {
     let array = words;
     for (let i = array.length - 1; i >= 0; i--) {
         if (array[i].length > longestWord) {
-            longestWord = array[i].length - 1;
+            longestWord = array[i].length;
         }
     }
 
@@ -61,7 +61,7 @@ function LongWords(props: { content: any; }) {
         .sort(function (a, b) {
             return b.length - a.length;
         })
-        .filter((item: string | any[]) => item.length > (wordLength));
+        .filter((item: string | any[]) => item.length > (wordLength - 1));
 
     longWordCounter = longWords.length;
     let totalFreqWords = 0;
@@ -96,7 +96,7 @@ function LongWords(props: { content: any; }) {
                         {listLongWords.length == 1 ? (<>1 unikt langt</>) : (<>{longWordCounter} unike lange</>)} ord
                     </Accordion.Header>
                     <Accordion.Content>
-                        Ord med over <TextField label="antall bokstever" className="lengthField"
+                        Ord med <TextField label="antall bokstever" className="lengthField"
                                                 hideLabel
                         // @ts-ignorets-ignore
                                                 value={wordLength}
@@ -106,7 +106,7 @@ function LongWords(props: { content: any; }) {
                                                 onChange={(e) => setpagesCount(Math.ceil(longWordCounter / pageSize)) & setWordLength(e.target.value)}
                                                 type="number"
                                                 size="small"
-                    /> bokstaver:
+                    /> eller flere bokstaver:
                         {/* <ul className="list-disc pt-5 list-inside">
                             {listLongWords}
                         </ul> */}
