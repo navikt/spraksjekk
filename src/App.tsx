@@ -133,8 +133,8 @@ export default () => {
                                 Mobilvisning
                             </Switch>
                         </div>
-                        <EditorContent id="tiptapeditor" className="mb-6" role="region" editor={editor}/>
-                        <div className="pb-2">
+                        <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
+                            <div className="pb-2">
                             <ul className="ListRemoveStyling">
                                 <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
                                 <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
