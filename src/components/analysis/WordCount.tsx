@@ -83,7 +83,7 @@ function WordCount(props: { content: any; }) {
           {lix >= 0 && lix < 100 && (
             <li><Link target="_blank"
                                   href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
-              Liks {lix}: <LixResultMessage lix={lix} /><ExternalLink/>
+              Liks: {lix}. <LixResultMessage lix={lix} /><ExternalLink/>
             </Link></li>
           )}
         </ul>

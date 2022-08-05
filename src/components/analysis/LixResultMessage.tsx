@@ -4,19 +4,19 @@ function LixResultMessage(props: { lix: number; }) {
 
     // LIX begrunnelse
     if (lix < 24) {
-        lixMelding = "veldig enkel å lese";
+        lixMelding = "Veldig enkel å lese";
     }
     if (lix > 23 && lix < 34) {
-        lixMelding = "enkel å lese";
+        lixMelding = "Enkel å lese";
     }
     if (lix > 33 && lix < 44) {
-        lixMelding = "middels vanskelig å lese";
+        lixMelding = "Middels vanskelig å lese";
     }
     if (lix > 43 && lix < 54) {
-        lixMelding = "vanskelig å lese";
+        lixMelding = "Vanskelig å lese";
     }
     if (lix > 53) {
-        lixMelding = "veldig vanskelig å lese";
+        lixMelding = "Veldig vanskelig å lese";
     }
 
     return (
