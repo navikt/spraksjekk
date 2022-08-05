@@ -23,7 +23,7 @@ function ScrollToTop() {
     return (
         <>
             {showButton && (
-                <button aria-hidden="true" onClick={scrollToTop} className="back-to-top">
+                <button onClick={scrollToTop} className="back-to-top">
                     &#8679; Til toppen
                 </button>
             )}

@@ -38,12 +38,12 @@ export default () => {
             return `<p>${el}</p>`;
         }).join('')
         useEffect(() => {
-                q3 = q1.replaceAll("  ", "</p>");
-                let text = htmlToText(q3, {
-                    wordwrap: false
-                });
-                text = text.replaceAll(/\[[^\]]*\]/g, "");
-                setValue(text)
+            q3 = q1.replaceAll("  ", "</p>");
+            let text = htmlToText(q3, {
+                wordwrap: false
+            });
+            text = text.replaceAll(/\[[^\]]*\]/g, "");
+            setValue(text)
         }, []);
     }
     const [value, setValue] = useState(q2)
@@ -83,7 +83,10 @@ export default () => {
     })
     return (
         <main>
-            {editor && <BubbleMenu className="bubble-menu" tippyOptions={{duration: 100}} editor={editor}>
+            {editor && <BubbleMenu className="bubble-menu" tippyOptions={{aria: {
+                    content: 'auto',
+                    expanded: false,
+                },}} editor={editor}>
                 {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g) && (
                     <>
                         <Button role="link" variant="secondary" onClick={(e) => {
@@ -113,7 +116,7 @@ export default () => {
                                 Mobilvisning
                             </Switch>
                         </div>
-                        <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
+                        <EditorContent editor={editor} id="tiptapeditor" className="mb-6" />
                         <div className="pb-2">
                             <ul className="ListRemoveStyling">
                                 <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
@@ -133,8 +136,8 @@ export default () => {
                                 Mobilvisning
                             </Switch>
                         </div>
-                        <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
-                            <div className="pb-2">
+                        <EditorContent editor={editor} id="tiptapeditor" className="mb-6" />
+                        <div className="pb-2">
                             <ul className="ListRemoveStyling">
                                 <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
                                 <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
