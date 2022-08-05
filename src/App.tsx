@@ -57,6 +57,7 @@ export default () => {
         }
     }
 
+
     const editor = useEditor({
         extensions: [
             StarterKit,
@@ -64,6 +65,11 @@ export default () => {
                 openOnClick: false,
             })
         ],
+        editorProps: {
+            attributes: {
+                role: 'form',
+            },
+        },
         content: value,
         autofocus: true,
         onUpdate: ({editor}) => {
@@ -76,7 +82,7 @@ export default () => {
         },
     })
     return (
-        <div>
+        <main>
             {editor && <BubbleMenu className="bubble-menu" tippyOptions={{duration: 100}} editor={editor}>
                 {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g) && (
                     <>
@@ -127,7 +133,7 @@ export default () => {
                                 Mobilvisning
                             </Switch>
                         </div>
-                        <EditorContent id="tiptapeditor" className="mb-6" editor={editor}/>
+                        <EditorContent id="tiptapeditor" className="mb-6" role="region" editor={editor}/>
                         <div className="pb-2">
                             <ul className="ListRemoveStyling">
                                 <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
@@ -164,6 +170,6 @@ export default () => {
                 </Grid>
             </ContentContainer>
             <ScrollToTop/>
-        </div>
+        </main>
     )
 }
