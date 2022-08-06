@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import {Button} from "@navikt/ds-react";
 
 function ScrollToTop() {
     const [showButton, setShowButton] = useState(false);
@@ -23,9 +24,9 @@ function ScrollToTop() {
     return (
         <>
             {showButton && (
-                <button onClick={scrollToTop} className="back-to-top">
+                <Button onClick={scrollToTop} className="back-to-top">
                     &#8679; Til toppen
-                </button>
+                </Button>
             )}
         </>
     );
