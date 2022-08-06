@@ -57,17 +57,18 @@ function LongSentences(props: { content: any; }) {
                     </Accordion.Header>
                     <Accordion.Content className="removeAccordionPaddingBottom">
                         {/*Setninger med over 20 ord:*/}
-                        Setninger med <TextField label="antall ord" className="lengthField"
-                                                      hideLabel
-                        // @ts-ignorets-ignore
-                                                      value={sentenceLength}
-                                                      max="100"
-                                                      min="1"
-                        // @ts-ignorets-ignore
-                                                      onChange={(e) => setSentenceLength(e.target.value)}
-                                                      type="number"
-                                                      size="small"
-                    /> eller flere ord:
+                        {/* <TextField label="antall ord" className="lengthField"
+                                   hideLabel
+                            // @ts-ignorets-ignore
+                                   value={sentenceLength}
+                                   max="100"
+                                   min="1"
+                            // @ts-ignorets-ignore
+                                   onChange={(e) => setSentenceLength(e.target.value)}
+                                   type="number"
+                                   size="small"
+                        />*/}
+                        Setninger med over 20 ord:
                         <ul className="list-disc pt-5 list-inside">
                             {listLongSentences}
                         </ul>

@@ -45,7 +45,7 @@ function PersonalData(props: { content: any; }) {
                     <Accordion.Content className="removeAccordionPaddingBottom">
                         {emailCount >= 1 && (<>
                             <Heading spacing level="3" size="xsmall">
-                                E-postadresser:
+                                E-postadresser
                             </Heading>
                             <ul className="list-disc pt-5 list-inside">
                                 {listEmail}
@@ -53,7 +53,7 @@ function PersonalData(props: { content: any; }) {
                         </>)}
                         {phoneCount >= 1 && (<>
                             <Heading spacing level="3" size="xsmall">
-                                Telefonnummer:
+                                Telefonnummer
                             </Heading>
                             <ul className="list-disc pt-5 list-inside">
                                 {listPhone}

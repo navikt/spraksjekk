@@ -57,17 +57,18 @@ function LongParagraphs(props: { content: any; }) {
                     </Accordion.Header>
                     <Accordion.Content>
                         {/*Avsnitt med over 3 setninger:*/}
-                        Avsnitt med <TextField label="antall ord" className="lengthField"
-                                                    hideLabel
-                        // @ts-ignorets-ignore
-                                                    value={paragraphLength}
-                                                    max="50"
-                                                    min="1"
-                        // @ts-ignorets-ignore
-                                                    onChange={(e) => setParagraphLength(e.target.value)}
-                                                    type="number"
-                                                    size="small"
-                    /> eller flere setninger:
+                        {/*  <TextField label="antall ord" className="lengthField"
+                                   hideLabel
+                            // @ts-ignorets-ignore
+                                   value={paragraphLength}
+                                   max="50"
+                                   min="1"
+                            // @ts-ignorets-ignore
+                                   onChange={(e) => setParagraphLength(e.target.value)}
+                                   type="number"
+                                   size="small"
+                        />*/}
+                        Avsnitt med over 3 setninger:
                         <ul className="list-disc pt-5 list-inside">
                             {listLongParagraphs}
                         </ul>

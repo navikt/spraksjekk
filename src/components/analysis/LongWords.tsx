@@ -96,7 +96,9 @@ function LongWords(props: { content: any; }) {
                         {listLongWords.length == 1 ? (<>1 unikt langt</>) : (<>{longWordCounter} unike lange</>)} ord
                     </Accordion.Header>
                     <Accordion.Content>
-                        Ord med <TextField label="antall bokstever" className="lengthField"
+                        Ord med over 6 bokstaver:
+                        {/*
+                        <TextField label="antall bokstever" className="lengthField"
                                                 hideLabel
                         // @ts-ignorets-ignore
                                                 value={wordLength}
@@ -106,8 +108,8 @@ function LongWords(props: { content: any; }) {
                                                 onChange={(e) => setpagesCount(Math.ceil(longWordCounter / pageSize)) & setWordLength(e.target.value)}
                                                 type="number"
                                                 size="small"
-                    /> eller flere bokstaver:
-                        {/* <ul className="list-disc pt-5 list-inside">
+                        />
+                        <ul className="list-disc pt-5 list-inside">
                             {listLongWords}
                         </ul> */}
                         <div className="overflow-scroll">
