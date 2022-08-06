@@ -1,5 +1,6 @@
-import {Accordion, TextField, Table, Pagination} from "@navikt/ds-react";
+import {Accordion, TextField, Table, Pagination, Heading, Link} from "@navikt/ds-react";
 import {useState, useCallback, useEffect} from 'react'
+import {ExternalLink} from "@navikt/ds-icons";
 
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
@@ -96,7 +97,18 @@ function LongWords(props: { content: any; }) {
                         {listLongWords.length == 1 ? (<>1 unikt langt</>) : (<>{longWordCounter} unike lange</>)} ord
                     </Accordion.Header>
                     <Accordion.Content>
-                        Ord med over 6 bokstaver:
+                        <Heading spacing level="3" size="xsmall">
+                            Velg korte og enkle ord
+                        </Heading>
+                        Ifølge lesbarhetsindeksen Liks anses ord med over 6 bokstaver som lange - <Link
+                        target="_blank"
+                        href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
+                        Wikipedia<ExternalLink title="Ekstern lenke"/>
+                    </Link>
+
+                        <Heading className="mt-6" spacing level="3" size="xsmall">
+                            Ord med over 6 bokstaver
+                        </Heading>
                         {/*
                         <TextField label="antall bokstever" className="lengthField"
                                                 hideLabel

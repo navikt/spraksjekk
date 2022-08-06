@@ -1,5 +1,6 @@
-import {Accordion, TextField} from "@navikt/ds-react";
+import {Accordion, Heading, Link, TextField} from "@navikt/ds-react";
 import {useState} from "react";
+import {ExternalLink} from "@navikt/ds-icons";
 
 function LongParagraphs(props: { content: any; }) {
     let rawcontent = props.content;
@@ -44,7 +45,8 @@ function LongParagraphs(props: { content: any; }) {
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
     const listLongParagraphs = longParagraphs.map((paragraph, index) =>
         <li key={index}
-            className="pb-5">{paragraph} <b>({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b></li>
+            className="pb-5">{paragraph}
+            <b>({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b></li>
     );
 
     return (
@@ -68,7 +70,18 @@ function LongParagraphs(props: { content: any; }) {
                                    type="number"
                                    size="small"
                         />*/}
-                        Avsnitt med over 3 setninger:
+                        <Heading spacing level="3" size="xsmall">
+                            Skriv korte og enkle avsnitt
+                        </Heading>
+                        "Hvert avsnitt skal ha ett budskap og ikke inneholde mer enn 2-3 setninger." - <Link
+                        target="_blank"
+                        href="https://aksel.nav.no/artikkel/sprakarbeid?tema=innholdsarbeid">
+                        Aksel<ExternalLink title="Ekstern lenke"/>
+                    </Link>
+
+                        <Heading className="mt-6" spacing level="3" size="xsmall">
+                            Avsnitt med over 3 setninger
+                        </Heading>
                         <ul className="list-disc pt-5 list-inside">
                             {listLongParagraphs}
                         </ul>

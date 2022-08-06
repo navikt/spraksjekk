@@ -1,5 +1,6 @@
-import {Accordion, TextField} from "@navikt/ds-react";
+import {Accordion, Heading, Link, TextField} from "@navikt/ds-react";
 import {useState} from "react";
+import {ExternalLink} from "@navikt/ds-icons";
 
 function LongSentences(props: { content: any; }) {
     let rawcontent = props.content;
@@ -68,7 +69,18 @@ function LongSentences(props: { content: any; }) {
                                    type="number"
                                    size="small"
                         />*/}
-                        Setninger med over 20 ord:
+                        <Heading spacing level="3" size="xsmall">
+                            Skriv korte og enkle setninger
+                        </Heading>
+                        Ifølge studier kan setninger med over 20 ord anses som vanskelige å lese - <Link
+                        target="_blank"
+                        href="https://strainindex.wordpress.com/2012/04/30/longer-the-sentence-greater-the-strain/">
+                        Nirmaldasan<ExternalLink title="Ekstern lenke"/>
+                    </Link>
+
+                        <Heading className="mt-6" spacing level="3" size="xsmall">
+                            Setninger med over 20 ord
+                        </Heading>
                         <ul className="list-disc pt-5 list-inside">
                             {listLongSentences}
                         </ul>
