@@ -8,8 +8,6 @@ import {
     LongSentences,
     LongParagraphs,
     DublicateWords,
-    ShakeHandsIcon,
-    PrivacyIcon,
     ScrollToTop,
     Begrepskatalog,
     Feedback,
@@ -17,6 +15,7 @@ import {
     NrkDictionaries,
     AvløserordDictionary,
     PersonalData,
+    Purpose,
 } from "./components"
 import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
@@ -117,12 +116,7 @@ export default () => {
                             </Switch>
                         </div>
                         <EditorContent editor={editor} id="tiptapeditor" className="mb-6" />
-                        <div className="pb-2">
-                            <ul className="ListRemoveStyling">
-                                <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
-                                <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
-                            </ul>
-                        </div>
+                        <Purpose />
                     </Cell>) : (<Cell xs={12} sm={7} lg={8}>
                         <Heading spacing level="2" size="large">
                             Språkhjelp
@@ -137,12 +131,7 @@ export default () => {
                             </Switch>
                         </div>
                         <EditorContent editor={editor} id="tiptapeditor" className="mb-6" />
-                        <div className="pb-2">
-                            <ul className="ListRemoveStyling">
-                                <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
-                                <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
-                            </ul>
-                        </div>
+                        <Purpose />
                     </Cell>)}
 
                     <Cell xs={12} sm={5} lg={4}>

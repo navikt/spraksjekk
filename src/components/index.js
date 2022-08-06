@@ -1,6 +1,7 @@
 // Theme
 export { default as Header } from "./theme/Header.tsx";
 export { default as Feedback } from "./theme/Feedback.tsx";
+export { default as Purpose } from "./theme/Purpose.tsx";
 export { default as ScrollToTop } from "./theme/ScrollToTop.tsx";
 export { default as MenuBar } from "./theme/MenuBar.tsx";
 export { default as ShakeHandsIcon } from "./theme/icons/ShakeHandsIcon.tsx";
