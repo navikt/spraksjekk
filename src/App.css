@@ -9,6 +9,9 @@
     padding: 5px;
 }
 
+.a11y-lineheight {
+    line-height: 1.5em;
+}
 .mobilvisning-label {
     flex: auto;
     align-self: center;
