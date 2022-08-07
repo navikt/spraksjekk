@@ -17,7 +17,7 @@ import {
     PersonalData,
     Purpose,
 } from "./components"
-import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
+import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button, BodyLong} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
@@ -139,7 +139,12 @@ export default () => {
                             Resultater
                         </Heading>
                         {value.length == 0 ? (
-                                <Alert variant="info">Legg til tekst for å få opp resultater.</Alert>) :
+                                <Alert variant="info" size="medium">
+                                    <Heading spacing size="xsmall" level="3">
+                                        Legg til tekst for å få opp resultater
+                                    </Heading>
+                                    <BodyLong>Du får øyeblikkelig hjelp til å gjøre teksten mer lettlest.</BodyLong>
+                                </Alert>) :
                             (
                                 <>
                                     <Accordion>
