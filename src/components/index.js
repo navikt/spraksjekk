@@ -4,8 +4,6 @@ export { default as Feedback } from "./theme/Feedback.tsx";
 export { default as Purpose } from "./theme/Purpose.tsx";
 export { default as ScrollToTop } from "./theme/ScrollToTop.tsx";
 export { default as MenuBar } from "./theme/MenuBar.tsx";
-export { default as ShakeHandsIcon } from "./theme/icons/ShakeHandsIcon.tsx";
-export { default as PrivacyIcon } from "./theme/icons/PrivacyIcon.tsx";
 
 // Content Analysis
 export { default as WordCount } from "./analysis/WordCount.tsx";

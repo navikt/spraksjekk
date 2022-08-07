@@ -1,14 +1,12 @@
-import {
-    ShakeHandsIcon,
-    PrivacyIcon,
-} from "../../components"
+import { DirectionSign, ShakeHands, EyeScreened } from "@navikt/ds-icons";
 
 function Purpose() {
     return (
         <div className="pb-2">
+            <p>Nav Språkhjelp hjelper deg med å gjøre tekstene mer lettlest.</p>
             <ul className="ListRemoveStyling">
-                <li><ShakeHandsIcon/> NAV lagrer ikke teksten.</li>
-                <li><PrivacyIcon/> Ikke legg inn personopplysninger.</li>
+                <li><ShakeHands title="Håndtrykk" /> NAV lagrer ikke teksten.</li>
+                <li><EyeScreened title="Personvern"/> Ikke legg inn personopplysninger.</li>
             </ul>
         </div>
     );

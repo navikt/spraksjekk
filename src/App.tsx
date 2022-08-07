@@ -17,7 +17,7 @@ import {
     PersonalData,
     Purpose,
 } from "./components"
-import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button, BodyLong} from "@navikt/ds-react";
+import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button, Ingress} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
@@ -104,7 +104,7 @@ export default () => {
                 <Grid>
                     {mobilvisning == true ? (<Cell xs={12} sm={7} lg={4}>
                         <Heading spacing level="2" size="large">
-                            Språkhjelp
+                            Få øyeblikkelig språkhjelp
                         </Heading>
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
@@ -119,7 +119,7 @@ export default () => {
                         <Purpose />
                     </Cell>) : (<Cell xs={12} sm={7} lg={8}>
                         <Heading spacing level="2" size="large">
-                            Språkhjelp
+                            Få øyeblikkelig språkhjelp
                         </Heading>
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
@@ -139,12 +139,7 @@ export default () => {
                             Resultater
                         </Heading>
                         {value.length == 0 ? (
-                                <Alert variant="info" size="medium">
-                                    <Heading spacing size="xsmall" level="3">
-                                        Legg til tekst for å få opp resultater
-                                    </Heading>
-                                    <BodyLong>Du får øyeblikkelig hjelp til å gjøre teksten mer lettlest.</BodyLong>
-                                </Alert>) :
+                                <Alert variant="info">Legg til tekst for å få opp resultater.</Alert>) :
                             (
                                 <>
                                     <Accordion>
