@@ -106,7 +106,7 @@ function LongWords(props: { content: any; }) {
                         Wikipedia<ExternalLink title="Ekstern lenke"/>
                     </Link>
 
-                        <Heading className="mt-6" spacing level="3" size="xsmall">
+                        <Heading className="mt-6 mb-6" spacing level="3" size="xsmall">
                             Ord med over 6 bokstaver
                         </Heading>
                         {/*
@@ -125,7 +125,7 @@ function LongWords(props: { content: any; }) {
                             {listLongWords}
                         </ul> */}
                         <div className="overflow-scroll">
-                            <Table zebraStripes size="small" className="mt-6">
+                            <Table zebraStripes size="small">
                                 <Table.Header>
                                     <Table.Row>
                                         <Table.HeaderCell scope="col">Ord</Table.HeaderCell>

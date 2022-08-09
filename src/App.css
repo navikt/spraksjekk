@@ -85,6 +85,7 @@
 
 .overflow-scroll {
     overflow-y: hidden !important;
+    background: #fff;
 }
 
 .removeAccordionPaddingBottom {
@@ -102,16 +103,17 @@
 
 .navds-accordion__item--open > .navds-accordion__header:hover {
     border-color: transparent;
+    background: #0056B4;
     color: #fff;
 }
 
 /*.gammelnavskAccordion {
     background-color: #f8fafc !important;
-}
+}*/
 
 .gammelnavskAccordionContent {
     background-color: white !important;
-}*/
+}
 
 .float-right {
     float: right;
