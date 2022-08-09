@@ -84,12 +84,34 @@
 }
 
 .overflow-scroll {
-    overflow-y: scroll !important;
+    overflow-y: hidden !important;
 }
 
 .removeAccordionPaddingBottom {
     padding-bottom: 0px;
 }
+
+.navds-accordion {
+    background: #E6F0FF;
+}
+
+.navds-accordion__item--open > .navds-accordion__header {
+  background: #0b4dc1;
+    color: #fff;
+}
+
+.navds-accordion__item--open > .navds-accordion__header:hover {
+    border-color: transparent;
+    color: #fff;
+}
+
+/*.gammelnavskAccordion {
+    background-color: #f8fafc !important;
+}
+
+.gammelnavskAccordionContent {
+    background-color: white !important;
+}*/
 
 .float-right {
     float: right;
@@ -152,14 +174,6 @@
 .h-header {
     height: 3.5rem;
     display: inline-block;
-}
-
-.gammelnavskAccordion {
-    background-color: #f8fafc !important;
-}
-
-.gammelnavskAccordionContent {
-    background-color: white !important;
 }
 
 .spacing-30 {

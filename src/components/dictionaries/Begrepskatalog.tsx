@@ -60,7 +60,7 @@ function Begrepsordbok(props: { content: any; }) {
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key="">
                                     <Accordion.Header className="gammelnavskAccordion">
-                                        <span className="firstLetter">{gammelnavsk._source.content.term}</span>
+                                        <span className="firstLetter">"{gammelnavsk._source.content.term}"</span>
                                     </Accordion.Header>
                                     <Accordion.Content className="gammelnavskAccordionContent">
                                         {gammelnavsk._source.content.clean_definisjon && (

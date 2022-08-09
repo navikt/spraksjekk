@@ -44,18 +44,20 @@ function GammelnavskDictionary(props: { content: any; }) {
                             byttes ut</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        <div className="pb-6">Ord og utrykk som kan byttes ut:</div>
+                        <div className="pb-6">Ord og utrykk som sier noe på en vanskeligere måte enn nødvendig:</div>
                         {kansellistenResultater.length >= 1 &&
                             <>
-                                <Heading spacing level="4" size="xsmall">
-                                    Kansellisten
-                                </Heading>
-                                <Accordion className="gammelnavskAccordion mt-4 mb-6">
+                                {gammelnavskResultater.length >= 1 &&
+                                    <Heading spacing level="4" size="xsmall" className="mb-4">
+                                        Kansellisten
+                                    </Heading>
+                                }
+                                <Accordion className="gammelnavskAccordion">
                                     {kansellistenResultater.map((gammelnavsk, i) => (
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
                                                 <Accordion.Header className="gammelnavskAccordion">
-                                                    <span className="firstLetter">{gammelnavsk.kanselliord}</span>
+                                                    <span className="firstLetter">"{gammelnavsk.kanselliord}"</span>
                                                 </Accordion.Header>
                                                 <Accordion.Content className="gammelnavskAccordionContent">
                                                     <Heading spacing level="4" size="xsmall">
@@ -76,17 +78,22 @@ function GammelnavskDictionary(props: { content: any; }) {
                                     ))}
                                 </Accordion>
                             </>}
+                        {gammelnavskResultater.length >= 1 && kansellistenResultater.length >= 1 &&
+                            <div className="mb-6"></div>
+                        }
                         {gammelnavskResultater.length >= 1 &&
                             <>
-                                <Heading spacing level="4" size="xsmall">
-                                    Gammelnavsk ordliste
-                                </Heading>
-                                <Accordion className="gammelnavskAccordion mt-4">
+                                {kansellistenResultater.length >= 1 &&
+                                    <Heading spacing level="4" size="xsmall" className="mb-4">
+                                        Gammelnavsk ordliste
+                                    </Heading>
+                                }
+                                <Accordion className="gammelnavskAccordion">
                                     {gammelnavskResultater.map((gammelnavsk, i) => (
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
                                                 <Accordion.Header className="gammelnavskAccordion">
-                                                    <span className="firstLetter">{gammelnavsk.ord}</span>
+                                                    <span className="firstLetter">"{gammelnavsk.ord}"</span>
                                                 </Accordion.Header>
                                                 <Accordion.Content className="gammelnavskAccordionContent">
                                                     <Heading spacing level="4" size="xsmall">

@@ -48,7 +48,7 @@ function GammelnavskCheck(props: { content: any; }) {
                                 {gammelnavskResultater.map((gammelnavsk, i) => (
                                     <Accordion.Item key="">
                                         <Accordion.Header className="gammelnavskAccordion">
-                                            <span className="firstLetter">{gammelnavsk.importord}</span>
+                                            <span className="firstLetter">"{gammelnavsk.importord}"</span>
                                         </Accordion.Header>
                                         <Accordion.Content className="gammelnavskAccordionContent">
                                             <Heading spacing level="4" size="xsmall">
