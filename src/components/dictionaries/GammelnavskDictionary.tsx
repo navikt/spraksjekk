@@ -44,6 +44,9 @@ function GammelnavskDictionary(props: { content: any; }) {
                             byttes ut</>)}
                     </Accordion.Header>
                     <Accordion.Content>
+                        <Heading spacing level="3" size="xsmall">
+                            Velg enkle ord
+                        </Heading>
                         <div className="pb-6">Ord og utrykk som sier noe på en vanskeligere måte enn nødvendig:</div>
                         {kansellistenResultater.length >= 1 &&
                             <>

@@ -97,7 +97,7 @@
 }
 
 .navds-accordion__item--open > .navds-accordion__header {
-  background: #0067C5;
+    background: #0067C5;
     color: #fff;
 }
 
@@ -106,10 +106,6 @@
     background: #0056B4;
     color: #fff;
 }
-
-/*.gammelnavskAccordion {
-    background-color: #f8fafc !important;
-}*/
 
 .gammelnavskAccordionContent {
     background-color: white !important;

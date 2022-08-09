@@ -29,7 +29,10 @@ function NrkDictionaries(props: { content: any; }) {
                             ord</>) : (<>{gammelnavskResultater.length} mulige støtende ord</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        Ord som kan være støtende, eller som bør brukes med varsomhet:
+                        <Heading spacing level="3" size="xsmall">
+                            Vær varsom
+                        </Heading>
+                        Ord i teksten som kan være støtende, eller som bør brukes med varsomhet:
                         <Accordion className="gammelnavskAccordion mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key={gammelnavsk.id}>
