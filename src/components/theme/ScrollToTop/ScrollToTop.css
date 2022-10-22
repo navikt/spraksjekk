@@ -1,0 +1,11 @@
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 100px;
+    background: #262626;
+}
+
+.back-to-top:hover {
+    background: #000;
+}

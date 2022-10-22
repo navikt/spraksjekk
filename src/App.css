@@ -1,17 +1,9 @@
-.is-active {
-    background-color: black;
-    color: #fff;
-}
-
 .button {
     background: #f8fafc;
     border: 1px solid #000;
     padding: 5px;
 }
 
-.a11y-lineheight {
-    line-height: 1.5em;
-}
 .mobilvisning-label {
     flex: auto;
     align-self: center;
@@ -46,18 +38,6 @@
     flex-direction: column;
     gap: var(--navds-spacing-1);
     padding: 0.75rem 0 0.75rem 3.25rem;
-}
-
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    border-radius: 100px;
-    background: #262626;
-}
-
-.back-to-top:hover {
-    background: #000;
 }
 
 .ProseMirror {
@@ -111,10 +91,6 @@
     background-color: white !important;
 }
 
-.float-right {
-    float: right;
-}
-
 .bg-white {
     background: #fff !important;
 }
@@ -155,12 +131,6 @@
     text-transform: capitalize;
 }
 
-.ListRemoveStyling {
-    list-style-type: none;
-    padding-left: 0px;
-    margin-bottom: 0px;
-}
-
 .wordcountlist {
     margin-top: 10px;
 }
@@ -180,7 +150,6 @@
 
 .pagination-container {
     width: 100%;
-    /*  display: flex; */
 }
 
 .pagination {
@@ -195,28 +164,6 @@
 .lengthField {
     display: inline-block !important;
     width: 60px !important;
-}
-
-#header {
-    color: #fff;
-    background: #262626;
-    font-weight: 400;
-}
-
-.headerContainer {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-#headingLink {
-    text-decoration: none !important;
-    color: #fff !important;
-    font-weight: 400;
-}
-
-#headingLink:hover {
-    text-decoration: underline !important;
-    color: #fff !important;
 }
 
 .navds-help-text {

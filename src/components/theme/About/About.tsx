@@ -1,6 +1,7 @@
-import { DirectionSign, ShakeHands, EyeScreened } from "@navikt/ds-icons";
+import { ShakeHands, EyeScreened } from "@navikt/ds-icons";
+import './About.css'
 
-function Purpose() {
+function About() {
     return (
         <div className="pb-2">
             <p className="a11y-lineheight">NAV Språkhjelp hjelper deg med å gjøre tekstene mer lettlest.</p>
@@ -12,4 +13,4 @@ function Purpose() {
     );
 }
 
-export default Purpose;
+export default About;

@@ -1,5 +1,7 @@
 import {useEffect, useState} from 'react';
 import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
+import "@navikt/ds-css";
+import './App.css'
 import {
     Header,
     Lix,
@@ -15,15 +17,13 @@ import {
     NrkDictionaries,
     AvløserordDictionary,
     PersonalData,
-    Purpose,
+    About,
 } from "./components"
-import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button, Ingress} from "@navikt/ds-react";
+import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
 import {Search} from "@navikt/ds-icons";
-import "@navikt/ds-css";
-import './App.css'
 
 export default () => {
     const queryParams = new URLSearchParams(location.search);
@@ -48,7 +48,6 @@ export default () => {
     const [value, setValue] = useState(q2)
     const [mobilvisning, setMobilvisning] = useState(false)
     let higlighetdwords = window.getSelection().toString().toLowerCase();
-    let higlighetdwordscount = window.getSelection().toString().toLowerCase().split(/\s+/);
 
     function focusTiptap() {
         if (editor) {
@@ -56,6 +55,10 @@ export default () => {
         }
     }
 
+    let mobileView = 4
+    if (!mobilvisning) {
+        mobileView = 8
+    }
 
     const editor = useEditor({
         extensions: [
@@ -82,6 +85,7 @@ export default () => {
     })
     return (
         <main>
+            {/* Meny som vises når ord markeres i editoren */}
             {editor && <BubbleMenu className="bubble-menu" tippyOptions={{aria: {
                     content: 'auto',
                     expanded: false,
@@ -102,10 +106,9 @@ export default () => {
             <Header/>
             <ContentContainer className="my-6">
                 <Grid>
-                    {mobilvisning == true ? (<Cell xs={12} sm={7} lg={4}>
-                        <Heading spacing level="2" size="large">
-                            Få øyeblikkelig språkhjelp
-                        </Heading>
+                    {/* @ts-ignore */}
+                    <Cell xs={12} sm={7} lg={mobileView}>
+                        <Heading spacing level="2" size="large">Få øyeblikkelig språkhjelp</Heading>
                         <div className="mobilvisning-container">
                             <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
                                 tekst</Label>
@@ -116,24 +119,8 @@ export default () => {
                             </Switch>
                         </div>
                         <EditorContent editor={editor} id="tiptapeditor" className="mb-6" />
-                        <Purpose />
-                    </Cell>) : (<Cell xs={12} sm={7} lg={8}>
-                        <Heading spacing level="2" size="large">
-                            Få øyeblikkelig språkhjelp
-                        </Heading>
-                        <div className="mobilvisning-container">
-                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
-                                tekst</Label>
-                            <Switch aria-hidden="false" onChange={() => setMobilvisning(!mobilvisning)}
-                                    checked={mobilvisning}
-                                    className="mobilvisning-button" size="medium" position="left">
-                                Mobilvisning
-                            </Switch>
-                        </div>
-                        <EditorContent editor={editor} id="tiptapeditor" className="mb-6" />
-                        <Purpose />
-                    </Cell>)}
-
+                        <About />
+                    </Cell>
                     <Cell xs={12} sm={5} lg={4}>
                         <Heading spacing level="2" size="large">
                             Resultater

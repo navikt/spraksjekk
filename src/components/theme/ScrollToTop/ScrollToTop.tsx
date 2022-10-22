@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import './ScrollToTop.css'
 import {Button} from "@navikt/ds-react";
 
 function ScrollToTop() {
