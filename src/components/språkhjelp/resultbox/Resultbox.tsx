@@ -1,4 +1,4 @@
-import './Results.css'
+import './Resultbox.css'
 import {Accordion, Alert} from "@navikt/ds-react";
 import {
     LongParagraphs,
@@ -14,7 +14,7 @@ import {
     WordCount
 } from "../"
 
-function Results(props) {
+function Resultbox(props) {
     let value = props.content;
     return (
         <>
@@ -41,4 +41,4 @@ function Results(props) {
     );
 }
 
-export default Results;
+export default Resultbox;
