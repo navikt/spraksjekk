@@ -1,4 +1,4 @@
-import {LixResultMessage} from "../index.js";
+import {LixResultMessage} from "../";
 import {Accordion, BodyShort, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 import {useState} from 'react'
@@ -63,7 +63,7 @@ function Lix(props: { content: any }) {
                             lesbarhetsindeksen Liks<ExternalLink/>
                         </Link>.
                         </BodyShort>
-                        <BodyShort className="mt-6">
+                        <div className="mt-6">
                             <Heading spacing level="3" size="xsmall">
                                 Skriveråd
                             </Heading>
@@ -72,7 +72,7 @@ function Lix(props: { content: any }) {
                                 <li>Velg korte og enkle ord</li>
                                 <li>Skriv det viktigste først</li>
                             </ul>
-                        </BodyShort>
+                        </div>
                     </Accordion.Content>
                 </Accordion.Item>
             )}

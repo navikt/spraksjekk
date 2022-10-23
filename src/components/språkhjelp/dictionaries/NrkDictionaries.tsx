@@ -1,6 +1,6 @@
 import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
-import {Nrkordliste} from "../../dictionaries";
+import {Nrkordliste} from "../../../dictionaries";
 
 function NrkDictionaries(props: { content: any; }) {
     const value = props.content;

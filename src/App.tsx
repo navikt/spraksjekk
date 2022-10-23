@@ -4,23 +4,13 @@ import "@navikt/ds-css";
 import './App.css'
 import {
     Header,
-    Lix,
-    WordCount,
-    LongWords,
-    LongSentences,
-    LongParagraphs,
-    DublicateWords,
     ScrollToTop,
-    Begrepskatalog,
     Feedback,
-    GammelnavskDictionary,
-    NrkDictionaries,
-    AvløserordDictionary,
-    PersonalData,
     About,
     MyBubbleMenu,
-} from "./components"
-import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch} from "@navikt/ds-react";
+} from "./components/theme"
+import { Språkhjelp } from "./components/språkhjelp"
+import {ContentContainer, Heading, Grid, Cell, Label, Switch} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
@@ -84,7 +74,6 @@ export default () => {
     })
     return (
         <main>
-            {/* Meny som vises når ord markeres i editoren */}
             {editor && <MyBubbleMenu higlighetdwords={higlighetdwords} editor={editor} />}
             <Header/>
             <ContentContainer className="my-6">
@@ -108,25 +97,7 @@ export default () => {
                         <Heading spacing level="2" size="large">
                             Resultater
                         </Heading>
-                        {value.length == 0 ? (
-                                <Alert variant="info">Legg til tekst for å få opp resultater.</Alert>) :
-                            (
-                                <>
-                                    <Accordion>
-                                        <LongParagraphs content={value}/>
-                                        <LongSentences content={value}/>
-                                        <LongWords content={value}/>
-                                        <DublicateWords content={value}/>
-                                        <GammelnavskDictionary content={value}/>
-                                        <NrkDictionaries content={value}/>
-                                        <AvløserordDictionary content={value}/>
-                                        <Begrepskatalog content={value}/>
-                                        <PersonalData content={value}/>
-                                        <Lix content={value}/>
-                                        <WordCount content={value}/>
-                                    </Accordion>
-                                </>
-                            )}
+                        <Språkhjelp content={value} />
                         <Feedback/>
                     </Cell>
                 </Grid>
