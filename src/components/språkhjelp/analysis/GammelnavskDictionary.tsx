@@ -1,7 +1,7 @@
 import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
-import {Gammelnavsk} from "../../../dictionaries";
-import {Kansellisten} from "../../../dictionaries";
+import {Gammelnavsk} from "./dictionaries/index";
+import {Kansellisten} from "./dictionaries/index";
 
 function GammelnavskDictionary(props: { content: any; }) {
     const value = props.content;

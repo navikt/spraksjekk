@@ -1,4 +1,4 @@
-import {LixResultMessage} from "../";
+import {LixResultMessage} from "./commons/index";
 import {Accordion, BodyShort, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 import {useState} from 'react'

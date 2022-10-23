@@ -1,4 +1,4 @@
-import { LixResultMessage, WordFrequency } from "../";
+import { LixResultMessage, WordFrequency } from "./commons/index";
 import {Accordion, Link} from "@navikt/ds-react";
 import { useState } from 'react'
 import {ExternalLink} from "@navikt/ds-icons";

@@ -1,4 +1,4 @@
-import './Resultbox.css'
+import './Språkhjelp.css'
 import {Accordion, Alert} from "@navikt/ds-react";
 import {
     LongParagraphs,
@@ -12,7 +12,7 @@ import {
     PersonalData,
     Lix,
     WordCount
-} from "../"
+} from "./analysis/index"
 
 function Resultbox(props) {
     let value = props.content;

@@ -8,8 +8,8 @@ import {
     Feedback,
     About,
     MyBubbleMenu,
-} from "./components/theme"
-import { Språkhjelp } from "./components/språkhjelp"
+} from "./components/theme/index"
+import { Språkhjelp } from "./components/språkhjelp/analysis/index"
 import {ContentContainer, Heading, Grid, Cell, Label, Switch} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'

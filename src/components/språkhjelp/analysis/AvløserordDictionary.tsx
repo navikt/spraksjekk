@@ -1,6 +1,6 @@
 import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
-import {Avløserord, Datatermer} from "../../../dictionaries";
+import {Avløserord, Datatermer} from "./dictionaries/index";
 
 function GammelnavskCheck(props: { content: any; }) {
     const value = props.content;
