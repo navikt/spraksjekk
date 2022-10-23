@@ -3,6 +3,7 @@ export { default as Header } from "./theme/Header/Header.tsx";
 export { default as Feedback } from "./theme/Feedback/Feedback.tsx";
 export { default as About } from "./theme/About/About.tsx";
 export { default as ScrollToTop } from "./theme/ScrollToTop/ScrollToTop.tsx";
+export { default as MyBubbleMenu } from "./theme/BubbleMenu/BubbleMenu.tsx";
 
 // Content Analysis
 export { default as WordCount } from "./analysis/WordCount.tsx";

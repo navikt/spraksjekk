@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {useEditor, EditorContent, BubbleMenu} from '@tiptap/react'
+import {useEditor, EditorContent} from '@tiptap/react'
 import "@navikt/ds-css";
 import './App.css'
 import {
@@ -18,19 +18,18 @@ import {
     AvløserordDictionary,
     PersonalData,
     About,
+    MyBubbleMenu,
 } from "./components"
-import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch, Button} from "@navikt/ds-react";
+import {ContentContainer, Heading, Alert, Grid, Cell, Accordion, Label, Switch} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
-import {Search} from "@navikt/ds-icons";
 
 export default () => {
     const queryParams = new URLSearchParams(location.search);
     let q1 = ""
     let q2 = ""
     let q3 = ""
-    const [query, setQuery] = useState("")
     if (queryParams.get('q')) {
         q1 = queryParams.get('q').replaceAll(" Kopier lenke ", "</p><p>");
         q2 = q1.split("\n\n" && "  ").map((el, i) => {
@@ -86,23 +85,7 @@ export default () => {
     return (
         <main>
             {/* Meny som vises når ord markeres i editoren */}
-            {editor && <BubbleMenu className="bubble-menu" tippyOptions={{aria: {
-                    content: 'auto',
-                    expanded: false,
-                },}} editor={editor}>
-                {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g) && (
-                    <>
-                        <Button role="link" variant="secondary" onClick={(e) => {
-                            e.preventDefault();
-                            window.open('https://ordbokene.no/bm,nn/search?q=' + higlighetdwords, "_blank");
-                        }}><Search/> Ordbøkene.no</Button>
-                        <Button role="link" style={{marginLeft: '-1px'}} variant="secondary" onClick={(e) => {
-                            e.preventDefault();
-                            window.open('https://www.nb.no/ngram/?1_1_2_' + higlighetdwords + '_1_1_0_1800%2C2021_2_2_2_12_2', "_blank");
-                        }}><Search/> N-gram</Button>
-                    </>
-                )}
-            </BubbleMenu>}
+            {editor && <MyBubbleMenu higlighetdwords={higlighetdwords} editor={editor} />}
             <Header/>
             <ContentContainer className="my-6">
                 <Grid>
