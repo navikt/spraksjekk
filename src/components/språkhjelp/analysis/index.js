@@ -1,6 +1,3 @@
-// Språkhjelp resultbox
-export { default as Språkhjelp } from "../Språkhjelp.tsx";
-
 // Språkhjelp content analysis
 export { default as WordCount } from "./WordCount.tsx";
 export { default as Lix } from "./Lix.tsx";

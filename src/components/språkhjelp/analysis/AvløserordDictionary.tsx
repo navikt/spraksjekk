@@ -6,7 +6,6 @@ function GammelnavskCheck(props: { content: any; }) {
     const value = props.content;
     let gammelnavsk = Avløserord;
     let gammelnavskResultater;
-
     let datatermer = Datatermer;
     let datatermerResultater;
 
