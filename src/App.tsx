@@ -7,7 +7,7 @@ import {
     ScrollToTop,
     Feedback,
     About,
-    MyBubbleMenu,
+    FloatMenu,
 } from "./components/theme/index"
 import { Språkhjelp } from "./components/språkhjelp/index"
 import {ContentContainer, Heading, Grid, Cell, Label, Switch} from "@navikt/ds-react";
@@ -74,7 +74,7 @@ export default () => {
     })
     return (
         <main>
-            {editor && <MyBubbleMenu higlighetdwords={higlighetdwords} editor={editor} />}
+            {editor && <FloatMenu higlighetdwords={higlighetdwords} editor={editor} />}
             <Header/>
             <ContentContainer className="my-6">
                 <Grid>

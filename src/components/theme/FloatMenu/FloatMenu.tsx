@@ -2,7 +2,7 @@ import {Search} from "@navikt/ds-icons";
 import {Button} from "@navikt/ds-react";
 import {BubbleMenu} from "@tiptap/react";
 
-function MyBubbleMenu(props) {
+function FloatMenu(props) {
     let higlighetdwords = props.higlighetdwords
     let editor = props.editor
     return (
@@ -26,4 +26,4 @@ function MyBubbleMenu(props) {
     );
 }
 
-export default MyBubbleMenu;
+export default FloatMenu;
