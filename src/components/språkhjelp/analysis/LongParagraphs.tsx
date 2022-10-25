@@ -15,7 +15,7 @@ function LongParagraphs(props: { content: any; }) {
         .join("\n");
     let content = rawcontent;
 
-    const paragraphs = content.split(/\n/).sort(function (a, b) {
+    const paragraphs = content.split(/\n/).sort(function (a: { replace: (arg0: RegExp, arg1: string) => { (): any; new(): any; split: { (arg0: string): { (): any; new(): any; length: number; }; new(): any; }; }; }, b: { replace: (arg0: RegExp, arg1: string) => { (): any; new(): any; split: { (arg0: string): { (): any; new(): any; length: number; }; new(): any; }; }; }) {
         return b.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length - a.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length;
     });
     let longParagraphsCounter = 0;
