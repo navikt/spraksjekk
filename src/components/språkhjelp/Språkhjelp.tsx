@@ -22,7 +22,7 @@ function Resultbox(props) {
                     <Alert variant="info">Legg til tekst for å få opp resultater.</Alert>) :
                 (
                     <>
-                        <Accordion>
+                        <Accordion className="språkhjelp-navds-accordion">
                             <LongParagraphs content={value}/>
                             <LongSentences content={value}/>
                             <LongWords content={value}/>

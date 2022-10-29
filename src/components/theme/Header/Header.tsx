@@ -3,10 +3,10 @@ import './Header.css'
 
 function Header() {
     return (
-        <header id="header">
-        <ContentContainer className="headerContainer">
+        <header id="språkhjelp-header">
+        <ContentContainer id="språkhjelp-headerContainer">
           <Heading size="xsmall" level="1">
-            <Link id="headingLink" href="..">
+            <Link id="språkhjelp-headingLink" href="..">
                NAV Språkhjelp
             </Link>
           </Heading>

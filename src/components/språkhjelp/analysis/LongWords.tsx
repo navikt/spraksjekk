@@ -106,7 +106,7 @@ function LongWords(props: { content: any; }) {
                         Wikipedia<ExternalLink title="Ekstern lenke"/>
                     </Link>
 
-                        <Heading className="mt-6 mb-6" spacing level="3" size="xsmall">
+                        <Heading className="språkhjelp-pt-6" spacing level="3" size="xsmall">
                             Ord med over 6 bokstaver
                         </Heading>
                         {/*
@@ -124,7 +124,7 @@ function LongWords(props: { content: any; }) {
                         <ul className="list-disc pt-5 list-inside">
                             {listLongWords}
                         </ul> */}
-                        <div className="overflow-scroll">
+                        <div className="språkhjelp-overflow-scroll">
                             <Table zebraStripes size="small">
                                 <Table.Header>
                                     <Table.Row>
@@ -147,9 +147,9 @@ function LongWords(props: { content: any; }) {
                             </Table>
                         </div>
                         {longWordCounter > 10 &&
-                            <div className="pagination-container">
+                            <div className="språkhjelp-pagination-container">
                                 <Pagination
-                                    className="spacing-30 pagination"
+                                    className="språkhjelp-spacing-30 språkhjelp-pagination"
                                     page={page}
                                     onPageChange={setPage}
                                     count={pagesCount}

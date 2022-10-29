@@ -14,7 +14,7 @@ function PersonalData(props: { content: any; }) {
     let emailCount = 0
     let getemail = <></>
     if (email) {
-        getemail = email.map((email, index) => <li key={index} className="pb-2">{email}</li>)
+        getemail = email.map((email, index) => <li key={index} className="språkhjelp-pb-2">{email}</li>)
         emailCount = email.length
     }
     const listEmail = getemail
@@ -28,7 +28,7 @@ function PersonalData(props: { content: any; }) {
     let phoneCount = 0
     let getphone = <></>
     if (phone) {
-        getphone = phone.map((phone, index) => <li key={index} className="pb-2">{phone}</li>)
+        getphone = phone.map((phone, index) => <li key={index} className="språkhjelp-pb-2">{phone}</li>)
         phoneCount = phone.length
     }
     const listPhone = getphone
@@ -42,12 +42,12 @@ function PersonalData(props: { content: any; }) {
                         personopplysning</>) : (<>mulige
                         personopplysninger</>)}
                     </Accordion.Header>
-                    <Accordion.Content className="removeAccordionPaddingBottom">
+                    <Accordion.Content className="språkhjelp-removeAccordionPaddingBottom">
                         {emailCount >= 1 && (<>
                             <Heading spacing level="3" size="xsmall">
                                 E-postadresser
                             </Heading>
-                            <ul className="list-disc pt-5 list-inside">
+                            <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
                                 {listEmail}
                             </ul>
                         </>)}
@@ -55,7 +55,7 @@ function PersonalData(props: { content: any; }) {
                             <Heading spacing level="3" size="xsmall">
                                 Telefonnummer
                             </Heading>
-                            <ul className="list-disc pt-5 list-inside">
+                            <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
                                 {listPhone}
                             </ul>
                         </>)}

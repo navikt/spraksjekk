@@ -75,7 +75,7 @@ function WordCount(props: { content: any; }) {
         Ordtelling {/*  ({totalwords} ord) */}
       </Accordion.Header>
       <Accordion.Content>
-        <ul className="wordcountlist list-disc list-inside">
+        <ul className="språkhjelp-wordcountlist språkhjelp-list-disc språkhjelp-list-inside">
           <li>Ord: {totalwords}</li>
           <li>Setninger: {totalsentences}</li>
           <li>Avsnitt: {totalparagraphs}</li>
@@ -87,7 +87,7 @@ function WordCount(props: { content: any; }) {
             </Link></li>
           )}
         </ul>
-        <Accordion className="mt-6 gammelnavskAccordion">
+        <Accordion className="språkhjelp-mt-6 språkhjelp-gammelnavskAccordion">
           {/* <Lix content={value} /> */}
           <WordFrequency content={value} />
         </Accordion>

@@ -1,7 +1,5 @@
 import {useEffect, useState} from 'react';
 import {useEditor, EditorContent} from '@tiptap/react'
-import "@navikt/ds-css";
-import './App.css'
 import {
     Header,
     ScrollToTop,
@@ -14,6 +12,8 @@ import {ContentContainer, Heading, Grid, Cell, Label, Switch} from "@navikt/ds-r
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
 import {htmlToText} from "html-to-text";
+import "@navikt/ds-css";
+import './App.css'
 
 export default () => {
     const queryParams = new URLSearchParams(location.search);

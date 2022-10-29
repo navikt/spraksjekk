@@ -54,8 +54,8 @@ function WordFrequency(props: { content: any; }) {
                     <Accordion.Header>
                         Frekvensordliste
                     </Accordion.Header>
-                    <Accordion.Content className="overflow-x-auto gammelnavskAccordionContent">
-                        <div className="overflow-scroll">
+                    <Accordion.Content className="språkhjelp-overflow-x-auto språkhjelp-gammelnavskAccordionContent">
+                        <div className="språkhjelp-overflow-scroll">
                             <Table zebraStripes size="small">
                                 <Table.Header>
                                     <Table.Row>
@@ -77,9 +77,9 @@ function WordFrequency(props: { content: any; }) {
                                 </Table.Body>
                             </Table>
                         </div>
-                        <div className="pagination-container">
+                        <div className="språkhjelp-pagination-container">
                             <Pagination
-                                className="spacing-30 pagination"
+                                className="språkhjelp-spacing-30 språkhjelp-pagination"
                                 page={page}
                                 onPageChange={setPage}
                                 count={pagesCount}

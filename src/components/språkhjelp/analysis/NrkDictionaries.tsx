@@ -33,13 +33,13 @@ function NrkDictionaries(props: { content: any; }) {
                             Vær varsom
                         </Heading>
                         Ord i teksten som kan være støtende, eller som bør brukes med varsomhet:
-                        <Accordion className="gammelnavskAccordion mt-4">
+                        <Accordion className="språkhjelp-gammelnavskAccordion språkhjelp-mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key={gammelnavsk.id}>
-                                    <Accordion.Header className="gammelnavskAccordion">
+                                    <Accordion.Header className="språkhjelp-gammelnavskAccordion">
                                         <span className="firstLetter">"{gammelnavsk.ord}"</span>
                                     </Accordion.Header>
-                                    <Accordion.Content className="gammelnavskAccordionContent">
+                                    <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
                                         <Heading spacing level="4" size="xsmall">
                                             Forklaring
                                         </Heading>

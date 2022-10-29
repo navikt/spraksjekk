@@ -45,7 +45,7 @@ function LongParagraphs(props: { content: any; }) {
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
     const listLongParagraphs = longParagraphs.map((paragraph, index) =>
         <li key={index}
-            className="pb-5">{paragraph}
+            className="språkhjelp-pb-5">{paragraph}
             <b>({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b></li>
     );
 
@@ -79,10 +79,10 @@ function LongParagraphs(props: { content: any; }) {
                         Aksel<ExternalLink title="Ekstern lenke"/>
                     </Link>
 
-                        <Heading className="mt-6" spacing level="3" size="xsmall">
+                        <Heading className="språkhjelp-pt-6" spacing level="3" size="xsmall">
                             Avsnitt med over 3 setninger
                         </Heading>
-                        <ul className="list-disc pt-5 list-inside">
+                        <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
                             {listLongParagraphs}
                         </ul>
                     </Accordion.Content>

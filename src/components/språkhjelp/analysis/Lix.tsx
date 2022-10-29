@@ -55,19 +55,19 @@ function Lix(props: { content: any }) {
                     <Accordion.Header>
                         Liks: {lix}. <LixResultMessage lix={lix}/>
                     </Accordion.Header>
-                    <Accordion.Content className="gammelnavskAccordionContent removeAccordionPaddingBottom">
-                        <BodyShort style={{textTransform: "initial"}} className="pb-2">
+                    <Accordion.Content className="språkhjelp-gammelnavskAccordionContent språkhjelp-removeAccordionPaddingBottom">
+                        <BodyShort style={{textTransform: "initial"}} className="språkhjelp-pb-2">
                             Liks: {lix}. Teksten kan anses <span style={{textTransform: "lowercase"}}><LixResultMessage
                             lix={lix}/></span> ifølge <Link target="_blank"
                                                             href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
                             lesbarhetsindeksen Liks<ExternalLink/>
                         </Link>.
                         </BodyShort>
-                        <div className="mt-6">
+                        <div className="språkhjelp-pt-6">
                             <Heading spacing level="3" size="xsmall">
                                 Skriveråd
                             </Heading>
-                            <ul className="pb-5 list-disc list-inside">
+                            <ul className="språkhjelp-pb-5 språkhjelp-list-disc språkhjelp-list-inside">
                                 <li>Skriv korte og enkle setninger</li>
                                 <li>Velg korte og enkle ord</li>
                                 <li>Skriv det viktigste først</li>

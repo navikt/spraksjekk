@@ -25,7 +25,7 @@ function ScrollToTop() {
     return (
         <>
             {showButton && (
-                <Button onClick={scrollToTop} className="back-to-top">
+                <Button onClick={scrollToTop} id="språkhjelp-back-to-top">
                     &#8679; Til toppen
                 </Button>
             )}

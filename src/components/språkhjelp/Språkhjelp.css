@@ -1,68 +1,84 @@
-.removeAccordionPaddingBottom {
-    padding-bottom: 0px;
+.språkhjelp-removeAccordionPaddingBottom {
+    padding-bottom: 0px !important;
 }
 
-.navds-accordion {
-    background: #E6F0FF;
+.språkhjelp-navds-accordion {
+    background: #E6F0FF !important;
 }
 
-.navds-accordion__item--open > .navds-accordion__header {
+.språkhjelp-gammelnavskAccordion {
+    background: #FFF !important;
+}
+
+.språkhjelp-gammelnavskAccordion > .navds-accordion__item--open > .navds-accordion__header {
     border-color: transparent;
     background: #0067C5;
     color: #fff;
 }
 
-.navds-accordion__item--open > .navds-accordion__header:hover {
+.språkhjelp-gammelnavskAccordion > .navds-accordion__item--open > .navds-accordion__header:hover {
     border-color: transparent;
     background: #0056B4;
     color: #fff;
 }
 
-.gammelnavskAccordionContent {
+.språkhjelp-navds-accordion > .navds-accordion__item--open > .navds-accordion__header {
+    border-color: transparent;
+    background: #0067C5;
+    color: #fff;
+}
+
+.språkhjelp-navds-accordion > .navds-accordion__item--open > .navds-accordion__header:hover {
+    border-color: transparent;
+    background: #0056B4;
+    color: #fff;
+}
+
+.språkhjelp-gammelnavskAccordionContent {
     background-color: white !important;
 }
 
-.bg-white {
+.språkhjelp-bg-white {
     background: #fff !important;
 }
 
-.pb-2 {
+.språkhjelp-pb-2 {
     padding-bottom: 0.5rem;
 }
 
-.pb-5 {
+.språkhjelp-pb-5 {
     padding-bottom: 20px;
 }
 
-.pt-6 {
+.språkhjelp-pt-6 {
     padding-top: 1.5rem;
 }
 
-.pb-6 {
+.språkhjelp-pb-6 {
     padding-bottom: 1.5rem;
 }
 
-.mt-4 {
+.språkhjelp-mt-4 {
     margin-top: 1rem;
 }
 
-.mt-6 {
+.språkhjelp-mt-6 {
     margin-top: 1.5rem;
 }
 
-.mb-6 {
+.språkhjelp-mb-6 {
     margin-bottom: 1.5rem;
 }
 
-.pb-5rem {
+.språkhjelp-pb-5rem {
     margin-bottom: 5rem;
 }
 
-.firstLetter:first-letter {
+.språkhjelp-firstLetter:first-letter {
     text-transform: capitalize;
 }
 
-.wordcountlist {
+.språkhjelp-wordcountlist {
     margin-top: 10px;
 }
 
@@ -70,42 +86,42 @@
     min-height: 250px;
 }
 
-.h-header {
+.språkhjelp-h-header {
     height: 3.5rem;
     display: inline-block;
 }
 
-.spacing-30 {
+.språkhjelp-spacing-30 {
     padding-top: 30px;
 }
 
-.pagination-container {
+.språkhjelp-pagination-container {
     width: 100%;
 }
 
-.pagination {
+.språkhjelp-pagination {
     margin-left: auto;
     margin-right: auto;
 }
 
-.w-full {
+.språkhjelp-w-full {
     width: 100%
 }
 
-.lengthField {
+.språkhjelp-lengthField {
     display: inline-block !important;
     width: 60px !important;
 }
 
-.navds-help-text {
+.språkhjelp-navds-help-text {
     display: inline-block !important;
 }
 
-.navds-accordion__item button {
+.språkhjelp-navds-accordion__item button {
     background-color: #f8fafc;
 }
 
-.overflow-scroll {
+.språkhjelp-overflow-scroll {
     overflow-y: hidden !important;
     background: #fff;
 }

@@ -1,4 +1,4 @@
-.back-to-top {
+#språkhjelp-back-to-top {
     position: fixed;
     bottom: 25px;
     right: 25px;
@@ -6,6 +6,6 @@
     background: #262626;
 }
 
-.back-to-top:hover {
+#språkhjelp-back-to-top:hover {
     background: #000;
 }

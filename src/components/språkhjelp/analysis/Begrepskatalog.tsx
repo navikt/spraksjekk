@@ -56,27 +56,27 @@ function Begrepsordbok(props: { content: any; }) {
                               href="https://data.nav.no/?Tema=%5B%22Begreper%22%5D&sortKey=%22issued%22&sortOrder=%22desc%22">
                             Begrepskatalogen<ExternalLink/>
                         </Link>:
-                        <Accordion className="gammelnavskAccordion mt-4">
+                        <Accordion className="språkhjelp-gammelnavskAccordion språkhjelp-mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key="">
-                                    <Accordion.Header className="gammelnavskAccordion">
-                                        <span className="firstLetter">"{gammelnavsk._source.content.term}"</span>
+                                    <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                        <span className="språkhjelp-firstLetter">"{gammelnavsk._source.content.term}"</span>
                                     </Accordion.Header>
-                                    <Accordion.Content className="gammelnavskAccordionContent">
+                                    <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
                                         {gammelnavsk._source.content.clean_definisjon && (
                                             <Heading spacing level="4" size="xsmall">
                                                 Definisjon
                                             </Heading>
                                         )}
                                         <p
-                                            className="firstLetter">{gammelnavsk._source.content.clean_definisjon}</p>
+                                            className="språkhjelp-firstLetter">{gammelnavsk._source.content.clean_definisjon}</p>
                                         {gammelnavsk._source.content.clean_begrepsforklaring && (
                                             <Heading spacing level="4" size="xsmall">
                                                 Begrepsforklaring
                                             </Heading>
                                         )}
                                         <p
-                                            className="firstLetter">{gammelnavsk._source.content.clean_begrepsforklaring}</p>
+                                            className="språkhjelp-firstLetter">{gammelnavsk._source.content.clean_begrepsforklaring}</p>
                                         <Link target="_blank"
                                               href={"https://data.nav.no/begrep/" + gammelnavsk._id}>
                                             Åpne i Berepskatalogen<ExternalLink/>

@@ -47,27 +47,27 @@ function GammelnavskDictionary(props: { content: any; }) {
                         <Heading spacing level="3" size="xsmall">
                             Velg enkle ord
                         </Heading>
-                        <div className="pb-6">Ord og utrykk som sier noe på en vanskeligere måte enn nødvendig:</div>
+                        <div className="språkhjelp-pb-6">Ord og utrykk som sier noe på en vanskeligere måte enn nødvendig:</div>
                         {kansellistenResultater.length >= 1 &&
                             <>
                                 {gammelnavskResultater.length >= 1 &&
-                                    <Heading spacing level="4" size="xsmall" className="mb-4">
+                                    <Heading spacing level="4" size="xsmall" className="språkhjelp-mb-4">
                                         Kansellisten
                                     </Heading>
                                 }
-                                <Accordion className="gammelnavskAccordion">
+                                <Accordion className="språkhjelp-gammelnavskAccordion">
                                     {kansellistenResultater.map((gammelnavsk, i) => (
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
-                                                <Accordion.Header className="gammelnavskAccordion">
-                                                    <span className="firstLetter">"{gammelnavsk.kanselliord}"</span>
+                                                <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                                    <span className="språkhjelp-firstLetter">"{gammelnavsk.kanselliord}"</span>
                                                 </Accordion.Header>
-                                                <Accordion.Content className="gammelnavskAccordionContent">
+                                                <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
                                                     <Heading spacing level="4" size="xsmall">
                                                         Forslag
                                                     </Heading>
                                                     Skriv heller: {gammelnavsk.alternativ_1}
-                                                    <Heading spacing className="pt-6" level="4" size="xsmall">
+                                                    <Heading spacing className="språkhjelp-pt-6" level="4" size="xsmall">
                                                         Kilde
                                                     </Heading>
                                                     <Link target="_blank"
@@ -82,32 +82,32 @@ function GammelnavskDictionary(props: { content: any; }) {
                                 </Accordion>
                             </>}
                         {gammelnavskResultater.length >= 1 && kansellistenResultater.length >= 1 &&
-                            <div className="mb-6"></div>
+                            <div className="språkhjelp-mb-6"></div>
                         }
                         {gammelnavskResultater.length >= 1 &&
                             <>
                                 {kansellistenResultater.length >= 1 &&
-                                    <Heading spacing level="4" size="xsmall" className="mb-4">
+                                    <Heading spacing level="4" size="xsmall" className="språkhjelp-mb-4">
                                         Gammelnavsk ordliste
                                     </Heading>
                                 }
-                                <Accordion className="gammelnavskAccordion">
+                                <Accordion className="språkhjelp-gammelnavskAccordion">
                                     {gammelnavskResultater.map((gammelnavsk, i) => (
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
-                                                <Accordion.Header className="gammelnavskAccordion">
-                                                    <span className="firstLetter">"{gammelnavsk.ord}"</span>
+                                                <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                                    <span className="språkhjelp-firstLetter">"{gammelnavsk.ord}"</span>
                                                 </Accordion.Header>
-                                                <Accordion.Content className="gammelnavskAccordionContent">
+                                                <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
                                                     <Heading spacing level="4" size="xsmall">
                                                         Gammelnavsk
                                                     </Heading>
                                                     {gammelnavsk.gammelnavsk}
-                                                    <Heading spacing className="pt-6" level="4" size="xsmall">
+                                                    <Heading spacing className="språkhjelp-pt-6" level="4" size="xsmall">
                                                         Klart språk
                                                     </Heading>
                                                     {gammelnavsk.klart_språk}
-                                                    <Heading spacing className="pt-6" level="4" size="xsmall">
+                                                    <Heading spacing className="språkhjelp-pt-6" level="4" size="xsmall">
                                                         Kilde
                                                     </Heading>
                                                     <Link target="_blank"
