@@ -2,8 +2,12 @@
     padding-bottom: 0px !important;
 }
 
-.språkhjelp-navds-accordion {
-    background: #E6F0FF !important;
+.språkhjelp-navds-accordion .navds-accordion__content {
+    background: #E6F0FF;
+}
+
+.språkhjelp-navds-accordion .navds-accordion__header{
+    background-color: #f8fafc;
 }
 
 .språkhjelp-gammelnavskAccordion {
@@ -115,10 +119,6 @@
 
 .språkhjelp-navds-help-text {
     display: inline-block !important;
-}
-
-.språkhjelp-navds-accordion__item button {
-    background-color: #f8fafc;
 }
 
 .språkhjelp-overflow-scroll {
