@@ -6,7 +6,7 @@ function FloatMenu(props) {
     let higlighetdwords = props.higlighetdwords
     let editor = props.editor
     return (
-        <BubbleMenu className="bubble-menu" tippyOptions={{aria: {
+        <BubbleMenu tippyOptions={{aria: {
                 content: 'auto',
                 expanded: false,
             },}} editor={editor}>
