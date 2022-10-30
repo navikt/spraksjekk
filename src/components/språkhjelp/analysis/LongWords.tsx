@@ -28,7 +28,7 @@ function LongWords(props: { content: any; }) {
         .split(/\s+/)
         .map((s: string) => s.replace(/[.,:?()!"«»]+/g, ""));
 
-    // Find longest word
+    // Find the longest word
     let longestWord = 0;
     let array = words;
     for (let i = array.length - 1; i >= 0; i--) {
@@ -37,7 +37,7 @@ function LongWords(props: { content: any; }) {
         }
     }
 
-    // Slå sammen ord som er like
+    // Merge dublicate words
     function removeDuplicates(words) {
         return words.filter((item,
                              index) => words.indexOf(item) === index);
