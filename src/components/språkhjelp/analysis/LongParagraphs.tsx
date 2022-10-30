@@ -1,4 +1,4 @@
-import {Accordion, Heading, Link, TextField} from "@navikt/ds-react";
+import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {useState} from "react";
 import {ExternalLink} from "@navikt/ds-icons";
 

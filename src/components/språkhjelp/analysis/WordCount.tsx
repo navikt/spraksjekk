@@ -45,9 +45,9 @@ function WordCount(props: { content: any; }) {
     for (let i = 0; i < value.length; i++) {
       if (!punct.includes(value[i])) {
         continue;
-      };
+      }
       count++;
-    };
+    }
     return count;
   };
   dotCounter = countPunctuation(value);

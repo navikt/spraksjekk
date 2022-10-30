@@ -24,10 +24,10 @@ function Lix(props: { content: any }) {
             if (!punct.includes(value[i])) {
                 continue;
             }
-            ;
+
             count++;
         }
-        ;
+
         return count;
     };
     dotCounter = countPunctuation(value);
