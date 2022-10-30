@@ -43,13 +43,13 @@ function GammelnavskCheck(props: { content: any; }) {
                     <Accordion.Content>
                         Norske ord som kan brukes i stedet for de tilsvarende engelske:
                         {gammelnavskResultater && (
-                            <Accordion className="språkhjelp-gammelnavskAccordion språkhjelp-mt-4">
+                            <Accordion className="språkhjelp-inner-accordion språkhjelp-mt-4">
                                 {gammelnavskResultater.map((gammelnavsk, i) => (
                                     <Accordion.Item key="">
-                                        <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                        <Accordion.Header className="språkhjelp-inner-accordion">
                                             <span className="språkhjelp-firstLetter">"{gammelnavsk.importord}"</span>
                                         </Accordion.Header>
-                                        <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
+                                        <Accordion.Content className="språkhjelp-inner-accordion-content">
                                             <Heading spacing level="4" size="xsmall">
                                                 Avløserord
                                             </Heading>
@@ -66,13 +66,13 @@ function GammelnavskCheck(props: { content: any; }) {
                                 ))}
                             </Accordion>)}
                         {datatermerResultater && (
-                            <Accordion className="språkhjelp-gammelnavskAccordion">
+                            <Accordion className="språkhjelp-inner-accordion">
                                 {datatermerResultater.map((gammelnavsk, i) => (
                                     <Accordion.Item key="">
-                                        <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                        <Accordion.Header className="språkhjelp-inner-accordion">
                                             <span className="firstLetter">{gammelnavsk.ord}</span>
                                         </Accordion.Header>
-                                        <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
+                                        <Accordion.Content className="språkhjelp-inner-accordion-content">
                                             <Heading spacing level="4" size="xsmall">
                                                 Avløserord
                                             </Heading>

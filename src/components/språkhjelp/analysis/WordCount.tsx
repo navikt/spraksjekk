@@ -87,7 +87,7 @@ function WordCount(props: { content: any; }) {
             </Link></li>
           )}
         </ul>
-        <Accordion className="språkhjelp-mt-6 språkhjelp-gammelnavskAccordion">
+        <Accordion className="språkhjelp-mt-6 språkhjelp-inner-accordion">
           {/* <Lix content={value} /> */}
           <WordFrequency content={value} />
         </Accordion>

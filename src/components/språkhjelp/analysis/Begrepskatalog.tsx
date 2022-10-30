@@ -56,13 +56,13 @@ function Begrepsordbok(props: { content: any; }) {
                               href="https://data.nav.no/?Tema=%5B%22Begreper%22%5D&sortKey=%22issued%22&sortOrder=%22desc%22">
                             Begrepskatalogen<ExternalLink/>
                         </Link>:
-                        <Accordion className="språkhjelp-gammelnavskAccordion språkhjelp-mt-4">
+                        <Accordion className="språkhjelp-inner-accordion språkhjelp-mt-4">
                             {gammelnavskResultater.map((gammelnavsk, i) => (
                                 <Accordion.Item key="">
-                                    <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                    <Accordion.Header className="språkhjelp-inner-accordion">
                                         <span className="språkhjelp-firstLetter">"{gammelnavsk._source.content.term}"</span>
                                     </Accordion.Header>
-                                    <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
+                                    <Accordion.Content className="språkhjelp-inner-accordion-content">
                                         {gammelnavsk._source.content.clean_definisjon && (
                                             <Heading spacing level="4" size="xsmall">
                                                 Definisjon

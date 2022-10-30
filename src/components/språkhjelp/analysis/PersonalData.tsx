@@ -42,7 +42,7 @@ function PersonalData(props: { content: any; }) {
                         personopplysning</>) : (<>mulige
                         personopplysninger</>)}
                     </Accordion.Header>
-                    <Accordion.Content className="språkhjelp-removeAccordionPaddingBottom">
+                    <Accordion.Content className="språkhjelp-remove-accordion-padding-bottom">
                         {emailCount >= 1 && (<>
                             <Heading spacing level="3" size="xsmall">
                                 E-postadresser

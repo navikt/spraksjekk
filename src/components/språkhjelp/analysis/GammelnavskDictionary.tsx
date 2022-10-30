@@ -55,14 +55,14 @@ function GammelnavskDictionary(props: { content: any; }) {
                                         Kansellisten
                                     </Heading>
                                 }
-                                <Accordion className="språkhjelp-gammelnavskAccordion">
+                                <Accordion className="språkhjelp-inner-accordion">
                                     {kansellistenResultater.map((gammelnavsk, i) => (
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
-                                                <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                                <Accordion.Header className="språkhjelp-inner-accordion">
                                                     <span className="språkhjelp-firstLetter">"{gammelnavsk.kanselliord}"</span>
                                                 </Accordion.Header>
-                                                <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
+                                                <Accordion.Content className="språkhjelp-inner-accordion-content">
                                                     <Heading spacing level="4" size="xsmall">
                                                         Forslag
                                                     </Heading>
@@ -91,14 +91,14 @@ function GammelnavskDictionary(props: { content: any; }) {
                                         Gammelnavsk ordliste
                                     </Heading>
                                 }
-                                <Accordion className="språkhjelp-gammelnavskAccordion">
+                                <Accordion className="språkhjelp-inner-accordion">
                                     {gammelnavskResultater.map((gammelnavsk, i) => (
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
-                                                <Accordion.Header className="språkhjelp-gammelnavskAccordion">
+                                                <Accordion.Header className="språkhjelp-inner-accordion">
                                                     <span className="språkhjelp-firstLetter">"{gammelnavsk.ord}"</span>
                                                 </Accordion.Header>
-                                                <Accordion.Content className="språkhjelp-gammelnavskAccordionContent">
+                                                <Accordion.Content className="språkhjelp-inner-accordion-content">
                                                     <Heading spacing level="4" size="xsmall">
                                                         Gammelnavsk
                                                     </Heading>

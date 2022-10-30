@@ -55,7 +55,7 @@ function Lix(props: { content: any }) {
                     <Accordion.Header>
                         Liks: {lix}. <LixResultMessage lix={lix}/>
                     </Accordion.Header>
-                    <Accordion.Content className="språkhjelp-gammelnavskAccordionContent språkhjelp-removeAccordionPaddingBottom">
+                    <Accordion.Content className="språkhjelp-inner-accordion-content språkhjelp-remove-accordion-padding-bottom">
                         <BodyShort style={{textTransform: "initial"}} className="språkhjelp-pb-2">
                             Liks: {lix}. Teksten kan anses <span style={{textTransform: "lowercase"}}><LixResultMessage
                             lix={lix}/></span> ifølge <Link target="_blank"

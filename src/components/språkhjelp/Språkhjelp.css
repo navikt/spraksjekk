@@ -1,4 +1,4 @@
-.språkhjelp-removeAccordionPaddingBottom {
+.språkhjelp-remove-accordion-padding-bottom {
     padding-bottom: 0 !important;
 }
 
@@ -10,17 +10,17 @@
     background-color: #f8fafc;
 }
 
-.språkhjelp-gammelnavskAccordion {
+.språkhjelp-inner-accordion {
     background: #fff;
 }
 
-.språkhjelp-gammelnavskAccordion > .navds-accordion__item--open > .navds-accordion__header {
+.språkhjelp-inner-accordion > .navds-accordion__item--open > .navds-accordion__header {
     border-color: transparent;
     background: #0067C5;
     color: #fff;
 }
 
-.språkhjelp-gammelnavskAccordion > .navds-accordion__item--open > .navds-accordion__header:hover {
+.språkhjelp-inner-accordion > .navds-accordion__item--open > .navds-accordion__header:hover {
     border-color: transparent;
     background: #0056B4;
     color: #fff;
@@ -38,7 +38,7 @@
     color: #fff;
 }
 
-.språkhjelp-gammelnavskAccordionContent {
+.språkhjelp-inner-accordion-content {
     background-color: white !important;
 }
 

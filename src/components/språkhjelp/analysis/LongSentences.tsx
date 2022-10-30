@@ -56,7 +56,7 @@ function LongSentences(props: { content: any; }) {
                         {longSentencesCounter} {longSentencesCounter == 1 ? (<>lang setning</>) : (<>lange
                         setninger</>)}
                     </Accordion.Header>
-                    <Accordion.Content className="språkhjelp-removeAccordionPaddingBottom">
+                    <Accordion.Content className="språkhjelp-remove-accordion-padding-bottom">
                         {/*Setninger med over 20 ord:*/}
                         {/* <TextField label="antall ord" className="lengthField"
                                    hideLabel
