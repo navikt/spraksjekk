@@ -1,7 +1,4 @@
-.språkhjelp-remove-accordion-padding-bottom {
-    padding-bottom: 0 !important;
-}
-
+/* Accordion */
 .språkhjelp-navds-accordion .navds-accordion__content {
     background: #E6F0FF;
 }
@@ -12,18 +9,6 @@
 
 .språkhjelp-inner-accordion {
     background: #fff;
-}
-
-.språkhjelp-inner-accordion > .navds-accordion__item--open > .navds-accordion__header {
-    border-color: transparent;
-    background: #0067C5;
-    color: #fff;
-}
-
-.språkhjelp-inner-accordion > .navds-accordion__item--open > .navds-accordion__header:hover {
-    border-color: transparent;
-    background: #0056B4;
-    color: #fff;
 }
 
 .språkhjelp-navds-accordion > .navds-accordion__item--open > .navds-accordion__header {
@@ -38,8 +23,28 @@
     color: #fff;
 }
 
+
+/* Inner accordion */
+.språkhjelp-inner-accordion > .navds-accordion__item--open > .navds-accordion__header {
+    border-color: transparent;
+    background: #0067C5;
+    color: #fff;
+}
+
+.språkhjelp-inner-accordion > .navds-accordion__item--open > .navds-accordion__header:hover {
+    border-color: transparent;
+    background: #0056B4;
+    color: #fff;
+}
+
 .språkhjelp-inner-accordion-content {
     background-color: white !important;
+}
+
+
+/* Common */
+.språkhjelp-remove-accordion-padding-bottom {
+    padding-bottom: 0 !important;
 }
 
 .språkhjelp-bg-white {
