@@ -13,6 +13,7 @@
 
 .språkhjelp-navds-accordion > .navds-accordion__item--open > .navds-accordion__header {
     border-color: transparent;
+    border-color: transparent;
     background: #0067C5;
     color: #fff;
 }
