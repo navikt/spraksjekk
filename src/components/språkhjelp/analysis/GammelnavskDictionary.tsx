@@ -47,7 +47,9 @@ function GammelnavskDictionary(props: { content: any; }) {
                         <Heading spacing level="3" size="xsmall">
                             Velg enkle ord
                         </Heading>
-                        <div className="språkhjelp-pb-6">Ord og utrykk som sier noe på en vanskeligere måte enn nødvendig:</div>
+                        <div className="språkhjelp-pb-6">Ord og utrykk som sier noe på en vanskeligere måte enn
+                            nødvendig:
+                        </div>
                         {kansellistenResultater.length >= 1 &&
                             <>
                                 {gammelnavskResultater.length >= 1 &&
@@ -60,14 +62,16 @@ function GammelnavskDictionary(props: { content: any; }) {
                                         <>
                                             <Accordion.Item key={gammelnavsk.id}>
                                                 <Accordion.Header className="språkhjelp-inner-accordion">
-                                                    <span className="språkhjelp-firstLetter">"{gammelnavsk.kanselliord}"</span>
+                                                    <span
+                                                        className="språkhjelp-firstLetter">"{gammelnavsk.kanselliord}"</span>
                                                 </Accordion.Header>
                                                 <Accordion.Content className="språkhjelp-inner-accordion-content">
                                                     <Heading spacing level="4" size="xsmall">
                                                         Forslag
                                                     </Heading>
                                                     Skriv heller: {gammelnavsk.alternativ_1}
-                                                    <Heading spacing className="språkhjelp-pt-6" level="4" size="xsmall">
+                                                    <Heading spacing className="språkhjelp-pt-6" level="4"
+                                                             size="xsmall">
                                                         Kilde
                                                     </Heading>
                                                     <Link target="_blank"
@@ -103,11 +107,13 @@ function GammelnavskDictionary(props: { content: any; }) {
                                                         Gammelnavsk
                                                     </Heading>
                                                     {gammelnavsk.gammelnavsk}
-                                                    <Heading spacing className="språkhjelp-pt-6" level="4" size="xsmall">
+                                                    <Heading spacing className="språkhjelp-pt-6" level="4"
+                                                             size="xsmall">
                                                         Klart språk
                                                     </Heading>
                                                     {gammelnavsk.klart_språk}
-                                                    <Heading spacing className="språkhjelp-pt-6" level="4" size="xsmall">
+                                                    <Heading spacing className="språkhjelp-pt-6" level="4"
+                                                             size="xsmall">
                                                         Kilde
                                                     </Heading>
                                                     <Link target="_blank"

@@ -37,8 +37,9 @@ function GammelnavskCheck(props: { content: any; }) {
             {gammelnavskVisResultater + datatermerVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length+datatermerResultater.length == 1 ? (<>1 mulig
-                            avløserord</>) : (<>{gammelnavskResultater.length+datatermerResultater.length} mulige avløserord</>)}
+                        {gammelnavskResultater.length + datatermerResultater.length == 1 ? (<>1 mulig
+                            avløserord</>) : (<>{gammelnavskResultater.length + datatermerResultater.length} mulige
+                            avløserord</>)}
                     </Accordion.Header>
                     <Accordion.Content>
                         Norske ord som kan brukes i stedet for de tilsvarende engelske:

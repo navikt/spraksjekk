@@ -20,7 +20,7 @@ function LixResultMessage(props: { lix: number; }) {
     }
 
     return (
-      <>{lixMelding}</>
+        <>{lixMelding}</>
     );
 }
 

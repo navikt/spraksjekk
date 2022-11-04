@@ -6,10 +6,12 @@ function FloatMenu(props) {
     let higlighetdwords = props.higlighetdwords
     let editor = props.editor
     return (
-        <BubbleMenu tippyOptions={{aria: {
+        <BubbleMenu tippyOptions={{
+            aria: {
                 content: 'auto',
                 expanded: false,
-            },}} editor={editor}>
+            },
+        }} editor={editor}>
             {!higlighetdwords.match(/[?]+|[!]+|[.]+|[,]+|[:]/g) && (
                 <>
                     <Button role="link" variant="secondary" onClick={(e) => {

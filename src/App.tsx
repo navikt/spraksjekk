@@ -7,7 +7,7 @@ import {
     About,
     FloatMenu,
 } from "./components/theme/index"
-import { Språkhjelp } from "./components/språkhjelp/index"
+import {Språkhjelp} from "./components/språkhjelp/index"
 import {ContentContainer, Heading, Grid, Cell, Label, Switch} from "@navikt/ds-react";
 import StarterKit from '@tiptap/starter-kit'
 import Link from '@tiptap/extension-link'
@@ -74,7 +74,7 @@ export default () => {
     })
     return (
         <main>
-            {editor && <FloatMenu higlighetdwords={higlighetdwords} editor={editor} />}
+            {editor && <FloatMenu higlighetdwords={higlighetdwords} editor={editor}/>}
             <Header/>
             <ContentContainer className="my-6">
                 <Grid>
@@ -90,14 +90,14 @@ export default () => {
                                 Mobilvisning
                             </Switch>
                         </div>
-                        <EditorContent editor={editor} id="tiptapeditor" className="mb-6" />
-                        <About />
+                        <EditorContent editor={editor} id="tiptapeditor" className="mb-6"/>
+                        <About/>
                     </Cell>
                     <Cell xs={12} sm={5} lg={4}>
                         <Heading spacing level="2" size="large">
                             Resultater
                         </Heading>
-                        <Språkhjelp content={value} />
+                        <Språkhjelp content={value}/>
                         <Feedback/>
                     </Cell>
                 </Grid>
