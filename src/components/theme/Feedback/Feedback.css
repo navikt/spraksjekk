@@ -1,5 +1,12 @@
 #feedback-link {
-    float: right;
     margin-top: 1.5rem;
+}
+
+.feedback-space {
+    margin-right: 10px;
+}
+
+#feedback-block {
+    float: right;
     margin-bottom: 5rem;
 }

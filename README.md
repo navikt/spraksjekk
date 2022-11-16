@@ -28,6 +28,7 @@ Interne henvendelser kan sendes via Slack i kanalen [#researchops](https://nav-i
 - Datatermer (Språkrådet)
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
+- Mulige personopplysninger (finner e-post og telefonnummer)
 - Frekvensordliste
 
 # Test koden lokalt

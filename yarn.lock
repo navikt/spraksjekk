@@ -329,23 +329,23 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@navikt/ds-css@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@navikt/ds-css/-/ds-css-1.4.0.tgz#5b1fea3d6a4aa7570c1b65008f2746761f91ba02"
-  integrity sha512-mcWt87nZEZm9nT4VUJAVrwGJMb0cNdoqE7sMUIiO6g1yV6OFxImjKFVk+YuVlq4mLkR4QeL5TuDsgLsYGoVcdg==
+"@navikt/ds-css@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@navikt/ds-css/-/ds-css-1.5.4.tgz#6313f0e196f65f276110fc82803e001d4eea4cbd"
+  integrity sha512-uEfBJRwlh7DdPGQAMQogNsnuBFI0OjCOQig7NklYIvSds7kAULruiUpk+R0bUDRl2QBi4/ufhOSLTu47OTsOiQ==
 
-"@navikt/ds-icons@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@navikt/ds-icons/-/ds-icons-1.4.0.tgz#1071a6ac65d28b075b6672baa133d434ef31e544"
-  integrity sha512-rVBM9UDqsII6M4KrNoSPDnHqqk2lX1FvDPjiPqGRfAt4GkIdYC1dAwQ/A+wcIhjniTsR1IGExydtdD8Vc59QlA==
+"@navikt/ds-icons@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@navikt/ds-icons/-/ds-icons-1.5.4.tgz#f95ac8bb0c12100e8fc7ab8c2f116655c6c7df2d"
+  integrity sha512-Aet2cGZwmE8pGTWEQb3eTNbMwL+gEVBQy6UhqlqDTjVsgGcRUNJCcVLIH2eGUV1zDhtMFzGU6Bw14Es6KwUHJA==
 
-"@navikt/ds-react@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@navikt/ds-react/-/ds-react-1.4.0.tgz#dfc414eaf8815c2b7aa9ec7530bbe0e4397f934d"
-  integrity sha512-q0FplCW6eZ6WZcz+qh2hdtTJnD2tWKWm8fIE6M/xlHOlEIv248XVjHsWFrUeYDuyyuauJRHnJUWZKdIZ34SYYg==
+"@navikt/ds-react@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@navikt/ds-react/-/ds-react-1.5.4.tgz#d9598b79f467fc8846178a421bd2864c44c2795f"
+  integrity sha512-Bz/QZ+yJChhJJjAguYzWeHkRzUuHRIj1N23uBI6vw1AIoDMpMkJ9QQp1ZVnIDeElEwWh4jPh0D7W66yvC1CjJw==
   dependencies:
     "@floating-ui/react-dom-interactions" "0.9.2"
-    "@navikt/ds-icons" "^1.4.0"
+    "@navikt/ds-icons" "^1.5.4"
     "@radix-ui/react-tabs" "1.0.0"
     "@radix-ui/react-toggle-group" "1.0.0"
     clsx "^1.2.1"
