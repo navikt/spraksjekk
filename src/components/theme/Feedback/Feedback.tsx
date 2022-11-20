@@ -5,11 +5,11 @@ import './Feedback.css'
 function Feedback() {
     return (
         <div id="feedback-block">
-        <Link target="_blank" id="feedback-link" className="feedback-space"
+        <Link target="_blank" className="feedback-link feedback-space"
               href="https://github.com/navikt/spraksjekk">
             Kildekode<ExternalLink title="Ekstern lenke"/>
         </Link>
-        <Link target="_blank" id="feedback-link"
+        <Link target="_blank" className="feedback-link"
               href="https://aksel.nav.no/artikkel/sprakhjelp?tema=innholdsarbeid">
             Om Språkhjelp<ExternalLink title="Ekstern lenke"/>
         </Link>
