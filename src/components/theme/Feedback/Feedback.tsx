@@ -10,8 +10,8 @@ function Feedback() {
             Kildekode<ExternalLink title="Ekstern lenke"/>
         </Link>
         <Link target="_blank" id="feedback-link"
-              href="https://github.com/navikt/spraksjekk/blob/master/README.md">
-            Tilbakemelding<ExternalLink title="Ekstern lenke"/>
+              href="https://aksel.nav.no/artikkel/sprakhjelp?tema=innholdsarbeid">
+            Om Språkhjelp<ExternalLink title="Ekstern lenke"/>
         </Link>
     </div>
     );
