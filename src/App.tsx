@@ -72,6 +72,7 @@ export default () => {
             setValue(text)
         },
     })
+    // @ts-ignore
     return (
         <main>
             {editor && <FloatMenu higlighetdwords={higlighetdwords} editor={editor}/>}
@@ -82,7 +83,8 @@ export default () => {
                     <Cell xs={12} sm={7} lg={mobileView}>
                         <Heading spacing level="2" size="large">Få øyeblikkelig språkhjelp</Heading>
                         <div className="mobilvisning-container">
-                            <Label onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
+                            {/* @ts-ignore */}
+                            <Label for="tiptapeditor" onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
                                 tekst</Label>
                             <Switch aria-hidden="false" onChange={() => setMobilvisning(!mobilvisning)}
                                     checked={mobilvisning}
