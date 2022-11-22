@@ -5,6 +5,7 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: #f7f7f7;
 }
 
 code {
@@ -56,6 +57,7 @@ code {
     padding-left: 10px;
     margin-bottom: 1.5rem;
     border-radius: 4px;
+    background: #fff;
 }
 
 .ProseMirror:focus {

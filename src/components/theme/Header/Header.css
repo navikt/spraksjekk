@@ -1,6 +1,6 @@
 #språkhjelp-header {
-    color: #fff;
-    background: #262626;
+    color: #042742;
+    background: #fff;
     font-weight: 400;
 }
 
@@ -11,11 +11,12 @@
 
 #språkhjelp-headingLink {
     text-decoration: none !important;
-    color: #fff !important;
+    color: #042742 !important;
     font-weight: 400;
+    background: #fff !important;
 }
 
 #språkhjelp-headingLink:hover {
     text-decoration: underline !important;
-    color: #fff !important;
+    color: #042742 !important;
 }
