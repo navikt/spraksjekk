@@ -3,8 +3,6 @@
 
 [Klarspråkhjelpen](https://navikt.github.io/spraksjekk/) er et skriveverktøy som gir deg umiddelbar tilbakemelding på teksten din.
 
-.
-
 ---
 
 # Henvendelser
