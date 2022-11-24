@@ -73,14 +73,14 @@ function LongParagraphs(props: { content: any; }) {
                         <Heading spacing level="3" size="xsmall">
                             Skriv korte og enkle avsnitt
                         </Heading>
-                        "Hvert avsnitt skal ha ett budskap og ikke inneholde mer enn 2-3 setninger." - <Link
+                        "Et avsnitt bør ha ett hovedbudskap og ikke ha mer enn to til tre setninger." - <Link
                         target="_blank"
                         href="https://aksel.nav.no/artikkel/sprakarbeid?tema=innholdsarbeid">
                         Aksel<ExternalLink title="Ekstern lenke"/>
                     </Link>
 
                         <Heading className="språkhjelp-pt-6" spacing level="3" size="xsmall">
-                            Avsnitt med over 3 setninger
+                            Avsnitt med over tre setninger
                         </Heading>
                         <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
                             {listLongParagraphs}

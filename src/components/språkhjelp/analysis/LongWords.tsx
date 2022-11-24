@@ -100,14 +100,14 @@ function LongWords(props: { content: any; }) {
                         <Heading spacing level="3" size="xsmall">
                             Velg korte og enkle ord
                         </Heading>
-                        Ifølge lesbarhetsindeksen Liks anses ord med over 6 bokstaver som lange - <Link
+                        Ifølge lesbarhetsindeksen Liks anses ord med over seks bokstaver som lange - <Link
                         target="_blank"
                         href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
                         Wikipedia<ExternalLink title="Ekstern lenke"/>
                     </Link>
 
                         <Heading className="språkhjelp-pt-6" spacing level="3" size="xsmall">
-                            Ord med over 6 bokstaver
+                            Ord med over seks bokstaver
                         </Heading>
                         {/*
                         <TextField label="antall bokstever" className="lengthField"

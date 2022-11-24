@@ -13,7 +13,7 @@ Du kan sende spørsmål til oss [her på Github](https://github.com/navikt/sprak
 
 Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/archives/C02UGFS2J4B) eller [her på Github](https://github.com/navikt/spraksjekk/issues).
 
-# Språkhjelp funksjoner
+# Funksjoner
 
 - Lange ord
 - Lange setninger

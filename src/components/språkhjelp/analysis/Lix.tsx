@@ -57,10 +57,10 @@ function Lix(props: { content: any }) {
                     </Accordion.Header>
                     <Accordion.Content className="språkhjelp-remove-accordion-padding-bottom">
                         <BodyShort style={{textTransform: "initial"}} className="språkhjelp-pb-2">
-                            Liks: {lix}. Teksten kan anses <span style={{textTransform: "lowercase"}}><LixResultMessage
+                            Liks: {lix}. Teksten er <span style={{textTransform: "lowercase"}}><LixResultMessage
                             lix={lix}/></span> ifølge <Link target="_blank"
                                                             href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
-                            lesbarhetsindeksen Liks<ExternalLink/>
+                            lesbarhetsindeksen<ExternalLink/>
                         </Link>.
                         </BodyShort>
                         <div className="språkhjelp-pt-6">

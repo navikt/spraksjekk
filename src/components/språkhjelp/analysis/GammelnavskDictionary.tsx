@@ -47,7 +47,7 @@ function GammelnavskDictionary(props: { content: any; }) {
                         <Heading spacing level="3" size="xsmall">
                             Velg enkle ord
                         </Heading>
-                        <div className="språkhjelp-pb-6">Ord og utrykk som sier noe på en vanskeligere måte enn
+                        <div className="språkhjelp-pb-6">Ord og uttrykk som er utdaterte eller sier noe på en vanskeligere måte enn
                             nødvendig:
                         </div>
                         {kansellistenResultater.length >= 1 &&
