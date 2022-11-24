@@ -8,7 +8,7 @@ function Header() {
                 <ContentContainer id="språkhjelp-headerContainer">
                     <Heading size="xsmall" level="1">
                         <Link id="språkhjelp-headingLink" href=".">
-                            NAV Språkhjelp
+                            Klarspråkhjelpen
                         </Link>
                     </Heading>
                 </ContentContainer>

@@ -11,7 +11,7 @@ function Feedback() {
         </Link>
         <Link target="_blank" className="feedback-link"
               href="https://aksel.nav.no/artikkel/sprakhjelp?tema=innholdsarbeid">
-            Om Språkhjelp<ExternalLink title="Ekstern lenke"/>
+            Om Klarspråkhjelpen<ExternalLink title="Ekstern lenke"/>
         </Link>
     </div>
     );

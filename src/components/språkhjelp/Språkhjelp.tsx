@@ -19,7 +19,7 @@ function Resultbox(props) {
     return (
         <>
             {value.length == 0 ? (
-                    <Alert variant="info">Legg til tekst for å få opp resultater.</Alert>) :
+                    <Alert variant="info">Sett inn tekst for å få opp resultater.</Alert>) :
                 (
                     <>
                         <Accordion className="språkhjelp-navds-accordion">
