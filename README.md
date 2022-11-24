@@ -1,17 +1,19 @@
-[NAV Språkhjelp](https://navikt.github.io/spraksjekk/)
+[Klarspråkhjelpen](https://navikt.github.io/spraksjekk/)
 ================
 
-[NAV Språkhjelp](https://navikt.github.io/spraksjekk/) er et testverktøy som gir deg automatisk feedback om karakteristikkene av tekstene dine.
+[Klarspråkhjelpen](https://navikt.github.io/spraksjekk/) er et skriveverktøy som gir deg umiddelbar tilbakemelding på teksten din.
+
+.
 
 ---
 
 # Henvendelser
 
-Spørsmål knyttet til koden eller prosjektet eller kan stilles [her på Github](https://github.com/navikt/spraksjekk/issues).
+Du kan sende spørsmål til oss [her på Github](https://github.com/navikt/spraksjekk/issues).
 
 ## For NAV-ansatte
 
-Interne henvendelser kan sendes via Slack i kanalen [#researchops](https://nav-it.slack.com/archives/C02UGFS2J4B) eller [her på Github](https://github.com/navikt/spraksjekk/issues).
+Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/archives/C02UGFS2J4B) eller [her på Github](https://github.com/navikt/spraksjekk/issues).
 
 # Språkhjelp funksjoner
 
@@ -20,7 +22,7 @@ Interne henvendelser kan sendes via Slack i kanalen [#researchops](https://nav-i
 - Lange avsnitt
 - Gjentakelse av like ord etterhverandre (eg. hei hei)
 - Ordtelling
-- LIX (liks)
+- Liks (LIX)
 - Gammelnavsk ordliste
 - NAVs Begrepskatalog
 - Kansellisten (Språkrådet)
