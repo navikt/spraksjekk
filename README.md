@@ -18,18 +18,18 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - Lange ord
 - Lange setninger
 - Lange avsnitt
-- Like ord som er gjentatt etter hverandre (eg. hei hei)
+- Like ord som er gjentatt etter hverandre, eksempel "hei hei"
 - Mer en ett mellomrom mellom ord
-- Ordtelling
-- Liks (LIX)
-- Gammelnavsk ordliste
-- NAVs Begrepskatalog
 - Kansellisten (Språkrådet)
 - Avløserord (Språkrådet)
 - Datatermer (Språkrådet)
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
+- Gammelnavsk ordliste
+- NAVs Begrepskatalog
 - Mulige personopplysninger (finner e-post og telefonnummer)
+- Liks (LIX)
+- Ordtelling
 - Frekvensordliste
 
 # Test koden lokalt
