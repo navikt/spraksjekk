@@ -6,7 +6,7 @@ function Header() {
         <nav>
             <header id="språkhjelp-header">
                 <ContentContainer id="språkhjelp-headerContainer">
-                    <Heading size="small" level="1">
+                    <Heading size="medium" level="1">
                         <Link id="språkhjelp-headingLink" href=".">
                             Klarspråkhjelpen
                         </Link>
