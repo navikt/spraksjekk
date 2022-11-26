@@ -6,12 +6,12 @@ function Feedback() {
     return (
         <div id="feedback-block">
         <Link target="_blank" className="feedback-link feedback-space"
-              href="https://github.com/navikt/spraksjekk">
-            Kildekode<ExternalLink title="Ekstern lenke"/>
-        </Link>
-        <Link target="_blank" className="feedback-link"
               href="https://aksel.nav.no/artikkel/sprakhjelp?tema=innholdsarbeid">
             Om Klarspråkhjelpen<ExternalLink title="Ekstern lenke"/>
+        </Link>
+        <Link target="_blank" className="feedback-link"
+              href="https://github.com/navikt/spraksjekk">
+            Kildekode<ExternalLink title="Ekstern lenke"/>
         </Link>
     </div>
     );
