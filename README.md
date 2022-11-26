@@ -27,7 +27,7 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - NRKs ordliste for funksjonsmangfold
 - Gammelnavsk ordliste
 - NAVs Begrepskatalog
-- Mulige personopplysninger (finner e-post og telefonnummer)
+- Mulige personopplysninger (e-post og telefonnummer)
 - Liks (LIX)
 - Ordtelling
 - Frekvensordliste
