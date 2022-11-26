@@ -25,7 +25,7 @@ function DublicateWords(props: { content: any; }) {
                             ord</>) : (<>{dublicateWordsCount} gjentakelser av like ord</>)}
                     </Accordion.Header>
                     <Accordion.Content className="språkhjelp-remove-accordion-padding-bottom">
-                        Gjentakelse av like ord etter hverandre:
+                        Like ord som er gjentatt etter hverandre:
                         <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
                             {dublicateWordsList}
                         </ul>
