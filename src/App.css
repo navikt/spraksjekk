@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.aksel-blue-heading {
+    color: #004367;
+}
+
 .mobilvisning-label {
     flex: auto;
     align-self: center;

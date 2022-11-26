@@ -82,7 +82,7 @@ export default () => {
                 <Grid>
                     {/* @ts-ignore */}
                     <Cell xs={12} sm={7} lg={mobileView}>
-                        <Heading spacing level="2" size="large">Finn ut hvor lett det er å lese teksten din</Heading>
+                        <Heading className="aksel-blue-heading" spacing level="2" size="large">Finn ut hvor lett det er å lese teksten din</Heading>
                         <div className="mobilvisning-container">
                             {/* @ts-ignore */}
                             <Label htmlFor="tiptapeditor" onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
@@ -97,7 +97,7 @@ export default () => {
                         <About/>
                     </Cell>
                     <Cell xs={12} sm={5} lg={4}>
-                        <Heading spacing level="2" size="large">
+                        <Heading className="aksel-blue-heading" spacing level="2" size="large">
                             Resultater
                         </Heading>
                         <Språkhjelp content={value}/>
