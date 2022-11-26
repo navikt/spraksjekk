@@ -6,7 +6,7 @@ function WordFrequency(props: { content: any; }) {
     value = value.replaceAll(/\<\/(.?)\>/g, "");
     value = value.replaceAll(/\<(.?)\>/g, "");
     const [page, setPage] = useState(1);
-    const [pagesCount, setpagesCount] = useState(0);
+    const [pagesCount, setpagesCount] = useState(1);
     const [freqMap, setFreqMap] = useState<Record<string, number>>({});
     let totalFreqWords = 0;
     let pageSize = 10;
@@ -77,6 +77,7 @@ function WordFrequency(props: { content: any; }) {
                                 </Table.Body>
                             </Table>
                         </div>
+                        {pagesCount > 1 &&
                         <div className="språkhjelp-pagination-container">
                             <Pagination
                                 className="språkhjelp-spacing-30 språkhjelp-pagination"
@@ -88,6 +89,7 @@ function WordFrequency(props: { content: any; }) {
                                 boundaryCount={1}
                             />
                         </div>
+                        }
                     </Accordion.Content>
                 </Accordion.Item>
             )}

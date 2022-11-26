@@ -8,6 +8,7 @@ import {
     GammelnavskDictionary,
     NrkDictionaries,
     AvløserordDictionary,
+    DoubleSpaces,
     Begrepskatalog,
     PersonalData,
     Lix,
@@ -30,6 +31,7 @@ function Resultbox(props) {
                             <GammelnavskDictionary content={value}/>
                             <NrkDictionaries content={value}/>
                             <AvløserordDictionary content={value}/>
+                            <DoubleSpaces content={value}/>
                             <Begrepskatalog content={value}/>
                             <PersonalData content={value}/>
                             <Lix content={value}/>

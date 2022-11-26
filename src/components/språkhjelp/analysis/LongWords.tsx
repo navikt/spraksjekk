@@ -4,7 +4,7 @@ import {ExternalLink} from "@navikt/ds-icons";
 
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
-    const [pagesCount, setpagesCount] = useState(0);
+    const [pagesCount, setpagesCount] = useState(1);
     const [wordLength, setWordLength] = useState(7)
     let longWordCounter = 0;
     let pageSize = 10;

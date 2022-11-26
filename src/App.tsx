@@ -66,7 +66,8 @@ export default () => {
         onUpdate: ({editor}) => {
             const html = editor.getHTML()
             let text = htmlToText(html, {
-                wordwrap: false
+                wordwrap: false,
+                whitespaceCharacters: "",
             });
             text = text.replaceAll(/\[[^\]]*\]/g, "");
             setValue(text)
@@ -84,7 +85,7 @@ export default () => {
                         <Heading spacing level="2" size="large">Finn ut hvor lett det er å lese teksten din</Heading>
                         <div className="mobilvisning-container">
                             {/* @ts-ignore */}
-                            <Label for="tiptapeditor" onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
+                            <Label htmlFor="tiptapeditor" onClick={() => focusTiptap()} className="mobilvisning-label">Skriv eller lim inn
                                 tekst</Label>
                             <Switch aria-hidden="false" onChange={() => setMobilvisning(!mobilvisning)}
                                     checked={mobilvisning}
