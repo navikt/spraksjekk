@@ -18,7 +18,8 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - Lange ord
 - Lange setninger
 - Lange avsnitt
-- Gjentakelse av like ord etterhverandre (eg. hei hei)
+- Like ord som er gjentatt etter hverandre (eg. hei hei)
+- Mer en ett mellomrom mellom ord
 - Ordtelling
 - Liks (LIX)
 - Gammelnavsk ordliste
