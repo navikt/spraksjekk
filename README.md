@@ -20,6 +20,7 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - Lange avsnitt
 - Like ord som er gjentatt etter hverandre, eksempel "hei hei"
 - Mer enn ett mellomrom mellom ord
+- Alltid komma foran "men"
 - Kansellisten (Språkrådet)
 - Avløserord (Språkrådet)
 - Datatermer (Språkrådet)
