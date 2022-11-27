@@ -19,7 +19,7 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - Lange setninger
 - Lange avsnitt
 - Like ord som er gjentatt etter hverandre, eksempel "hei hei"
-- Mer en ett mellomrom mellom ord
+- Mer enn ett mellomrom mellom ord
 - Kansellisten (Språkrådet)
 - Avløserord (Språkrådet)
 - Datatermer (Språkrådet)
