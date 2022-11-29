@@ -93,9 +93,12 @@ export default () => {
                                 Mobilvisning
                             </Switch>
                         </div>
-                        <EditorContent editor={editor} id="tiptapeditor" className="mb-6"/>
+                        <form>
+                            <EditorContent role="textbox" editor={editor} id="tiptapeditor" className="mb-6"/>
+                        </form>
                         <About/>
                     </Cell>
+
                     <Cell xs={12} sm={5} lg={4}>
                         <Heading className="aksel-blue-heading" spacing level="2" size="large">
                             Resultater
