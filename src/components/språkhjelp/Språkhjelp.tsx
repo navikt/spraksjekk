@@ -33,7 +33,7 @@ function Resultbox(props) {
                             <NrkDictionaries content={value}/>
                             <AvløserordDictionary content={value}/>
                             <CommaCheck content={value}/>
-                            <DoubleSpaces content={value}/>
+                            {/*<DoubleSpaces content={value}/>*/}
                             <Begrepskatalog content={value}/>
                             <PersonalData content={value}/>
                             <Lix content={value}/>
