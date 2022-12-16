@@ -25,7 +25,6 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - Datatermer (Språkrådet)
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
-- NAVs Begrepskatalog
 - Mulige personopplysninger (e-post og telefonnummer)
 - Liks (LIX)
 - Ordtelling

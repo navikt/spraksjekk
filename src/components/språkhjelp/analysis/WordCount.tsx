@@ -1,4 +1,4 @@
-import {LixResultMessage, WordFrequency} from "./commons/index";
+import {Lix, WordFrequency} from "./commons/index";
 import {Accordion, Link} from "@navikt/ds-react";
 import {useState} from 'react'
 import {ExternalLink} from "@navikt/ds-icons";
@@ -72,7 +72,7 @@ function WordCount(props: { content: any; }) {
     return (
         <Accordion.Item>
             <Accordion.Header>
-                Ordtelling {/*  ({totalwords} ord) */}
+                Ordtelling og Liks {/*  ({totalwords} ord) */}
             </Accordion.Header>
             <Accordion.Content>
                 <ul className="språkhjelp-wordcountlist språkhjelp-list-disc språkhjelp-list-inside">
@@ -81,15 +81,16 @@ function WordCount(props: { content: any; }) {
                     <li>Avsnitt: {totalparagraphs}</li>
                     <li>Tegn: {totalchars} {totalchars != totalcharsnospace && (<>({totalcharsnospace} uten
                         mellomrom)</>)}</li>
-                    {lix >= 0 && lix < 100 && (
+                    {/*{lix >= 0 && lix < 100 && (
                         <li><Link target="_blank"
                                   href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
                             Liks: {lix}. <LixResultMessage lix={lix}/><ExternalLink/>
                         </Link></li>
-                    )}
+                    )}*/}
                 </ul>
               <Accordion className="språkhjelp-mt-6 språkhjelp-inner-accordion">
-                    <WordFrequency content={value}/>
+                  <Lix content={value}/>
+                  <WordFrequency content={value}/>
                 </Accordion>
             </Accordion.Content>
         </Accordion.Item>

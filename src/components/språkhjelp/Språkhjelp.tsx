@@ -34,9 +34,9 @@ function Resultbox(props) {
                             <AvløserordDictionary content={value}/>
                             <CommaCheck content={value}/>
                             {/*<DoubleSpaces content={value}/>*/}
-                            <Begrepskatalog content={value}/>
+                            {/*<Begrepskatalog content={value}/>*/}
                             <PersonalData content={value}/>
-                            <Lix content={value}/>
+                            {/*<Lix content={value}/>*/}
                             <WordCount content={value}/>
                         </Accordion>
                     </>
