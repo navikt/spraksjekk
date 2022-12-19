@@ -1,5 +1,5 @@
 import './Språkhjelp.css'
-import {Accordion, Alert, Heading} from "@navikt/ds-react";
+import {Accordion, Alert} from "@navikt/ds-react";
 import {
     LongParagraphs,
     LongSentences,
@@ -10,8 +10,7 @@ import {
     AvløserordDictionary,
     CommaCheck,
     PersonalData,
-    SpellChecker,
-    WordCount
+    Tools
 } from "./analysis/index"
 
 function Resultbox(props) {
@@ -31,11 +30,8 @@ function Resultbox(props) {
                             <NrkDictionaries content={value}/>
                             <AvløserordDictionary content={value}/>
                             <CommaCheck content={value}/>
-                            {/*<DoubleSpaces content={value}/>*/}
-                            {/*<Begrepskatalog content={value}/>*/}
                             <PersonalData content={value}/>
-                            {/*<Lix content={value}/>*/}
-                            <WordCount content={value}/>
+                            <Tools content={value}/>
                         </Accordion>
                     </>
                 )}

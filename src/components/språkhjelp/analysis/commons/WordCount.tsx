@@ -1,5 +1,3 @@
-import {Lix, WordFrequency} from "./commons/index";
-import {SpellChecker} from "./index";
 import {Accordion, Link} from "@navikt/ds-react";
 import React, {useState} from 'react'
 import {ExternalLink} from "@navikt/ds-icons";
@@ -72,15 +70,10 @@ function WordCount(props: { content: any; }) {
 
     return (
         <Accordion.Item>
-            <Accordion.Header>
-                Ordtelling og Liks {/*  ({totalwords} ord) */}
+            <Accordion.Header className="språkhjelp-inner-accordion">
+                Ordtelling: {totalwords} ord
             </Accordion.Header>
-            <Accordion.Content>
-                <Accordion.Item>
-                    <Accordion.Header className="språkhjelp-inner-accordion">
-                        Ordtelling: {totalwords} ord
-                    </Accordion.Header>
-                    <Accordion.Content className="språkhjelp-inner-accordion-content">
+            <Accordion.Content className="språkhjelp-inner-accordion-content">
                 <ul className="språkhjelp-wordcountlist språkhjelp-list-disc språkhjelp-list-inside">
                     <li>Ord: {totalwords}</li>
                     <li>Setninger: {totalsentences}</li>
@@ -88,19 +81,12 @@ function WordCount(props: { content: any; }) {
                     <li>Tegn: {totalchars} {totalchars != totalcharsnospace && (<>({totalcharsnospace} uten
                         mellomrom)</>)}</li>
                     {/*{lix >= 0 && lix < 100 && (
-                        <li><Link target="_blank"
-                                  href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
-                            Liks: {lix}. <LixResultMessage lix={lix}/><ExternalLink/>
-                        </Link></li>
-                    )}*/}
+                <li><Link target="_blank"
+                          href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
+                    Liks: {lix}. <LixResultMessage lix={lix}/><ExternalLink/>
+                </Link></li>
+            )}*/}
                 </ul>
-                    </Accordion.Content>
-                </Accordion.Item>
-              <Accordion className="språkhjelp-inner-accordion">
-                  <Lix content={value}/>
-                  <WordFrequency content={value}/>
-                  <SpellChecker content={value}/>
-                </Accordion>
             </Accordion.Content>
         </Accordion.Item>
     );

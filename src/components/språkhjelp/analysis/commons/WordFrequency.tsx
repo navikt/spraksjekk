@@ -78,17 +78,17 @@ function WordFrequency(props: { content: any; }) {
                             </Table>
                         </div>
                         {pagesCount > 1 &&
-                        <div className="språkhjelp-pagination-container">
-                            <Pagination
-                                className="språkhjelp-spacing-30 språkhjelp-pagination"
-                                page={page}
-                                onPageChange={setPage}
-                                count={pagesCount}
-                                size="small"
-                                siblingCount={0}
-                                boundaryCount={1}
-                            />
-                        </div>
+                            <div className="språkhjelp-pagination-container">
+                                <Pagination
+                                    className="språkhjelp-spacing-30 språkhjelp-pagination"
+                                    page={page}
+                                    onPageChange={setPage}
+                                    count={pagesCount}
+                                    size="small"
+                                    siblingCount={0}
+                                    boundaryCount={1}
+                                />
+                            </div>
                         }
                     </Accordion.Content>
                 </Accordion.Item>
