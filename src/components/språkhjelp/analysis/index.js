@@ -1,5 +1,6 @@
 // Språkhjelp content analysis
 export {default as WordCount} from "./WordCount.tsx";
+export {default as SpellChecker} from "./SpellChecker.tsx";
 export {default as Lix} from "./Lix.tsx";
 export {default as LongWords} from "./LongWords.tsx";
 export {default as LongSentences} from "./LongSentences.tsx";

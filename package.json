@@ -15,7 +15,8 @@
     "@tiptap/starter-kit": "^2.0.0-beta.185",
     "html-to-text": "^8.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typo-js-ts": "^2.0.4"
   },
   "devDependencies": {
     "@types/html-to-text": "^8.1.1",

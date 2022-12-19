@@ -1,6 +1,7 @@
 import {Lix, WordFrequency} from "./commons/index";
+import {SpellChecker} from "./index";
 import {Accordion, Link} from "@navikt/ds-react";
-import {useState} from 'react'
+import React, {useState} from 'react'
 import {ExternalLink} from "@navikt/ds-icons";
 
 function WordCount(props: { content: any; }) {
@@ -75,6 +76,11 @@ function WordCount(props: { content: any; }) {
                 Ordtelling og Liks {/*  ({totalwords} ord) */}
             </Accordion.Header>
             <Accordion.Content>
+                <Accordion.Item>
+                    <Accordion.Header className="språkhjelp-inner-accordion">
+                        Ordtelling: {totalwords} ord
+                    </Accordion.Header>
+                    <Accordion.Content className="språkhjelp-inner-accordion-content">
                 <ul className="språkhjelp-wordcountlist språkhjelp-list-disc språkhjelp-list-inside">
                     <li>Ord: {totalwords}</li>
                     <li>Setninger: {totalsentences}</li>
@@ -88,9 +94,12 @@ function WordCount(props: { content: any; }) {
                         </Link></li>
                     )}*/}
                 </ul>
-              <Accordion className="språkhjelp-mt-6 språkhjelp-inner-accordion">
+                    </Accordion.Content>
+                </Accordion.Item>
+              <Accordion className="språkhjelp-inner-accordion">
                   <Lix content={value}/>
                   <WordFrequency content={value}/>
+                  <SpellChecker content={value}/>
                 </Accordion>
             </Accordion.Content>
         </Accordion.Item>

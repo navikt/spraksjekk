@@ -1,5 +1,5 @@
 import './Språkhjelp.css'
-import {Accordion, Alert} from "@navikt/ds-react";
+import {Accordion, Alert, Heading} from "@navikt/ds-react";
 import {
     LongParagraphs,
     LongSentences,
@@ -8,11 +8,9 @@ import {
     GammelnavskDictionary,
     NrkDictionaries,
     AvløserordDictionary,
-    DoubleSpaces,
     CommaCheck,
-    Begrepskatalog,
     PersonalData,
-    Lix,
+    SpellChecker,
     WordCount
 } from "./analysis/index"
 
