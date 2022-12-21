@@ -49,8 +49,6 @@ function SpellChecker(props: { content: any; }) {
                 // Remove words with 3 or less chars
                 mistakes = mistakes.filter(mistake => mistake.length > 3);
 
-                console.log(mistakes)
-
                 setMisspellings(mistakes);
                 setDoubleSpacesCount(mistakes.length);
                 setText("OK");
@@ -69,7 +67,7 @@ function SpellChecker(props: { content: any; }) {
                         Stavekontroll
                     </Accordion.Header>
                     <Accordion.Content className="språkhjelp-inner-accordion-content">
-                        <Button variant="secondary" onClick={checkSpelling}>Stavekontroll</Button>
+                        <Button variant="secondary" onClick={() => checkSpelling()} >Stavekontroll</Button>
                         {text !== "" && (
                             <>
                                 {misspellings.length > 0 ? (
