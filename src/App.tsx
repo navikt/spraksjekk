@@ -94,17 +94,19 @@ export default () => {
                             </Switch>
                         </div>
                         <form>
-                            <EditorContent role="textbox" editor={editor} id="tiptapeditor" className="mb-6"/>
+                            <EditorContent aria-label="tekstboks" role="textbox" editor={editor} id="tiptapeditor" className="mb-6"/>
                         </form>
                         <About/>
                     </Cell>
 
                     <Cell xs={12} sm={5} lg={4}>
-                        <Heading className="aksel-blue-heading" spacing level="2" size="large">
-                            Resultater
-                        </Heading>
-                        <Språkhjelp content={value}/>
-                        <Feedback/>
+                        <aside>
+                            <Heading className="aksel-blue-heading" spacing level="2" size="large">
+                                Resultater
+                            </Heading>
+                            <Språkhjelp content={value}/>
+                            <Feedback/>
+                        </aside>
                     </Cell>
                 </Grid>
             </ContentContainer>
