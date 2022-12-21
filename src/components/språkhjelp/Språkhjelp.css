@@ -12,6 +12,10 @@
         max-width: none !important;
 }
 
+span.tag-cloud-tag {
+    padding-bottom: 10px;
+}
+
 .språkhjelp-inner-accordion {
     background: #fff;
 }
