@@ -15,9 +15,7 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 
 # Funksjoner
 
-- Lange ord
-- Lange setninger
-- Lange avsnitt
+- Lange ord, setninger og avsnitt
 - Like ord som er gjentatt etter hverandre, eksempel "hei hei"
 - Alltid komma foran "men"
 - Kansellisten (Språkrådet)
@@ -25,10 +23,11 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - Datatermer (Språkrådet)
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
-- Mulige personopplysninger (e-post og telefonnummer)
+- Mulige personopplysninger (navn, e-post og telefonnummer)
 - Liks (LIX)
 - Ordtelling
-- Frekvensordliste
+- Frekvensordliste og ordsky
+- Stavekontroll
 
 # Test koden lokalt
 
