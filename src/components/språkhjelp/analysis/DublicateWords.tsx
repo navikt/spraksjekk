@@ -13,7 +13,7 @@ function DublicateWords(props: { content: any; }) {
         dublicateWordsCount = value.match(/\b(\w{2,5})\s+\1\b/g).length
         // @ts-ignore
         dublicateWordsList = value.match(/\b(\w{2,5})\s+\1\b/g).map((duplicatedword, index) =>
-            <li className="språkhjelp-pb-2" key={index}>{duplicatedword}</li>
+            <li className="språkhjelp-pb-2" key={index}>"{duplicatedword}"</li>
         );
     }
     return (

@@ -47,8 +47,8 @@ function LongParagraphs(props: { content: any; }) {
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
     const listLongParagraphs = longParagraphs.map((paragraph, index) =>
         <li key={index} className="språkhjelp-pb-5">
-            {expanded[index] ? <>{paragraph}</> : <>{paragraph.match(firstSentenceRegex)[0]}</>}
-            <Button style={{marginLeft : "5px", marginRight : "5px"}} size="xsmall" variant="secondary" onClick={() => {
+            {expanded[index] ? <>"{paragraph}"</> : <>"{paragraph.match(firstSentenceRegex)[0]} (...)"</>}
+            <Button style={{marginLeft: "5px", marginRight: "5px"}} size="xsmall" variant="secondary" onClick={() => {
                 setExpanded(prevExpanded => {
                     const newExpanded = [...prevExpanded];
                     newExpanded[index] = !newExpanded[index];

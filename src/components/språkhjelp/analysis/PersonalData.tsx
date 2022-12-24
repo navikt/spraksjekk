@@ -14,7 +14,7 @@ function PersonalData(props: { content: any; }) {
     let emailCount = 0
     let getemail = <></>
     if (email) {
-        getemail = email.map((email, index) => <li key={index} className="språkhjelp-pb-2">{email}</li>)
+        getemail = email.map((email, index) => <li key={index} className="språkhjelp-pb-2">"{email}"</li>)
         emailCount = email.length
     }
     const listEmail = getemail
@@ -28,7 +28,7 @@ function PersonalData(props: { content: any; }) {
     let phoneCount = 0
     let getphone = <></>
     if (phone) {
-        getphone = phone.map((phone, index) => <li key={index} className="språkhjelp-pb-2">{phone}</li>)
+        getphone = phone.map((phone, index) => <li key={index} className="språkhjelp-pb-2">"{phone}"</li>)
         phoneCount = phone.length
     }
     const listPhone = getphone
@@ -42,7 +42,7 @@ function PersonalData(props: { content: any; }) {
     let namesCount = 0
     let getnames = []
     if (names) {
-        getnames = names.filter((name, index) => names.indexOf(name) === index).map((name, index) => <li key={index} className="språkhjelp-pb-2">{name}</li>)
+        getnames = names.filter((name, index) => names.indexOf(name) === index).map((name, index) => <li key={index} className="språkhjelp-pb-2">"{name}"</li>)
         namesCount = getnames.length
     }
     const listNames = getnames;
