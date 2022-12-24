@@ -1,4 +1,4 @@
-import {Accordion, Heading, Link} from "@navikt/ds-react";
+import {Accordion, Heading, Link, Button} from "@navikt/ds-react";
 import {useState} from "react";
 import {ExternalLink} from "@navikt/ds-icons";
 
@@ -40,13 +40,24 @@ function LongParagraphs(props: { content: any; }) {
             longParagraphHere = 1;
         }
     }
+    const [expanded, setExpanded] = useState([]);
+    const firstSentenceRegex = /^[^.!?]*[.!?]/; // This regular expression will match the characters at the beginning of the string up until the first period, question mark, or exclamation point.
 
     // Create a list of long paragraphs
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
     const listLongParagraphs = longParagraphs.map((paragraph, index) =>
-        <li key={index}
-            className="språkhjelp-pb-5">{paragraph}
-            <b>({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b></li>
+        <li key={index} className="språkhjelp-pb-5">
+            {expanded[index] ? <>{paragraph}</> : <>{paragraph.match(firstSentenceRegex)[0]}</>}
+            <Button style={{marginLeft : "5px", marginRight : "5px"}} size="xsmall" variant="secondary" onClick={() => {
+                setExpanded(prevExpanded => {
+                    const newExpanded = [...prevExpanded];
+                    newExpanded[index] = !newExpanded[index];
+                    return newExpanded;
+                });
+            }}>
+                {expanded[index] ? "Vis mindre" : "Les mer"}
+            </Button><b>({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b>
+        </li>
     );
 
     return (

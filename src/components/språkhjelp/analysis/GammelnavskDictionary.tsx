@@ -44,7 +44,7 @@ function GammelnavskDictionary(props: { content: any; }) {
                                 <Accordion className="språkhjelp-inner-accordion">
                                     {kansellistenResultater.map((gammelnavsk, i) => (
                                         <>
-                                            <Accordion.Item key={gammelnavsk.id}>
+                                            <Accordion.Item key="{gammelnavsk.id}">
                                                 <Accordion.Header className="språkhjelp-inner-accordion">
                                                     <span
                                                         className="språkhjelp-firstLetter">"{gammelnavsk.kanselliord}"</span>
