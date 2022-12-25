@@ -6,6 +6,7 @@ function WordFrequency(props: { content: any; }) {
     value = value.replaceAll(/\<\/(.?)\>/g, "");
     value = value.replaceAll(/\<(.?)\>/g, "");
     value = value.replaceAll(/\s+/g, " ");
+    value = value.replace(/[^\w\sÆØÅæøå\/\\é-]/g, '');
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(1);
     const [freqMap, setFreqMap] = useState<Record<string, number>>({});
@@ -14,6 +15,7 @@ function WordFrequency(props: { content: any; }) {
     const indexOfLastPost = page * 10;
     const indexOfFirstPost = indexOfLastPost - 10;
     const allFreq = Object.entries(freqMap)
+        .filter(([str, count]) => str !== '') // filter out empty entries
         .sort((a: [string, number], b: [string, number]) => b[1] - a[1])
         .slice(indexOfFirstPost, indexOfLastPost);
 
