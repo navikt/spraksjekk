@@ -22,6 +22,7 @@ function SpellChecker(props: { content: any; }) {
         setLoading("true");
         setMisspellings([]);
 
+        setTimeout(function(){
         // @ts-ignore
         let dict = new Typo("no_NB", false, false, {
             dictionaryPath: "hunspell-dictionaries"
@@ -58,6 +59,7 @@ function SpellChecker(props: { content: any; }) {
                 // dictionary was not loaded
                 console.error(error);
             });
+        }, 400);
     };
     return (
         <>
@@ -67,7 +69,11 @@ function SpellChecker(props: { content: any; }) {
                         Stavekontroll
                     </Accordion.Header>
                     <Accordion.Content className="språkhjelp-inner-accordion-content">
-                        <Button variant="secondary" onClick={() => checkSpelling()} >Stavekontroll</Button>
+                        {loading == "true" ? (
+                        <Button loading>Stavekontroll</Button>
+                        ) : (
+                            <Button variant="secondary" onClick={() => checkSpelling()} >Stavekontroll</Button>
+                        )}
                         {text !== "" && (
                             <>
                                 {misspellings.length > 0 ? (
@@ -90,12 +96,6 @@ function SpellChecker(props: { content: any; }) {
                                         </Heading>
                                     </>
                                 )}
-                            </>
-                        )}
-                        {loading == "true" && (
-                            <>
-                                <hr className="språkhjelp-mb-6"/>
-                                <p aria-live="polite">Kontrollerer teksten...</p>
                             </>
                         )}
                     </Accordion.Content>

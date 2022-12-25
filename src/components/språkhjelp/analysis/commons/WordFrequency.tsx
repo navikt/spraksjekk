@@ -6,6 +6,7 @@ function WordFrequency(props: { content: any; }) {
     let value = props.content;
     value = value.replaceAll(/\<\/(.?)\>/g, "");
     value = value.replaceAll(/\<(.?)\>/g, "");
+    value = value.replaceAll(/\s+/g, " ");
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(1);
     const [freqMap, setFreqMap] = useState<Record<string, number>>({});

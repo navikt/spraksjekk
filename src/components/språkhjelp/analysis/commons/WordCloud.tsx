@@ -1,5 +1,5 @@
 import React, {useState, useMemo} from "react";
-import {Accordion, Button, Heading} from "@navikt/ds-react";
+import {Button, Heading, HelpText} from "@navikt/ds-react";
 import {TagCloud} from 'react-tagcloud'
 
 function WordCloud(props: { content: any; }) {
@@ -45,16 +45,17 @@ function WordCloud(props: { content: any; }) {
             {words && (
                 <>
                     <hr className="språkhjelp-mb-6"/>
-                    <Heading aria-live="polite" spacing level="3" size="xsmall" className="språkhjelp-pb-2">
-                        Ord som går igjen to eller flere ganger:
+                    <Heading spacing level="3" style={{display : "flex"}} size="xsmall" className="språkhjelp-pb-2">
+                        Ordsky <HelpText style={{marginLeft : "5px"}} title="Hvilke ord vises?">
+                        Ord som går igjen to eller flere ganger vises i ordskyen
+                    </HelpText>
                     </Heading>
                     <TagCloud tags={words} minSize={12} colorOptions={options} className="språkhjelp-pb-2"
                               style={{textAlign: 'center'}} maxSize={52} disableRandomColor={false}/>
                     {words.length < 1 && (
                         <>
                             <p aria-live="polite" style={{marginTop: "-1em"}}>
-                                Teksten er for kort til å lage en ordsky. Ingen ord går igjen to eller flere ganger.
-                                Legg til flere ord og prøv på nytt.
+                                Teksten er for kort til å lage en ordsky. Legg til flere ord og prøv på nytt.
                             </p>
                         </>
                     )}

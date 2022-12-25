@@ -1,10 +1,15 @@
-import {Accordion, Heading, Link} from "@navikt/ds-react";
-import {useState} from "react";
+import {Accordion, Heading, Link, Pagination, Table} from "@navikt/ds-react";
+import {useCallback, useEffect, useState} from "react";
 import {ExternalLink} from "@navikt/ds-icons";
 
 function LongSentences(props: { content: any; }) {
     let rawcontent = props.content;
-    const [sentenceLength, setSentenceLength] = useState(21)
+    const [sentenceLength] = useState(21)
+    const [page, setPage] = useState(1);
+    const [pagesCount, setpagesCount] = useState(1);
+    let longSentenceCounter = 0;
+    let pageSize = 3;
+
     // Declaring all letiables
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     // rawcontent = rawcontent.replaceAll(" *", "");
@@ -48,6 +53,27 @@ function LongSentences(props: { content: any; }) {
         <li key={index} className="språkhjelp-pb-5">"{sentence}" <b>({sentence.split(/\s+/).length}&nbsp;ord)</b></li>
     );
 
+    longSentenceCounter = listLongSentences.length;
+    let totalFreqWords = 0;
+    let value = "";
+
+    const indexOfLastPost = page * 3;
+    const indexOfFirstPost = indexOfLastPost - 3;
+    const allFreq = Object.entries(longSentences)
+        .slice(indexOfFirstPost, indexOfLastPost);
+
+    const calculateFreqMap = useCallback(() => {
+        // Kalkuler antall sider for Pagination
+        totalFreqWords = longSentencesCounter;
+        if (totalFreqWords >= 3) {
+            setpagesCount(Math.ceil(totalFreqWords / pageSize));
+        }
+    }, [value]);
+
+    useEffect(() => {
+        calculateFreqMap();
+    }, [calculateFreqMap]);
+
     return (
         <>
             {longSentenceHere != 0 && (
@@ -82,8 +108,27 @@ function LongSentences(props: { content: any; }) {
                             Setninger med over 20 ord
                         </Heading>
                         <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
-                            {listLongSentences}
+                            {allFreq.map((wordFreq: [string, string]) => {
+                                return (
+                                    <li key={wordFreq[0]} className="språkhjelp-pb-5">
+                                            "{wordFreq[1]} <b>({wordFreq[1].split(/\s+/).length}&nbsp;ord)</b>"
+                                    </li>
+                                );
+                            })}
                         </ul>
+                        {longSentenceCounter > 5 &&
+                            <div className="språkhjelp-pagination-container språkhjelp-mb-6">
+                                <Pagination
+                                    className="språkhjelp-pagination"
+                                    page={page}
+                                    onPageChange={setPage}
+                                    count={pagesCount}
+                                    size="small"
+                                    siblingCount={0}
+                                    boundaryCount={1}
+                                />
+                            </div>
+                        }
                     </Accordion.Content>
                 </Accordion.Item>
             )}
