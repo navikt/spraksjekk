@@ -1,6 +1,5 @@
 import {Accordion, Table, Pagination} from "@navikt/ds-react";
 import {useState, useEffect, useCallback} from 'react'
-import {Lix, SpellChecker, WordCloud, WordCount} from "./index";
 
 function WordFrequency(props: { content: any; }) {
     let value = props.content;
@@ -92,7 +91,6 @@ function WordFrequency(props: { content: any; }) {
                                 />
                             </div>
                         }
-                            <WordCloud content={value} />
                     </Accordion.Content>
                 </Accordion.Item>
             )}

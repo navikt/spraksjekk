@@ -26,7 +26,7 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 - Mulige personopplysninger (navn, e-post og telefonnummer)
 - Liks (LIX)
 - Ordtelling
-- Frekvensordliste og ordsky
+- Frekvensordliste
 - Stavekontroll
 
 # Test koden lokalt
