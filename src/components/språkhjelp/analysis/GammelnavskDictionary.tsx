@@ -38,9 +38,9 @@ function GammelnavskDictionary(props: { content: any; }) {
                         </div>
                         {kansellistenResultater.length >= 1 &&
                             <>
-                                <Heading spacing level="4" size="xsmall" className="språkhjelp-mb-4">
+{/*                                <Heading spacing level="4" size="xsmall" className="språkhjelp-mb-4">
                                     Kansellisten
-                                </Heading>
+                                </Heading>*/}
                                 <Accordion className="språkhjelp-inner-accordion">
                                     {kansellistenResultater.map((gammelnavsk, i) => (
                                         <>

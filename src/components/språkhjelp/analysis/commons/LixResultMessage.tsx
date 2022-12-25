@@ -10,7 +10,7 @@ function LixResultMessage(props: { lix: number; }) {
         lixMelding = "Enkel å lese";
     }
     if (lix > 33 && lix < 44) {
-        lixMelding = "Middels vanskelig å lese";
+        lixMelding = "Middels å lese";
     }
     if (lix > 43 && lix < 54) {
         lixMelding = "Vanskelig å lese";
