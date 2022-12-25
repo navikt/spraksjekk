@@ -116,7 +116,7 @@ function LongSentences(props: { content: any; }) {
                                 );
                             })}
                         </ul>
-                        {longSentenceCounter > 5 &&
+                        {longSentenceCounter > 3 &&
                             <div className="språkhjelp-pagination-container språkhjelp-mb-6">
                                 <Pagination
                                     className="språkhjelp-pagination"
