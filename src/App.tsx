@@ -38,8 +38,6 @@ export default () => {
     const [mobilvisning, setMobilvisning] = useState(false)
     let higlighetdwords = window.getSelection().toString();
 
-    console.log(window.getSelection().toString())
-
     function focusTiptap() {
         if (editor) {
             editor.commands.focus()
