@@ -22,43 +22,41 @@ function SpellChecker(props: { content: any; }) {
         setLoading("true");
         setMisspellings([]);
 
-        setTimeout(function(){
-        // @ts-ignore
-        let dict = new Typo("no_NB", false, false, {
-            dictionaryPath: "hunspell-dictionaries"
-        });
-
-        dict.ready
-            .then(() => {
-                // Promise that dictionary is loaded
-
-                // Split the text into an array of words
-                const words = value.split(/\s+/);
-
-                // Check each word for spelling mistakes
-                let mistakes = words.filter((word) => !dict.check(word));
-
-                // Removes whitespace elements
-                mistakes = mistakes.filter(mistakes => !/^\s*$/.test(mistakes));
-
-                // Removes elements that ends with -
-                mistakes = mistakes.filter(mistake => !mistake.match(/-/));
-
-                // Removes duplicates
-                mistakes = mistakes.filter((mistake, index) => mistakes.indexOf(mistake) === index);
-
-                // Remove words with 3 or less chars
-                mistakes = mistakes.filter(mistake => mistake.length > 3);
-
-                setMisspellings(mistakes);
-                setDoubleSpacesCount(mistakes.length);
-                setText("OK");
-                setLoading("");
-            })
-            .catch((error) => {
-                // dictionary was not loaded
-                console.error(error);
+        setTimeout(function () {
+            // @ts-ignore
+            let dict = new Typo("no_NB", false, false, {
+                dictionaryPath: "hunspell-dictionaries"
             });
+
+            dict.ready
+                .then(() => {
+                    // Split the text into an array of words
+                    const words = value.split(/\s+/);
+
+                    // Check each word for spelling mistakes
+                    let mistakes = words.filter((word) => !dict.check(word));
+
+                    // Removes whitespace elements
+                    mistakes = mistakes.filter(mistakes => !/^\s*$/.test(mistakes));
+
+                    // Removes elements that ends with -
+                    mistakes = mistakes.filter(mistake => !mistake.match(/-/));
+
+                    // Removes duplicates
+                    mistakes = mistakes.filter((mistake, index) => mistakes.indexOf(mistake) === index);
+
+                    // Remove words with 3 or less chars
+                    mistakes = mistakes.filter(mistake => mistake.length > 3);
+
+                    setMisspellings(mistakes);
+                    setDoubleSpacesCount(mistakes.length);
+                    setText("OK");
+                    setLoading("");
+                })
+                .catch((error) => {
+                    // dictionary was not loaded
+                    console.error(error);
+                });
         }, 400);
     };
     return (
@@ -70,9 +68,9 @@ function SpellChecker(props: { content: any; }) {
                     </Accordion.Header>
                     <Accordion.Content className="språkhjelp-inner-accordion-content">
                         {loading == "true" ? (
-                        <Button loading>Stavekontroll</Button>
+                            <Button loading>Stavekontroll</Button>
                         ) : (
-                            <Button variant="secondary" onClick={() => checkSpelling()} >Stavekontroll</Button>
+                            <Button variant="secondary" onClick={() => checkSpelling()}>Stavekontroll</Button>
                         )}
                         {text !== "" && (
                             <>

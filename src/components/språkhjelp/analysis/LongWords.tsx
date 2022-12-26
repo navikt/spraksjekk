@@ -5,7 +5,7 @@ import {ExternalLink} from "@navikt/ds-icons";
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
     const [pagesCount, setpagesCount] = useState(1);
-    const [wordLength, setWordLength] = useState(7)
+    const [wordLength] = useState(7)
     let longWordCounter = 0;
     let pageSize = 10;
 
@@ -44,17 +44,12 @@ function LongWords(props: { content: any; }) {
     }
 
     let longWordsHere = 0;
-    let fileterWords = removeDuplicates(words)
     // Loop through the entire array of words
     for (let i in words) {
         if (words[i].length > 6) {
             // +1 for every long word in document
             longWordsHere = 1;
         }
-        /*        if (words[i].length > wordLength) {
-                    // +1 for every long word in document
-                    longWordCounter++;
-                }*/
     }
 
     // Create a list of long words
@@ -109,21 +104,6 @@ function LongWords(props: { content: any; }) {
                         <Heading className="språkhjelp-pt-6" spacing level="3" size="xsmall">
                             Ord med over seks bokstaver
                         </Heading>
-                        {/*
-                        <TextField label="antall bokstever" className="lengthField"
-                                                hideLabel
-                        // @ts-ignorets-ignore
-                                                value={wordLength}
-                                                max={longestWord}
-                                                min="1"
-                        // @ts-ignorets-ignore
-                                                onChange={(e) => setpagesCount(Math.ceil(longWordCounter / pageSize)) & setWordLength(e.target.value)}
-                                                type="number"
-                                                size="small"
-                        />
-                        <ul className="list-disc pt-5 list-inside">
-                            {listLongWords}
-                        </ul> */}
                         <div className="språkhjelp-overflow-scroll">
                             <Table zebraStripes size="small">
                                 <Table.Header>

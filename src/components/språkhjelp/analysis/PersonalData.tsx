@@ -2,7 +2,6 @@ import {Accordion, Heading} from "@navikt/ds-react";
 
 function PersonalData(props: { content: any; }) {
     let rawcontent = props.content;
-    let personinfoHere = 1;
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
 
     // Email
@@ -42,7 +41,8 @@ function PersonalData(props: { content: any; }) {
     let namesCount = 0
     let getnames = []
     if (names) {
-        getnames = names.filter((name, index) => names.indexOf(name) === index).map((name, index) => <li key={index} className="språkhjelp-pb-2">"{name}"</li>)
+        getnames = names.filter((name, index) => names.indexOf(name) === index).map((name, index) => <li key={index}
+                                                                                                         className="språkhjelp-pb-2">"{name}"</li>)
         namesCount = getnames.length
     }
     const listNames = getnames;

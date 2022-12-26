@@ -44,11 +44,6 @@ function NrkDictionaries(props: { content: any; }) {
                                             Forklaring
                                         </Heading>
                                         <p>{gammelnavsk.bokmål}</p>
-                                        {/*                                        {gammelnavsk.bruk = "2" &&
-                                            <>
-                                                <p>Vær varsom eller oppmerksom når du bruker dette ordet.</p>
-                                            </>
-                                        }*/}
                                         <Heading spacing level="4" size="xsmall">
                                             Kilde
                                         </Heading>

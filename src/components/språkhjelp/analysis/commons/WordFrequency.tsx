@@ -24,7 +24,6 @@ function WordFrequency(props: { content: any; }) {
             setFreqMap({});
             return;
         }
-
         const words = value
             .toLowerCase()
             .split(/\s+/)

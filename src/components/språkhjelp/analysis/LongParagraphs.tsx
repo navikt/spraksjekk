@@ -4,7 +4,7 @@ import {ExternalLink} from "@navikt/ds-icons";
 
 function LongParagraphs(props: { content: any; }) {
     let rawcontent = props.content;
-    const [paragraphLength, setParagraphLength] = useState(4)
+    const [paragraphLength] = useState(4)
     // Declaring all letiables
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     rawcontent = rawcontent.split("\n")
@@ -14,7 +14,6 @@ function LongParagraphs(props: { content: any; }) {
         )
         .join("\n");
     let content = rawcontent;
-
     const paragraphs = content.split(/\n/).sort(function (a: { replace: (arg0: RegExp, arg1: string) => { (): any; new(): any; split: { (arg0: string): { (): any; new(): any; length: number; }; new(): any; }; }; }, b: { replace: (arg0: RegExp, arg1: string) => { (): any; new(): any; split: { (arg0: string): { (): any; new(): any; length: number; }; new(): any; }; }; }) {
         return b.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length - a.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length;
     });
@@ -41,7 +40,7 @@ function LongParagraphs(props: { content: any; }) {
         }
     }
     const [expanded, setExpanded] = useState([]);
-    const firstSentenceRegex = /^[^.!?]*[.!?]/; // This regular expression will match the characters at the beginning of the string up until the first period, question mark, or exclamation point.
+    const firstSentenceRegex = /^[^.!?]*[.!?]/;
 
     // Create a list of long paragraphs
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
@@ -69,18 +68,6 @@ function LongParagraphs(props: { content: any; }) {
                         avsnitt</>)}
                     </Accordion.Header>
                     <Accordion.Content>
-                        {/*Avsnitt med over 3 setninger:*/}
-                        {/*  <TextField label="antall ord" className="lengthField"
-                                   hideLabel
-                            // @ts-ignorets-ignore
-                                   value={paragraphLength}
-                                   max="50"
-                                   min="1"
-                            // @ts-ignorets-ignore
-                                   onChange={(e) => setParagraphLength(e.target.value)}
-                                   type="number"
-                                   size="small"
-                        />*/}
                         <Heading spacing level="3" size="xsmall">
                             Skriv korte og enkle avsnitt
                         </Heading>
@@ -89,7 +76,6 @@ function LongParagraphs(props: { content: any; }) {
                         href="https://aksel.nav.no/artikkel/sprakarbeid?tema=innholdsarbeid">
                         Aksel<ExternalLink title="Ekstern lenke"/>
                     </Link>
-
                         <Heading className="språkhjelp-pt-6" spacing level="3" size="xsmall">
                             Avsnitt med over tre setninger
                         </Heading>

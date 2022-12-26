@@ -33,7 +33,6 @@ span.tag-cloud-tag {
     color: #fff;
 }
 
-
 /* Inner accordion */
 .språkhjelp-inner-accordion > .navds-accordion__item--open > .navds-accordion__header {
     border-color: transparent;
@@ -50,7 +49,6 @@ span.tag-cloud-tag {
 .språkhjelp-inner-accordion-content {
     background-color: white !important;
 }
-
 
 /* Common */
 .språkhjelp-remove-accordion-padding-bottom {

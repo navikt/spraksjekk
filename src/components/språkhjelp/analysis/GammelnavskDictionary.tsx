@@ -33,14 +33,12 @@ function GammelnavskDictionary(props: { content: any; }) {
                         <Heading spacing level="3" size="xsmall">
                             Velg enkle ord
                         </Heading>
-                        <div className="språkhjelp-pb-6">Ord og uttrykk som er utdaterte eller sier noe på en vanskeligere måte enn
+                        <div className="språkhjelp-pb-6">Ord og uttrykk som er utdaterte eller sier noe på en
+                            vanskeligere måte enn
                             nødvendig:
                         </div>
                         {kansellistenResultater.length >= 1 &&
                             <>
-{/*                                <Heading spacing level="4" size="xsmall" className="språkhjelp-mb-4">
-                                    Kansellisten
-                                </Heading>*/}
                                 <Accordion className="språkhjelp-inner-accordion">
                                     {kansellistenResultater.map((gammelnavsk, i) => (
                                         <>
@@ -62,7 +60,6 @@ function GammelnavskDictionary(props: { content: any; }) {
                                                           href="https://www.sprakradet.no/klarsprak/om-skriving/kansellisten/">
                                                         Kansellisten<ExternalLink/>
                                                     </Link>
-
                                                 </Accordion.Content>
                                             </Accordion.Item>
                                         </>

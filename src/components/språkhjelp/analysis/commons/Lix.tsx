@@ -1,7 +1,7 @@
+import {useState} from 'react'
 import {LixResultMessage} from "./index";
 import {Accordion, BodyShort, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
-import {useState} from 'react'
 
 function Lix(props: { content: any }) {
     const [wordLength] = useState(6)
@@ -24,10 +24,8 @@ function Lix(props: { content: any }) {
             if (!punct.includes(value[i])) {
                 continue;
             }
-
             count++;
         }
-
         return count;
     };
     dotCounter = countPunctuation(value);
@@ -55,7 +53,8 @@ function Lix(props: { content: any }) {
                     <Accordion.Header>
                         Liks: {lix}. <LixResultMessage lix={lix}/>
                     </Accordion.Header>
-                    <Accordion.Content className="språkhjelp-remove-accordion-padding-bottom språkhjelp-inner-accordion-content">
+                    <Accordion.Content
+                        className="språkhjelp-remove-accordion-padding-bottom språkhjelp-inner-accordion-content">
                         <BodyShort style={{textTransform: "initial"}} className="språkhjelp-pb-2">
                             Liks: {lix}. Teksten er <span style={{textTransform: "lowercase"}}><LixResultMessage
                             lix={lix}/></span> ifølge <Link target="_blank"

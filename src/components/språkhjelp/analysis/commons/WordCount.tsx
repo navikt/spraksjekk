@@ -1,6 +1,5 @@
-import {Accordion, Link} from "@navikt/ds-react";
+import {Accordion} from "@navikt/ds-react";
 import React, {useState} from 'react'
-import {ExternalLink} from "@navikt/ds-icons";
 
 function WordCount(props: { content: any; }) {
     const [wordLength] = useState(6)
@@ -8,7 +7,6 @@ function WordCount(props: { content: any; }) {
     const value = props.content;
     const totalchars = value.length;
     const words = content.split(/\s+/);
-    let lix = 0;
     let wordCounter = 0;
     let longWordCounter = 0;
     let dotCounter = 0;
@@ -19,7 +17,7 @@ function WordCount(props: { content: any; }) {
     wordCounter = words.length;
     const totalwords = wordCounter;
 
-    // Count paragraphs∏
+    // Count paragraphs
     mellomrom = value.split(" ").length - 1
     lengeUtenMellomrom = value.length - mellomrom
     let paragrafer = value.split("\n\n");
@@ -65,9 +63,6 @@ function WordCount(props: { content: any; }) {
         }
     }
 
-    // Calculate LIX
-    lix = Math.round(wordCounter / dotCounter + (longWordCounter * 100) / wordCounter);
-
     return (
         <Accordion.Item>
             <Accordion.Header className="språkhjelp-inner-accordion">
@@ -80,12 +75,6 @@ function WordCount(props: { content: any; }) {
                     <li>Avsnitt: {totalparagraphs}</li>
                     <li>Tegn: {totalchars} {totalchars != totalcharsnospace && (<>({totalcharsnospace} uten
                         mellomrom)</>)}</li>
-                    {/*{lix >= 0 && lix < 100 && (
-                <li><Link target="_blank"
-                          href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
-                    Liks: {lix}. <LixResultMessage lix={lix}/><ExternalLink/>
-                </Link></li>
-            )}*/}
                 </ul>
             </Accordion.Content>
         </Accordion.Item>

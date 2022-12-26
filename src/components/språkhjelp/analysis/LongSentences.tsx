@@ -1,4 +1,4 @@
-import {Accordion, Heading, Link, Pagination, Table} from "@navikt/ds-react";
+import {Accordion, Heading, Link, Pagination} from "@navikt/ds-react";
 import {useCallback, useEffect, useState} from "react";
 import {ExternalLink} from "@navikt/ds-icons";
 
@@ -83,18 +83,6 @@ function LongSentences(props: { content: any; }) {
                         setninger</>)}
                     </Accordion.Header>
                     <Accordion.Content className="språkhjelp-remove-accordion-padding-bottom">
-                        {/*Setninger med over 20 ord:*/}
-                        {/* <TextField label="antall ord" className="lengthField"
-                                   hideLabel
-                            // @ts-ignorets-ignore
-                                   value={sentenceLength}
-                                   max="100"
-                                   min="1"
-                            // @ts-ignorets-ignore
-                                   onChange={(e) => setSentenceLength(e.target.value)}
-                                   type="number"
-                                   size="small"
-                        />*/}
                         <Heading spacing level="3" size="xsmall">
                             Skriv korte og enkle setninger
                         </Heading>
