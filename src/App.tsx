@@ -36,7 +36,9 @@ export default () => {
     }
     const [value, setValue] = useState(q2)
     const [mobilvisning, setMobilvisning] = useState(false)
-    let higlighetdwords = window.getSelection().toString().toLowerCase();
+    let higlighetdwords = window.getSelection().toString();
+
+    console.log(window.getSelection().toString())
 
     function focusTiptap() {
         if (editor) {
