@@ -16,13 +16,13 @@ Du kan sende spørsmål i Slackkanalen [#researchops](https://nav-it.slack.com/a
 # Funksjoner
 
 - Lange ord, setninger og avsnitt
-- Like ord som er gjentatt etter hverandre, eksempel "hei hei"
-- Alltid komma foran "men"
 - Kansellisten (Språkrådet)
 - Avløserord (Språkrådet)
 - Datatermer (Språkrådet)
 - NRKs flerkulturelle ordliste
 - NRKs ordliste for funksjonsmangfold
+- Alltid komma foran "men" (kommaregel)
+- Like ord som er gjentatt etter hverandre, eksempel "hei hei"
 - Mulige personopplysninger (navn, e-post og telefonnummer)
 - Liks (LIX)
 - Ordtelling
