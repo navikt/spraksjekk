@@ -1,13 +1,13 @@
 import {Accordion, Table, Pagination, Heading, Link} from "@navikt/ds-react";
-import {useState, useCallback, useEffect} from 'react'
+import {useState} from 'react'
 import {ExternalLink} from "@navikt/ds-icons";
 
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
-    const [pagesCount, setpagesCount] = useState(1);
-    const [wordLength] = useState(7)
-    let longWordCounter = 0;
+    let wordLength = 6;
+    let longWordCounter: number;
     let pageSize = 10;
+    let pagesCount = 1;
 
     // Decl/**/ari/**/ng all variables
     let rawcontent = props.content;
@@ -37,7 +37,7 @@ function LongWords(props: { content: any; }) {
         }
     }
 
-    // Merge dublicate words
+    // Merge duplicate words
     function removeDuplicates(words) {
         return words.filter((item,
                              index) => words.indexOf(item) === index);
@@ -46,7 +46,7 @@ function LongWords(props: { content: any; }) {
     let longWordsHere = 0;
     // Loop through the entire array of words
     for (let i in words) {
-        if (words[i].length > 6) {
+        if (words[i].length > wordLength) {
             // +1 for every long word in document
             longWordsHere = 1;
         }
@@ -57,28 +57,19 @@ function LongWords(props: { content: any; }) {
         .sort(function (a, b) {
             return b.length - a.length;
         })
-        .filter((item: string | any[]) => item.length > (wordLength - 1));
+        .filter((item: string | any[]) => item.length > wordLength);
 
+    // Number of long sentences
     longWordCounter = longWords.length;
-    let totalFreqWords = 0;
-    let value = "";
 
-    const indexOfLastPost = page * 10;
-    const indexOfFirstPost = indexOfLastPost - 10;
+    // Pagination pages
+    const indexOfLastPost = page * pageSize;
+    const indexOfFirstPost = indexOfLastPost - pageSize;
     const allFreq = Object.entries(longWords)
         .slice(indexOfFirstPost, indexOfLastPost);
 
-    const calculateFreqMap = useCallback(() => {
-        // Kalkuler antall sider for Pagination
-        totalFreqWords = longWordCounter;
-        if (totalFreqWords >= 10) {
-            setpagesCount(Math.ceil(totalFreqWords / pageSize));
-        }
-    }, [value]);
-
-    useEffect(() => {
-        calculateFreqMap();
-    }, [calculateFreqMap]);
+    // Number of pages in pagination
+    pagesCount = Math.ceil(longWordCounter / pageSize);
 
     const listLongWords = longWords.map((word, index) =>
         <li key={index}>{word} ({word.length} tegn)</li>
@@ -100,7 +91,6 @@ function LongWords(props: { content: any; }) {
                         href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
                         Wikipedia<ExternalLink title="Ekstern lenke"/>
                     </Link>
-
                         <Heading className="språkhjelp-pt-6" spacing level="3" size="xsmall">
                             Ord med over seks bokstaver
                         </Heading>
@@ -126,7 +116,7 @@ function LongWords(props: { content: any; }) {
                                 </Table.Body>
                             </Table>
                         </div>
-                        {longWordCounter > 10 &&
+                        {longWordCounter > pageSize &&
                             <div className="språkhjelp-pagination-container">
                                 <Pagination
                                     className="språkhjelp-spacing-30 språkhjelp-pagination"

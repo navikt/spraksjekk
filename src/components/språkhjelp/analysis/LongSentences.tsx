@@ -1,13 +1,13 @@
 import {Accordion, Heading, Link, Pagination} from "@navikt/ds-react";
-import {useCallback, useEffect, useState} from "react";
+import {useState} from "react";
 import {ExternalLink} from "@navikt/ds-icons";
 
 function LongSentences(props: { content: any; }) {
     let rawcontent = props.content;
-    const [sentenceLength] = useState(21)
     const [page, setPage] = useState(1);
-    const [pagesCount, setpagesCount] = useState(1);
-    let longSentenceCounter = 0;
+    let pagesCount = 1
+    let longSentenceCounter: number;
+    let sentenceLength = 21;
     let pageSize = 3;
 
     // Declaring all letiables
@@ -41,8 +41,8 @@ function LongSentences(props: { content: any; }) {
     let longSentenceHere = 0;
     for (let i in sentences) {
         const sentenceWords = sentences[i].split(/\s+/);
-        if (sentenceWords.length >= 21) {
-            // +1 for every long word in document
+        if (sentenceWords.length >= sentenceLength) {
+            // +1 for every long sentence in document
             longSentenceHere = 1;
         }
     }
@@ -53,26 +53,17 @@ function LongSentences(props: { content: any; }) {
         <li key={index} className="språkhjelp-pb-5">"{sentence}" <b>({sentence.split(/\s+/).length}&nbsp;ord)</b></li>
     );
 
+    // Number of long sentences
     longSentenceCounter = listLongSentences.length;
-    let totalFreqWords = 0;
-    let value = "";
 
-    const indexOfLastPost = page * 3;
-    const indexOfFirstPost = indexOfLastPost - 3;
+    // Pagination pages
+    const indexOfLastPost = page * pageSize;
+    const indexOfFirstPost = indexOfLastPost - pageSize;
     const allFreq = Object.entries(longSentences)
         .slice(indexOfFirstPost, indexOfLastPost);
 
-    const calculateFreqMap = useCallback(() => {
-        // Kalkuler antall sider for Pagination
-        totalFreqWords = longSentencesCounter;
-        if (totalFreqWords >= 3) {
-            setpagesCount(Math.ceil(totalFreqWords / pageSize));
-        }
-    }, [value]);
-
-    useEffect(() => {
-        calculateFreqMap();
-    }, [calculateFreqMap]);
+    // Number of pages in pagination
+    pagesCount = Math.ceil(longSentencesCounter / pageSize)
 
     return (
         <>
@@ -104,7 +95,7 @@ function LongSentences(props: { content: any; }) {
                                 );
                             })}
                         </ul>
-                        {longSentenceCounter > 3 &&
+                        {longSentenceCounter > pageSize &&
                             <div className="språkhjelp-pagination-container språkhjelp-mb-6">
                                 <Pagination
                                     className="språkhjelp-pagination"
