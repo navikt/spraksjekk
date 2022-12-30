@@ -48,6 +48,16 @@ function Lix(props: { content: any }) {
 
     return (
         <>
+            {dotCounter == 0 && (
+                <Accordion.Item>
+                    <Accordion.Header>
+                        Liks: For lite tekst
+                    </Accordion.Header>
+                    <Accordion.Content className="språkhjelp-inner-accordion-content">
+                        Sett inn minst én setning for å få opp resultater.
+                    </Accordion.Content>
+                </Accordion.Item>
+            )}
             {lix >= 0 && lix < 100 && dotCounter > 0 && (
                 <Accordion.Item>
                     <Accordion.Header>

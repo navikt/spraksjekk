@@ -6,12 +6,12 @@ function Tools(props: { content: any; }) {
     return (
         <Accordion.Item>
             <Accordion.Header>
-                Ordtelling og Liks
+                Liks og ordtelling
             </Accordion.Header>
             <Accordion.Content>
                 <Accordion className="språkhjelp-inner-accordion språkhjelp-mt-2">
-                    <WordCount content={value}/>
                     <Lix content={value}/>
+                    <WordCount content={value}/>
                     <WordFrequency content={value}/>
                     <SpellChecker content={value}/>
                 </Accordion>
