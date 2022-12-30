@@ -1,10 +1,14 @@
-import {Accordion, Heading, Link, Button} from "@navikt/ds-react";
+import {Accordion, Heading, Link, Button, Pagination} from "@navikt/ds-react";
 import {useState} from "react";
 import {ExternalLink} from "@navikt/ds-icons";
 
 function LongParagraphs(props: { content: any; }) {
     let rawcontent = props.content;
-    const [paragraphLength] = useState(4)
+    const [page, setPage] = useState(1);
+    let pagesCount = 1
+    let longParagraphCounter: number;
+    let paragraphLength = 4;
+    let pageSize = 3;
     // Declaring all letiables
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     rawcontent = rawcontent.split("\n")
@@ -59,6 +63,15 @@ function LongParagraphs(props: { content: any; }) {
         </li>
     );
 
+    // Pagination pages
+    const indexOfLastPost = page * pageSize;
+    const indexOfFirstPost = indexOfLastPost - pageSize;
+    const allFreq = Object.entries(longParagraphs)
+        .slice(indexOfFirstPost, indexOfLastPost);
+
+    // Number of pages in pagination
+    pagesCount = Math.ceil(longParagraphsCounter / pageSize)
+
     return (
         <>
             {longParagraphHere != 0 && (
@@ -80,8 +93,36 @@ function LongParagraphs(props: { content: any; }) {
                             Avsnitt med over tre setninger
                         </Heading>
                         <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
-                            {listLongParagraphs}
+                            {allFreq.map((wordFreq: [string, string]) => {
+                                return (
+                                    <li key={wordFreq[0]} className="språkhjelp-pb-5">
+                                        {expanded[wordFreq[0]] ? <>"{wordFreq[1]} </> : <>"{wordFreq[1].match(firstSentenceRegex)[0]} </>}
+                                        <Button size="xsmall" variant="secondary" onClick={() => {
+                                            setExpanded(prevExpanded => {
+                                                const newExpanded = [...prevExpanded];
+                                                newExpanded[wordFreq[0]] = !newExpanded[wordFreq[0]];
+                                                return newExpanded;
+                                            });
+                                        }}>
+                                            {expanded[wordFreq[0]] ? "Vis mindre" : "Les mer"}
+                                        </Button>" <b>({wordFreq[1].replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b>
+                                    </li>
+                                );
+                            })}
                         </ul>
+                        {longParagraphsCounter > pageSize &&
+                            <div className="språkhjelp-pagination-container språkhjelp-mb-6">
+                                <Pagination
+                                    className="språkhjelp-pagination"
+                                    page={page}
+                                    onPageChange={setPage}
+                                    count={pagesCount}
+                                    size="small"
+                                    siblingCount={0}
+                                    boundaryCount={1}
+                                />
+                            </div>
+                        }
                     </Accordion.Content>
                 </Accordion.Item>
             )}
