@@ -20,7 +20,7 @@ function LongSentences(props: { content: any; }) {
         .join("\n");
     let content = rawcontent;
 
-    const sentences = content.replace(/([.?!–"“:*])\s*(?=[A-ZÆØÅ*«»0-9"“–\d])/g, "$1|").split("|").sort(function (a, b) {
+    const sentences = content.replace(/([.?!–"“:*])\s*(?=[A-ZÆØÅ.*«»0-9"“–\d])/g, "$1|").split("|").sort(function (a, b) {
         return b.split(/\s+/).length - a.split(/\s+/).length;
     });
     let longSentencesCounter = 0;
