@@ -12,7 +12,6 @@ function LongSentences(props: { content: any; }) {
 
     // Declaring all letiables
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
-    // rawcontent = rawcontent.replaceAll(" *", "");
     rawcontent = rawcontent.split("\n")
         .map((l: string) => l.length > 0 && ![".", ":", "!", "?", "*"].includes(l.slice(-1))
             ? l + "."
@@ -21,7 +20,7 @@ function LongSentences(props: { content: any; }) {
         .join("\n");
     let content = rawcontent;
 
-    const sentences = content.replace(/([.?!"“:*\/r\/n])\s*(?=[A-Z*])/g, "$1|").split("|").sort(function (a, b) {
+    const sentences = content.replace(/([.?!–"“:*])\s*(?=[A-ZÆØÅ*«»0-9"“–\d])/g, "$1|").split("|").sort(function (a, b) {
         return b.split(/\s+/).length - a.split(/\s+/).length;
     });
     let longSentencesCounter = 0;
@@ -90,7 +89,7 @@ function LongSentences(props: { content: any; }) {
                             {allFreq.map((wordFreq: [string, string]) => {
                                 return (
                                     <li key={wordFreq[0]} className="språkhjelp-pb-5">
-                                            "{wordFreq[1]} <b>({wordFreq[1].split(/\s+/).length}&nbsp;ord)</b>"
+                                            "{wordFreq[1]}" <b>({wordFreq[1].split(/\s+/).length}&nbsp;ord)</b>
                                     </li>
                                 );
                             })}
