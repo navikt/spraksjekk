@@ -6,9 +6,9 @@ function LongParagraphs(props: { content: any; }) {
     let rawcontent = props.content;
     const [page, setPage] = useState(1);
     let pagesCount = 1
-    let longParagraphCounter: number;
     let paragraphLength = 4;
     let pageSize = 3;
+
     // Declaring all letiables
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     rawcontent = rawcontent.split("\n")
@@ -48,20 +48,6 @@ function LongParagraphs(props: { content: any; }) {
 
     // Create a list of long paragraphs
     const longParagraphs = myLongParagraphs.filter((item) => item.length > paragraphLength);
-    const listLongParagraphs = longParagraphs.map((paragraph, index) =>
-        <li key={index} className="språkhjelp-pb-5">
-            {expanded[index] ? <>"{paragraph} </> : <>"{paragraph.match(firstSentenceRegex)[0]} </>}
-            <Button size="xsmall" variant="secondary" onClick={() => {
-                setExpanded(prevExpanded => {
-                    const newExpanded = [...prevExpanded];
-                    newExpanded[index] = !newExpanded[index];
-                    return newExpanded;
-                });
-            }}>
-                {expanded[index] ? "Vis mindre" : "Les mer"}
-            </Button>" <b>({paragraph.replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|").length}&nbsp;setninger)</b>
-        </li>
-    );
 
     // Pagination pages
     const indexOfLastPost = page * pageSize;

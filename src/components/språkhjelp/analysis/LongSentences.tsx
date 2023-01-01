@@ -6,7 +6,6 @@ function LongSentences(props: { content: any; }) {
     let rawcontent = props.content;
     const [page, setPage] = useState(1);
     let pagesCount = 1
-    let longSentenceCounter: number;
     let sentenceLength = 21;
     let pageSize = 3;
 
@@ -23,7 +22,7 @@ function LongSentences(props: { content: any; }) {
     const sentences = content.replace(/([.?!–"“:*])\s*(?=[A-ZÆØÅ.*«»0-9"“–\d])/g, "$1|").split("|").sort(function (a, b) {
         return b.split(/\s+/).length - a.split(/\s+/).length;
     });
-    let longSentencesCounter = 0;
+    let longSentenceCounter = 0;
     let myLongSentences = [];
 
     // Loop through the entire array of sentences
@@ -32,7 +31,7 @@ function LongSentences(props: { content: any; }) {
         if (sentenceWords.length >= sentenceLength) {
             // +1 for every long word in document
             myLongSentences.push(sentences[i]);
-            longSentencesCounter++;
+            longSentenceCounter++;
         }
     }
 
@@ -48,12 +47,9 @@ function LongSentences(props: { content: any; }) {
 
     // Create a list of long sentences
     const longSentences = myLongSentences.filter((item) => item.length > sentenceLength);
-    const listLongSentences = longSentences.map((sentence, index) =>
-        <li key={index} className="språkhjelp-pb-5">"{sentence}" <b>({sentence.split(/\s+/).length}&nbsp;ord)</b></li>
-    );
 
     // Number of long sentences
-    longSentenceCounter = listLongSentences.length;
+    longSentenceCounter = longSentences.length;
 
     // Pagination pages
     const indexOfLastPost = page * pageSize;
@@ -62,14 +58,14 @@ function LongSentences(props: { content: any; }) {
         .slice(indexOfFirstPost, indexOfLastPost);
 
     // Number of pages in pagination
-    pagesCount = Math.ceil(longSentencesCounter / pageSize)
+    pagesCount = Math.ceil(longSentenceCounter / pageSize)
 
     return (
         <>
             {longSentenceHere != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {longSentencesCounter} {longSentencesCounter == 1 ? (<>lang setning</>) : (<>lange
+                        {longSentenceCounter} {longSentenceCounter == 1 ? (<>lang setning</>) : (<>lange
                         setninger</>)}
                     </Accordion.Header>
                     <Accordion.Content className="språkhjelp-remove-accordion-padding-bottom">

@@ -5,7 +5,6 @@ import {ExternalLink} from "@navikt/ds-icons";
 function LongWords(props: { content: any; }) {
     const [page, setPage] = useState(1);
     let wordLength = 6;
-    let longWordCounter: number;
     let pageSize = 10;
     let pagesCount = 1;
 
@@ -60,7 +59,7 @@ function LongWords(props: { content: any; }) {
         .filter((item: string | any[]) => item.length > wordLength);
 
     // Number of long sentences
-    longWordCounter = longWords.length;
+    let longWordCounter = longWords.length;
 
     // Pagination pages
     const indexOfLastPost = page * pageSize;
