@@ -1,21 +1,32 @@
 import React, {useState} from "react";
-import {Accordion, Heading, Button} from "@navikt/ds-react";
+import {Accordion, Heading, Button, Pagination} from "@navikt/ds-react";
 import {Typo} from "typo-js-ts";
 
 function SpellChecker(props: { content: any; }) {
     const [misspellings, setMisspellings] = useState([]);
-    const [doubleSpacesCount, setDoubleSpacesCount] = useState(0);
+    const [mispellingsCount, setmispellingsCount] = useState(0);
     const [text, setText] = useState("");
     const [loading, setLoading] = useState("");
     let value = props.content;
+    const [page, setPage] = useState(1);
+    let pageSize = 10;
     value = value.replaceAll("Kontakt", "");
     value = value.replaceAll(/\d+(?: \d+)/g, "");
-    value = value.replace(/[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g, '');
+    value = value.replace(/[-a-zA-Z\d@:%._\+~#=]{1,256}\.[a-zA-Z\d()]{1,6}\b([-a-zA-Z\d()@:%_\+.~#?&//=]*)/g, '');
     value = value.replace(/[^\w\sÆØÅæøå\/\\é-]/g, '');
     value = value.replace(/\n/g, ' ');
     value = value.replace(/\d+/g, '');
     value = value.replace(/\//g, ' ');
     value = value.toLowerCase();
+
+    // Pagination pages
+    const indexOfLastPost = page * pageSize;
+    const indexOfFirstPost = indexOfLastPost - pageSize;
+    const allFreq = Object.entries(misspellings)
+        .slice(indexOfFirstPost, indexOfLastPost);
+
+    // Number of pages in pagination
+    let pagesCount = Math.ceil(mispellingsCount / pageSize)
 
     const checkSpelling = () => {
         setText("");
@@ -45,11 +56,11 @@ function SpellChecker(props: { content: any; }) {
                     // Removes duplicates
                     mistakes = mistakes.filter((mistake, index) => mistakes.indexOf(mistake) === index);
 
-                    // Remove words with 3 or less chars
+                    // Remove words with 3 or fewer chars
                     mistakes = mistakes.filter(mistake => mistake.length > 3);
 
                     setMisspellings(mistakes);
-                    setDoubleSpacesCount(mistakes.length);
+                    setmispellingsCount(mistakes.length);
                     setText("OK");
                     setLoading("");
                 })
@@ -61,7 +72,7 @@ function SpellChecker(props: { content: any; }) {
     };
     return (
         <>
-            {doubleSpacesCount != -1 && (
+            {mispellingsCount != -1 && (
                 <Accordion.Item>
                     <Accordion.Header>
                         Stavekontroll
@@ -78,13 +89,30 @@ function SpellChecker(props: { content: any; }) {
                                     <>
                                         <hr className="språkhjelp-mb-6"/>
                                         <Heading aria-live="polite" spacing level="3" size="xsmall">
-                                            {misspellings.length} mulige stavefeil
+                                            {misspellings.length} ord som må sjekkes
                                         </Heading>
                                         <ul>
-                                            {misspellings.map((mistake) => (
-                                                <li key={mistake}>"{mistake}"</li>
-                                            ))}
+                                            {allFreq.map((wordFreq: [string, string]) => {
+                                                return (
+                                                    <li key={wordFreq[0]}>
+                                                        "{wordFreq[1]}"
+                                                    </li>
+                                                );
+                                            })}
                                         </ul>
+                                        {mispellingsCount > pageSize &&
+                                            <div className="språkhjelp-pagination-container språkhjelp-mb-6">
+                                                <Pagination
+                                                    className="språkhjelp-pagination"
+                                                    page={page}
+                                                    onPageChange={setPage}
+                                                    count={pagesCount}
+                                                    size="small"
+                                                    siblingCount={0}
+                                                    boundaryCount={1}
+                                                />
+                                            </div>
+                                        }
                                     </>
                                 ) : (
                                     <>

@@ -69,7 +69,7 @@ function WordCount(props: { content: any; }) {
                 Ordtelling: {totalwords} ord
             </Accordion.Header>
             <Accordion.Content className="språkhjelp-inner-accordion-content">
-                <ul className="språkhjelp-wordcountlist språkhjelp-list-disc språkhjelp-list-inside">
+                <ul>
                     <li>Ord: {totalwords}</li>
                     <li>Setninger: {totalsentences}</li>
                     <li>Avsnitt: {totalparagraphs}</li>
