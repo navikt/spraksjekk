@@ -1,4 +1,4 @@
-import {Lix, WordFrequency, WordCount, SpellChecker} from "./commons/index";
+import {Lix, WordFrequency, WordCount, SpellChecker} from "./tools/index";
 import {Accordion} from "@navikt/ds-react";
 
 function Tools(props: { content: any; }) {

@@ -1,5 +1,4 @@
 import {useState} from 'react'
-import {LixResultMessage} from "./index";
 import {Accordion, BodyShort, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 
@@ -46,6 +45,19 @@ function Lix(props: { content: any }) {
     // Calculate LIX
     lix = Math.round(wordCounter / dotCounter + (longWordCounter * 100) / wordCounter);
 
+    let lixMelding = "";
+
+    // LIX begrunnelse
+    if (lix < 34) {
+        lixMelding = "Enkel å lese";
+    }
+    if (lix > 33 && lix < 44) {
+        lixMelding = "Middels å lese";
+    }
+    if (lix > 43) {
+        lixMelding = "Vanskelig å lese";
+    }
+
     return (
         <>
             {dotCounter == 0 && (
@@ -61,13 +73,12 @@ function Lix(props: { content: any }) {
             {lix >= 0 && lix < 100 && dotCounter > 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        Liks: {lix}. <LixResultMessage lix={lix}/>
+                        Liks: {lix}. {lixMelding}
                     </Accordion.Header>
                     <Accordion.Content
                         className="språkhjelp-remove-accordion-padding-bottom språkhjelp-inner-accordion-content">
                         <BodyShort style={{textTransform: "initial"}} className="språkhjelp-pb-2">
-                            Liks: {lix}. Teksten er <span style={{textTransform: "lowercase"}}><LixResultMessage
-                            lix={lix}/></span> ifølge <Link target="_blank"
+                            Liks: {lix}. Teksten er <span style={{textTransform: "lowercase"}}>{lixMelding}</span> ifølge <Link target="_blank"
                                                             href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
                             lesbarhetsindeksen<ExternalLink/>
                         </Link>.
