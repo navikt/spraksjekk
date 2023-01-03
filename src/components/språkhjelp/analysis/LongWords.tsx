@@ -22,10 +22,16 @@ function LongWords(props: { content: any; }) {
         .join("\n");
     let content = rawcontent;
 
-    const words = content
+    let words = content
         .toLowerCase()
         .split(/\s+/)
         .map((s: string) => s.replace(/[.,:?()!"«»]+/g, ""));
+
+    // Remove words including numbers
+    words = words.filter(word => !word.match(/\d/));
+
+    // Remove words including -
+    words = words.filter(word => !word.match(/[-_>]/));
 
     // Find the longest word
     let longestWord = 0;
