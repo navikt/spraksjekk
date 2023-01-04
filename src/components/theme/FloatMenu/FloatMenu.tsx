@@ -1,6 +1,7 @@
 import {ExternalLink} from "@navikt/ds-icons";
 import {Link} from "@navikt/ds-react";
 import {BubbleMenu} from "@tiptap/react";
+import {Lix} from "./lix/index";
 
 function FloatMenu(props) {
     let editor = props.editor
@@ -25,7 +26,12 @@ function FloatMenu(props) {
                     <Link className="navds-button navds-button--secondary navds-button--small navds-label--small" style={{marginLeft: '-1px', textDecoration : "none"}} target="_blank" href={ngramLink}>N-gram</Link>
                     <Link className="navds-button navds-button--secondary navds-button--small navds-label--small" style={{marginLeft: '-1px', textDecoration : "none"}} target="_blank" href={datanorgeLink}>Begrepskatalog</Link>
                 </>
-            ) : (<Link className="navds-button navds-button--secondary navds-button--small navds-label--small språkhjelp-nounderline" style={{textDecoration : "none"}} target="_blank" href={analyzeLink}>Analyser  <ExternalLink style={{paddingTop: "1px"}}/></Link>)}
+            ) : (<>{higlighetdwords.match(/[?]+|[!]+|[.]/g) && (
+                <>
+                <Link className="navds-button navds-button--secondary navds-button--small navds-label--small språkhjelp-nounderline" style={{textDecoration : "none"}} target="_blank" href={analyzeLink}><Lix content={higlighetdwords}/></Link>
+                {/*<Link className="navds-button navds-button--secondary navds-button--small navds-label--small språkhjelp-nounderline" style={{textDecoration : "none"}} target="_blank" href={analyzeLink}>Analyser  <ExternalLink style={{paddingTop: "1px"}}/></Link>*/}
+                </>
+            )}</>)}
         </BubbleMenu>
     );
 }

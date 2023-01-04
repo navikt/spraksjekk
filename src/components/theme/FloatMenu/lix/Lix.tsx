@@ -60,41 +60,10 @@ function Lix(props: { content: any }) {
 
     return (
         <>
-            {dotCounter == 0 && (
-                <Accordion.Item>
-                    <Accordion.Header>
-                        Liks: For lite tekst
-                    </Accordion.Header>
-                    <Accordion.Content className="språkhjelp-inner-accordion-content">
-                        Sett inn minst én setning for å få opp resultater.
-                    </Accordion.Content>
-                </Accordion.Item>
-            )}
             {lix >= 0 && lix < 100 && dotCounter > 0 && (
-                <Accordion.Item>
-                    <Accordion.Header>
-                        Liks: {lix}. {lixMelding}
-                    </Accordion.Header>
-                    <Accordion.Content
-                        className="språkhjelp-remove-accordion-padding-bottom språkhjelp-inner-accordion-content">
-                        <BodyShort style={{textTransform: "initial"}} className="språkhjelp-pb-2">
-                            Liks: {lix}. Teksten er <span style={{textTransform: "lowercase"}}>{lixMelding}</span> ifølge <Link target="_blank"
-                                                            href="https://no.wikipedia.org/wiki/Lesbarhetsindeks">
-                            lesbarhetsindeksen<ExternalLink/>
-                        </Link>.
-                        </BodyShort>
-                        <div className="språkhjelp-pt-6">
-                            <Heading spacing level="3" size="xsmall">
-                                Skriveråd
-                            </Heading>
-                            <ul className="språkhjelp-pb-5 språkhjelp-list-disc språkhjelp-list-inside">
-                                <li>Skriv korte og enkle setninger</li>
-                                <li>Velg korte og enkle ord</li>
-                                <li>Skriv det viktigste først</li>
-                            </ul>
-                        </div>
-                    </Accordion.Content>
-                </Accordion.Item>
+                <>
+                Liks: {lix}. {lixMelding}
+                </>
             )}
         </>
     );
