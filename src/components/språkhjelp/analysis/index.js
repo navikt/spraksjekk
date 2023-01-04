@@ -6,6 +6,6 @@ export {default as LongParagraphs} from "./LongParagraphs.tsx";
 export {default as DublicateWords} from "./DublicateWords.tsx";
 export {default as CommaCheck} from "./CommaCheck.tsx";
 export {default as PersonalData} from "./PersonalData.tsx";
-export {default as GammelnavskDictionary} from "./GammelnavskDictionary.tsx";;
+export {default as KansellistenDictionary} from "./KansellistenDictionary.tsx";;
 export {default as AvløserordDictionary} from "./AvløserordDictionary.tsx";
 export {default as NrkDictionaries} from "./NrkDictionaries.tsx";

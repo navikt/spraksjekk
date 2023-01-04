@@ -38,7 +38,7 @@ function LongParagraphs(props: { content: any; }) {
     let longParagraphHere = 0
     for (let i in paragraphs) {
         const sentencesInParagraphs = paragraphs[i].replace(/([.?!])\s*(?=[A-Z])/g, "$1|").split("|");
-        if (sentencesInParagraphs.length >= 4) {
+        if (sentencesInParagraphs.length >= paragraphLength) {
             // +1 for every long word in document
             longParagraphHere = 1;
         }

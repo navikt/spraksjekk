@@ -2,19 +2,19 @@ import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 import {Avløserord, Datatermer} from "./dictionaries/index";
 
-function GammelnavskCheck(props: { content: any; }) {
+function ordlisteCheck(props: { content: any; }) {
     const value = props.content;
-    let gammelnavsk = Avløserord;
-    let gammelnavskResultater;
+    let ordliste = Avløserord;
+    let ordlisteResultater;
     let datatermer = Datatermer;
     let datatermerResultater;
 
     const keyword = value;
     if (keyword !== "") {
-        const results = gammelnavsk.avløserord.filter((gammelnavsk) => {
-            return keyword.toLowerCase().match("\\b" + gammelnavsk.importord.toLowerCase() + "\\b")
+        const results = ordliste.avløserord.filter((ordliste) => {
+            return keyword.toLowerCase().match("\\b" + ordliste.importord.toLowerCase() + "\\b")
         });
-        gammelnavskResultater = results;
+        ordlisteResultater = results;
 
         const results2 = datatermer.datatermer.filter((datatermer) => {
             return keyword.toLowerCase().match("\\b" + datatermer.ord.toLowerCase() + "\\b")
@@ -22,9 +22,9 @@ function GammelnavskCheck(props: { content: any; }) {
         datatermerResultater = results2;
     }
 
-    let gammelnavskVisResultater = 0;
-    if (gammelnavskResultater != 0) {
-        gammelnavskVisResultater = 1;
+    let ordlisteVisResultater = 0;
+    if (ordlisteResultater != 0) {
+        ordlisteVisResultater = 1;
     }
 
     let datatermerVisResultater = 0;
@@ -34,27 +34,27 @@ function GammelnavskCheck(props: { content: any; }) {
 
     return (
         <>
-            {gammelnavskVisResultater + datatermerVisResultater != 0 && (
+            {ordlisteVisResultater + datatermerVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length + datatermerResultater.length == 1 ? (<>1 mulig
-                            avløserord</>) : (<>{gammelnavskResultater.length + datatermerResultater.length} mulige
+                        {ordlisteResultater.length + datatermerResultater.length == 1 ? (<>1 mulig
+                            avløserord</>) : (<>{ordlisteResultater.length + datatermerResultater.length} mulige
                             avløserord</>)}
                     </Accordion.Header>
                     <Accordion.Content>
                         Norske ord som kan brukes i stedet for de tilsvarende engelske:
-                        {gammelnavskResultater && (
+                        {ordlisteResultater && (
                             <Accordion className="språkhjelp-inner-accordion språkhjelp-mt-4">
-                                {gammelnavskResultater.map((gammelnavsk, i) => (
+                                {ordlisteResultater.map((ordliste, i) => (
                                     <Accordion.Item key="">
                                         <Accordion.Header className="språkhjelp-inner-accordion">
-                                            <span className="språkhjelp-firstLetter">"{gammelnavsk.importord}"</span>
+                                            <span className="språkhjelp-firstLetter">"{ordliste.importord}"</span>
                                         </Accordion.Header>
                                         <Accordion.Content className="språkhjelp-inner-accordion-content">
                                             <Heading spacing level="4" size="xsmall">
                                                 Avløserord
                                             </Heading>
-                                            <p>{gammelnavsk.avløserord}</p>
+                                            <p>{ordliste.avløserord}</p>
                                             <Heading spacing level="4" size="xsmall">
                                                 Kilde
                                             </Heading>
@@ -68,20 +68,20 @@ function GammelnavskCheck(props: { content: any; }) {
                             </Accordion>)}
                         {datatermerResultater && (
                             <Accordion className="språkhjelp-inner-accordion">
-                                {datatermerResultater.map((gammelnavsk, i) => (
+                                {datatermerResultater.map((ordliste, i) => (
                                     <Accordion.Item key="">
                                         <Accordion.Header className="språkhjelp-inner-accordion">
-                                            <span className="firstLetter">{gammelnavsk.ord}</span>
+                                            <span className="firstLetter">"{ordliste.ord}"</span>
                                         </Accordion.Header>
                                         <Accordion.Content className="språkhjelp-inner-accordion-content">
                                             <Heading spacing level="4" size="xsmall">
                                                 Avløserord
                                             </Heading>
-                                            <p>{gammelnavsk.bokmål}</p>
+                                            <p>{ordliste.bokmål}</p>
                                             <Heading spacing level="4" size="xsmall">
                                                 Definisjon/forklaring
                                             </Heading>
-                                            <p>{gammelnavsk.definisjon}</p>
+                                            <p>{ordliste.definisjon}</p>
                                             <Heading spacing level="4" size="xsmall">
                                                 Kilde
                                             </Heading>
@@ -100,4 +100,4 @@ function GammelnavskCheck(props: { content: any; }) {
     );
 }
 
-export default GammelnavskCheck;
+export default ordlisteCheck;

@@ -5,7 +5,7 @@ import {
     LongSentences,
     LongWords,
     DublicateWords,
-    GammelnavskDictionary,
+    KansellistenDictionary,
     NrkDictionaries,
     AvløserordDictionary,
     CommaCheck,
@@ -26,7 +26,7 @@ function Resultbox(props) {
                             <LongSentences content={value}/>
                             <LongWords content={value}/>
                             <DublicateWords content={value}/>
-                            <GammelnavskDictionary content={value}/>
+                            <KansellistenDictionary content={value}/>
                             <NrkDictionaries content={value}/>
                             <AvløserordDictionary content={value}/>
                             <CommaCheck content={value}/>

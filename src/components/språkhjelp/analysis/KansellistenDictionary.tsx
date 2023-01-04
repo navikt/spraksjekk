@@ -2,15 +2,15 @@ import {Accordion, Heading, Link} from "@navikt/ds-react";
 import {ExternalLink} from "@navikt/ds-icons";
 import {Kansellisten} from "./dictionaries/index";
 
-function GammelnavskDictionary(props: { content: any; }) {
+function KansellistenDictionary(props: { content: any; }) {
     const value = props.content;
     let kansellisten = Kansellisten;
     let kansellistenResultater;
 
     const keyword = value;
     if (keyword !== "") {
-        const results = kansellisten.kansellisten.filter((gammelnavsk) => {
-            return keyword.toLowerCase().match("\\b" + gammelnavsk.kanselliord.toLowerCase() + "\\b")
+        const results = kansellisten.kansellisten.filter((kansellisten) => {
+            return keyword.toLowerCase().match("\\b" + kansellisten.kanselliord.toLowerCase() + "\\b")
         });
         kansellistenResultater = results;
     }
@@ -40,18 +40,18 @@ function GammelnavskDictionary(props: { content: any; }) {
                         {kansellistenResultater.length >= 1 &&
                             <>
                                 <Accordion className="språkhjelp-inner-accordion">
-                                    {kansellistenResultater.map((gammelnavsk, i) => (
+                                    {kansellistenResultater.map((kansellisten, i) => (
                                         <>
-                                            <Accordion.Item key="{gammelnavsk.id}">
+                                            <Accordion.Item key="{kansellisten.id}">
                                                 <Accordion.Header className="språkhjelp-inner-accordion">
                                                     <span
-                                                        className="språkhjelp-firstLetter">"{gammelnavsk.kanselliord}"</span>
+                                                        className="språkhjelp-firstLetter">"{kansellisten.kanselliord}"</span>
                                                 </Accordion.Header>
                                                 <Accordion.Content className="språkhjelp-inner-accordion-content">
                                                     <Heading spacing level="4" size="xsmall">
                                                         Forslag
                                                     </Heading>
-                                                    Skriv heller: {gammelnavsk.alternativ_1}
+                                                    Skriv heller: {kansellisten.alternativ_1}
                                                     <Heading spacing className="språkhjelp-pt-6" level="4"
                                                              size="xsmall">
                                                         Kilde
@@ -73,4 +73,4 @@ function GammelnavskDictionary(props: { content: any; }) {
     );
 }
 
-export default GammelnavskDictionary;
+export default KansellistenDictionary;

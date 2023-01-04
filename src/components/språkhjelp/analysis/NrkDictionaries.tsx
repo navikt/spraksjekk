@@ -4,29 +4,29 @@ import {Nrkordliste} from "./dictionaries/index";
 
 function NrkDictionaries(props: { content: any; }) {
     const value = props.content;
-    let gammelnavsk = Nrkordliste;
-    let gammelnavskResultater;
+    let ordliste = Nrkordliste;
+    let ordlisteResultater;
 
     const keyword = value;
     if (keyword !== "") {
-        const results = gammelnavsk.nrkordliste.filter((gammelnavsk) => {
-            return keyword.toLowerCase().match("\\b" + gammelnavsk.ord.toLowerCase() + "\\b")
+        const results = ordliste.nrkordliste.filter((ordliste) => {
+            return keyword.toLowerCase().match("\\b" + ordliste.ord.toLowerCase() + "\\b")
         });
-        gammelnavskResultater = results;
+        ordlisteResultater = results;
     }
 
-    let gammelnavskVisResultater = 0;
-    if (gammelnavskResultater != 0) {
-        gammelnavskVisResultater = 1;
+    let ordlisteVisResultater = 0;
+    if (ordlisteResultater != 0) {
+        ordlisteVisResultater = 1;
     }
 
     return (
         <>
-            {gammelnavskVisResultater != 0 && (
+            {ordlisteVisResultater != 0 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {gammelnavskResultater.length == 1 ? (<>1 mulig støtende
-                            ord</>) : (<>{gammelnavskResultater.length} mulige støtende ord</>)}
+                        {ordlisteResultater.length == 1 ? (<>1 mulig støtende
+                            ord</>) : (<>{ordlisteResultater.length} mulige støtende ord</>)}
                     </Accordion.Header>
                     <Accordion.Content>
                         <Heading spacing level="3" size="xsmall">
@@ -34,22 +34,22 @@ function NrkDictionaries(props: { content: any; }) {
                         </Heading>
                         Ord i teksten som kan være støtende, eller som bør brukes med varsomhet:
                         <Accordion className="språkhjelp-inner-accordion språkhjelp-mt-4">
-                            {gammelnavskResultater.map((gammelnavsk, i) => (
-                                <Accordion.Item key={gammelnavsk.id}>
+                            {ordlisteResultater.map((ordliste, i) => (
+                                <Accordion.Item key={ordliste.id}>
                                     <Accordion.Header className="språkhjelp-inner-accordion">
-                                        <span className="firstLetter">"{gammelnavsk.ord}"</span>
+                                        <span className="firstLetter">"{ordliste.ord}"</span>
                                     </Accordion.Header>
                                     <Accordion.Content className="språkhjelp-inner-accordion-content">
                                         <Heading spacing level="4" size="xsmall">
                                             Forklaring
                                         </Heading>
-                                        <p>{gammelnavsk.bokmål}</p>
+                                        <p>{ordliste.bokmål}</p>
                                         <Heading spacing level="4" size="xsmall">
                                             Kilde
                                         </Heading>
                                         {<Link target="_blank"
-                                               href={gammelnavsk.lenke}>
-                                            {gammelnavsk.kilde}<ExternalLink/>
+                                               href={ordliste.lenke}>
+                                            {ordliste.kilde}<ExternalLink/>
                                         </Link>}
                                     </Accordion.Content>
                                 </Accordion.Item>
