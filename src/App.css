@@ -13,6 +13,18 @@ code {
     monospace;
 }
 
+.navds-modal__overlay {
+    z-index: 9999;
+}
+
+.språkhjelp-mr-2 {
+    margin-right: 5px;
+}
+
+.navds-modal {
+    max-width: 600px;
+}
+
 .aksel-blue-heading {
     color: #004367;
 }
