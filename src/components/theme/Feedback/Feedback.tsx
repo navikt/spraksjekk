@@ -7,7 +7,7 @@ function Feedback() {
         <div id="feedback-block">
         <Link target="_blank" className="feedback-link"
               href="https://github.com/navikt/spraksjekk#readme">
-            Om Klarspråkhjelpen<ExternalLink title="Ekstern lenke"/>
+            Om Klarspråkshjelpen<ExternalLink title="Ekstern lenke"/>
         </Link>
 {/*        <Link target="_blank" className="feedback-link feedback-space"
               href="https://github.com/navikt/spraksjekk">

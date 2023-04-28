@@ -8,7 +8,7 @@ function Header() {
                 <ContentContainer id="språkhjelp-headerContainer">
                     <Heading size="medium" level="1">
                         <Link id="språkhjelp-headingLink" href=".">
-                            Klarspråkhjelpen
+                            Klarspråkshjelpen
                         </Link>
                     </Heading>
                 </ContentContainer>
