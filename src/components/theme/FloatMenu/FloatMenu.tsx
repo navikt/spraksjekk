@@ -7,9 +7,10 @@ import {Lix, Privacy} from "./tools/index";
 function FloatMenu(props) {
     let editor = props.editor
     let higlighetdwords = props.higlighetdwords
+    const [mySnippet, setMySnippet] = useState("")
     let higlighetdwordsModified = higlighetdwords.replaceAll("\n", "%20%20");
     higlighetdwordsModified = higlighetdwordsModified.replaceAll("%20%20%20%20", "%20%20");
-    let higlighetdwordsModifiedAppertium = higlighetdwords.replaceAll("\n", "%0A%0A");
+    let higlighetdwordsModifiedAppertium = mySnippet.replaceAll("\n", "%0A%0A");
     higlighetdwordsModifiedAppertium = higlighetdwordsModifiedAppertium.replaceAll("%0A%0A%0A%0A", "%0A%0A");
     const dictionaryLink = "https://ordbokene.no/bm,nn/search?q=" + higlighetdwords.toLowerCase()
     const ngramLink = "https://api.nb.no/dhlab/nb_ngram/#ngram/query?terms=" + higlighetdwords.toLowerCase() + "&lang=all&case_sens=0&freq=rel&corpus=avis"
@@ -27,7 +28,7 @@ function FloatMenu(props) {
     const [state, setState] = useState([]);
     const [translatedText, setTranslatedText] = useState('');
 
-    const [mySnippet, setMySnippet] = useState("")
+
 
     const handleChangeSnippet = (event) => {
         setMySnippet(event.target.value);
