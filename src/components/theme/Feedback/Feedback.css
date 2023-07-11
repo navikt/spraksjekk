@@ -9,3 +9,7 @@
 #feedback-block {
     margin-bottom: 5rem;
 }
+
+#feedback-block a {
+    color: #005887;
+}

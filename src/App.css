@@ -13,6 +13,18 @@ code {
     monospace;
 }
 
+.navds-accordion--indent > :where(.navds-accordion__item) > :where(.navds-accordion__content) {
+    padding: var(--a-spacing-3) var(--a-spacing-3) 18px;
+}
+
+.navds-heading--large {
+    letter-spacing: -0.030em;
+}
+
+.navds-button--secondary {
+    background: white;
+}
+
 .navds-modal__overlay {
     z-index: 9999;
 }
