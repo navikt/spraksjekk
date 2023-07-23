@@ -4,6 +4,7 @@
     right: 25px;
     border-radius: 100px;
     background: #262626;
+    z-index: 9999;
 }
 
 #språkhjelp-back-to-top:hover {
