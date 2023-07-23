@@ -8,7 +8,7 @@ function LongWords(props: { content: any; }) {
     let pageSize = 10;
     let pagesCount = 1;
 
-    // Decl/**/ari/**/ng all variables
+    // Declaring all variables
     let rawcontent = props.content;
     rawcontent = rawcontent.replaceAll("Kopier lenke", "");
     rawcontent = rawcontent.replaceAll("/", " / ");

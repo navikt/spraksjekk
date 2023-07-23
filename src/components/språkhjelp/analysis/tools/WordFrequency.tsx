@@ -38,7 +38,7 @@ function WordFrequency(props: { content: any; }) {
         });
         setFreqMap(newFreqMap);
 
-        // Kalkuler antall sider for Pagination
+        // calculate number of pages for pagination
         totalFreqWords = Object.keys(newFreqMap).length;
         if (totalFreqWords >= 10) {
             setpagesCount(Math.ceil(totalFreqWords / pageSize));
