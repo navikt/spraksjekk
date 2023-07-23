@@ -9,10 +9,6 @@ function Feedback() {
               href="https://github.com/navikt/spraksjekk#readme">
             Om Klarspråkshjelpen<ExternalLink title="Ekstern lenke"/>
         </Link>
-{/*        <Link target="_blank" className="feedback-link feedback-space"
-              href="https://github.com/navikt/spraksjekk">
-            Kildekode<ExternalLink title="Ekstern lenke"/>
-        </Link>*/}
     </div>
     );
 }
