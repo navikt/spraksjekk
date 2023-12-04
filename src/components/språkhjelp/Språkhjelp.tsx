@@ -3,7 +3,6 @@ import {Accordion, Alert} from "@navikt/ds-react";
 import {
     LongParagraphs,
     LongSentences,
-    LongWords,
     DublicateWords,
     KansellistenDictionary,
     NrkDictionaries,
@@ -24,7 +23,6 @@ function Resultbox(props) {
                         <Accordion className="språkhjelp-navds-accordion">
                             <LongParagraphs content={value}/>
                             <LongSentences content={value}/>
-                            <LongWords content={value}/>
                             <DublicateWords content={value}/>
                             <KansellistenDictionary content={value}/>
                             <NrkDictionaries content={value}/>

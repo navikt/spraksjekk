@@ -1,4 +1,4 @@
-import {Lix, WordFrequency, WordCount, SpellChecker} from "./tools/index";
+import {Lix, WordFrequency, WordCount, SpellChecker, LongWords} from "./tools/index";
 import {Accordion} from "@navikt/ds-react";
 
 function Tools(props: { content: any; }) {
@@ -12,6 +12,7 @@ function Tools(props: { content: any; }) {
                 <Accordion className="språkhjelp-inner-accordion språkhjelp-mt-2">
                     <Lix content={value}/>
                     <WordCount content={value}/>
+                    <LongWords content={value}/>
                     <WordFrequency content={value}/>
                     <SpellChecker content={value}/>
                 </Accordion>

@@ -1,6 +1,5 @@
 // Språkhjelp content analysis
 export {default as Tools} from "./Tools.tsx";
-export {default as LongWords} from "./LongWords.tsx";
 export {default as LongSentences} from "./LongSentences.tsx";
 export {default as LongParagraphs} from "./LongParagraphs.tsx";
 export {default as DublicateWords} from "./DublicateWords.tsx";
