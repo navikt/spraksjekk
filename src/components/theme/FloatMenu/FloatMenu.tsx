@@ -17,18 +17,14 @@ function FloatMenu(props) {
     const datanorgeLink = "https://data.norge.no/concepts?q=" + higlighetdwords.toLowerCase()
     const analyzeLink = "https://navikt.github.io/spraksjekk/?q=" + higlighetdwordsModified
     const [open, setOpen] = useState(false);
-
     const [harSpørsmål, setHarSprørsmål] = useState(0)
     const [harGodtatt, setHarGodtatt] = useState("")
     // @ts-ignore
     const handleChange = (val: any[]) => setHarSprørsmål(val);
-
     const [harSamtykket, setHarSamtykket] = useState(false)
     const handleChangeSamtykke = (val: any[]) => console.log(val);
     const [state, setState] = useState([]);
     const [translatedText, setTranslatedText] = useState('');
-
-
 
     const handleChangeSnippet = (event) => {
         setMySnippet(event.target.value);
@@ -78,7 +74,6 @@ function FloatMenu(props) {
         }
     }
 
-
     // @ts-ignore
     return (
         <>
@@ -120,7 +115,7 @@ function FloatMenu(props) {
                 aria-labelledby="modal-heading"
                 style={{minWidth: "300px"}}
             >
-                <Modal.Content>
+                <Modal.Body>
                     {harGodtatt == "" && (
                         <>                    <Heading spacing level="1" size="medium" id="modal-heading">
                             Oversett til nynorsk
@@ -175,7 +170,7 @@ function FloatMenu(props) {
                         </>
                     )}
 
-                </Modal.Content>
+                </Modal.Body>
             </Modal>
         </>
     );

@@ -5,9 +5,9 @@ function About() {
     return (
         <>
             <p className="a11y-lineheight">Klarspråkshjelpen gir deg umiddelbar tilbakemelding på teksten din.</p>
-            <ul className="ListRemoveStyling">
-                <li><ShakeHands title="Håndtrykk"/> Teksten blir ikke lagret.</li>
-                <li><EyeScreened title="Personvern"/> Ikke legg inn personopplysninger.</li>
+            <ul className="ListRemoveStyling mt-4">
+                <li><ShakeHands className="inline" title="Håndtrykk"/> Teksten blir ikke lagret.</li>
+                <li><EyeScreened className="inline" title="Personvern"/> Ikke legg inn personopplysninger.</li>
             </ul>
         </>
     );

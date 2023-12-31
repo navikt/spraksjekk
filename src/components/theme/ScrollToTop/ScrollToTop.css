@@ -1,10 +1,12 @@
+/* #språkhjelp-back-to-top { */
 #språkhjelp-back-to-top {
+    z-index: 999;
     position: fixed;
     bottom: 25px;
     right: 25px;
     border-radius: 100px;
     background: #262626;
-    z-index: 9999;
+    border: 1px solid #fff;
 }
 
 #språkhjelp-back-to-top:hover {

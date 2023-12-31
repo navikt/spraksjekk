@@ -1,5 +1,5 @@
 #språkhjelp-header {
-    color: #042742;
+    background: #073f64;
     font-weight: 400;
 }
 
@@ -10,9 +10,8 @@
 
 #språkhjelp-headingLink {
     text-decoration: none !important;
-    color: #042742 !important;
+    color: #fff !important;
     font-weight: 400;
-    background: #f9f9f9 !important;
 }
 
 #språkhjelp-headingLink:hover {

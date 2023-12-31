@@ -4,3 +4,4 @@ export {default as Feedback} from "./Feedback/Feedback.tsx";
 export {default as About} from "./About/About.tsx";
 export {default as ScrollToTop} from "./ScrollToTop/ScrollToTop.tsx";
 export {default as FloatMenu} from "./FloatMenu/FloatMenu.tsx";
+export {default as Footer} from "./Footer/Footer.tsx";
