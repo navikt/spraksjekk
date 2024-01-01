@@ -58,8 +58,8 @@ function SideLenker() {
         Erklæringer
       </Heading>
       <BodyShort as="ul" className="mt-3 grid gap-3">
-        <FooterLink href="spraksjekk/#/personvern">Personvern</FooterLink>
-        <FooterLink href="spraksjekk/#/tilgjengelighet">Tilgjengelighet</FooterLink>
+        <FooterLink href="/spraksjekk/#/personvern">Personvern</FooterLink>
+        <FooterLink href="/spraksjekk/#/tilgjengelighet">Tilgjengelighet</FooterLink>
       </BodyShort>
     </div>
   );
