@@ -5,7 +5,7 @@ function Privacy() {
         <div className="App">
             <main>
                 <div style={{maxWidth: "600px", marginLeft: "auto", marginRight: "auto"}}>
-                    <Heading spacing level="1" size="large">Personvern</Heading>
+                    <Heading style={{color: "rgba(0, 80, 119, 1)"}} spacing level="1" size="large">Personvern</Heading>
                     <div className="mt-5 max-w-2xl font-serif">
                         <h2 className="pb-4 text-2xl">Personvern og sikkerhet på Klarspråkshjelpen</h2>
                         <p className="mb-4 leading-normal">Denne personvernerklæringen er knyttet til behandlingen av personopplysninger på dette nettstedet. For utfyllende informasjon om hvordan NAV behandler personopplysninger, kan du lese mer i <Link href="https://www.nav.no/no/nav-og-samfunn/om-nav/personvern-i-arbeids-og-velferdsetaten" className="text-deepblue-500 underline hover:no-underline">NAVs generelle personvernerklæring.</Link></p>

@@ -5,7 +5,7 @@ function Accessibility() {
         <div className="App">
             <main>
                 <div style={{maxWidth: "600px", marginLeft: "auto", marginRight: "auto"}}>
-                    <Heading spacing level="1" size="large">Tilgjengelighetserklæring</Heading>
+                    <Heading style={{color: "rgba(0, 80, 119, 1)"}} spacing level="1" size="large">Tilgjengelighetserklæring</Heading>
                     <div className="mt-5 max-w-2xl font-serif">
                         <p className="mb-4 leading-normal">Klarspråkshjelpen skal være tilgjengelig for alle. Det betyr at vi har som mål å følge lovpålagte krav til universell utforming. Vår ambisjon er i tillegg at du skal ha en god brukeropplevelse enten du bruker hjelpeteknologi (for eksempel skjermleser) eller ikke.</p>
 
