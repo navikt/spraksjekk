@@ -10,6 +10,7 @@ import './App.css'
 import Home from "./pages/Home";
 import Privacy from './pages/Privacy';
 import Accessibility from "./pages/Accessibility";
+import AmplitudeContextProvider from "./context/AmplitudeContext";
 
 const routes = [
     { path: "/tilgjengelighet", component: <Accessibility /> },
@@ -25,7 +26,7 @@ export default function App() {
                 <Router>
                     <Routes>
                         {routes.map(({ path, component }) => (
-                            <Route key={path} path={path} element={component} />
+                            <AmplitudeContextProvider><Route key={path} path={path} element={component} /></AmplitudeContextProvider>
                         ))}
                     </Routes>
                 </Router>
