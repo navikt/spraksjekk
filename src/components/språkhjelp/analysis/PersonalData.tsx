@@ -20,7 +20,7 @@ function PersonalData(props: { content: any; }) {
 
     // Phone
     function extractPhone(text) {
-        return text.match(/(\s*[0-9]+){8,11}/gi);
+        return text.match(/(\b\d{2}[-.\s]?\d{2}[-.\s]?\d{2}[-.\s]?\d{2}\b|\b\d{3}[-.\s]?\d{2}[-.\s]?\d{3}\b)/g);
     }
 
     let phone = extractPhone(rawcontent)
@@ -47,12 +47,26 @@ function PersonalData(props: { content: any; }) {
     }
     const listNames = getnames;
 
+    // Fødselsnummer
+    function extractFodselsnummer(text) {
+        return text.match(/(\d{6}\s?\d{5})/g);
+    }
+
+    let fodselsnummer = extractFodselsnummer(rawcontent)
+    let fodselsnummerCount = 0
+    let getfodselsnummer = <></>
+    if (fodselsnummer) {
+        getfodselsnummer = fodselsnummer.map((fodselsnummer, index) => <li key={index} className="språkhjelp-pb-2">"{fodselsnummer}"</li>)
+        fodselsnummerCount = fodselsnummer.length
+    }
+    const listFodselsnummer = getfodselsnummer;
+
     return (
         <>
-            {emailCount + phoneCount + namesCount >= 1 && (
+            {emailCount + phoneCount + namesCount + fodselsnummerCount >= 1 && (
                 <Accordion.Item>
                     <Accordion.Header>
-                        {emailCount + phoneCount + namesCount} {emailCount + phoneCount + namesCount == 1 ? (<> mulig
+                        {emailCount + phoneCount + namesCount + fodselsnummerCount} {emailCount + phoneCount + namesCount + fodselsnummerCount == 1 ? (<> mulig
                         personopplysning</>) : (<>mulige
                         personopplysninger</>)}
                     </Accordion.Header>
@@ -79,6 +93,14 @@ function PersonalData(props: { content: any; }) {
                             </Heading>
                             <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
                                 {listNames}
+                            </ul>
+                        </>)}
+                        {fodselsnummerCount >= 1 && (<>
+                            <Heading spacing level="3" size="xsmall">
+                                Fødselsnummer
+                            </Heading>
+                            <ul className="språkhjelp-list-disc språkhjelp-pt-5 språkhjelp-list-inside">
+                                {listFodselsnummer}
                             </ul>
                         </>)}
                     </Accordion.Content>

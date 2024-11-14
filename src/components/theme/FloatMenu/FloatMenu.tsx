@@ -112,7 +112,6 @@ function FloatMenu(props) {
                 open={open}
                 aria-label="Modal demo"
                 onClose={() => closemodal()}
-                aria-labelledby="modal-heading"
                 style={{minWidth: "300px"}}
             >
                 <Modal.Body>
