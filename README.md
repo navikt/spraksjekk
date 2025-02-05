@@ -1,5 +1,5 @@
 [Klarspråkshjelpen](https://navikt.github.io/spraksjekk/)
-================
+==========================================================
 
 [Klarspråkshjelpen](https://navikt.github.io/spraksjekk/) er et skriveverktøy som gir deg umiddelbar tilbakemelding på teksten din.
 
@@ -34,3 +34,9 @@ Du kan sende spørsmål i [#researchops](https://nav-it.slack.com/archives/C02UG
 1. Last ned koden
 2. yarn install
 3. yarn dev
+
+
+
+## Deploy til Github Pages
+
+git subtree push --prefix dist origin gh-pages
