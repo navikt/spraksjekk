@@ -7,91 +7,6 @@
   resolved "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@amplitude/analytics-browser@^2.11.9":
-  version "2.11.9"
-  resolved "https://registry.npmjs.org/@amplitude/analytics-browser/-/analytics-browser-2.11.9.tgz"
-  integrity sha512-FHejpsW3OypNKaIBvMwLm74UUSBcR+VwrBsj7V2VlPDNRdeaFi21kJgVYUW5AcjxTsadMzBQGBb4BarZ4k2+9Q==
-  dependencies:
-    "@amplitude/analytics-client-common" "^2.3.5"
-    "@amplitude/analytics-core" "^2.5.4"
-    "@amplitude/analytics-remote-config" "^0.4.0"
-    "@amplitude/analytics-types" "^2.8.4"
-    "@amplitude/plugin-autocapture-browser" "^1.0.2"
-    "@amplitude/plugin-page-view-tracking-browser" "^2.3.5"
-    tslib "^2.4.1"
-
-"@amplitude/analytics-client-common@>=1 <3", "@amplitude/analytics-client-common@^2.0.4", "@amplitude/analytics-client-common@^2.3.5":
-  version "2.3.5"
-  resolved "https://registry.npmjs.org/@amplitude/analytics-client-common/-/analytics-client-common-2.3.5.tgz"
-  integrity sha512-BCP+jorfLMAKK/g87fAk4IPP/NzQLMCep+Qe23tqOCWguwTEINYnyzD/GmhaIKXSM2o9pmMLlHbhkA1vXUtF8g==
-  dependencies:
-    "@amplitude/analytics-connector" "^1.4.8"
-    "@amplitude/analytics-core" "^2.5.4"
-    "@amplitude/analytics-types" "^2.8.4"
-    tslib "^2.4.1"
-
-"@amplitude/analytics-connector@^1.4.8":
-  version "1.5.0"
-  resolved "https://registry.npmjs.org/@amplitude/analytics-connector/-/analytics-connector-1.5.0.tgz"
-  integrity sha512-T8mOYzB9RRxckzhL0NTHwdge9xuFxXEOplC8B1Y3UX3NHa3BLh7DlBUZlCOwQgMc2nxDfnSweDL5S3bhC+W90g==
-
-"@amplitude/analytics-core@>=1 <3", "@amplitude/analytics-core@^2.5.4":
-  version "2.5.4"
-  resolved "https://registry.npmjs.org/@amplitude/analytics-core/-/analytics-core-2.5.4.tgz"
-  integrity sha512-J5ZF8hQmxmxM+7bu25a2TfTnk/LQ/oH5FYdg79f1lJ85Aa6oUlCDxgvXwy1RVpwaFjWlZQgV4XVaAUrxtSPRFw==
-  dependencies:
-    "@amplitude/analytics-types" "^2.8.4"
-    tslib "^2.4.1"
-
-"@amplitude/analytics-remote-config@^0.4.0":
-  version "0.4.1"
-  resolved "https://registry.npmjs.org/@amplitude/analytics-remote-config/-/analytics-remote-config-0.4.1.tgz"
-  integrity sha512-BYl6kQ9qjztrCACsugpxO+foLaQIC0aSEzoXEAb/gwOzInmqkyyI+Ub+aWTBih4xgB/lhWlOcidWHAmNiTJTNw==
-  dependencies:
-    "@amplitude/analytics-client-common" ">=1 <3"
-    "@amplitude/analytics-core" ">=1 <3"
-    "@amplitude/analytics-types" ">=1 <3"
-    tslib "^2.4.1"
-
-"@amplitude/analytics-types@>=1 <3", "@amplitude/analytics-types@^2.1.1", "@amplitude/analytics-types@^2.8.2", "@amplitude/analytics-types@^2.8.4":
-  version "2.8.4"
-  resolved "https://registry.npmjs.org/@amplitude/analytics-types/-/analytics-types-2.8.4.tgz"
-  integrity sha512-jQ8WY1aPbpBshl0L/0YEeQn/wZlBr8Jlqc20qf8nbuDuimFy8RqAkE+BVaMI86FCkr3AJ7PjMXkGwCSbUx88CA==
-
-"@amplitude/plugin-autocapture-browser@^1.0.2":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@amplitude/plugin-autocapture-browser/-/plugin-autocapture-browser-1.0.3.tgz"
-  integrity sha512-XUQWUAw9VqtJPlmOyWjnhsEspyVakd9LuSjVNtLjhwlWv+f/yZM1AAQVUdq/Os1+b5OptSgJQ2pPfRJJHZDXTw==
-  dependencies:
-    "@amplitude/analytics-client-common" ">=1 <3"
-    "@amplitude/analytics-types" "^2.8.2"
-    rxjs "^7.8.1"
-    tslib "^2.4.1"
-
-"@amplitude/plugin-page-view-tracking-browser@^2.3.5":
-  version "2.3.5"
-  resolved "https://registry.npmjs.org/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.3.5.tgz"
-  integrity sha512-qcV4DLxRAZRriYBNvjc2PGW1EDad6PSsIXmxVs6j8i9fxY2SfdvsFd/Qd23CHj1e6Dt5QpAVJZpUMCEdqqDZbA==
-  dependencies:
-    "@amplitude/analytics-client-common" "^2.3.5"
-    "@amplitude/analytics-types" "^2.8.4"
-    tslib "^2.4.1"
-
-"@amplitude/plugin-user-agent-enrichment-browser@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@amplitude/plugin-user-agent-enrichment-browser/-/plugin-user-agent-enrichment-browser-1.0.1.tgz"
-  integrity sha512-kBv4Fgd+EYeW+s8ePPzc7INx4TfC4aDnHjVe1Kd6skcw+eDOSVmJ8Bnfs4qw8gWBEBDNYAlrN0a7r000TsS3Ww==
-  dependencies:
-    "@amplitude/analytics-client-common" "^2.0.4"
-    "@amplitude/analytics-types" "^2.1.1"
-    "@amplitude/ua-parser-js" "^0.7.33"
-    tslib "^2.4.1"
-
-"@amplitude/ua-parser-js@^0.7.33":
-  version "0.7.33"
-  resolved "https://registry.npmjs.org/@amplitude/ua-parser-js/-/ua-parser-js-0.7.33.tgz"
-  integrity sha512-wKEtVR4vXuPT9cVEIJkYWnlF++Gx3BdLatPBM+SZ1ztVIvnhdGBZR/mn9x/PzyrMcRlZmyi6L56I2J3doVBnjA==
-
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
   resolved "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.3.0.tgz"
@@ -1958,13 +1873,6 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@^7.8.1:
-  version "7.8.1"
-  resolved "https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz"
-  integrity sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==
-  dependencies:
-    tslib "^2.1.0"
-
 scheduler@^0.23.2:
   version "0.23.2"
   resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz"
@@ -2137,11 +2045,6 @@ ts-interface-checker@^0.1.9:
   version "0.1.13"
   resolved "https://registry.npmjs.org/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
-
-tslib@^2.1.0, tslib@^2.4.1:
-  version "2.6.2"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
-  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 typescript@^5.6.3:
   version "5.6.3"

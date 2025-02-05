@@ -1,4 +1,3 @@
-import {useEffect} from 'react';
 import {HashRouter as Router, Route, Routes} from 'react-router-dom'
 import {
     Header,
@@ -11,7 +10,6 @@ import './App.css'
 import Home from "./pages/Home";
 import Privacy from './pages/Privacy';
 import Accessibility from "./pages/Accessibility";
-import initAmplitude from "./utils/Amplitude";
 import { Helmet } from "react-helmet";
 
 const routes = [
@@ -21,9 +19,6 @@ const routes = [
 ];
 
 export default function App() {
-    useEffect(()=>{
-        initAmplitude();
-    },[])
     return (
         <main>
             <Helmet>
